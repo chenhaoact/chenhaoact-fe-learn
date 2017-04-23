@@ -1,35 +1,86 @@
-# 前端资源整理
+# chenhaoact的前端学习大汇总
 
-**以后觉得好的前端资源全部整理到这里,会一直更新,如果觉得有帮助,就star一下吧~**
+# 
 
-PS:只有我觉得最精最有用的前端资源才收集在这里,东西如果太全太多,反而不知道该从何学起,自己已经学过的内容在后面标注上 \* 号,正在学的内容在后面注上 +
+## 一 写在前面
 
-## 一 基础为王
 
-### \(1\)精通html
 
-#### 几本html的好书
+前端技术学习收货总结整理，学习资源，职业规划，面试题，学习计划大汇总。
 
-### \(2\)精通css
+**会一直更新,如果觉得有帮助,就去github上 star一下吧：**
 
-#### 几本css的好书
+https://github.com/chenhaoact/chenhaoact-fe-learn
 
-### \(3\)精通js
 
-#### 几本js的好书
 
-《javascript权威指南》
+## 二 关于我
 
-《ECMAScript6入门》
+天津大学，软件工程系毕业，2016年通过校招加入阿里巴巴，成为阿里的一名前端工程师，目前工作和生活在杭州。
 
-## 前端框架与库
 
-### Redux
 
-1. 中文文档
-   [http://cn.redux.js.org](http://cn.redux.js.org)
+github:
 
-# chenhaoact-fe-learn
+https://github.com/chenhaoact
+
+
+
+简书文章主页：
+
+http://www.jianshu.com/u/baaf11ec7039
+
+
+
+csdn博客：
+
+http://blog.csdn.net/haoshidai
+
+
+
+掘金主页：
+
+https://juejin.im/user/58c268291b69e6006bcc1de6
+
+
+
+开源中国博客主页：
+
+https://my.oschina.net/u/2369937/blog
+
+
+
+博客园主页：
+
+http://www.cnblogs.com/cht-inu/
+
+
+
+知乎：
+
+https://www.zhihu.com/people/chen-hao-27-46/activities
+
+
+
+众成翻译：
+
+http://www.zcfy.cc/
+
+
+
+微博：
+
+
+
+facebook:
+
+
+
+twitter:
+
+
+
+
 
 
 
