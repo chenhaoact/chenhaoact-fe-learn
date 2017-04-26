@@ -30,6 +30,10 @@ csdn博客：
 
 [https://juejin.im/user/58c268291b69e6006bcc1de6](https://juejin.im/user/58c268291b69e6006bcc1de6)
 
+segmentfault主页：
+
+segmentfault.com/u/chenhaoact
+
 开源中国博客主页：
 
 [https://my.oschina.net/u/2369937/blog](https://my.oschina.net/u/2369937/blog)
@@ -42,9 +46,9 @@ csdn博客：
 
 [https://www.zhihu.com/people/chen-hao-27-46/activities](https://www.zhihu.com/people/chen-hao-27-46/activities)
 
-众成翻译：
+众成翻译主页：
 
-[http://www.zcfy.cc/](http://www.zcfy.cc/)
+http://www.zcfy.cc/@chenhaoact
 
 微博：
 
@@ -52,9 +56,7 @@ facebook:
 
 twitter:
 
-
-
 Livecoding.tv 主页 \(程序员直播写代码网站\)
 
-https://www.liveedu.tv/
+[https://www.liveedu.tv/](https://www.liveedu.tv/)
 
