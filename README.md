@@ -48,11 +48,15 @@ segmentfault主页：
 
 慕课网主页：
 
-http://www.imooc.com/u/3136427/courses
+[http://www.imooc.com/u/3136427/courses](http://www.imooc.com/u/3136427/courses)
 
 极客学院主页：
 
-http://my.jikexueyuan.com/0zjqVkXak
+[http://my.jikexueyuan.com/0zjqVkXak](http://my.jikexueyuan.com/0zjqVkXak)
+
+51cto学院主页：
+
+http://edu.51cto.com/user/user\_id-11812666.html
 
 众成翻译主页：
 
