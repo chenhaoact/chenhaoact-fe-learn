@@ -32,7 +32,7 @@ csdn博客：
 
 segmentfault主页：
 
-segmentfault.com/u/chenhaoact
+https://segmentfault.com/u/chenhaoact
 
 开源中国博客主页：
 
@@ -48,7 +48,7 @@ segmentfault.com/u/chenhaoact
 
 众成翻译主页：
 
-http://www.zcfy.cc/@chenhaoact
+[http://www.zcfy.cc/@chenhaoact](http://www.zcfy.cc/@chenhaoact)
 
 微博：
 
