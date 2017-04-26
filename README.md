@@ -32,7 +32,7 @@ csdn博客：
 
 segmentfault主页：
 
-https://segmentfault.com/u/chenhaoact
+[https://segmentfault.com/u/chenhaoact](https://segmentfault.com/u/chenhaoact)
 
 开源中国博客主页：
 
@@ -45,6 +45,14 @@ https://segmentfault.com/u/chenhaoact
 知乎：
 
 [https://www.zhihu.com/people/chen-hao-27-46/activities](https://www.zhihu.com/people/chen-hao-27-46/activities)
+
+慕课网主页：
+
+http://www.imooc.com/u/3136427/courses
+
+极客学院主页：
+
+http://my.jikexueyuan.com/0zjqVkXak
 
 众成翻译主页：
 
