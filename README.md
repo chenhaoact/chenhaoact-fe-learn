@@ -14,6 +14,10 @@
 
 天津大学软件工程系毕业，2016年通过校招加入阿里巴巴，成为阿里的一名前端工程师，目前工作生活在杭州。
 
+个人网站：
+
+http://chenhaoact.com/
+
 github:
 
 [https://github.com/chenhaoact](https://github.com/chenhaoact)
@@ -56,7 +60,7 @@ segmentfault主页：
 
 51cto学院主页：
 
-http://edu.51cto.com/user/user\_id-11812666.html
+[http://edu.51cto.com/user/user\_id-11812666.html](http://edu.51cto.com/user/user_id-11812666.html)
 
 众成翻译主页：
 
