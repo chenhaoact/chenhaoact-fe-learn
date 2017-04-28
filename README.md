@@ -16,7 +16,7 @@
 
 个人网站：
 
-http://chenhaoact.com/
+[http://www.chenhaoact.com/](http://www.chenhaoact.com/)
 
 github:
 
