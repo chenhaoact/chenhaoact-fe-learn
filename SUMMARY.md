@@ -29,6 +29,7 @@
     * [3D建模](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo.md)
       * 照片3D建模
         * [Agisoft PhotoScan-基于照片生成高精度三维模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/agisoft-photoscanji-yu-zhao-pian-sheng-cheng-gao-jing-du-san-wei-mo-xing.md)
+        * [Autodesk Remake-支持云端解算的照片3D建模软件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/autodesk-remakezhi-chi-yun-duan-jie-suan-de-zhao-pian-3d-jian-mo-ruan-jian.md)
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
