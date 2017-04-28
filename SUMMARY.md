@@ -27,6 +27,8 @@
     * VR
     * webGL
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
+  * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
+    * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)
   * [（每周必须过一遍的）优质前端资源学习平台](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/ff08-mei-zhou-bi-xu-guo-yi-bian-de-ff09-you-zhi-qian-duan-zi-yuan-xue-xi-ping-tai.md)
   * [重点！前端资源大整理](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/qian-duan-zi-yuan-zheng-li.md)
