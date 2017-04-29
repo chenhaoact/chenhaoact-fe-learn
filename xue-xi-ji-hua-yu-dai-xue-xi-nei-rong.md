@@ -90,6 +90,8 @@ react的server端渲染
 
 查一下graphql，资源整理到前端文档
 
+学习typescript，对比和js的差异（有一些著名的项目已经迁移熬了ts）
+
 整理一份技术栈与技术方案文档，做什么业务对应不同的最优技术栈
 
 学习STAR行为面试法
@@ -99,6 +101,8 @@ react的server端渲染
 学习使用 glitch  codepen  slack  等国外工具
 
 学习使用[https://pages.github.com/](https://pages.github.com/)    配置自己的github io 主页
+
+研究Ch
 
 了解Browserify重点，和webpack对比
 
@@ -111,6 +115,4 @@ react的server端渲染
 学下阿里开源的一套游戏框架Hilo：
 
 [https://github.com/hiloteam/Hilo](https://github.com/hiloteam/Hilo)     [http://hiloteam.github.io/](http://hiloteam.github.io/)
-
-
 
