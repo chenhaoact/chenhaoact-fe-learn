@@ -20,6 +20,8 @@
 
 npm包的发布
 
+学习pm2使用，并整理到nodejs/常用.../pm2，发博客和ata
+
 blender 一个免费的开源3D建模程序与大量用来创建模型的学习资源。
 
 [https://www.blender.org/](https://www.blender.org/)
