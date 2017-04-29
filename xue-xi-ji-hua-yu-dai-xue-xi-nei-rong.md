@@ -20,7 +20,7 @@
 
 npm包的发布
 
-学习pm2使用，并整理到nodejs/常用.../pm2，发博客和ata
+学习pm2使用，了解其监控和可是化控制台监控Keymetrics，并整理到nodejs/常用.../pm2，发博客和ata
 
 blender 一个免费的开源3D建模程序与大量用来创建模型的学习资源。
 

@@ -12,7 +12,23 @@
 
 pm2官方项目与文档：
 
-https://github.com/Unitech/pm2
+[https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 
-http://pm2.keymetrics.io/
+[http://pm2.keymetrics.io/](http://pm2.keymetrics.io/)
+
+教程：
+
+PM2 介绍：
+
+[https://www.douban.com/note/314200231/](https://www.douban.com/note/314200231/)
+
+
+
+使用:
+
+每次代码更新传到服务器后，在服务器命令行中使用命令：
+
+pm2 reload all         
+
+进行0秒停机重载进程 \(用于 NETWORKED 进程\)
 
