@@ -32,7 +32,7 @@ tesseract.js 一个图像识别的js库，支持识别图片中的文字（目�
 
 weex完全启动一个演示项目。weex新仓库迁移到了
 
-学习 RAX,启动一个项目到实验室 : https://github.com/alibaba/rax
+学习 RAX,启动一个项目到实验室 : [https://github.com/alibaba/rax](https://github.com/alibaba/rax)
 
 照片阵列3D建模  4篇ATA   1原理（商品建模的必由之路，商品不能通过3Dmax等软件去人为建模，成本与失真（有可能欺骗消费者））     2拍摄方案（专门写个拍摄手册知道商家进行拍摄采集（这一步很重要））  3 3D建模与导出   4 webGL呈现 与 webVR webAR呈现于交互
 
@@ -121,6 +121,8 @@ react的server端渲染
 学下阿里开源的一套游戏框架Hilo：
 
 [https://github.com/hiloteam/Hilo](https://github.com/hiloteam/Hilo)     [http://hiloteam.github.io/](http://hiloteam.github.io/)
+
+了解：facebook的js静态类型检查工具Flow（可以帮助查找js代码中的类型错误，从而提升开发效率和代码质量）
 
 了解：谷歌的新开源操作系统Fuchsia OS
 
