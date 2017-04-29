@@ -11,6 +11,7 @@
     * [React](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react.md)
     * Vue
     * [Weex](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/weex.md)
+    * [Rax](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/rax.md)
     * CSS预处理
     * [Nodejs](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs.md)
       * Koa
@@ -22,10 +23,7 @@
         * [Webpack1](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack1.md)
         * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)
     * 前端测试技术
-    * 浏览器
-      * [浏览器底层](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/liu-lan-qi-di-ceng.md)
-        * [Chromium-Chrome的先行版（代码开源）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/liu-lan-qi-di-ceng/chromium-chromede-xian-xing-ban-ff08-dai-ma-kai-yuan-ff09.md)
-      * 浏览器兼容
+    * Rax
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * AR
     * VR

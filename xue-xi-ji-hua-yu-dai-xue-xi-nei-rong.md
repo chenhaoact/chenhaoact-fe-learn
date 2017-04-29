@@ -30,7 +30,9 @@ blender 一个免费的开源3D建模程序与大量用来创建模型的学习�
 
 tesseract.js 一个图像识别的js库，支持识别图片中的文字（目前支持62中语言） [https://github.com/naptha/tesseract.js](https://github.com/naptha/tesseract.js)
 
-weex完全启动一个演示项目。
+weex完全启动一个演示项目。weex新仓库迁移到了
+
+学习 RAX,启动一个项目到实验室 : https://github.com/alibaba/rax
 
 照片阵列3D建模  4篇ATA   1原理（商品建模的必由之路，商品不能通过3Dmax等软件去人为建模，成本与失真（有可能欺骗消费者））     2拍摄方案（专门写个拍摄手册知道商家进行拍摄采集（这一步很重要））  3 3D建模与导出   4 webGL呈现 与 webVR webAR呈现于交互
 
@@ -102,11 +104,15 @@ react的server端渲染
 
 学习使用[https://pages.github.com/](https://pages.github.com/)    配置自己的github io 主页
 
-研究Ch
+研究Chromium源代码（www.chromium.org），了解浏览器底层与工作原理，整理到浏览器/浏览器底层下，并成为Chromium的贡献者持续研究浏览器的演进。
 
-了解Browserify重点，和webpack对比
+学习机器学习库TensorFlow，并整理，看是否能和图像识别，AR等结合
+
+了解：Browserify重点，和webpack对比
 
 学习Meteor
+
+了解：微软Edge的开源js解释器ChakraCore\(据说帮助Edge在多项性能测试中跑赢了chrome\)
 
 学习一下：前端面试流程与面试题（蚂蚁的，比较新）[https://lark.alipay.com/kot/interview/beginingending](https://lark.alipay.com/kot/interview/beginingending)   以及之前我整理的前端快报中的前端面试题，弄熟练和整理到我自己的学习总结和面试题中
 
@@ -115,4 +121,6 @@ react的server端渲染
 学下阿里开源的一套游戏框架Hilo：
 
 [https://github.com/hiloteam/Hilo](https://github.com/hiloteam/Hilo)     [http://hiloteam.github.io/](http://hiloteam.github.io/)
+
+了解：谷歌的新开源操作系统Fuchsia OS
 
