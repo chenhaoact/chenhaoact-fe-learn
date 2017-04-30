@@ -1,18 +1,62 @@
-淘宝 FED: http://taobaofed.org/
+国内知名 IT 公司前端团队 (排名不分先后)
 
-阿里国际UED: http://www.aliued.com/
+##### 阿里巴巴 ( Alibaba )
 
-腾讯AlloyTeam: http://www.alloyteam.com/
+- FED (淘宝前端): http://taobaofed.org/ ( [GitHub](https://github.com/taobaofed) )
+- TaobaoUED (淘宝): http://ued.taobao.org/ 
+- AMFE (淘宝手机前端): https://github.com/amfe/article
+- 阿里国际UED: http://www.aliued.com/
+- Alinode: http://alinode.aliyun.com/blog
+- TmallFE (天猫前端): https://tmallfe.github.io/
+- THX (阿里妈妈 MUX): http://thx.github.io/
 
-百度FEX: http://fex.baidu.com/
+##### 腾讯 ( Tencent )
 
-特别是http://fex.baidu.com/weekly/技术周刊里面的东西很不错，一定都要过一遍，然后不错的文章要深入去学习，实践和总结（每周要清掉，不要堆积）
+- IMWeb: http://imweb.io/ ( [GitHub](https://github.com/imweb/) )
+- AlloyTeam: http://www.alloyteam.com/ ( [GitHub](https://github.com/alloyteam) )
+- ISUX: http://isux.tencent.com/
+- TID: http://tid.tenpay.com/
 
-携程UEDhttp://ued.ctrip.com/blog/
+##### 百度 ( Baidu )
 
-饿了么大前端团队：
+- FEX: http://fex.baidu.com/ ( [GitHub](https://github.com/fex-team/) )
+- EFE: http://efe.baidu.com/ ( [GitHub](https://github.com/ecomfe) )
 
-https://fe.ele.me/
+##### 奇虎 360 ( Qihoo 360 )
 
-https://github.com/elemefe/
+- 奇舞团: http://www.75team.com/ ( [GitHub](https://github.com/75team/) )
+
+##### 饿了么
+
+- 饿了么大前端：https://fe.ele.me/
+
+##### 新浪 ( Sina )
+
+- 新浪 UED: http://ued.sina.com.cn/
+
+##### 京东 ( JD )
+
+- 凹凸实验室: http://aotu.io/ ( [GitHub](https://github.com/o2team/) )
+
+##### 美团 ( Meituan )
+
+- 美团前端: http://fe.meituan.com/
+
+##### 去哪儿 ( Qunar )
+
+- UED: http://ued.qunar.com/
+- MFE: http://ued.qunar.com/mobile/blog/
+
+##### 携程 ( Ctrip )
+
+- 携程设计委员会: http://ued.ctrip.com/
+
+##### 大搜车（Souche）
+
+- 大搜车前端团队：http://f2e.souche.com/blog/
+
+##### 豆瓣 ( Douban )
+
+- 豆瓣前端: https://github.com/douban-f2e
+
 
