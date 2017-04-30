@@ -7,6 +7,12 @@ http://fex.baidu.com/weekly/
 
 http://www.tuicool.com/mags
 
+知乎专栏前端周刊：
+https://zhuanlan.zhihu.com/feweekly
+
+
+**其他平台推荐过一遍：**
+
 前端乱炖
 
 [http://www.html-js.com/](http://www.html-js.com/)
