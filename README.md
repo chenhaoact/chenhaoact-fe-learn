@@ -67,6 +67,8 @@ segmentfault主页：
 [http://www.zcfy.cc/@chenhaoact](http://www.zcfy.cc/@chenhaoact)
 
 微博：
+[http://weibo.com/u/5232669014](http://weibo.com/u/5232669014)
+也可以直接搜索用户chenhaoact加关注
 
 facebook:
 
