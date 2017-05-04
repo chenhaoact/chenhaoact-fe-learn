@@ -12,6 +12,8 @@
 
 学习webpack2,结合按需加载 发ata
 
+学习总结yarn,发博客
+
 学习一个3d渲染引擎，结合建模，发ata
 
 学习一个最合适的AR引擎，发ata
@@ -19,7 +21,6 @@
 学习webVR   [https://webvr.info/developers/](https://webvr.info/developers/)  几种主流的技术，发ata并用在毕设中
 
 学习unity,结合建模,发ata
-
 
 npm包的发布
 
