@@ -36,6 +36,7 @@
         * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)
         * [webpack常用插件中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackchang-yong-cha-jian-zhong-jian-jian.md)
         * [webpack优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua.md)
+        * webpack从1到2的升级和对比
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
     * 前端测试技术
@@ -50,6 +51,8 @@
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
+    * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
+    * gitbook——写自己的书
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)
   * [（每周必须过一遍的）优质前端资源学习平台](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/ff08-mei-zhou-bi-xu-guo-yi-bian-de-ff09-you-zhi-qian-duan-zi-yuan-xue-xi-ping-tai.md)
   * [重点！前端资源大整理](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/qian-duan-zi-yuan-zheng-li.md)
