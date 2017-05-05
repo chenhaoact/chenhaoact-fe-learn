@@ -14,6 +14,7 @@
         * [create-react-app](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/create-react-app.md)
         * [react-starter-kit](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-starter-kit.md)
         * [react-boilerplate](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-boilerplate.md)
+      * [react升级](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactsheng-ji.md)
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * Vue2
     * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
@@ -36,10 +37,13 @@
         * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)
         * [webpack常用插件中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackchang-yong-cha-jian-zhong-jian-jian.md)
         * [webpack优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua.md)
-        * webpack从1到2的升级和对比
+        * [webpack从1到2的升级和对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackcong-1-dao-2-de-sheng-ji-he-dui-bi.md)
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
     * 前端测试技术
+    * 前端性能优化与前端监控
+      * [性能测试工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/xing-neng-ce-shi-gong-ju.md)
+      * [前端监控工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-jian-kong-gong-ju.md)
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * AR
     * VR

@@ -6,6 +6,12 @@
 
 ## word图表制作技巧
 
+office官方-快速入门：向文档添加图表
+
+https://support.office.com/zh-cn/article/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%9A%E5%90%91%E6%96%87%E6%A1%A3%E6%B7%BB%E5%8A%A0%E5%9B%BE%E8%A1%A8-f747b4e1-055e-4917-9c18-1e8dae73ff91
+
+
+
 ## excel图表制作技巧
 
 知乎-如何制作图表非常精美的 Excel 文档？
@@ -14,21 +20,27 @@
 
 ## 思维导图制作技巧
 
-## markdown图表制作技巧
+http://www.xmindchina.net/xinshou/xmind-xinshourumen.html
 
 ## 流程图，架构图制作技巧
 
 processon （免费在线作图，实时协作，支持流程图、思维导图、原型图、UML、网络拓扑图等）
 
-https://www.processon.com/
+[https://www.processon.com/](https://www.processon.com/)
 
 ## 大数据分析与可视化图表
 
-图表秀 
+图表秀
 
-https://www.tubiaoxiu.com
+[https://www.tubiaoxiu.com](https://www.tubiaoxiu.com)
 
-使用教程：https://www.tubiaoxiu.com/help/index.html
+使用教程：[https://www.tubiaoxiu.com/help/index.html](https://www.tubiaoxiu.com/help/index.html)
+
+大数据魔镜
+
+http://www.moojnn.com/
+
+教程学习：http://www.moojnn.com/college/
 
 ## 前端图表类库
 
