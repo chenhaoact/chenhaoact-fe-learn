@@ -45,7 +45,8 @@
       * [性能测试工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/xing-neng-ce-shi-gong-ju.md)
       * [前端监控工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-jian-kong-gong-ju.md)
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
-    * AR
+    * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
+      * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
     * VR
     * webGL
     * [3D建模](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo.md)
