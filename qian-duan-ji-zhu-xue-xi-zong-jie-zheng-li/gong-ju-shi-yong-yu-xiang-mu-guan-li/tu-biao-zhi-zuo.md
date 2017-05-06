@@ -4,13 +4,23 @@
 
 这里只挑选最好的资料和平台，多了反而无用
 
-## word图表制作技巧
+## 一 word图表制作技巧
+
+### 1 先贴资源
 
 office官方-快速入门：向文档添加图表
 
-https://support.office.com/zh-cn/article/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF%BC%9A%E5%90%91%E6%96%87%E6%A1%A3%E6%B7%BB%E5%8A%A0%E5%9B%BE%E8%A1%A8-f747b4e1-055e-4917-9c18-1e8dae73ff91
+[https://support.office.com/zh-cn/article/快速入门：向文档添加图表-f747b4e1-055e-4917-9c18-1e8dae73ff91](https://support.office.com/zh-cn/article/快速入门：向文档添加图表-f747b4e1-055e-4917-9c18-1e8dae73ff91)
 
+### 2 我的整理总结
 
+（1）word插入表格
+
+![](/assets/importbggg.png)
+
+插入表格后在工具栏可以设置表格的各种样式，还可以指定已有的模板样式，很简单但很实用：
+
+![](/assets/importbysys.png)
 
 ## excel图表制作技巧
 
@@ -20,7 +30,7 @@ https://support.office.com/zh-cn/article/%E5%BF%AB%E9%80%9F%E5%85%A5%E9%97%A8%EF
 
 ## 思维导图制作技巧
 
-http://www.xmindchina.net/xinshou/xmind-xinshourumen.html
+[http://www.xmindchina.net/xinshou/xmind-xinshourumen.html](http://www.xmindchina.net/xinshou/xmind-xinshourumen.html)
 
 ## 流程图，架构图制作技巧
 
@@ -38,9 +48,9 @@ processon （免费在线作图，实时协作，支持流程图、思维导图�
 
 大数据魔镜
 
-http://www.moojnn.com/
+[http://www.moojnn.com/](http://www.moojnn.com/)
 
-教程学习：http://www.moojnn.com/college/
+教程学习：[http://www.moojnn.com/college/](http://www.moojnn.com/college/)
 
 ## 前端图表类库
 
