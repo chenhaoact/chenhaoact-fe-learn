@@ -66,13 +66,31 @@ segmentfault主页：
 
 [http://www.zcfy.cc/@chenhaoact](http://www.zcfy.cc/@chenhaoact)
 
-微博：
-[http://weibo.com/u/5232669014](http://weibo.com/u/5232669014)
+微博：  
+[http://weibo.com/u/5232669014](http://weibo.com/u/5232669014)  
 也可以直接搜索用户chenhaoact加关注
+
+国外平台联系我：
 
 facebook:
 
 twitter:
+
+stack overflow主页：
+
+[http://stackoverflow.com/users/5562104/hao-chen](http://stackoverflow.com/users/5562104/hao-chen)
+
+quora主页：
+
+[https://www.quora.com/profile/Hao-Chen-236](https://www.quora.com/profile/Hao-Chen-236)
+
+codeproject主页：
+
+https://www.codeproject.com/script/Membership/View.aspx?mid=13181457
+
+codeproject博客
+
+https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457
 
 Livecoding.tv 主页 \(程序员直播写代码网站\)
 

@@ -6,6 +6,8 @@
     * Html
     * CSS
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
+      * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
+        * prepack——优化js源代码的工具提高js代码的效率
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
     * [React](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react.md)
