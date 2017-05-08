@@ -12,6 +12,12 @@
 
 ### 2优缺点及对比
 
+在 webpack 1 中，可以使用[`require.ensure`](https://doc.webpack-china.org/guides/code-splitting-async/#require-ensure-)作为实现应用程序的懒加载 chunks 的一种方法，webpack2中使用ES2015 的代码分割，ES2015 模块加载规范定义了[`import()`](https://doc.webpack-china.org/guides/code-splitting-async)方法，可以在运行时\(runtime\)动态地加载 ES2015 模块。
+
+webpack 现在支持在配置文件中返回`Promise`了，因此可以在配置文件中做异步处理。
+
+webpack v1只支持能够「可`JSON.stringify`的对象」作为 loader 的 options。webpack v2 现在支持任何js对象作为 loader options.
+
 ## 二 基本概念
 
 ## 三 使用案例
@@ -468,15 +474,31 @@ npm run dev
 
 **详细配置写法参考**
 
-**https://doc.webpack-china.org/configuration/**
+[https://doc.webpack-china.org/configuration/](https://doc.webpack-china.org/configuration/)
 
-或者按照命令中的错误提示一步一步修改也可以，建议按照上面官方的升级文档系统的去修改，效率更高一些，而且能系统的了解webpack1和2的写法区别，以下是我的详细修改步骤：
+或者按照命令中的错误提示一步一步修改也可以，**建议按照上面的**[**官方的升级文档**](https://doc.webpack-china.org/guides/migrating/)**和**[**详细配置**](https://doc.webpack-china.org/configuration/)**系统的去修改，效率更高一些**，而且能系统的了解webpack1和2的写法区别，以下是我的详细修改步骤：
 
 首先：
 
-module.loaders 改为 module.rules
+module.loaders 改为 module.rules;
 
+如果有链式调用的loader ，上一个 loader 的输出被作为输入传给下一个 loader。使用[rule.use](https://doc.webpack-china.org/configuration/module#rule-use)配置选项，`use`可以设置为一个 loader 数组。 在 webpack 1 中，loader 通常被用`!`连写。这一写法在 webpack 2 中只在使用旧的`module.loaders`时才有效。建议使用rule.use而非! ;
 
+在引用 loader 时，不能再省略`-loader`后缀了;
+
+移除 module.preLoaders 和 module.postLoaders，统一放在module.rules下；
+
+`webpack.optimize.DedupePlugin`抽取出输出包体中的相同或者近似的文件或者代码，能有效地减少包体大小，提升性能。webpack2中不再需要webpack.optimize.DedupePlugin  ，从配置中移除;
+
+[ExtractTextPlugin](https://github.com/webpack/extract-text-webpack-plugin) 需要使用版本 2，才能在 webpack 2 下正常运行，
+
+`npm install --save-dev extract-text-webpack-plugin`
+
+这一插件的配置变化主要体现在语法上；
+
+不能再通过`webpack.config.js`的自定义属性来配置 loader。只能通过`options`来配置loader，典型的`options`
+
+被称为`query`，是一个可以被添加到 loader 名之后的字符串。它比较像一个 query string，但是实际上有[更强大的能力](https://github.com/webpack/loader-utils#parsequery)；
 
 
 
