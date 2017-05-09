@@ -466,6 +466,12 @@ npm run dev
 
 ![](/assets/import.png)
 
+把new webpack.optimize.CommonsChunkPlugin\('vendors', 'vendors.js'\),改写为
+
+```
+new webpack.optimize.CommonsChunkPlugin\({ name: 'vendor', filename: 'vendors.js' }\),
+```
+
 #### （3）按照webpack2的规则修改webpack配置文件
 
 #### 详细可以参考：
@@ -500,7 +506,21 @@ module.loaders 改为 module.rules;
 
 被称为`query`，是一个可以被添加到 loader 名之后的字符串。它比较像一个 query string，但是实际上有[更强大的能力](https://github.com/webpack/loader-utils#parsequery)；
 
+这些都按官方文档做完后，在执行npm run dev，根据终端 中错误提示来修改：
 
+![](/assets/importcw1.png)
+
+把
+
+`new webpack.optimize.CommonsChunkPlugin('vendors', 'vendors.js'),`
+
+改写为
+
+`new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendors.js' }),`
+
+
+
+然后需要把所有的插件重新卸载安装并按照github或npm上的说明重写按照webpack2的配置写。
 
 ## 四 资源
 
@@ -520,6 +540,14 @@ webpack官网中文版
 
 [**https://doc.webpack-china.org/configuration/**](https://doc.webpack-china.org/configuration/)
 
+**官方推荐的所有loaders详细介绍**
+
+[https://doc.webpack-china.org/loaders/](https://doc.webpack-china.org/loaders/)
+
+**官方推荐的所有plugins详细介绍**
+
+https://doc.webpack-china.org/plugins/
+
 ### 3源码
 
 [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
@@ -534,21 +562,9 @@ webpack官网中文版
 
 [https://doc.webpack-china.org/guides/](https://doc.webpack-china.org/guides/)
 
-Webpack 2 入门教程:
-
-[https://llp0574.github.io/2016/11/29/getting-started-with-webpack2/](https://llp0574.github.io/2016/11/29/getting-started-with-webpack2/)
-
-Webpack2.x踩坑与总结
-
-[http://mrzhang123.github.io/2017/02/07/webpack2/?utm\_source=tuicool&utm\_medium=referral](http://mrzhang123.github.io/2017/02/07/webpack2/?utm_source=tuicool&utm_medium=referral)
-
 webpack 2 的新特性:
 
 [https://qiutc.me/post/webpack-2-的新特性-What-s-new-in-webpack-2.html](https://qiutc.me/post/webpack-2-的新特性-What-s-new-in-webpack-2.html)
-
-\[译\] 迁移到 webpack2，你需要知道这些:
-
-[https://juejin.im/entry/581d9fcc8ac247004ff3c70e](https://juejin.im/entry/581d9fcc8ac247004ff3c70e)
 
 webpack 2 入门
 
