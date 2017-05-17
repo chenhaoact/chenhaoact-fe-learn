@@ -31,6 +31,10 @@
 初级教程：  
 [http://www.agisoft.com/support/tutorials/beginner-level/](http://www.agisoft.com/support/tutorials/beginner-level/)
 
+http://www.agisoft.com/index.php?id=32
+
+http://www.agisoft.com/index.php?id=38
+
 中级教程：  
 [http://www.agisoft.com/support/tutorials/intermediate-level/](http://www.agisoft.com/support/tutorials/intermediate-level/)
 
