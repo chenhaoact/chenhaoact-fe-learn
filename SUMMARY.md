@@ -51,7 +51,7 @@
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [npm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/npm.md)
-      * [命令行开发工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
+      * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
@@ -69,6 +69,8 @@
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
     * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
     * gitbook——写自己的书
+    * [github使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/githubshi-yong-ji-qiao.md)
+    * [Gitter-开发者及时通讯交流应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitterkai-fa-zhe-ji-shi-tong-xun-jiao-liu-ying-yong.md)
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
   * [前端技术方案与技术栈](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan.md)
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)

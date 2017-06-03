@@ -86,13 +86,23 @@ quora主页：
 
 codeproject主页：
 
-https://www.codeproject.com/script/Membership/View.aspx?mid=13181457
+[https://www.codeproject.com/script/Membership/View.aspx?mid=13181457](https://www.codeproject.com/script/Membership/View.aspx?mid=13181457)
 
 codeproject博客
 
-https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457
+[https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457](https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457)
+
+npmjs主页：
+
+[https://www.npmjs.com/~chenhaoact](https://www.npmjs.com/~chenhaoact)
 
 Livecoding.tv 主页 \(程序员直播写代码网站\)
 
 [https://www.liveedu.tv/](https://www.liveedu.tv/)
+
+freecodecamp主页
+
+https://www.freecodecamp.com/chenhaoact
+
+
 
