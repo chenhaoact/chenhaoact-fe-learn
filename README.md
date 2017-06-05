@@ -6,6 +6,9 @@
 
 前端技术学习收货总结整理，学习资源，职业规划，面试题，学习计划大汇总。
 
+**gitbook在线阅读地址：**
+[https://chenhaoact.gitbooks.io/chenhaoact-fe-learn](https://chenhaoact.gitbooks.io/chenhaoact-fe-learn)
+
 **会一直更新,如果觉得有帮助,就去github上 star一下吧：**
 
 [https://github.com/chenhaoact/chenhaoact-fe-learn](https://github.com/chenhaoact/chenhaoact-fe-learn)

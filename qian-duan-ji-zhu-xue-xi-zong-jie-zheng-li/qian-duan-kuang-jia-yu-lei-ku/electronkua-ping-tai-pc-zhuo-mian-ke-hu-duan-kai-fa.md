@@ -165,7 +165,7 @@ cnpm install --save-dev electron
 
 ```
 "scripts": {
-    "start": "electron ."
+    "start": "electron ." //运行npm run start时相当于运行electron .命令启动electron应用
   },
 ```
 
@@ -183,7 +183,7 @@ npm start
 ![](/assets/QQ20170605-212226@2x.png)
 
 
-  
+至此一个简单的electron桌面应用就算完成了。  
 
 
 ## 四 资源
