@@ -70,15 +70,21 @@ segmentfault主页：
 [http://weibo.com/u/5232669014](http://weibo.com/u/5232669014)  
 也可以直接搜索用户chenhaoact加关注
 
-国外平台联系我：
+
+
+### 国外平台联系我：
 
 facebook主页:
 
-https://www.facebook.com/hao.chen.666
+[https://www.facebook.com/hao.chen.666](https://www.facebook.com/hao.chen.666)
 
 twitter主页:
 
-https://twitter.com/chenhaoact
+[https://twitter.com/chenhaoact](https://twitter.com/chenhaoact)
+
+linkedin（领英）主页：
+
+http://www.linkedin.com/in/%E6%B5%A9-%E9%99%88-19294a13a/
 
 stack overflow主页：
 

@@ -1,5 +1,9 @@
 # TODO
 
+**PS:国内网络建议使用淘宝cnpm安装所有包（安装更快，不容易报错）
+https://npm.taobao.org/**
+
+
 npm初始化一个项目，生成package.json文件
 
 npm init
