@@ -72,9 +72,13 @@ segmentfault主页：
 
 国外平台联系我：
 
-facebook:
+facebook主页:
 
-twitter:
+https://www.facebook.com/hao.chen.666
+
+twitter主页:
+
+https://twitter.com/chenhaoact
 
 stack overflow主页：
 
@@ -102,7 +106,5 @@ Livecoding.tv 主页 \(程序员直播写代码网站\)
 
 freecodecamp主页
 
-https://www.freecodecamp.com/chenhaoact
-
-
+[https://www.freecodecamp.com/chenhaoact](https://www.freecodecamp.com/chenhaoact)
 
