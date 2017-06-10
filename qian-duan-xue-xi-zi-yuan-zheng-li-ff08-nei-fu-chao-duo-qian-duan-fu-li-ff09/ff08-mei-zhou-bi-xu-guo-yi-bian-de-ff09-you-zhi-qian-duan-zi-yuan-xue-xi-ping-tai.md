@@ -16,15 +16,19 @@
 
 [http://www.html-js.com/](http://www.html-js.com/)
 
+码库CTOLib（每天更新收录实用的开源项目和资源，是发现好的开源项目非常不错的途径，经常浏览一下，学习好的开源项目，尤其是js和python项目）
+
+http://www.ctolib.com/
+
 
 
 **前端学习平台（每周找几个技术视频教程学习一下，看视频学习效果好，做视频的人整体的水平还不错，能学到不少东西）：**
 
 慕课网
 
-http://www.imooc.com/
+[http://www.imooc.com/](http://www.imooc.com/)
 
 极客学院
 
-http://www.jikexueyuan.com/
+[http://www.jikexueyuan.com/](http://www.jikexueyuan.com/)
 

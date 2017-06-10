@@ -59,6 +59,7 @@
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [npm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/npm.md)
       * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
+        * [Inquirer.js学习与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/inquirerjs.md)
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
