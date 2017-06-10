@@ -8,12 +8,12 @@
       * [canvas（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas.md)
       * [svg（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09.md)
     * CSS
-      * [css3](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
+      * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
         * prepack——优化js源代码的工具提高js代码的效率
-      * ES6重点
-      * ES6深入
+      * [ES6重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian.md)
+      * [ES6深入](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6shen-ru.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)

@@ -1,4 +1,4 @@
-# CSS3重点整理
+# ES6重点整理
 
 ## 一 简介
 
@@ -26,13 +26,7 @@
 
 其他教程：
 
-w3cplus\(css3专题\)
-
-[https://www.w3cplus.com/CSS3](https://www.w3cplus.com/CSS3)
-
 ### 5工具与资源
 
-图解CSS3核心技术与案例实战（大漠著，推荐的css3方面的书）
 
-https://www.w3cplus.com/book-comment.html
 

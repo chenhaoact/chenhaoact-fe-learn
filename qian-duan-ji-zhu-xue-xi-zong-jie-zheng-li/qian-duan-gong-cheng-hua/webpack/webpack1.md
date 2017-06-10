@@ -77,23 +77,18 @@ entry可以是字符串，数组，或对象，打包多个入口文件要设置
 
 ### 
 
-
-
 ### 5.webpack常用插件
 
-webpack1插件使用参考：http://webpack.github.io/docs/plugins.html
+webpack1插件使用参考：[http://webpack.github.io/docs/plugins.html](http://webpack.github.io/docs/plugins.html)
 
 #### （1）html-webpack-plugin
 
-对html文件进行打包并把需要的webpack中定义的js标签插入到html中（而且支持页面中直接写ejs模板引擎代码进行一些控制），并满足很多种处理和生产html文件的需求，具体参考：
-https://github.com/jantimon/html-webpack-plugin
-
+对html文件进行打包并把需要的webpack中定义的js标签插入到html中（而且支持页面中直接写ejs模板引擎代码进行一些控制），并满足很多种处理和生产html文件的需求，具体参考：  
+[https://github.com/jantimon/html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin)
 
 ## 三 使用案例
 
-
-### 1.项目安装webpack(这里是webpack1.15.0):
-
+### 1.项目安装webpack\(这里是webpack1.15.0\):
 
 进入项目目录\(这里我把webpack1的s实践项目放在了/project/front/webpack/webpack1-learn-project下\)，安装webpack：
 
@@ -104,8 +99,6 @@ npm install webpack --save-dev
 配置参考[http://webpack.github.io/docs/configuration.html](http://webpack.github.io/docs/configuration.html)
 
 用webpack --config webpack.config.js命令读取webpack.config.js的配置执行webpack打包等任务，
-
-
 
 ```
 module.exports = { //common.js的模块导出
@@ -131,22 +124,16 @@ npm 中添加命令脚本如下：
 
 之后只需要执行：
 
-
-
 ```
 npm run dev    开发
 npm run build   生产环境下打包构建
 ```
 
-
-
 执行npm run build，会发现打包的代码已经到build目录下了。
-
 
 ### 2.支持多页面
 
-然后添加webpack.config.js配置如下，（这里用到了html-webpack-plugin插件）以支持多页面：
-
+然后添加webpack.config.js配置如下，（这里用到了html-webpack-plugin插件（需npm安装））以支持多页面：
 
 ```
 const HtmlwebpackPlugin = require('html-webpack-plugin');
@@ -191,7 +178,7 @@ gen目录下添加几个html，指定调用的js为pages下的page2,和page3下�
 
 3.
 
-## 四 资源
+## 四 资源与参考
 
 ### 1官网
 

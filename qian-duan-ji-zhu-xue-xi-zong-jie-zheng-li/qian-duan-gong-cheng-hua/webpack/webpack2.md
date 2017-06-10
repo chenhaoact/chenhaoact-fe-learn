@@ -518,11 +518,9 @@ module.loaders 改为 module.rules;
 
 `new webpack.optimize.CommonsChunkPlugin({ name: 'vendor', filename: 'vendors.js' }),`
 
-
-
 然后需要把所有的插件重新卸载安装并按照github或npm上的说明重写按照webpack2的配置写。
 
-## 四 资源
+## 四 资源与参考
 
 ### 1官网
 
@@ -546,7 +544,7 @@ webpack官网中文版
 
 **官方推荐的所有plugins详细介绍**
 
-https://doc.webpack-china.org/plugins/
+[https://doc.webpack-china.org/plugins/](https://doc.webpack-china.org/plugins/)
 
 ### 3源码
 
