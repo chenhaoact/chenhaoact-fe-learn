@@ -4,9 +4,10 @@
 * [前端技术学习总结整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li.md)
   * [前端基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-chu.md)
     * Html
-      * [html5](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing.md)
+      * [html5重点与新特性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing.md)
       * [canvas（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas.md)
       * [svg（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09.md)
+      * 拖拽、点击、手势处理等API与应用
     * CSS
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
@@ -26,6 +27,7 @@
         * [create-react-app](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/create-react-app.md)
         * [react-starter-kit](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-starter-kit.md)
         * [react-boilerplate](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-boilerplate.md)
+      * [好的react组件库使用、研究与参与代码贡献](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian.md)
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * Vue2
     * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
