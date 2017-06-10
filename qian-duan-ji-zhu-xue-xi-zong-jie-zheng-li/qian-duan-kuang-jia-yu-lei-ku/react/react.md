@@ -10,7 +10,38 @@
 
 ## 三 使用及案例
 
-## 
+### 1 初始化一个react项目
+
+要用 webpack 安装 React DOM 和构建你的包:
+
+```
+$ 
+npm install --save react react-dom babel-preset-es2015 webpack
+
+```
+
+> 注意:这里如果你正在使用`babel-preset-es2015`支持 ES2015, 如果不需要支持ES2015，使用babel-preset-react包.
+
+**注意:**默认情况下，React 将会在开发模式，很缓慢，不建议用于生产。要在生产模式下使用 React，设置环境变量`NODE_ENV`为`production`（使用 envify 或者 webpack's DefinePlugin）。例如：
+
+```
+new
+ webpack.DefinePlugin({
+  
+"process.env"
+: {
+    NODE_ENV: JSON.stringify(
+"production"
+)
+  }
+});
+```
+
+
+
+2
+
+
 
 ## 四 资源
 
@@ -22,7 +53,7 @@ react英文官网
 
 react官方博客（包括重大版本的更新介绍）
 
-https://facebook.github.io/react/blog/all.html
+[https://facebook.github.io/react/blog/all.html](https://facebook.github.io/react/blog/all.html)
 
 react中文相关的网站：
 
@@ -54,11 +85,11 @@ React中文社区
 
 react英文教程（重要）：
 
-https://facebook.github.io/react/tutorial/tutorial.html
+[https://facebook.github.io/react/tutorial/tutorial.html](https://facebook.github.io/react/tutorial/tutorial.html)
 
 react中文教程
 
-http://www.react-cn.com/docs/tutorial.html
+[http://www.react-cn.com/docs/tutorial.html](http://www.react-cn.com/docs/tutorial.html)
 
 其他教程：
 
@@ -74,11 +105,9 @@ React学习资源汇总
 
 react工具插件推荐（react中国）
 
-http://www.react-cn.com/addons/index.html
+[http://www.react-cn.com/addons/index.html](http://www.react-cn.com/addons/index.html)
 
 react代码范例与demo（react中国）
 
-http://www.react-cn.com/docs/examples.html
-
-
+[http://www.react-cn.com/docs/examples.html](http://www.react-cn.com/docs/examples.html)
 
