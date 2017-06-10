@@ -2,5 +2,11 @@
 
 ## awesome
 
--awesome: https://github.com/sindresorhus/awesome
+-awesome: [https://github.com/sindresorhus/awesome](https://github.com/sindresorhus/awesome)
+
+
+
+GitHub最全的前端资源汇总仓库（包括前端学习、开发资源、求职面试等）
+
+https://github.com/helloqingfeng/Awsome-Front-End-learning-resource
 
