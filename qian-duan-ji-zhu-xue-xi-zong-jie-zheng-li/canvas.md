@@ -10,7 +10,7 @@ canvas简单的来说，就是html5提供的画布，可以通过它绘制各种
 
 ## 二 基本概念与技术重点整理
 
-所有的代码整理在：https://github.com/chenhaoact/Front-End-Learn/tree/master/CanvasLearn
+所有的代码整理在：[https://github.com/chenhaoact/Front-End-Learn/tree/master/CanvasLearn](https://github.com/chenhaoact/Front-End-Learn/tree/master/CanvasLearn)
 
 ### 1`<canvas>`元素
 
@@ -31,13 +31,54 @@ var canvas = document.getElementById('tutorial');
 var ctx = canvas.getContext('2d');
 ```
 
-
-
 ### 3.画直线
 
+`beginPath()`
 
+新建一条路径，生成之后，图形绘制命令被指向到路径上生成路径。
 
+`closePath()`
 
+闭合路径之后图形绘制命令又重新指向到上下文中。
+
+`stroke()`
+
+通过线条来绘制图形轮廓。
+
+`fill()`
+
+通过填充路径的内容区域生成实心的图形。  
+`moveTo(`_`x`_`,`_`y`_`)`
+
+将笔触移动到指定的坐标x以及y上。
+
+[`lineTo(x, y)`](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/lineTo)
+
+绘制一条从当前位置到指定x以及y位置的直线。
+
+参考
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_shapes\#绘制矩形
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_shapes\#绘制路径
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_shapes\#绘制一个三角形
+
+### 4.绘制圆与弧
+
+[`arc(x, y, radius, startAngle, endAngle, anticlockwise)`](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/arc)
+
+画一个以（x,y）为圆心的以radius为半径的圆弧（圆），从startAngle开始到endAngle结束，按照anticlockwise给定的方向（默认为顺时针）来生成。
+
+[`arcTo(x1, y1, x2, y2, radius)`](https://developer.mozilla.org/zh-CN/docs/Web/API/CanvasRenderingContext2D/arcTo)
+
+根据给定的控制点和半径画一段圆弧，再以直线连接两个控制点。
+
+参考
+
+https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_shapes\#圆弧
+
+## 
 
 ## 三 使用实践及案例
 
