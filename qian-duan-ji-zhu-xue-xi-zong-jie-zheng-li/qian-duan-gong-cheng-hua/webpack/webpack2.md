@@ -20,6 +20,20 @@ webpack v1只支持能够「可`JSON.stringify`的对象」作为 loader 的 opt
 
 ## 二 基本概念
 
+
+
+### 2 webpack2常用插件
+
+
+
+（4）clean-webpack-plugin 
+
+构建之前先删除如dist或build等目录下面的文件夹及文件
+
+https://github.com/johnagan/clean-webpack-plugin
+
+
+
 ## 三 使用案例
 
 ### 1 webpack1升级到webpack2实践
