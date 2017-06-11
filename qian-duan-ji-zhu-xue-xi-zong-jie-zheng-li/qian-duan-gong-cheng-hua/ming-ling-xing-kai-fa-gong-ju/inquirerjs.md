@@ -12,11 +12,15 @@ A collection of common interactive command line user interfaces.
 
 ## 二 基本概念与技术重点整理
 
-
-
 ## 三 使用实践及案例
 
-## 
+初始化项目后安装inquirer
+
+cnpm install inquirer --save
+
+
+
+
 
 ## 四 资源与参考
 
@@ -24,7 +28,7 @@ A collection of common interactive command line user interfaces.
 
 ### 2文档
 
-https://github.com/SBoudrias/Inquirer.js/\#documentation
+[https://github.com/SBoudrias/Inquirer.js/\#documentation](https://github.com/SBoudrias/Inquirer.js/#documentation)
 
 ### 3源码
 
