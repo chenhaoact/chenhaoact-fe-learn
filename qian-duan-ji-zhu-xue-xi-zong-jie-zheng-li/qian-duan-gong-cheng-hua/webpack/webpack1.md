@@ -69,11 +69,23 @@ entry可以是字符串，数组，或对象，打包多个入口文件要设置
 
 ### 
 
-### 4.webpack常用Loader
+### 4.loader的概念以及webpack常用Loader
 
-#### （1）**css-loader和style-loader**
+loader，接受资源文件作为参数，处理完会返回新的资源。各个loader可以连接起来使用，可以是同步或异步（node下运行）。可通过npm安装。
 
-处理css文件的css-loader（让webpack支持处理css文件），style-loader（使css在html中生效，css生成style标签插入到html的head中
+配置中的test属性可使用正则表达式进行文件类型的匹配。
+
+webpack1 loader使用参考：http://webpack.github.io/docs/loaders.html
+
+### 常用loader:
+
+#### （1）babel
+
+
+
+#### （2）**css-loader和style-loader**
+
+处理css文件的css-loader（让webpack支持处理css文件），style-loader（使css在html中生效，css生成style标签插入到html的head中。
 
 ### 
 
@@ -180,9 +192,7 @@ gen目录下添加几个html，指定调用的js为pages下的page2,和page3下�
 
 基于webpack的前端工程化开发之多页站点篇（一）
 
-https://segmentfault.com/a/1190000004511992
-
-
+[https://segmentfault.com/a/1190000004511992](https://segmentfault.com/a/1190000004511992)
 
 ### 3.
 
@@ -222,7 +232,5 @@ webpack支持多页面:
 
 基于webpack的前端工程化开发之多页站点篇（一）
 
-https://segmentfault.com/a/1190000004511992
-
-
+[https://segmentfault.com/a/1190000004511992](https://segmentfault.com/a/1190000004511992)
 
