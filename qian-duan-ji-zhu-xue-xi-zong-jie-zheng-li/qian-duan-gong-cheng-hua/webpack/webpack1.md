@@ -75,13 +75,40 @@ loader，接受资源文件作为参数，处理完会返回新的资源。各�
 
 配置中的test属性可使用正则表达式进行文件类型的匹配。
 
-webpack1 loader使用参考：http://webpack.github.io/docs/loaders.html
+
+
+```
+module: {
+    loaders: [
+      {
+        test: '/\.js$/',//处理什么文件
+        loader: 'babel', //使用什么什么loader,多个loader处理应使用loaders并以！串联
+        exclude: './node_modules', //loader处理的排除范围哪些不需要处理
+        include: '', //处理的范围，哪些必须被处理
+      }
+    ]
+  },
+```
+
+
+
+
+
+webpack1 loader使用参考：[http://webpack.github.io/docs/loaders.html](http://webpack.github.io/docs/loaders.html)
 
 ### 常用loader:
 
 #### （1）babel
 
+处理js文件，es6代码转es5，以支持es6。
 
+[https://babeljs.io/](https://babeljs.io/)
+
+webpack1下安装
+
+```
+npm install --save-dev babel-loader babel-core
+```
 
 #### （2）**css-loader和style-loader**
 
