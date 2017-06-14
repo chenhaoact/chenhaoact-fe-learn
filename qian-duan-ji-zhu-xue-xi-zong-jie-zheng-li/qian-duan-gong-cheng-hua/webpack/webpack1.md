@@ -112,7 +112,14 @@ npm install --save-dev babel-loader babel-core
 
 #### （2）**css-loader和style-loader**
 
-处理css文件的css-loader（让webpack支持处理css文件），style-loader（使css在html中生效，css生成style标签插入到html的head中。
+处理css文件的css-loader（让webpack支持处理css文件,js等文件中就可以引用css）。
+
+参考：https://github.com/webpack-contrib/css-loader
+
+style-loader（使css在html中生效，css生成style标签插入到html的head中)
+
+参考：https://github.com/webpack-contrib/style-loader
+
 
 ### 
 
