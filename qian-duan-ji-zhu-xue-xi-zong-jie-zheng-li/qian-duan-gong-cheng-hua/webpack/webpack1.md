@@ -100,7 +100,7 @@ webpack1 loader使用参考：[http://webpack.github.io/docs/loaders.html](http:
 
 #### （1）babel
 
-处理js文件，es6代码转es5，以支持es6。
+处理js文件，es6代码（目前大多数浏览器还不能解析）转为es5（目前大多数浏览器能解析），以支持es6编码。
 
 [https://babeljs.io/](https://babeljs.io/)
 
