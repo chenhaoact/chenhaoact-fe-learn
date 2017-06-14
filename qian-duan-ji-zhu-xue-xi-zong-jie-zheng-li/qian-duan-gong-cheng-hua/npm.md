@@ -1,9 +1,7 @@
 # TODO
 
-**PS:国内网络建议使用淘宝cnpm安装所有包（安装更快，不容易报错）  
+**PS:国内网络建议使用淘宝cnpm安装所有包（安装更快，不容易报错）    
 **[https://npm.taobao.org/](https://npm.taobao.org/)
-
-
 
 ## 技术重点整理
 
@@ -11,13 +9,19 @@
 
 npm init
 
-
-
 （2）安装指定版本的包：
 
 npm install 包名@版本号
 
 
+
+省略写法：
+
+npm i -D  包名  
+
+等效于
+
+npm install --save-dev  包名
 
 ## 资源：
 
