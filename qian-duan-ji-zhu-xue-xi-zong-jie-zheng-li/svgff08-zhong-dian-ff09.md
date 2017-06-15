@@ -14,8 +14,6 @@
 
 而矢量图（SVG,AI等）是基于数学的描述（各个曲线是什么曲线，参数是什么，用什么颜色填充等）
 
-
-
 与其他图像格式相比，使用 SVG 的优势在于：
 
 * SVG 可被非常多的工具读取和修改（比如记事本）
@@ -32,11 +30,7 @@ SVG 的主要竞争者是 Flash。
 
 与 Flash 相比，SVG 最大的优势是与其他标准（比如 XSL 和 DOM）相兼容。而 Flash 则是未开源的私有技术。
 
-
-
 ## 二 基本概念与技术重点整理
-
-
 
 ### 1 SVG使用方式（四种）
 
@@ -50,15 +44,59 @@ SVG 的主要竞争者是 Flash。
 
 
 
+### 2 SVG 形状
+
+SVG 有一些预定义的形状元素：
+
+#### （1）矩形 &lt;rect&gt;
+
+ width 和 height 属性可定义矩形的高度和宽度
+
+x和y属性定义左上角定点的坐标
+
+rx和ry属性定义矩形圆角
+
+style 属性用来定义 CSS 属性：
+
+CSS 的 fill 属性定义矩形的填充颜色（rgb 值、颜色名或者十六进制值）
+
+CSS 的 stroke-width 属性定义矩形边框的宽度
+
+CSS 的 stroke 属性定义矩形边框的颜色
+
+#### （2）圆形 &lt;circle&gt;
+
+cx和cy属性： 圆心坐标
+
+r属性： 半径
+
+
+
+#### （3）椭圆 &lt;ellipse&gt;
+
+
+
+
+
+* 线 &lt;line&gt;
+
+
+
+* 折线 &lt;polyline&gt;
+
+
+
+* 多边形 &lt;polygon&gt;
+
+
+
+* 路径 &lt;path&gt; 可绘制任意图形，如各种曲线
+
+
+
 ### 
 
 ## 三 使用实践及案例
-
-
-
-
-
-
 
 ## 四 资源
 
@@ -66,7 +104,7 @@ SVG 的主要竞争者是 Flash。
 
 w3c指定的svg标准（1.1）
 
-https://www.w3.org/TR/SVG11/
+[https://www.w3.org/TR/SVG11/](https://www.w3.org/TR/SVG11/)
 
 ### 2文档
 
@@ -80,7 +118,7 @@ https://www.w3.org/TR/SVG11/
 
 w3school的svg教程
 
-http://www.w3school.com.cn/svg/
+[http://www.w3school.com.cn/svg/](http://www.w3school.com.cn/svg/)
 
 慕课网视频教程-走进SVG
 
@@ -94,5 +132,5 @@ w3cplus（svg专题）
 
 svg的浏览器支持情况（目前大多数主流版本的浏览器都支持svg）
 
-http://caniuse.com/\#search=svg
+[http://caniuse.com/\#search=svg](http://caniuse.com/#search=svg)
 
