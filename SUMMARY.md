@@ -76,6 +76,18 @@
         * [pm2-比forever更强大而且支持可视化界面监控管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/pm2bi-forever-geng-qiang-da-er-qie-zhi-chi-ke-shi-hua-jie-mian-jian-kong-guan-li.md)
     * [electron-跨平台PC桌面客户端开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/electronkua-ping-tai-pc-zhuo-mian-ke-hu-duan-kai-fa.md)
     * 移动端页面技术
+  * 后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）
+    * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
+      * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
+      * [java与js的详细区别与对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-js-de-xiang-xi-qu-bie-yu-dui-bi.md)
+    * [python](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi.md)
+      * [python语言学习整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu.md)
+      * [python相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonxiang-guan-lei-ku.md)
+    * C
+    * C++
+    * [C\#](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/cxue-xi.md)
+    * 数据库
+    * 服务器
   * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
@@ -88,9 +100,12 @@
         * [Agisoft PhotoScan-基于照片生成高精度三维模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/agisoft-photoscanji-yu-zhao-pian-sheng-cheng-gao-jing-du-san-wei-mo-xing.md)
         * [Autodesk Remake-支持云端解算的照片3D建模软件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/autodesk-remakezhi-chi-yun-duan-jie-suan-de-zhao-pian-3d-jian-mo-ruan-jian.md)
     * 人工智能
-      * [python学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi.md)
-        * [python语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu.md)
       * [TensorFlow](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorflow.md)
+      * [机器学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi.md)
+      * [深度学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi.md)
+    * [大数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/da-shu-ju.md)
+      * 大数据分析
+      * 数据挖掘
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
