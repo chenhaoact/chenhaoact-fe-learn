@@ -42,15 +42,13 @@ SVG 的主要竞争者是 Flash。
 
 作为CSS背景
 
-
-
 ### 2 SVG 形状
 
 SVG 有一些预定义的形状元素：
 
 #### （1）矩形 &lt;rect&gt;
 
- width 和 height 属性可定义矩形的高度和宽度
+width 和 height 属性可定义矩形的高度和宽度
 
 x和y属性定义左上角定点的坐标
 
@@ -70,31 +68,68 @@ cx和cy属性： 圆心坐标
 
 r属性： 半径
 
-
-
 #### （3）椭圆 &lt;ellipse&gt;
 
+cx 属性定义圆点的 x 坐标
+
+cy 属性定义圆点的 y 坐标
+
+rx 属性定义水平半径
+
+ry 属性定义垂直半径
+
+#### （4）线 &lt;line&gt;
+
+x1 属性：线条的结束点的x坐标
+
+y1 属性：线条的结束点的y坐标
+
+x2 属性：线条的结束点的x坐标
+
+y2 属性：线条的结束点的y坐标
+
+#### （5）折线 &lt;polyline&gt;
+
+折线每个端点的 x 和 y 坐标
+
+#### （6）多边形 &lt;polygon&gt;
+
+points 属性：多边形每个角的 x 和 y 坐标
+
+#### （7）路径 &lt;path&gt; ，可绘制任意图形，如各种曲线
+
+下面的命令可用于路径数据，写在path的d属性中：
+
+* M = moveto
+* L = lineto
+* H = horizontal lineto
+* V = vertical lineto
+* C = curveto
+* S = smooth curveto
+* Q = quadratic Belzier curve
+* T = smooth quadratic Belzier curveto
+* A = elliptical Arc
+* Z = closepath
+
+注释：以上所有命令均允许小写字母。大写表示绝对定位，小写表示相对定位。
+
+### 3 svg图形的样式属性
+
+fill 填充颜色
+
+stroke 描边颜色
+
+stroke-width 描边宽度
+
+transform 坐标与父坐标系相比的变换值。如旋转角度等。
+
+
+
+### 4 js对svg进行操作的基本api
 
 
 
 
-* 线 &lt;line&gt;
-
-
-
-* 折线 &lt;polyline&gt;
-
-
-
-* 多边形 &lt;polygon&gt;
-
-
-
-* 路径 &lt;path&gt; 可绘制任意图形，如各种曲线
-
-
-
-### 
 
 ## 三 使用实践及案例
 
@@ -133,4 +168,8 @@ w3cplus（svg专题）
 svg的浏览器支持情况（目前大多数主流版本的浏览器都支持svg）
 
 [http://caniuse.com/\#search=svg](http://caniuse.com/#search=svg)
+
+svg相关元素的清单及作用
+
+[http://www.w3school.com.cn/svg/svg\_reference.asp](http://www.w3school.com.cn/svg/svg_reference.asp)
 

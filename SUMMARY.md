@@ -7,7 +7,25 @@
       * [html重点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian.md)
       * [html5重点与新特性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing.md)
       * [canvas（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas.md)
+        * [canvas相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku.md)
+          * [pixi.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/pixijs.md)
+          * [three.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/threejs.md)
+          * [fabric.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/fabricjs.md)
+          * [CreateJS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/easeljs.md)
+          * [paper.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/paperjs.md)
+          * [d3.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/d3js.md)
+          * [p5.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/p5js.md)
+          * [其他类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/qi-ta-lei-ku.md)
       * [svg（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09.md)
+        * [svg相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku.md)
+          * [velocity](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/velocity.md)
+          * [Snap.svg](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/snapsvg.md)
+          * [vivus](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/vivus.md)
+          * [svg.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/svgjs.md)
+          * [raphael](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/raphael.md)
+          * [progressbar.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/progressbarjs.md)
+          * [two.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/twojs.md)
+          * [其他类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/qi-ta-lei-ku.md)
       * 拖拽、点击、手势处理等API与应用
     * CSS
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
@@ -16,6 +34,7 @@
       * [postcss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/postcss.md)
       * css-module
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
+      * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
         * prepack——优化js源代码的工具提高js代码的效率
       * [ES6重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian.md)
@@ -75,6 +94,7 @@
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
+      * [sourcetree-git版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/sourcetree-gitban-ben-kong-zhi.md)
     * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
     * gitbook——写自己的书
     * [github使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/githubshi-yong-ji-qiao.md)
