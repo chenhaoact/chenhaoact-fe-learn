@@ -123,11 +123,25 @@ stroke-width 描边宽度
 
 transform 坐标与父坐标系相比的变换值。如旋转角度等。
 
-
-
 ### 4 js对svg进行操作的基本api
 
+#### （1）创建图形\(不是createElement，因为svg有自己的namespace\)
 
+document.createElementNS\(ns,tagName\)
+
+
+
+#### （2）添加图形
+
+element.appendChild\(childElement\)
+
+
+
+#### （3）设置/获取属性
+
+element.setAttribute\(name,value\)
+
+element.getAttribute\(name\)
 
 
 
@@ -149,7 +163,10 @@ w3c指定的svg标准（1.1）
 
 官方教程：
 
-其他教程：
+其他教程：  
+mozilla开发者中心SVG专题
+
+[https://developer.mozilla.org/en-US/docs/Web/SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
 
 w3school的svg教程
 
@@ -171,5 +188,11 @@ svg的浏览器支持情况（目前大多数主流版本的浏览器都支持sv
 
 svg相关元素的清单及作用
 
+[https://developer.mozilla.org/en-US/docs/Web/SVG/Element  
+](/h ttps://developer.mozilla.org/en-US/docs/Web/SVG/Element)
+
 [http://www.w3school.com.cn/svg/svg\_reference.asp](http://www.w3school.com.cn/svg/svg_reference.asp)
+
+SVG DOM接口列表  
+[https://developer.mozilla.org/en-US/docs/Web/API/Document\_Object\_Model\#SVG\_interfaces](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model#SVG_interfaces)
 
