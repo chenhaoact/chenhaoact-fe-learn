@@ -98,16 +98,19 @@
     * [python](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi.md)
       * [python语言学习整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu.md)
       * [python相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonxiang-guan-lei-ku.md)
-    * C
+    * [C](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/c.md)
+      * [C语言学习重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/c/cyu-yan-xue-xi-zhong-dian-zheng-li.md)
     * C++
     * [C\#](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/cxue-xi.md)
     * 数据库
     * 服务器
-  * [前沿技术探索](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
+  * [前沿技术探索研究与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
       * [用Unity3d开发类似Pokemon Go的AR游戏](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/yong-unity3d-kai-fa-lei-si-pokemon-go-de-ar-you-xi.md)
+      * [AR.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/arjs.md)
     * VR
+      * [a-frame](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/a-frame.md)
     * [webGL](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/webgl.md)
       * [webGL基础学习整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/webgl/webglji-chu-xue-xi-zheng-li.md)
     * [3D建模](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo.md)
@@ -121,6 +124,10 @@
     * [大数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/da-shu-ju.md)
       * 大数据分析
       * 数据挖掘
+    * 云计算
+      * [openstack-开源云计算平台](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/openstack.md)
+      * [hadoop-分布式系统基础架构](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/hadoopfen-bu-shi-xi-tong-ji-chu-jia-gou.md)
+    * [物联网](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang.md)
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
