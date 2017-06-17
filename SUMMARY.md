@@ -27,12 +27,14 @@
           * [two.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/twojs.md)
           * [其他类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/qi-ta-lei-ku.md)
       * 拖拽、点击、手势处理等API与应用
+      * html开发中遇到问题的解决整理与技巧方法总结（包含html5）
     * CSS
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
       * sass
       * less
       * [postcss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/postcss.md)
       * css-module
+      * css开发中遇到问题的解决整理与技巧方法总结（包含css3）
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
@@ -41,6 +43,7 @@
       * [ES6深入](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6shen-ru.md)
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
+      * js开发中遇到问题的解决整理与技巧方法总结（包含es6）
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
@@ -54,6 +57,7 @@
         * [react-starter-kit](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-starter-kit.md)
         * [react-boilerplate](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-boilerplate.md)
       * [好的react组件库使用、研究与参与代码贡献](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian.md)
+      * React开发中遇到问题的解决整理与技巧方法总结
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * Vue2
     * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
