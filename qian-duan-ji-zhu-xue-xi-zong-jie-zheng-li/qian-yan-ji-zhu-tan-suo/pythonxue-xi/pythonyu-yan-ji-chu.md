@@ -44,7 +44,33 @@ Python:类型：解释执行；运行速度：慢；代码量：少；
 
 ## 三 使用实践及案例
 
-## 
+###1 安装python
+Python目前主要有两个版本，2.x版和3.x版，两个版本不兼容。
+
+Mac 上默认已安装的python版本为2.7，若 安装新版本需通过下载：
+https://www.python.org/downloads/
+
+点击下载的安装包安装即可。
+
+可通过命令：
+python
+查看python 版本。
+
+要查看python 3.X是否安装成功，需要在命令行输入 ：
+python3  
+查看。
+
+在输入python和python3之后，就会进入python交互环境，此时如果退出 该 交互环境，可使用：
+exit()，quit()和 ctl＋d 
+三种的任何一种，均可退出python交互环境。
+
+写python代码时，生成的文件为.py拓展名的文件，如果要运行该文件中的代码，就需要使用python的解释器进行解析编译运行。
+
+（python解释器是开源的，可以由自己自行设定，现在也有不少不错的python 解释器）
+
+最常用的的是Cpython，下载安装好python3.5后，会自动安装的，一个官方的 python 解释器，该解释器是由C语言开发的。
+
+Python的解释器很多，使用最广泛的还是CPython。如果要和Java或.Net平台交互，最好的办法不是用Jython（运行在Java 平台的python编译器，可直接把python变异成java字节码执行）或IronPython（运行在微软.net 平台的 python 解释器，可以直接把python代码编译成.net 字节码），而是通过网络调用来交互，确保各程序之间的独立性。
 
 ## 四 资源与参考
 
@@ -65,6 +91,8 @@ Python:类型：解释执行；运行速度：慢；代码量：少；
 其他教程：
 
 #### （1）已学习：
+[Mac 安装 python3 初体验
+](http://www.cnblogs.com/leov1/p/5426191.html)
 
 #### 
 
