@@ -49,6 +49,8 @@ Python:类型：解释执行；运行速度：慢；代码量：少；
 ## 四 资源与参考
 
 ### 1官网
+[https://www.python.org/
+](https://www.python.org/)
 
 ### 2文档
 
