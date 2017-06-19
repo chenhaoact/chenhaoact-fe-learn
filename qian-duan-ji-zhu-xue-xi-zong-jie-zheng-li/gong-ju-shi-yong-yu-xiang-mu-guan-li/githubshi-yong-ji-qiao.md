@@ -8,5 +8,16 @@
 
 topic:javascript
 
+##
+在 GitHub 上贡献开源项目的一般步骤
+[https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md](https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md)
+
+如何参与一个GitHub 开源项目
+[http://www.cnblogs.com/lanxuezaipiao/p/3662328.html
+](http://www.cnblogs.com/lanxuezaipiao/p/3662328.html)
+
+如何给开源项目贡献代码
+[https://gist.github.com/zxhfighter/62847a087a2a8031fbdf
+](https://gist.github.com/zxhfighter/62847a087a2a8031fbdf)
 
 
