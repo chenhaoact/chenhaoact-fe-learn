@@ -96,6 +96,7 @@
         * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
       * [Yarn](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yarn.md)
     * [前端测试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu.md)
+      * jest
     * 移动端页面技术
   * 后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
