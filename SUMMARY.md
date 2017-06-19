@@ -58,6 +58,8 @@
         * [react-boilerplate](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-boilerplate.md)
       * [好的react组件库使用、研究与参与代码贡献](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian.md)
       * React开发中遇到问题的解决整理与技巧方法总结
+      * [Redux-状态管理方案](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reduxzhuang-tai-guan-li-fang-an.md)
+      * [React-router-路由管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react-routerlu-you-guan-li.md)
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * Vue2
     * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
