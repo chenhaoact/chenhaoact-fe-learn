@@ -90,7 +90,7 @@ context.canvas 可以得到画布对象，从而调用画布对象的属性和�
 
 1 代码在project/front/FrontEndLearn/CanvasLearn下的
 
-## 四 资源
+## 四 资源与参考
 
 ### 1官网
 
