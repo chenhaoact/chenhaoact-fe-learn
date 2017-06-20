@@ -100,9 +100,25 @@ context.canvas 可以得到画布对象，从而调用画布对象的属性和�
 
 ### 4教程
 
+#### （1）已学习：
+
+慕课网视频教程-炫丽的倒计时效果Canvas绘图与动画基础
+
+[http://www.imooc.com/learn/133](http://www.imooc.com/learn/133)
+
+#### （2）学习中：
+
+慕课网视频教程-Canvas绘图详解
+
+[http://www.imooc.com/learn/185](http://www.imooc.com/learn/185)
+
+
+#### （3）待学习：
 官方教程：
 
 其他教程：
+
+
 
 Canvas教程\(mozilla开发者官网\)
 
@@ -113,14 +129,6 @@ Canvas学习系列教程（大漠）
 [https://www.w3cplus.com/canvas/introduction-to-prepare.html](https://www.w3cplus.com/canvas/introduction-to-prepare.html)
 
 [https://www.w3cplus.com/blog/tags/616.html](https://www.w3cplus.com/blog/tags/616.html)
-
-慕课网视频教程-炫丽的倒计时效果Canvas绘图与动画基础
-
-[http://www.imooc.com/learn/133](http://www.imooc.com/learn/133)
-
-慕课网视频教程-Canvas绘图详解
-
-[http://www.imooc.com/learn/185](http://www.imooc.com/learn/185)
 
 慕课网视频教程-Canvas玩转图像处理
 
