@@ -29,6 +29,10 @@
 
 ## 二 基本概念与技术重点整理
 
+### 快照测试(snapshots test)
+参考：
+http://facebook.github.io/jest/docs/zh-Hans/snapshot-testing.html#content
+
 ## 三 使用实践及案例
 
 ###1 安装并写一个简单的jest测试
