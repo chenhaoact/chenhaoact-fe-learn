@@ -31,6 +31,131 @@
 
 ## 三 使用实践及案例
 
+###1 安装并写一个简单的jest测试
+
+通过npm 来安装Jest︰
+
+
+```
+npm install --save-dev jest
+
+```
+
+
+或者通过yarn：
+
+
+```
+yarn add --dev jest
+
+```
+
+
+
+从写一个两个数相加的示例函数开始。首先，创建一个 sum.js 文件︰
+
+
+
+```
+function sum(a, b) {
+  return a + b;
+}
+module.exports = sum;
+
+```
+
+
+然后，创建一个名为 sum.test.js 的文件。这将包含我们的实际测试︰
+
+
+```
+const sum = require('./sum');
+
+test('adds 1 + 2 to equal 3', () => {
+  expect(sum(1, 2)).toBe(3);
+});
+
+```
+此测试使用 expect 和 toBe 来测试两个值完全相同。 若要了解Jest关于测试方面更多的能力，请参阅 [Using Matchers](http://facebook.github.io/jest/docs/using-matchers.html)。
+
+将下面的配置部分添加到你的 package.json 里面：
+
+```
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+
+```
+
+
+运行 npm test，Jest将会打印测试消息。
+
+###2 更多配置
+####使用 Babel
+要使用 Babel，需安装 babel-jest 和 regenerator-runtime：
+
+
+```
+npm install --save-dev babel-jest regenerator-runtime
+
+```
+
+注意：如果使用了 npm 3 或 4，或 Yarn，就不用再显式安装 regenerator-runtime。
+
+别忘了在项目根文件夹下添加一个 [.babelrc](https://babeljs.io/docs/usage/babelrc/) 配置文件。 比如，如果你正在通过 babel-preset-es2015 和 babel-preset-react 这两个 presets 来使用 ES6 和 React.js:
+
+
+
+```
+{
+  "presets": ["es2015", "react"]
+}
+```
+
+
+
+现在就完成了使用所有 ES6 特性和 React 特殊语法所需的配置。
+
+注意：如果你正在使用一个更复杂的 Babel 配置，并使用 Babel 的 env 选项，请记住 Jest 将会自动定义 NODE_ENV 为 test。 它不会像 Babel 那样在 NODE_ENV 没有被设置时默认使用 development。
+
+注意：当你安装 Jest 时，babel-jest 是会被自动安装的，并且如果你的项目下存在一个 Babel 配置文件时，它将会自动对相关文件进行转义。 如果要避免这个行为，你可以显式的重置 transform 配置项：
+
+
+
+```
+// package.json
+{
+  "jest": {
+    "transform": {}
+  }
+}
+```
+
+
+####使用 webpack
+Jest 可用于使用 webpack 来管理资源、 样式和编译的项目中。 webpack 与其他工具相比多了一些独特的挑战。 参考 webpack 指南 来开始起步。
+使用 TypeScript #
+要在测试用例中使用 TypeScript，需要安装 ts-jest 包和 jest 的 types。
+npm install --save-dev ts-jest @types/jest
+然后修改你的 package.json文件，加入 jest 的相关配置，类似下面这样：
+{
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}
+
+
 ## 
 
 ## 四 资源与参考

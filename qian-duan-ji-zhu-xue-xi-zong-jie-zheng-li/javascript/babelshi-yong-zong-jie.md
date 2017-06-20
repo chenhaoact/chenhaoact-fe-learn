@@ -20,6 +20,8 @@ npm install babel-preset-env --save-dev
 }
 ```
 
+.babelrc文件使用和配置方法
+https://babeljs.io/docs/usage/babelrc/
 
 
 Babel 是一个 JavaScript 编译器。可以让今天就用下一代 JavaScript 语法写代码。（可以支持各种环境，如webpack,browserify，gulp等）
