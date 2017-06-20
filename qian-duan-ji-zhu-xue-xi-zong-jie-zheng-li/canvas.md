@@ -78,6 +78,12 @@ https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_s
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas\_API/Tutorial/Drawing\_shapes\#圆弧
 
+### 5.清空某区域
+context.clearRect(x,y,width,height) 可以对画布上指定的矩形区域进行一次清空
+
+### 6 得到画布对象
+context.canvas 可以得到画布对象，从而调用画布对象的属性和方法。
+
 ## 
 
 ## 三 使用实践及案例
