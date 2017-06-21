@@ -28,16 +28,19 @@
           * [其他类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/svgff08-zhong-dian-ff09/svgxiang-guan-lei-ku/qi-ta-lei-ku.md)
       * 拖拽、点击、手势处理等API与应用
       * html开发中遇到问题的解决整理与技巧方法总结（包含html5）
-    * CSS
+    * [CSS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css.md)
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
-      * [sass](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/sass.md)
-      * less
+      * [CSS预处理技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li.md)
+        * [Sass/Scss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss.md)
+        * [less](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less.md)
+        * [各种css预处理技术的比较](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/ge-zhong-css-yu-chu-li-ji-zhu-de-bi-jiao.md)
       * [compass](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/compass.md)
       * [postcss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/postcss.md)
       * css-module
       * css开发中遇到问题的解决整理与技巧方法总结（包含css3）
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
+      * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
         * prepack——优化js源代码的工具提高js代码的效率
       * [ES6重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian.md)
@@ -45,6 +48,10 @@
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * js开发中遇到问题的解决整理与技巧方法总结（包含es6）
+    * 常用UI组件资源与实现
+      * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
+      * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
+      * [滑动切换与轮播](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hua-dong-qie-huan-yu-lun-bo.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
@@ -71,9 +78,6 @@
     * [Weex](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/weex.md)
     * [Rax](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/rax.md)
     * [phantomjs](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/phantomjs.md)
-    * [CSS预处理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li.md)
-      * [Sass/Scss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss.md)
-      * less
     * [Nodejs](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs.md)
       * [Koa](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa.md)
         * [Koa2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa/koa2.md)
@@ -107,7 +111,7 @@
       * [前端自动化测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/qian-duan-zi-dong-hua-ce-shi.md)
       * [enzyme](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/enzyme.md)
     * 移动端页面技术
-  * 后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）
+  * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
       * [java与js的详细区别与对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-js-de-xiang-xi-qu-bie-yu-dui-bi.md)
@@ -166,6 +170,6 @@
   * [其他人的前端资源整理项目](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/qi-ta-ren-de-qian-duan-zi-yuan-zheng-li-xiang-mu.md)
 * [工程师的职业规划和自我修养](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang.md)
   * [为什么你的前端工作经验为什么不值钱-（学东西一定要扎实深入和不断优化）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-de-qian-duan-gong-zuo-jing-yan-wei-shi-yao-bu-zhi-94b1-ff08-xue-dong-xi-yi-ding-yao-zha-shi-shen-ru-ff09.md)
-* 前端笔试面试与应聘
+* [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 

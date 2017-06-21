@@ -77,6 +77,15 @@ https://www.w3.org/TR/CSS/
 
 ### 4教程
 
+#### （1）已学习：
+
+
+
+#### （2）学习中：
+
+
+
+#### （3）待学习：
 官方教程：
 
 其他教程：
@@ -84,6 +93,9 @@ https://www.w3.org/TR/CSS/
 w3cplus\(css3专题\)
 
 [https://www.w3cplus.com/CSS3](https://www.w3cplus.com/CSS3)
+
+2016 CSS Dev Conf会议笔记
+http://www.w3cplus.com/css/notes-css-dev-conf-2016.html
 
 ### 5工具与资源
 

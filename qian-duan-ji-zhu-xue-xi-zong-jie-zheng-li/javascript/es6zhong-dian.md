@@ -34,6 +34,15 @@ babel官网的es2015教程（推荐）
 
 [https://babeljs.io/learn-es2015/](https://babeljs.io/learn-es2015/)
 
+ECMAScript 6 入门（目前是2017年1月更新的第二版）
+http://es6.ruanyifeng.com/
+
+深入浅出ES6系列：
+深入浅出ES6（十四）：let和const
+http://www.infoq.com/cn/articles/es6-in-depth-let-and-const
+
+
+
 ### 5工具与资源
 
 Babel 是一个 JavaScript 编译器。可以让今天就用下一代 JavaScript 语法写代码。（可以支持各种环境，如webpack,browserify，gulp等）

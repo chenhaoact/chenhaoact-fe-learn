@@ -52,5 +52,22 @@ https://www.w3.org/TR/DOM-Level-3-Events/
 JavaScript 标准参考教程（阮一峰）
 http://javascript.ruanyifeng.com/
 
+JavaScript全栈教程（廖雪峰）
+http://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000
+
+深入理解JavaScript系列（汤姆大叔）
+http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html
+
+JavaScript奇技淫巧44招
+http://forums.fami2u.com/t/javascript-44/77
+
+编写高质量JS代码
+http://xgfe.github.io/2016/08/11/penglu/effective-javascript/
+
+在 2016 年学 JavaScript 是一种什么样的体验？
+https://www.v2ex.com/t/310767
+
+
+
 ### 5工具与资源
 
