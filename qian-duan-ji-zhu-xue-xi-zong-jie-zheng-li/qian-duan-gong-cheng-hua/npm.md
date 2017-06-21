@@ -5,11 +5,11 @@
 
 ## 技术重点整理
 
-（1）npm初始化一个项目，生成package.json文件
+###1 npm初始化一个项目，生成package.json文件
 
 npm init
 
-（2）安装指定版本的包：
+###2 安装指定版本的包：
 
 npm install 包名@版本号
 
@@ -22,6 +22,16 @@ npm i -D  包名
 等效于
 
 npm install --save-dev  包名
+
+###3 package中各个字段的含义与作用
+
+
+####license 开源协议
+如 ISC,MIT等。
+
+各协议之间的区别可参考：主流开源协议之间有何异同？
+https://www.zhihu.com/question/19568896
+
 
 ## 资源：
 

@@ -48,7 +48,7 @@
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * js开发中遇到问题的解决整理与技巧方法总结（包含es6）
-    * 常用UI组件资源与实现
+    * 常用UI效果实现与资源
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
       * [滑动切换与轮播](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hua-dong-qie-huan-yu-lun-bo.md)
