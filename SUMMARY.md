@@ -111,6 +111,8 @@
       * [AVA-面向未来的测试运行器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/avamian-xiang-wei-lai-de-ce-shi-yun-xing-qi.md)
       * [前端自动化测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/qian-duan-zi-dong-hua-ce-shi.md)
       * [enzyme](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/enzyme.md)
+      * [Travis CI-开源持续集成构建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/travis-cikai-yuan-chi-xu-ji-cheng-gou-jian.md)
+      * [Codecov-开源的测试结果展示平台，将测试结果可视化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/codecovkai-yuan-de-ce-shi-jie-guo-zhan-shi-ping-tai-ff0c-jiang-ce-shi-jie-guo-ke-shi-hua.md)
     * 移动端页面技术
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
