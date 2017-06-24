@@ -36,7 +36,9 @@ web上目前推荐**symbol引用**
 
 如果是在**react项目中引入的话，这里的xlink:href需要改成xlinkHref,class要改成className才会起作用。aria-hidden则不需要改成驼峰法**
 
-具体的图标样式可以参考：svg中use元素引用symbol样式的思考
+**图标样式可以使用一般的css对字体的样式来控制**，比如设置该svg分父元素的font-size，color属性等控制字体的大小，颜色等。
+
+**也可以直接使用svg的样式控制**，具体可以参考：svg中use元素引用symbol样式的思考
 http://blog.csdn.net/xiaozhu2hao/article/details/53183743
 
 
