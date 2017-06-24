@@ -52,7 +52,7 @@
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
       * [滑动切换与轮播](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hua-dong-qie-huan-yu-lun-bo.md)
-      * [小三角旋转效果](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/xiao-san-jiao-xuan-zhuan-xiao-guo.md)
+      * [鼠标覆盖时小三角旋转效果](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/xiao-san-jiao-xuan-zhuan-xiao-guo.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
