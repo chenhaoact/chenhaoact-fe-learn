@@ -34,9 +34,12 @@ web上目前推荐**symbol引用**
 </svg>
 
 
-如果是在**react项目中引入的话，这里的xlink:href需要改成xlinkHref才会起作用。**
+如果是在**react项目中引入的话，这里的xlink:href需要改成xlinkHref,class要改成className才会起作用。aria-hidden则不需要改成驼峰法**
+
+具体的图标样式可以参考：svg中use元素引用symbol样式的思考
+http://blog.csdn.net/xiaozhu2hao/article/details/53183743
 
 
-各个场景下的图标使用步骤具体参考：
+iconfont各个场景下的图标使用步骤具体参考：
 
 http://www.iconfont.cn/help/detail?spm=a313x.7781069.1998910419.d8cf4382a.qUloTK&helptype=code
