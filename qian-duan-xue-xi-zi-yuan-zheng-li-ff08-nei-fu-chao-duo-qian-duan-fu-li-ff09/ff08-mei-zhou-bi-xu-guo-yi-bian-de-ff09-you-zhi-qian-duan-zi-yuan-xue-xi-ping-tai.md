@@ -28,6 +28,10 @@ http://www.ctolib.com/
 
 [http://www.imooc.com/](http://www.imooc.com/)
 
+极客学院的wiki,有很多不错的系列教程，每周挑一个学习下：
+[http://wiki.jikexueyuan.com/
+](http://wiki.jikexueyuan.com/)
+
 极客学院
 
 [http://www.jikexueyuan.com/](http://www.jikexueyuan.com/)
