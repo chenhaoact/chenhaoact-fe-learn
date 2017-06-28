@@ -129,19 +129,45 @@ transform 坐标与父坐标系相比的变换值。如旋转角度等。
 
 document.createElementNS\(ns,tagName\)
 
-
-
 #### （2）添加图形
 
 element.appendChild\(childElement\)
-
-
 
 #### （3）设置/获取属性
 
 element.setAttribute\(name,value\)
 
 element.getAttribute\(name\)
+
+
+
+### 5 SVG坐标系统
+
+
+
+#### （1）视窗
+
+`<svg>`元素上使用`width`和`height`声明视窗尺寸，也就是svg元素的内容尺寸。（不带单位默认是px）
+
+初始**视窗坐标系**是一个建立在视窗上的坐标系。原点`(0,0)`在视窗的左上角，`X`轴正向指向右，`Y`
+
+轴正向指向下。
+
+
+
+#### （2）视野：viewBox，preserveAspectRatio
+
+`viewBox`属性：声明用户坐标系（即用户所看到的坐标系），viewBox区域变大，则看到的视野变大，但所看到的形状会显得变小。
+
+`preserveAspectRatio`属性：如果用不同于视窗的宽高比定义用户坐标系，就需要用`preserveAspectRatio`属性强制统一缩放比来保持图形的宽高比。
+
+
+
+具体参考：
+
+理解SVG坐标系和变换（第一部分）-viewport，viewBox，和preserveAspectRatio
+
+http://www.w3cplus.com/html5/svg-coordinate-systems.html
 
 
 
@@ -166,7 +192,11 @@ w3c指定的svg标准（1.1）
 其他教程：  
 mozilla开发者中心SVG专题
 
-[https://developer.mozilla.org/en-US/docs/Web/SVG](https://developer.mozilla.org/en-US/docs/Web/SVG)
+https://developer.mozilla.org/zh-CN/docs/Web/SVG
+
+mozilla开发者中心SVG教程
+
+https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial
 
 w3school的svg教程
 
@@ -188,7 +218,7 @@ svg的浏览器支持情况（目前大多数主流版本的浏览器都支持sv
 
 svg相关元素的清单及作用
 
-[https://developer.mozilla.org/en-US/docs/Web/SVG/Element  
+[https://developer.mozilla.org/en-US/docs/Web/SVG/Element    
 ](/h ttps://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 
 [http://www.w3school.com.cn/svg/svg\_reference.asp](http://www.w3school.com.cn/svg/svg_reference.asp)
