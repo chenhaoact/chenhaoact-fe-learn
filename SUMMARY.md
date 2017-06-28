@@ -48,11 +48,18 @@
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * js开发中遇到问题的解决整理与技巧方法总结（包含es6）
-    * 常用UI效果实现与资源
+    * 常用UI效果实现
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
       * [滑动切换与轮播](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hua-dong-qie-huan-yu-lun-bo.md)
       * [鼠标覆盖时小三角旋转效果](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/xiao-san-jiao-xuan-zhuan-xiao-guo.md)
+      * [日期选择器组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ri-qi-xuan-ze-qi.md)
+      * [自定义滚动条](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zi-ding-yi-gun-dong-tiao.md)
+      * [移动端-图片滑动切换组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-7aef-tu-pian-hua-dong-qie-huan.md)
+      * [移动端-Dialog对话框组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-7aef-dialog-dui-hua-kuang-zu-jian.md)
+      * [首页搭建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/shou-ye-da-jian.md)
+      * [自定义滚动条](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zi-ding-yi-gun-dong-tiao.md)
+      * [UI组件库参考（组件较全）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
@@ -108,6 +115,7 @@
         * [stylelint-css样式代码校验](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/stylelint-cssyang-shi-dai-ma-xiao-yan.md)
     * 前端组件化
       * [web组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/webzu-jian.md)
+    * [前端性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua.md)
     * [前端调试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu.md)
       * [chrome浏览器调试技巧整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li.md)
     * [前端测试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu.md)
