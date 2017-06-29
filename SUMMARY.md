@@ -189,7 +189,10 @@
   * [知名 IT 公司前端团队](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/ge-gong-si-qian-duan-tuan-dui-guan-wang.md)
   * [其他人的前端资源整理项目](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/qi-ta-ren-de-qian-duan-zi-yuan-zheng-li-xiang-mu.md)
 * [工程师的职业规划和自我修养](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang.md)
-  * [为什么你的前端工作经验为什么不值钱-（学东西一定要扎实深入和不断优化）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-de-qian-duan-gong-zuo-jing-yan-wei-shi-yao-bu-zhi-94b1-ff08-xue-dong-xi-yi-ding-yao-zha-shi-shen-ru-ff09.md)
+  * [技术学习与能力提升](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ji-zhu-xue-xi-yu-neng-li-ti-sheng.md)
+    * [为什么你的前端工作经验为什么不值钱-（学东西一定要扎实深入和不断优化）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-de-qian-duan-gong-zuo-jing-yan-wei-shi-yao-bu-zhi-94b1-ff08-xue-dong-xi-yi-ding-yao-zha-shi-shen-ru-ff09.md)
+  * 晋升
+    * [晋升评审的套路（转自bang的博文）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng-pingshen-de-tao-lu-ff08-zhuan-zi-bang-da-shen-de-bo-wen-ff09.md)
 * [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 
