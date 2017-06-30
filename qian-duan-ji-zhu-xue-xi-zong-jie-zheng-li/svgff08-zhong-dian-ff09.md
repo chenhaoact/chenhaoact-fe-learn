@@ -139,11 +139,7 @@ element.setAttribute\(name,value\)
 
 element.getAttribute\(name\)
 
-
-
 ### 5 SVG坐标系统
-
-
 
 #### （1）视窗
 
@@ -153,23 +149,102 @@ element.getAttribute\(name\)
 
 轴正向指向下。
 
-
-
 #### （2）视野：viewBox，preserveAspectRatio
 
-`viewBox`属性：声明用户坐标系（即用户所看到的坐标系），viewBox区域变大，则看到的视野变大，但所看到的形状会显得变小。
+`viewBox`属性：声明用户坐标系（即用户所看到的坐标系），viewBox区域变大，则看到的视野变大，但所看到的形状会显得变小。（）
 
 `preserveAspectRatio`属性：如果用不同于视窗的宽高比定义用户坐标系，就需要用`preserveAspectRatio`属性强制统一缩放比来保持图形的宽高比。
-
-
 
 具体参考：
 
 理解SVG坐标系和变换（第一部分）-viewport，viewBox，和preserveAspectRatio
 
-http://www.w3cplus.com/html5/svg-coordinate-systems.html
+[http://www.w3cplus.com/html5/svg-coordinate-systems.html](http://www.w3cplus.com/html5/svg-coordinate-systems.html)
+
+#### （3）svg坐标系统
+
+**x轴朝右，y轴朝下，旋转正角度是顺时针。**
 
 
+
+#### （4）图形分组与引用
+
+`<g>`标签创建分组（分组可以嵌套）。
+
+使用&lt;use&gt;重用现有的元素。
+
+
+
+具体参考：
+
+SVG中的结构化、分组和引用元素
+
+http://www.w3cplus.com/svg/structuring-grouping-referencing-in-svg.html
+
+
+
+#### （5）坐标变换 transform
+
+transform属性定义坐标变换。
+
+常见如：平移，旋转, 缩放, 倾斜等。
+
+
+##### 1）平移`translate(）`
+
+
+
+```
+<circle cx="0" cy="0" r="100" transform="translate(100 300)"/>
+```
+
+
+上面的代码将一个元素向x坐标轴方向（下）移动100个用户单位，向y坐标轴方向（右）移动300个用户单位。
+
+
+##### 2）旋转`rotate()`
+
+```
+<g id="parrot" transform="rotate(45 50 50)" x="0" y="0"> <!-- elements making up a parrot shape --> </g>
+```
+上面的代码以当前用户坐标系中的(50,50)点为中心将一组元素进行45°旋转。
+
+
+##### 3）缩放`scale()`
+
+
+
+```
+<rect width="150" height="100" transform="scale(2 0.5)" x="0" y="0" />
+```
+
+上面的代码把一个元素缩放到最初宽度的两倍，并且把高度压缩到最初的一半。
+
+
+
+##### 4）倾斜 skewX()和skewY()
+
+
+
+```
+skewX(<skew-angle>)
+skewY(<skew-angle>)
+
+```
+
+
+函数skewX声明一个沿x轴的倾斜；函数skewY声明一个沿y轴的倾斜。
+
+
+
+
+坐标变换transform具体参考：
+
+理解SVG坐标系统和变换： transform属性
+
+https://www.w3cplus.com/html5/svg-transformations.html
+
+#### 
 
 ## 三 使用实践及案例
 
@@ -192,11 +267,11 @@ w3c指定的svg标准（1.1）
 其他教程：  
 mozilla开发者中心SVG专题
 
-https://developer.mozilla.org/zh-CN/docs/Web/SVG
+[https://developer.mozilla.org/zh-CN/docs/Web/SVG](https://developer.mozilla.org/zh-CN/docs/Web/SVG)
 
 mozilla开发者中心SVG教程
 
-https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial
+[https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Tutorial)
 
 w3school的svg教程
 
@@ -218,7 +293,7 @@ svg的浏览器支持情况（目前大多数主流版本的浏览器都支持sv
 
 svg相关元素的清单及作用
 
-[https://developer.mozilla.org/en-US/docs/Web/SVG/Element    
+[https://developer.mozilla.org/en-US/docs/Web/SVG/Element      
 ](/h ttps://developer.mozilla.org/en-US/docs/Web/SVG/Element)
 
 [http://www.w3school.com.cn/svg/svg\_reference.asp](http://www.w3school.com.cn/svg/svg_reference.asp)
