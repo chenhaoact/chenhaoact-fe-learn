@@ -19,8 +19,12 @@
 iframe高度自适应的6个方法（让iframe的高度和其内嵌的网页的高度一样，从而看不出是内嵌的）
 http://caibaojian.com/iframe-adjust-content-height.html
 
+###<object>
+定义一个嵌入的对象。请使用此元素向您的 XHTML 页面**添加多媒体**。此元素允许您规定插入 HTML 文档中的对象的数据和参数，以及可用来显示和操作数据的代码。
 
+`<object> `标签**用于包含对象，比如图像、音频、视频、Java applets、ActiveX、PDF 以及 Flash。**
 
+http://www.runoob.com/tags/tag-object.html
 
 
 
