@@ -60,3 +60,5 @@ React.render(
     document.body
 );
 ```
+
+具体可参考此文html转义部分：http://yijiebuyi.com/blog/2e3b6f3a01983e46c3aaca4f28377a28.html
