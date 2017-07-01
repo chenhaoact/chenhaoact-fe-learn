@@ -8,7 +8,7 @@
 
 ## 二 基本概念与技术重点整理
 
-### 模块
+### （1）模块
 
 [模块](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
 
