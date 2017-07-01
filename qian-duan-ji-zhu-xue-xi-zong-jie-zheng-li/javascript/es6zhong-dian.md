@@ -10,8 +10,9 @@
 
 ### 模块
 
-ES6的import，不能“动态”拼一个路径，因为ES6的模块化就是**强制静态化**，有兴趣可以Google一下为什么要静态化，以及好处。
+[模块](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
 
+###
 
 ## 三 使用实践及案例
 
