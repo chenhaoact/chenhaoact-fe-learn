@@ -90,6 +90,7 @@
       * React开发中遇到问题的解决整理与技巧方法总结
       * [Redux-状态管理方案](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reduxzhuang-tai-guan-li-fang-an.md)
       * [React-router-路由管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react-routerlu-you-guan-li.md)
+        * [路由相关数据获取](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react-routerlu-you-guan-li/lu-you-xiang-guan-shu-ju-huo-qu.md)
       * b
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * [Vue2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue/vue2.md)
