@@ -91,23 +91,35 @@ function getGreeting(user) {
 
 ##### jsx代表对象
 
-Babel compiles JSX down to React.createElement() calls.
+**Babel 编译 JSX 调用的是 React.createElement().**
+以下两个例子，完全相同：
 
-These two examples are identical:
 
+
+```
 const element = (
   <h1 className="greeting">
     Hello, world!
   </h1>
 );
+```
+
+
+
+```
 const element = React.createElement(
   'h1',
   {className: 'greeting'},
   'Hello, world!'
 );
-React.createElement() performs a few checks to help you write bug-free code but essentially it creates an object like this:
 
-// Note: this structure is simplified
+```
+
+
+**React.createElement() 会执行一些代码检查，并扩展性的创建类似以下的一个对象**:
+
+```
+// 注意: 这里是经过简化的结构
 const element = {
   type: 'h1',
   props: {
@@ -115,7 +127,9 @@ const element = {
     children: 'Hello, world'
   }
 };
-These objects are called "React elements". You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
+```
+
+这样的对象称为 "**React elements**". 可以把它们当做是**对屏幕中显示的元素的描述**。 React 会**读取这些对象并通过他们构建DOM和保持DOM显示的数据能实时更新**。
 
 
 
