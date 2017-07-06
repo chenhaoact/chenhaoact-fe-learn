@@ -4,7 +4,7 @@
 
 JavaScript 中 XML 式的语法。有一个简单的预编译器，将该语法糖转换成这种纯的JavaScript。
 
-JSX 语法比单纯的 JavaScript 更加容易使用（特别是编写渲染html元素相关的代码时）。阅读更多关于[JSX 语法的文章](http://www.react-cn.com/docs/jsx-in-depth-zh-CN.html)。
+**JSX 语法比单纯的 JS 更加容易使用（特别是编写渲染html元素相关的代码时）**。阅读更多关于[JSX 语法的文章](http://www.react-cn.com/docs/jsx-in-depth-zh-CN.html)。
 
 jsx**可以在类似html的标签中通过{}里面写js变量与表达式。**
 
@@ -24,7 +24,16 @@ react的设计者坚信关注分离的正确方法是组件，而非通过“模
 
 **JSX让你可以把JavaScript函数调用和HTML语法写在一起。**
 
-#### （3）HTML转义
+#### （2）jsx语法注意点
+
+属性名一律使用驼峰法，而不是一般html元素的属性写法。
+
+属性值要么用""引用字符串，要么是{}里嵌套js表达式,两者不能混。
+
+元素为空，需要以 `/>`关闭。
+
+
+#### （4）HTML转义
 比如我们有一些内容是用户输入的富文本，从后台取到数据后展示在页面上，希望展示相应的样式
 
 
@@ -48,7 +57,7 @@ React.render(
 ```
 
 
-React默认会进行HTML的转义，避免XSS攻击，如果要不转义，可以这么写
+**React的jsx默认会进行HTML的转义（将变量转为其值的字符串来展现），避免XSS攻击**，如果**要不转义，可以用dangerouslySetInnerHTML属性**这么写
 
 
 
@@ -62,3 +71,57 @@ React.render(
 ```
 
 具体可参考此文html转义部分：http://yijiebuyi.com/blog/2e3b6f3a01983e46c3aaca4f28377a28.html
+
+#### （5）jsx也是一种表达式，在编译之后会成为js对象
+
+**jsx也是一种表达式，在编译之后会成为js对象。**
+这意味着**可以在if,for等各种js语句中使用jsx，把他们和变量写在一起，或者作为参数接收，或者从js函数中返回**:
+
+
+```
+
+function getGreeting(user) {
+  if (user) {
+    return <h1>Hello, {formatName(user)}!</h1>;
+  }
+  return <h1>Hello, Stranger.</h1>;
+}
+
+```
+
+##### jsx代表对象
+
+Babel compiles JSX down to React.createElement() calls.
+
+These two examples are identical:
+
+const element = (
+  <h1 className="greeting">
+    Hello, world!
+  </h1>
+);
+const element = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
+);
+React.createElement() performs a few checks to help you write bug-free code but essentially it creates an object like this:
+
+// Note: this structure is simplified
+const element = {
+  type: 'h1',
+  props: {
+    className: 'greeting',
+    children: 'Hello, world'
+  }
+};
+These objects are called "React elements". You can think of them as descriptions of what you want to see on the screen. React reads these objects and uses them to construct the DOM and keep it up to date.
+
+
+
+
+
+
+
+
+
