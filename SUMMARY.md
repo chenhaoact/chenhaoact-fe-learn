@@ -113,10 +113,10 @@
         * [forever-让nodejs应用在后台永久执行](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/foreverrang-nodejs-ying-yong-zai-hou-tai-yong-jiu-zhi-xing.md)
         * [pm2-比forever更强大而且支持可视化界面监控管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/pm2bi-forever-geng-qiang-da-er-qie-zhi-chi-ke-shi-hua-jie-mian-jian-kong-guan-li.md)
     * [前端工程化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua.md)
-      * 包管理工具
+      * [包管理工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/bao-guan-li-gong-ju.md)
         * [npm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/npm.md)
         * [Yarn](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yarn.md)
-      * 打包构建技术
+      * [打包构建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/da-bao-gou-jian-ji-zhu.md)
         * [Webpack](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack.md)
           * [Webpack1](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack1.md)
           * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)

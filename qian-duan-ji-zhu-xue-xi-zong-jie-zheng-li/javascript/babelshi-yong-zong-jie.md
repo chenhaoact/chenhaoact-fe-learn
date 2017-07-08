@@ -1,7 +1,10 @@
 # TODO
 
 ## 一 简介
-Babel 是一个 JavaScript 编译器。可以让今天就用下一代 JavaScript 语法写代码。（可以支持各种环境，如webpack,browserify，gulp等）
+**Babel** 是一个 **JS 编译器**。可以让今天就用下一代 JavaScript 语法写代码并**仍然可以在旧的浏览器中运行**。（可以支持各种环境，如webpack,browserify，gulp等）
+
+
+
 
 ### 1用途
 ####（1）适用场景
