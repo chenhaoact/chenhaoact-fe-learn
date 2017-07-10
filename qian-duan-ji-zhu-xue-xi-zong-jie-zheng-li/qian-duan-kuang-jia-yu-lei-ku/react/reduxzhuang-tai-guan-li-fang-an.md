@@ -1,7 +1,8 @@
+# Redux-状态管理方案
+
 ## 一 Redux简介
 
 Redux 是 JavaScript 状态容器，提供可预测化的状态管理
-
 
 ###动机与目的
  JavaScript 单页应用开发日趋复杂，JavaScript 需要管理比任何时候都要多的 state （状态）。
