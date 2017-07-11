@@ -125,6 +125,7 @@
           * [webpack3](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack3.md)
           * [webpack常用插件中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackchang-yong-cha-jian-zhong-jian-jian.md)
           * [webpack性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua.md)
+            * [代码拆分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/dai-ma-chai-fen.md)
           * [happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
         * [browserify](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/browserify.md)
       * 脚手架资源
