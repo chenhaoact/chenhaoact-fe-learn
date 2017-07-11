@@ -552,6 +552,9 @@ webpack官网中文版
 
 [**https://doc.webpack-china.org/configuration/**](https://doc.webpack-china.org/configuration/)
 
+webpack2.2中文文档
+http://www.css88.com/doc/webpack2
+
 **官方推荐的所有loaders详细介绍**
 
 [https://doc.webpack-china.org/loaders/](https://doc.webpack-china.org/loaders/)
