@@ -80,6 +80,7 @@
         * [react性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactxing-neng-you-hua.md)
         * [Context](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/context.md)
         * [react插件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactcha-jian.md)
+        * mobx-更简单，可扩展的状态管理
       * [react升级](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactsheng-ji.md)
       * [深入React-React源代码详细解读分析](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi.md)
       * [好的React项目脚手架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia.md)
@@ -89,6 +90,7 @@
       * [好的react组件库使用、研究与参与代码贡献](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian.md)
       * React开发中遇到问题的解决整理与技巧方法总结
       * [Redux-状态管理方案](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reduxzhuang-tai-guan-li-fang-an.md)
+      * [mobx-更简单，可扩展的状态管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/mobxgeng-jian-dan-ff0c-ke-kuo-zhan-de-zhuang-tai-guan-li.md)
       * [React-router-路由管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react-routerlu-you-guan-li.md)
         * [路由相关数据获取](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react-routerlu-you-guan-li/lu-you-xiang-guan-shu-ju-huo-qu.md)
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
