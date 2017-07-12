@@ -66,6 +66,9 @@
       * [文章页搭建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wen-zhang-ye-da-jian.md)
       * [自定义滚动条](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zi-ding-yi-gun-dong-tiao.md)
       * [UI组件库参考（组件较全）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
+    * [其他基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu.md)
+      * [W3C标准 ](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/w3c.md)
+      * [json和jsonp](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/jsonhe-jsonp.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
@@ -212,6 +215,7 @@
       * [sketch](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/sketch.md)
     * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
     * [多媒体制作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/duo-mei-ti-zhi-zuo.md)
+    * [项目管理学习与能力培养](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/xiang-mu-guan-li-xue-xi-yu-neng-li-pei-yang.md)
   * [前端技术方案与技术栈](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan.md)
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)
