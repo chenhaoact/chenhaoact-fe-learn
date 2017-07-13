@@ -14,6 +14,9 @@
 
 ## 二 基本概念与技术重点整理
 
+###1 [Sass函数](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/sasshan-shu.md)
+
+
 ## 三 使用实践及案例
 
 ## 
@@ -25,6 +28,7 @@ http://sass-lang.com/
 
 
 ### 2文档
+http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 
 ### 3源码
 
