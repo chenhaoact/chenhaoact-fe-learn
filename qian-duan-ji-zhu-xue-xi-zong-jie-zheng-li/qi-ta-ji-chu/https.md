@@ -18,8 +18,13 @@
 [HTTPS 协议概述
 ](http://www.ruanyifeng.com/blog/2014/02/ssl_tls.html)
 
+[Http和Https的区别
+](http://www.jianshu.com/p/37654eb66b58)
+
 [HTTPS的七个误解（译文）
 ](http://www.ruanyifeng.com/blog/2011/02/seven_myths_about_https.html)
+
+
 
 ##HTTPS升级
 为了升级到 HTTP/2 协议，必须先启用 HTTPS。
