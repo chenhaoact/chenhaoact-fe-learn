@@ -8,7 +8,7 @@
 - 阿里国际UED: http://www.aliued.com/
 - Alinode: http://alinode.aliyun.com/blog
 - TmallFE (天猫前端): https://tmallfe.github.io/
-- THX (阿里妈妈 MUX): http://thx.github.io/
+- THX (阿里妈妈前端团队 MUX): http://thx.github.io/
 
 ##### 腾讯 ( Tencent )
 
