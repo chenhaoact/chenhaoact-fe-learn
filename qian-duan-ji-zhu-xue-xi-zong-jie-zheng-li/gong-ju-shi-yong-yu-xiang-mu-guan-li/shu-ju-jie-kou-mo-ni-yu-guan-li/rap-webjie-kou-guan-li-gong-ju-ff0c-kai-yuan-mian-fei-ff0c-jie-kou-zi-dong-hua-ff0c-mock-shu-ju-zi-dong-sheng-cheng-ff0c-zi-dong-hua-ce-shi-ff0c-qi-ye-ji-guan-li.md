@@ -4,3 +4,6 @@ Web接口管理工具，开源免费，接口自动化，MOCK数据自动生成�
 http://rapapi.org
 
 https://github.com/thx/RAP
+
+https://thx.github.io/RAP/
+
