@@ -183,7 +183,7 @@
     * 计算机网络
       * HTTP
         * [HTTP1和HTTP2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/http.md)
-        * https
+        * [HTTPS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/https.md)
   * [前沿技术探索研究与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)

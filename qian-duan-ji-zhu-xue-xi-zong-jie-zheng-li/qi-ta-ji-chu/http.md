@@ -1,6 +1,10 @@
 #HTTP1基础
 
-那么客户端是如何取得服务端的这些资源的？它们之间的通信是怎样的？
+#什么是http?
+HTTP 是基于 **TCP/IP 协议的应用层协议**。它不涉及数据包（packet）传输，主要规定了客户端和服务器之间的通信格式。
+
+
+##客户端是如何取得服务端的这些资源的？它们之间的通信是怎样的？
 
 侧重讲讲三个过程：
 
@@ -47,6 +51,9 @@ HTTP 2.0 的出现，相比于 HTTP 1.x，**大幅提升了 web 性能**。在**
 
 
 相关资源：
+HTTP 协议入门 （阮一峰）
+http://www.ruanyifeng.com/blog/2016/08/http.html
+
 [Gitbook 《HTTP2 讲解》
 ](https://ye11ow.gitbooks.io/http2-explained/content/)
 
