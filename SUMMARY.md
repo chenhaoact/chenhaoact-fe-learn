@@ -184,6 +184,7 @@
       * HTTP
         * [HTTP1和HTTP2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/http.md)
         * [HTTPS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/https.md)
+        * [WebSocket](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/websocket.md)
   * [前沿技术探索研究与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
