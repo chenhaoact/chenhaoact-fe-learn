@@ -173,3 +173,24 @@ ReactDOM.render(<HelloMessage name="Sebastian" />, mountNode);
 
 **在理想世界里，你的大多数组件都应该是无状态函数，因为将来我们可能会用避免不必要的检查和内存分配的方式来对这些组件进行优化。 如果可能，这是推荐的模式**。
 
+####（5）组件继承与改写
+
+
+##### 1) super(props)
+```
+constructor(props) {
+// super什么意思
+super(props);
+...
+}
+
+```
+
+就时调用了父类的构造函数，因为我们知道**react希望把所有props， state的定义尽量放到父类中进行**，所以我们需要在**子类中调用父类构造函数来使用这些值**。
+
+**子类必须在constructor方法中调用super方法，否则新建实例时会报错**。这是因为**子类没有自己的this对象，而是继承父类的this对象，然后对其进行加工**。如果**不调用super方法，子类就得不到this对象**。
+
+可以看下es6的class:
+http://es6.ruanyifeng.com/#docs/class
+
+

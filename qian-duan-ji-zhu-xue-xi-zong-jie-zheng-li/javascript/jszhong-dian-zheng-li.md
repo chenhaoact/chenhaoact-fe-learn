@@ -54,6 +54,9 @@ JavaScript全栈教程（廖雪峰）
 深入理解JavaScript系列（汤姆大叔）  
 [http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)
 
+MDN JavaScript 参考文档
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference
+
 JavaScript奇技淫巧44招  
 [http://forums.fami2u.com/t/javascript-44/77](http://forums.fami2u.com/t/javascript-44/77)
 
