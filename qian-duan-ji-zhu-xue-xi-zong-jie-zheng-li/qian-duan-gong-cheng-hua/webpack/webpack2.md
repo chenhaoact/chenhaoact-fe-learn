@@ -542,7 +542,7 @@ module.loaders 改为 module.rules;
 
 webpack官网中文版
 
-[https://doc.webpack-china.org/](https://doc.webpack-china.org/)
+[https://webpack-china.org/](https://webpack-china.org/)
 
 ### 2文档
 
