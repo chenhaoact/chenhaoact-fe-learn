@@ -7,6 +7,7 @@
       * [html重点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian.md)
         * [&lt;table&gt;](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/table.md)
       * [html5重点与新特性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing.md)
+        * [HTML5自定义标签](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/html5zi-ding-yi-biao-qian.md)
       * [canvas（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas.md)
         * [canvas相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku.md)
           * [pixi.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/pixijs.md)
