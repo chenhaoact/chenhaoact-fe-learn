@@ -11,7 +11,7 @@
 
 **会一直更新,如果觉得有帮助,就去github上 star一下吧：**
 
-[https://github.com/chenhaoact/chenhaoact-fe-learn](https://github.com/chenhaoact/chenhaoact-fe-learn)
+[https://github.com/chenhaoact/chenhaoact-fe-learn/blob/master/SUMMARY.md](https://github.com/chenhaoact/chenhaoact-fe-learn/blob/master/SUMMARY.md)
 
 ## 二 关于我
 
