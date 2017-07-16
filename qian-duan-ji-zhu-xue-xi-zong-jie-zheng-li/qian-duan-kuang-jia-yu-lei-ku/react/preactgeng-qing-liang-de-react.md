@@ -73,6 +73,38 @@ Preact 没尝试去包括 React 的每一个特性，是因为它想保持 轻�
 对于 Preact 和 [preact-compat](https://github.com/developit/preact-compat)， 版本兼容通过 current 和 previous 主要的 React 发布去衡量。**当新的特性被 React 团队公布的时候，若考虑到项目目标如果非常合理，它们可能会被添加到 Preact 的核心当中**。
 
 ## 二 基本概念与技术重点整理
+### （1）组件
+Preact 中有两种组件（和React类似）：
+
+#### a. 传统的组件：（带有生命周期方法和状态）
+
+```
+class Link extends Component {
+    render(props, state) {
+        return <a href={props.href}>{ props.children }</a>;
+    }
+}
+
+```
+
+注意，这里就用到了**PReact可以直接在render中传入props和state**的特性，从一定程度上简化了写法，提升了可读性。
+
+#### b. 无状态的函数式组件：本质上是接受 props 并返回 JSX 的函数
+
+
+
+```
+const Link = ({ children, ...props }) => (
+    <a {...props}>{ children }</a>
+);
+
+```
+
+
+这个组件没有 state（只传了state）－某些情况下，**我们希望传递相同的 props 来渲染组件，并得到相同的结果。无状态的函数式组件往往是最好的选择**。无状态的函数式组件只是一种函数，接受 props 参数并返回 JSX。
+
+
+
 
 ### （2）组件生命周期
 
