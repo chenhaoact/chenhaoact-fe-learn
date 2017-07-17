@@ -20,4 +20,5 @@ topic:javascript
 [https://gist.github.com/zxhfighter/62847a087a2a8031fbdf
 ](https://gist.github.com/zxhfighter/62847a087a2a8031fbdf)
 
-
+如何用好 github 中的 watch、star、fork
+http://www.jianshu.com/p/6c366b53ea41
