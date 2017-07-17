@@ -1,5 +1,9 @@
 # TODO
 
+
+目前主要有[Caffe](https://github.com/BVLC/caffe)、[CNTK](https://github.com/Microsoft/CNTK)、[TensorFlow](https://github.com/tensorflow/tensorflow)、[Theano](https://github.com/Theano/Theano)和[Torch](https://github.com/torch/torch7)等深度学习工具
+
+
 ## 一 简介
 
 ### 1用途
@@ -31,6 +35,8 @@
 官方教程：
 
 其他教程：
+[深度学习框架的评估与比较
+](http://www.infoq.com/cn/news/2016/01/evaluation-comparison-deep-learn)
 
 ### 5工具与资源
 
