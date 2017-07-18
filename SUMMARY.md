@@ -181,6 +181,7 @@
         * [moment.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/momentjs.md)
       * [数据类型与算法类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku.md)
         * [lodash](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash.md)
+          * [loadsh常用方法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
