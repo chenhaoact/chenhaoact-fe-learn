@@ -14,11 +14,13 @@
 
 ## 二 基本概念与技术重点整理
 
-### （1）[js dom 常用方法与属性整理](//qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+### （1）[js dom](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li.md)
 
-### （2）[js 事件 常用方法与属性整理](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+### （2）[js 事件](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
 
-### （3）[js Array 常用方法与属性整理](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-array-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+### （3）[js Array](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-array-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+
+### （4）[js 对象](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
 
 
 ## 三 使用实践及案例
