@@ -78,6 +78,10 @@
     * [其他基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu.md)
       * [W3C标准 ](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/w3c.md)
       * [json和jsonp](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/jsonhe-jsonp.md)
+      * js模块化规范
+        * [CommonJS规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)
+          * [CommonJS module对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan/moduledui-xiang.md)
+        * [AMD规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
