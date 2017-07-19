@@ -1,10 +1,11 @@
 #组件的继承扩展与多态
 
-## 组件继承基础 (用extends ，然后在新组件内重写或添加扩展方法)
+## 组件继承基础 (用extends ，然后在新组件内重写或添加扩展方法，constructor（）要写,react要引入)
 
 
 ```
-import A from '../components/a';
+import React from 'react';
+import A from '../components/a';
 
 class B extends A {
 
@@ -22,7 +23,7 @@ return (<div>
 ...
 {this.renderHead()}         
  </div>);  
-}
+}
 
 }
 
