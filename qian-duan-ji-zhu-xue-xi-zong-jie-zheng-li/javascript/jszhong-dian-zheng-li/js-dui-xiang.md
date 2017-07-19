@@ -9,4 +9,61 @@
 
 ## js Array 常用方法与属性整理
 
+### （2）对象之间的比较
+
+#### a.判断对象字面属性与值是否相等
+
+基本类型string,number通过值来比较，而对象（Date,Array）及普通对象**通过指针指向的内存中的地址来做比较**。用===是判断不出来仅仅字面的属性和值相等的对象的。
+
+Underscore和**LoDash有一个名为_.isEqual()方法**，可用来**比较好的处理深度对象的比较（定义时候字面属性及值相等就会返回true）**。
+
+参考：
+Javascript 判断对象是否相等
+http://www.zuojj.com/archives/775.html
+
+#### b.数组中是否包含某对象（仅字面属性和值匹配）
+
+不用 数组.includes()或者 数组.indexOf()  (只能用到字符或数值等基础类型的包含判断)
+用 loadsh 的 _.findIndex()
+
+```
+let arrA = [{a:1,b:2},{b:1,c:1}];
+
+
+_.findIndex(arrA,{a:1,b:2}) // 0
+_.findIndex(arrA,{b:1,c:1}) // 1
+_.findIndex(arrA,{a:1,b:1}) // -1
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
