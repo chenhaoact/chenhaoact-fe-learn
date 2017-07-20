@@ -7,4 +7,16 @@ unshift()
 
 arrayObject.unshift(newelement1,newelement2,....,newelementX)
 
+### 排序
+
+
+```
+arrayObject.sort(sortby)
+
+```
+
+
+sortby	可选。规定排序顺序。**必须是函数**。
+
+
 
