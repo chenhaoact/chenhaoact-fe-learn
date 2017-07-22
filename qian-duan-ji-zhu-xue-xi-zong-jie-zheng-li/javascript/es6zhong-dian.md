@@ -23,6 +23,7 @@
 ### 1官网
 ecmascript标准委员会指定的ecmascript语言标准（js标准，实时更新）
 https://github.com/tc39/ecma262
+https://tc39.github.io/ecma262/
 
 ### 2文档
 
