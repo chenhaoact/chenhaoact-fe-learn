@@ -19,3 +19,8 @@ http://blog.csdn.net/wolinxuebin/article/details/7615098
 **rem**是指**相对于根元素的字体大小的单位**。简单的说它就是一个相对单位。看到rem大家一定会想起em单位，**em**是**相对于父元素的字体大小的单位**。它们之间其实很相似，只不过一个计算的规则是依赖根元素一个是依赖父元素计算。
 
 https://isux.tencent.com/web-app-rem.html
+
+### flex 布局
+
+[Flex 布局教程：语法篇
+（阮一峰）](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
