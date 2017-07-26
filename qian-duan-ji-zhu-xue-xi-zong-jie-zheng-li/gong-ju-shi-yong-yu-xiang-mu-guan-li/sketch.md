@@ -10,3 +10,6 @@ http://sketchtoolbox.com/
 
 Marketch 将sketch转为html页面并能看到各个元素的css样式的插件：
 https://github.com/tudou527/marketch
+
+直接从sketch中复制css样式或svg
+http://sketch.im/assets/css/
