@@ -126,6 +126,7 @@
       * React Native
       * 好的React Native项目脚手架
         * [create-react-native-app](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native/create-react-native-app.md)
+    * [微信小程序](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/wei-xin-xiao-cheng-xu.md)
     * [移动端页面技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu.md)
       * [移动端页面基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/yi-dong-duan-ye-mian-ji-chu.md)
       * [zepto-移动端的jquery](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/zeptoyi-dong-duan-de-jquery.md)
@@ -182,14 +183,7 @@
       * [enzyme](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/enzyme.md)
       * [Travis CI-开源持续集成构建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/travis-cikai-yuan-chi-xu-ji-cheng-gou-jian.md)
       * [Codecov-开源的测试结果展示平台，将测试结果可视化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/codecovkai-yuan-de-ce-shi-jie-guo-zhan-shi-ping-tai-ff0c-jiang-ce-shi-jie-guo-ke-shi-hua.md)
-    * 其他常用类库
-      * [时间类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku.md)
-        * [moment.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/momentjs.md)
-      * [数据类型与算法类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku.md)
-        * [lodash](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash.md)
-          * [loadsh常用方法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)
-      * 同步异步处理类库
-        * [q.js-A promise library for JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qjs.md)
+    * [微信小程序](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/wei-xin-xiao-cheng-xu.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
