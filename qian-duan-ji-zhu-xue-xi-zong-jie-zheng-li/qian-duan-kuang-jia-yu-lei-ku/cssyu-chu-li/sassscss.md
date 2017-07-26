@@ -46,7 +46,8 @@ http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 
 
 其他教程：
-
+[SASS用法指南(阮一峰)
+](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 sass中国(推荐)
 http://sass.bootcss.com/http://sass.bootcss.com/docs/sass-reference/
 
