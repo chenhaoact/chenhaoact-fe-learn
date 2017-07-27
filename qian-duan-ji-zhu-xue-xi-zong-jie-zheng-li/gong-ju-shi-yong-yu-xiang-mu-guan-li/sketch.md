@@ -13,3 +13,6 @@ https://github.com/tudou527/marketch
 
 直接从sketch中复制css样式或svg
 http://sketch.im/assets/css/
+
+导出图层或切片为图片
+https://www.sketchs.cn/manual/detail/216.html
