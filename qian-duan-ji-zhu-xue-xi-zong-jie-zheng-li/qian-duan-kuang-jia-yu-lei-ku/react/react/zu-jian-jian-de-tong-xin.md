@@ -39,7 +39,35 @@ class Parent extends React.Component{
 [ReactJS组件见沟通的一些方法
 ](http://www.alloyteam.com/2016/01/some-methods-of-reactjs-communication-between-components/)
 
+## refs
+
+ref可以被看作是一个组件的参考，也可以说是一个标识。作为组件的属性，其属性值可以是一个字符串也可以是一个函数。
+
+有几个场景使用这种方式是有益的：查找渲染出的组件的DOM标记（可以认为是DOM的标识ID），在一个大型的非React应用中使用React组件或者是将你现有的代码转化成React。
+
+下面的例子经常被用于ref的讲解，可见下面描述的场景应该是比较经典的）：通过某个事件使`<input />`元素的值被设为空字符串，然后使该`<input />`元素获得焦点。
 
 
+ref加字符串作为属性：
 
+React支持一个特殊的属性，你可以将这个属性加在任何通过render()返回的组件中。这也就是说对render()返回的组件进行一个标记，可以方便的定位的这个组件实例。这就是ref的作用。
+
+ref的形式如下
+
+```
+<input ref="myInput" />
+```
+
+**要想访问这个实例，可以通过this.refs来访问：
+**
+
+```
+this.refs.myInput
+
+```
+
+先前版本中，我们可以通过React.findDOMNode(this.refs.myInput)**来访问组件的DOM**。但现在，已经放弃了findDOMNode函数了，**可以直接使用this.refs.myInput来进行访问**。
+
+参考：
+[React组件refs详解](http://www.onmpw.com/tm/xwzj/web_154.html)
 
