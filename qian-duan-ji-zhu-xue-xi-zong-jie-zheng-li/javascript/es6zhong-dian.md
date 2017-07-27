@@ -8,11 +8,11 @@
 
 ## 二 基本概念与技术重点整理
 
-### （1）模块
+### （1）[模块](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
 
-[模块](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
+### （2）[面向对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
 
-###
+### （3）[异步编程](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/yi-bu-bian-cheng.md)
 
 ## 三 使用实践及案例
 
