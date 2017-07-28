@@ -8,7 +8,15 @@
 
 topic:javascript
 
-##
+## 用好Github来阅读项目源代码
+### 通过某分枝的Commit记录看整个项目分枝的提交记录
+项目切刀某分枝在首页可以看到该分支项目总的提交更新历史，查看这里可以理清楚项目从0到1是如何搭建和迭代的，对阅读了理解源码很有帮助。（**建议这样通过Commit记录从项目0点开始看项目的搭建来阅读源码，而不是一下子就看目前最新的代码是怎样的，代码量太大没有先后时间顺序，看起来会比较乱**）
+
+### 通过History查看某个文件所有的修改记录
+github打开每个文件的详情页，在**右上角有该文件的History，点击可以看到这个文件所有的修改记录**，通过此功能可以追踪到某个文件的历史，方便定位该文件提交中的作用以及定位bug。
+
+
+## GitHub 上参与开源项目贡献
 在 GitHub 上贡献开源项目的一般步骤
 [https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md](https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md)
 
