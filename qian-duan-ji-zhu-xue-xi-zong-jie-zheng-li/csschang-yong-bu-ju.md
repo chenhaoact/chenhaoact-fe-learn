@@ -20,7 +20,4 @@ http://blog.csdn.net/wolinxuebin/article/details/7615098
 
 https://isux.tencent.com/web-app-rem.html
 
-### flex 布局
-
-[Flex 布局教程：语法篇
-（阮一峰）](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
+### 2. [flex 布局](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/flex-bu-ju.md)
