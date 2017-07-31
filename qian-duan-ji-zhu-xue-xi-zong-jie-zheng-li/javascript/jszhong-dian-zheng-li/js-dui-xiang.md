@@ -35,6 +35,31 @@ _.findIndex(arrA,{b:1,c:1}) // 1
 _.findIndex(arrA,{a:1,b:1}) // -1
 ```
 
+### （3）js 对象的浅拷贝和深拷贝
+
+[javascript中的深拷贝和浅拷贝？
+](https://www.zhihu.com/question/23031215)
+
+[JavaScript中的浅拷贝和深拷贝
+](https://segmentfault.com/a/1190000008637489)
+
+**数组里增加对象要注意**：
+
+**对象的值相当于其引用，不能直接赋值，那样会指向同一个对象**，对一个操作也会影响另一个，需要去仅仅把值拷贝一份给新的对象，再添加到数组中：
+
+```
+//错误
+addedTags.push（originTags[idx]）;
+
+//正确
+let tagToAdd = Object.assign({},originTags[idx])
+tagToAdd.attr1 = true;
+addedTags.push(tagToAdd);
+```
+
+
+
+
 
 
 
