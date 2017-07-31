@@ -14,6 +14,13 @@
 
 ### （3）[异步编程](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/yi-bu-bian-cheng.md)
 
+### （4）[ES6 对象新特性](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-dui-xiang-xin-te-xing.md)
+
+### （5）[ES6 Array 新特性](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-array-xin-te-xing.md)
+
+### （6）[ES6 函数新特性](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-han-shu-xin-te-xing.md)
+
+
 ## 三 使用实践及案例
 
 ## 
