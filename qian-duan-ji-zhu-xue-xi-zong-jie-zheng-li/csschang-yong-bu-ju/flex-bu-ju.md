@@ -174,13 +174,16 @@ align-self属性允许单个项目有与其他项目不一样的对齐方式，�
 }
 ```
 
+## 四 资源与参考
 
+### 1教程
+#### （1）已学习：
 
-参考：
-[flex-wrap - CSS3参考手册
-](http://www.css88.com/book/css/properties/flex/flex-wrap.htm)
-
-参考：
 [Flex 布局教程：语法篇（阮一峰）](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)
 
+#### （2）学习中：
+
+#### （3）待学习：
 [Flex 布局教程：实例篇（阮一峰）](http://www.ruanyifeng.com/blog/2015/07/flex-examples.html)
+
+[flex-wrap - CSS3参考手册](http://www.css88.com/book/css/properties/flex/flex-wrap.htm)
