@@ -91,6 +91,44 @@ arrayObject.unshift(newelement1,newelement2,....,newelementX)
 
 http://www.w3school.com.cn/jsref/jsref_unshift.asp
 
+### join()
+
+把数组中的所有元素放入一个字符串。
+元素是通过指定的分隔符进行分隔。
+
+
+
+```
+arrayObject.join(separator)
+```
+
+参数	描述
+separator	可选。指定要使用的分隔符。如果省略该参数，则使用逗号作为分隔符。
+
+
+### toString()
+把数组转换为字符串，并返回结果。
+数组中的元素之间用逗号分隔。
+返回值与没有参数的 join() 方法返回的字符串相同。
+
+```
+arrayObject.toString()
+```
+
+实例：
+
+```
+var arr = new Array(3)
+arr[0] = "George"
+arr[1] = "John"
+arr[2] = "Thomas"
+
+document.write(arr.toString()) //输出：George,John,Thomas
+```
+
+
+
+
 
 
 
