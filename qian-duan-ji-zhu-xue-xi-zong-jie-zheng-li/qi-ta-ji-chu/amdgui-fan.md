@@ -30,6 +30,7 @@
 ## 四 资源与参考
 
 ### 1官网
+[amdjs-api](https://github.com/amdjs/amdjs-api)
 
 ### 2文档
 
@@ -37,12 +38,10 @@
 
 ### 4教程
 #### （1）已学习：
-AMD (中文版)
-https://github.com/amdjs/amdjs-api/wiki/AMD-(%E4%B8%AD%E6%96%87%E7%89%88)
 
-Javascript模块化编程（二）：AMD规范
-http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html
+[Javascript模块化编程（一）：模块的写法(阮一峰)](http://www.ruanyifeng.com/blog/2012/10/javascript_module.html)
 
+[Javascript模块化编程（二）：AMD规范 (阮一峰)](http://www.ruanyifeng.com/blog/2012/10/asynchronous_module_definition.html)
 
 #### （2）学习中：
 
