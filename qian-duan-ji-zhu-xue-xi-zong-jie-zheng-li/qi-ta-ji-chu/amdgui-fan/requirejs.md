@@ -48,6 +48,7 @@
 
 **当require()函数加载上面这个模块的时候，就会先加载依赖的模块**（myLib.js文件）。
 
-参考：
+## 参考：
 
+### 已学习
 [Javascript模块化编程（三）：require.js的用法](http://www.ruanyifeng.com/blog/2012/11/require_js.html)
