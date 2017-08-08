@@ -1,16 +1,24 @@
 # 学习计划与待学习内容
 
-# 
+前端培训1课后需要补充的：
+浏览器渲染过程，html渲染为界面的过程？
+
+那些标签是行内块元素，行内元素，块元素？
+
+es6的面向对象
+
+浏览器事件机制
+
+js异步（回调函数，promise）
+
+
 
 ## 一 学习计划
 
-4.23 photoscan软件建模使用
-
-4.24 a-frame
 
 ## 二 待学习内容
 
-学习webpack2,结合按需加载 发ata
+学习webpack3,结合按需加载 发ata
 
 学习总结yarn,发博客
 
@@ -20,9 +28,10 @@
 
 学习webVR   [https://webvr.info/developers/](https://webvr.info/developers/)  几种主流的技术，发ata并用在毕设中
 
-学习unity,结合建模,发ata
+
 
 npm包的发布
+
 
 学习pm2使用，了解其监控和可是化控制台监控Keymetrics，并整理到nodejs/常用.../pm2，发博客和ata
 

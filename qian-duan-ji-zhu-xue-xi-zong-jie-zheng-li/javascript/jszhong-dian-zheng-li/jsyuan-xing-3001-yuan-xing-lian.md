@@ -81,7 +81,31 @@ function Cat(name,color){
 
 ### 3. Prototype模式（原型模式）
 
+#### Prototype（原型的定义） ！重点！
+**JS的每个构造函数（注意是构造函数！）都有一个prototype属性，指向另一个对象（其所有属性和方法，都会被构造函数的实例继承）。**
 
+**可以把共同的属性和方法，直接定义在prototype对象上。**
+
+```
+function Cat(name,color){
+　　　　this.name = name;
+　　　　this.color = color;
+　　}
+　　Cat.prototype.type = "猫科动物";
+　　Cat.prototype.eat = function(){alert("吃老鼠")};
+```
+
+生成实例：
+
+```
+var cat1 = new Cat("大毛","黄色");
+　　var cat2 = new Cat("二毛","黑色");
+　　alert(cat1.type); // 猫科动物
+　　cat1.eat(); // 吃老鼠
+```
+
+
+这时所有实例的type属性和eat()方法，其实都是同一个内存地址，指向prototype对象，因此就提高了运行效率。
 
 
 

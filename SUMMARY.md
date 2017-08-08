@@ -50,6 +50,7 @@
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
         * [js dom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+        * [js bom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom.md)
         * [js 事件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
         * [js Array](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-array-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
         * [js 对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
