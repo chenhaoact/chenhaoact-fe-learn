@@ -22,6 +22,10 @@
 
 ### （4）[js 对象](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
 
+### [js原型、原型继承与非ES6的面向对象编程](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyuan-xing-3001-yuan-xing-lian.md)
+
+### [js JSON对象](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-jsondui-xiang.md)
+
 
 ## 三 使用实践及案例
 

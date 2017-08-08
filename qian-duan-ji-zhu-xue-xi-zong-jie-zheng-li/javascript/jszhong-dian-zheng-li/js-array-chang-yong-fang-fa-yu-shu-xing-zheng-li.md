@@ -1,7 +1,6 @@
 # js Array
 ## js Array 属性与常用方法整理
 
-
 ## 1. 属性
 
 ### length
