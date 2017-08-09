@@ -151,12 +151,11 @@ React 技术栈系列教程（阮一峰）
 [http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html](http://www.ruanyifeng.com/blog/2016/09/react-technology-stack.html)
 
 react官方推荐的articles and videos  
-[https://github.com/facebook/react/wiki/Articles-and-Videos    
-](https://github.com/facebook/react/wiki/Articles-and-Videos)  
+[https://github.com/facebook/react/wiki/Articles-and-Videos    ](https://github.com/facebook/react/wiki/Articles-and-Videos)  
+
 React学习资源汇总
 
-[https://github.com/facebook/react/wiki/Examples    
-](https://github.com/facebook/react/wiki/Examples)
+[https://github.com/facebook/react/wiki/Examples](https://github.com/facebook/react/wiki/Examples)
 
 [https://github.com/tsrot/study-notes/blob/master/React学习资源汇总.md](https://github.com/tsrot/study-notes/blob/master/React学习资源汇总.md)
 

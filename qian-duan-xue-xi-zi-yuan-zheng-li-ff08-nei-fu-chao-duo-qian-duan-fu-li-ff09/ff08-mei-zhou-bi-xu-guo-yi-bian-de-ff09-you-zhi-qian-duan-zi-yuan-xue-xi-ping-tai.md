@@ -10,6 +10,11 @@
 知乎专栏前端周刊：  
 [https://zhuanlan.zhihu.com/feweekly](https://zhuanlan.zhihu.com/feweekly)
 
+**好的前端方面的知乎专栏**
+[pure render - 分享关于 React 相关经验及发展动态](https://zhuanlan.zhihu.com/purerender)
+
+
+
 **其他平台推荐过一遍：**
 
 前端乱炖
