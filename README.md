@@ -25,6 +25,10 @@ github:
 
 [https://github.com/chenhaoact](https://github.com/chenhaoact)
 
+github上的技术博客
+
+[https://github.com/chenhaoact/blog/issues](https://github.com/chenhaoact/blog/issues)
+
 简书文章主页：
 
 [http://www.jianshu.com/u/baaf11ec7039](http://www.jianshu.com/u/baaf11ec7039)

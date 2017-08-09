@@ -51,45 +51,39 @@ git remote add upstream 官方项目仓库.git
 执行上面git remote命令后，再执行：
 
 ```
-git branch --set-upstream-to=upstream/master master
-
-```
-
-当上游 master 有改动后，只需在本地 master 分支 git pull 即可。然后再在自己的dev分枝上合并自己的master即可更新。
-
-**（2）非长期参与同步方法：**
-执行上面git remote命令后，再执行：
-
-```
  git remote -v  //用来观察改动
 
 ```
- 
-若想同步原项目的改动，执行
+
+
+同步原项目的改动，执行
 
 ```
   git fetch upstream 
 
 ```
- 
+
 这会将原项目所有分支的改动都存储在本地。
 
-原项目 master 分支会存为 upstream/master，如想将上游 master 的改动合并到本地，先切换到 master 分支 
+原项目 master 分支会存为 upstream/master
+
+
+再执行：
 
 ```
-git checkout master
+git branch --set-upstream-to=upstream/master master
 
 ```
 
-再执行合并：
+**这样每次当上游 master 有改动后，只需在本地 master 分支 git pull 即可。然后再在自己的dev分枝上合并自己的master即可更新。**
 
-```
-git merge upstream/master 
-
-```
 同理可以按需要处理 develop 分支等。
 
+### 4. 开发分枝
+借鉴 Git Flow 的流程。在 master 外，建立一个 develop 分支用于开发，而且，每一个新特性的开发都会从 develop 分支创建新分支，新特性开发完成后再合并到 develop 分支。
 
+
+### 5. pull request
 
 参考：
 
