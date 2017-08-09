@@ -17,6 +17,15 @@ github打开每个文件的详情页，在**右上角有该文件的History，�
 
 
 ## GitHub 上参与开源项目贡献
+
+### Fork
+相当于在原项目的主分支上又建立了一个分支，你可以在该分支上任意修改，如果想将你的修改合并到原项目中时，可以pull request，这样原项目的作者就可以将你修改的东西合并到原项目的主分支上去。
+
+
+
+
+参考：
+
 在 GitHub 上贡献开源项目的一般步骤
 [https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md](https://github.com/nixzhu/dev-blog/blob/master/2016-02-17-contribute-on-github.md)
 
@@ -30,3 +39,15 @@ github打开每个文件的详情页，在**右上角有该文件的History，�
 
 如何用好 github 中的 watch、star、fork
 http://www.jianshu.com/p/6c366b53ea41
+
+
+
+
+
+
+
+
+
+
+
+
