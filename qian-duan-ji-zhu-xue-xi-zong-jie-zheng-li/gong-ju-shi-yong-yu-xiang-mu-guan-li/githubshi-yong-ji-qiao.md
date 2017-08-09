@@ -18,17 +18,76 @@ github打开每个文件的详情页，在**右上角有该文件的History，�
 
 ## GitHub 上参与开源项目贡献
 
-### Fork
+### 1. Fork
 项目右上角点击Fork。
 
 相当于在原项目的主分支上又建立了一个分支，你可以在该分支上任意修改，如果想将你的修改合并到原项目中时，可以pull request，这样原项目的作者就可以将你修改的东西合并到原项目的主分支上去。
 
-### Clone
+### 2. Clone
 
-从自己github仓库git clone自己fork的项目到本地。
+从自己github仓库git clone自己fork的项目到本地：
+
+如：
 
 
+```
+git clone https://github.com/chenhaoact/react.git
 
+```
+
+
+### 3. 保持同步
+
+先在本地项目中，运行 
+
+```
+git remote add upstream 官方项目仓库.git
+```
+
+将原项目作为了本地项目的上游。
+
+**（1）长期参与同步方法（推荐）：**
+
+执行上面git remote命令后，再执行：
+
+```
+git branch --set-upstream-to=upstream/master master
+
+```
+
+当上游 master 有改动后，只需在本地 master 分支 git pull 即可。然后再在自己的dev分枝上合并自己的master即可更新。
+
+**（2）非长期参与同步方法：**
+执行上面git remote命令后，再执行：
+
+```
+ git remote -v  //用来观察改动
+
+```
+ 
+若想同步原项目的改动，执行
+
+```
+  git fetch upstream 
+
+```
+ 
+这会将原项目所有分支的改动都存储在本地。
+
+原项目 master 分支会存为 upstream/master，如想将上游 master 的改动合并到本地，先切换到 master 分支 
+
+```
+git checkout master
+
+```
+
+再执行合并：
+
+```
+git merge upstream/master 
+
+```
+同理可以按需要处理 develop 分支等。
 
 
 
