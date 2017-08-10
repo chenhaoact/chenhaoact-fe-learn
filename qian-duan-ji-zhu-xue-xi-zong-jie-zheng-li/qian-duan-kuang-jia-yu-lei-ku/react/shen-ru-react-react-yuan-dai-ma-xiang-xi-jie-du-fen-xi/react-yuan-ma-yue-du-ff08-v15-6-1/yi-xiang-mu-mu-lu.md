@@ -1,4 +1,4 @@
-## 项目目录
+## 一 项目目录
 
 从https://github.com/facebook/react git clone 源代码到本地，打开看到如下目录：
 
@@ -94,27 +94,11 @@ react构建时在此目录基础下进行生产，可以看到这里的目录结
 ![](/assets/WX20170810-113357@2x.png)
 
 
-**最后，回到源码src目录:**
-
 ### src目录（读源码重点！）
 
 目录如下：
 
 ![](/assets/WX20170809-161727@2x.png)
-
-#### ReactVersion.js
-
-此文件定义React的版本：
-
-![](/assets/WX20170809-162034@2x.png)
-
-
-
-
-
-
-
-
 
 
 
