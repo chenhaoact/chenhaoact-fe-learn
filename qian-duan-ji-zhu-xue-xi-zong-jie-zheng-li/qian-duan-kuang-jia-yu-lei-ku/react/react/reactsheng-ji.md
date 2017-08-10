@@ -6,7 +6,7 @@ React.createClass 和React.PropTypes在react16将不再支持，需要用其他�
 
 react16. 是一个重大升级，包括了一些重写
 
-升级到react16：
+升级到react16见：
 
-TODO
+## [React 16](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactsheng-ji/react-16.md)
 
