@@ -4,6 +4,12 @@
 
 ![](/assets/WX20170810-115251@2x.png)
 
+打开scripts/rollup/build.js：
+
+![](/assets/WX20170810-135507@2x.png)
+
+这里主要用到了[rollup](https://github.com/rollup/rollup) (Next-generation ES6 module bundler http://rollupjs.org)进行es6模块的打包处理。
+
 
 
 
