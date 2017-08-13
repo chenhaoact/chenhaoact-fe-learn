@@ -20,6 +20,8 @@
 
 ### （6）[ES6 函数新特性](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-han-shu-xin-te-xing.md)
 
+### （7）[ES6 RegExp（正则表达式）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
+
 
 ## 三 使用实践及案例
 
