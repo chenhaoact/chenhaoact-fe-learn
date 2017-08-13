@@ -61,7 +61,9 @@
         * prepack——优化js源代码的工具提高js代码的效率
       * [ES6重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian.md)
         * [模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
-        * [ES6面向对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
+        * [ES6面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
+          * [ES6 class基本语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa.md)
+          * [ES6 class继承](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng.md)
         * [异步编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/yi-bu-bian-cheng.md)
         * [ES6 对象新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-dui-xiang-xin-te-xing.md)
         * [ES6 Array 新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-array-xin-te-xing.md)

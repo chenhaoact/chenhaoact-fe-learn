@@ -190,13 +190,106 @@ alert(cat1.species); // 动物
 **这会导致继承链的紊乱（实例cat1明明是用构造函数Cat生成的）**，因此必须手动纠正，将Cat.prototype对象的constructor值改为Cat（第二行，很重要，编程时务必要遵守）。
 
 **即时刻遵守：**
-如果替换了prototype对象，下一步必然是为新的prototype对象加上constructor属性，指回原来的构造函数：
+**如果替换了prototype对象，下一步必然是为新的prototype对象加上constructor属性，指回原来的构造函数**：
 
 ```
-o.prototype = {};
+o.prototype = ... ;
 o.prototype.constructor = o;
 ```
 
+## 二 非构造函数的继承
+
+例：
+现在有一对象"中国人"。
+
+
+```
+　　var Chinese = {
+　　　　nation:'中国'
+　　};
+```
+
+还有一对象"医生"。
+
+
+```
+　　var Doctor ={
+　　　　career:'医生'
+　　}
+
+```
+
+怎样才能让"医生"去继承"中国人"，生成"中国医生"的对象？
+这**两个对象都是普通对象，不是构造函数，无法使用构造函数方法实现"继承"**。
+
+### 方法1：使用object()方法
+
+object()方法
+
+```
+function object(o) {
+　　　　function F() {}
+　　　　F.prototype = o;
+　　　　return new F();
+　　}
+```
+
+这个object()函数把子对象的prototype属性，指向父对象
+
+使用时，第一步，在父对象基础上，生成子对象：
+
+```
+　　var Doctor = object(Chinese);
+
+```
+
+再加上子对象本身的属性：
+
+
+```
+　　Doctor.career = '医生';
+
+```
+
+这时，子对象已经继承了父对象的属性：
+
+
+```
+　　alert(Doctor.nation); //中国
+```
+
+### 方法2 把父对象的属性，全部拷贝给子对象，也能实现继承。
+
+#### 浅拷贝（不建议）
+这样的拷贝有一个问题：如果父对象的属性等于数组或另一个对象，子对象获得的只是一个内存地址，而不是真正拷贝，因此存在父对象被篡改的可能。
+
+只能拷贝基本类型的数据，这种拷贝叫做"浅拷贝"。
+
+#### 深拷贝（建议）
+**"深拷贝"**，就是能**实现真正意义上的数组和对象的拷贝**。它的实现只要**递归调用"浅拷贝"**就行了。
+
+```
+function deepCopy(p, c) {
+　　　　var c = c || {};
+　　　　for (var i in p) {
+　　　　　　if (typeof p[i] === 'object') {
+　　　　　　　　c[i] = (p[i].constructor === Array) ? [] : {};
+　　　　　　　　deepCopy(p[i], c[i]);
+　　　　　　} else {
+　　　　　　　　　c[i] = p[i];
+　　　　　　}
+　　　　}
+　　　　return c;
+　　}
+```
+
+使用：
+
+
+```
+　　var Doctor = deepCopy(Chinese);
+
+```
 
 
 ## 参考 
@@ -205,14 +298,12 @@ o.prototype.constructor = o;
 Javascript 面向对象编程（一）：封装
 http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html
 
-
-### 未学习
-
 Javascript面向对象编程（二）：构造函数的继承
 http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html
 
 Javascript面向对象编程（三）：非构造函数的继承
 http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance_continued.html
 
+### 未学习
 从__proto__和prototype来深入理解JS对象和原型链
 https://github.com/creeperyang/blog/issues/9

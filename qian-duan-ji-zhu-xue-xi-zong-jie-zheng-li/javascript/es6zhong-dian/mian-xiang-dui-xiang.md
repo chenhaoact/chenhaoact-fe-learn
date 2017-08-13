@@ -1,7 +1,15 @@
 # ES6面向对象
-## super
-一个构造函数**可使用 super 关键字来调用一个父类的构造函数**。
+
+## 一 ES6 的 class(重点！)
+
+### 1. [ES6 class基本语法](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa.md)
+
+### 2. [ES6 class继承](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng.md)
 
 
-[深入浅出ES6（十三）：类 Class](http://www.infoq.com/cn/articles/es6-in-depth-classes)
+## 参考
 
+### 已学习
+
+
+### 待学习
