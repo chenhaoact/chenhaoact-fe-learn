@@ -1,6 +1,6 @@
 # js原型、原型继承与非ES6的面向对象编程
 
-## 一 对象封装
+## 一 对象封装与原型
 
 JS是一种基于对象的语言，遇到的所有东西几乎都是对象。但**在ES6之前**它并不是一种真正的面向对象编程（OOP）语言，因为语法中没有class（类）。
 
@@ -30,7 +30,7 @@ var cat2 = Cat("二毛","黑色");
 
 ### 2. 构造函数模式
 
-**"构造函数"，就是一个普通函数，但内部使用了this变量。对构造函数使用new运算符，就能生成实例，且this变量会绑定在实例对象上。**
+**"构造函数"，就是一个普通函数（函数名首字母大写！），但内部使用了this变量。对构造函数使用new运算符，就能生成实例，且this变量会绑定在实例对象上。**
 
 
 原型对象 实例：
@@ -127,15 +127,86 @@ alert(cat1.hasOwnProperty("name")); // true
 ```
 
 **in运算符**
-a. 可用来判断某实例是否含有某属性，不管是不是本地属性。
+a. **判断某实例是否有某属性，不管是不是本地属性**。
+
+```
+alert("name" in cat1); // true
+
+```
+
+b. **in运算符还可遍历某对象所有属性**:
+
+```
+for(var prop in cat1) { alert("cat1["+prop+"]="+cat1[prop];
+}
+```
+
+## 二 构造函数的继承
+
+### 1. 用prototype模式（常见）
+
+例：
+
+现有"动物"对象的构造函数：
+
+```
+　　function Animal(){
+　　　　this.species = "动物";
+　　}
+
+```
+
+还有"猫"对象的构造函数：
+
+```
+　　function Cat(name,color){
+　　　　this.name = name;
+　　　　this.color = color;
+　　}
+
+```
+
+怎样才能使"猫"继承"动物"？
+
+使用prototype模式：
+
+"猫"的prototype对象，指向一个Animal的实例，那么所有"猫"的实例，就能继承Animal：
+
+```　　
+Cat.prototype = new Animal();
+Cat.prototype.constructor = Cat;
+
+var cat1 = new Cat("大毛","黄色");
+alert(cat1.species); // 动物
+
+```
+
+第一行，将Cat的prototype对象指向一个Animal的实例。
+　
+第二行，由于任何一prototype对象都有constructor属性，指向其构造函数。加了"Cat.prototype = new Animal();"这一行后，Cat.prototype.constructor指向Animal（原来是Cat）。
+
+每一个实例也有constructor属性，默认调用prototype对象的constructor属性。因此实例cat1.constructor也指向Animal！
+　
+**这会导致继承链的紊乱（实例cat1明明是用构造函数Cat生成的）**，因此必须手动纠正，将Cat.prototype对象的constructor值改为Cat（第二行，很重要，编程时务必要遵守）。
+
+**即时刻遵守：**
+如果替换了prototype对象，下一步必然是为新的prototype对象加上constructor属性，指回原来的构造函数：
+
+```
+o.prototype = {};
+o.prototype.constructor = o;
+```
+
 
 
 ## 参考 
 
-### 未学习
-
+### 已学习
 Javascript 面向对象编程（一）：封装
 http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_encapsulation.html
+
+
+### 未学习
 
 Javascript面向对象编程（二）：构造函数的继承
 http://www.ruanyifeng.com/blog/2010/05/object-oriented_javascript_inheritance.html

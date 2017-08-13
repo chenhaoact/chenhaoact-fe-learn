@@ -258,6 +258,9 @@
       * [TensorFlow](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorflow.md)
       * [机器学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi.md)
       * [深度学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi.md)
+      * 浏览器端人工智能技术
+        * [deeplearn.js-浏览器端机器智能框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/deeplearnjs.md)
+        * [tensorfire-利用 GPU 加速的浏览器端深度学习框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorfire.md)
     * [大数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/da-shu-ju.md)
       * 大数据分析
       * 数据挖掘
