@@ -275,6 +275,7 @@
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
       * [sourcetree-git版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/sourcetree-gitban-ben-kong-zhi.md)
+      * [git常用技能整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/gitchang-yong-ji-neng-zheng-li.md)
     * [gitbook——写自己的书](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitbook2014-2014-xie-zi-ji-de-shu.md)
     * [github使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/githubshi-yong-ji-qiao.md)
     * [Gitter-开发者及时通讯交流应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitterkai-fa-zhe-ji-shi-tong-xun-jiao-liu-ying-yong.md)
