@@ -1,47 +1,7 @@
 # 前端技术方案与技术栈
 
-## （1）中型或大型web应用
+## 一 [技术栈选择](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-zhan-xuan-ze.md)
 
-react+webpack2+组价库（如ant-d）
+## 二 [如何更好的技术选型？](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ru-he-geng-hao-de-ji-zhu-xuan-xing-ff1f.md)
 
-项目架构或脚手架可参考：
-
-vue2+webpack2+vue组件库
-
-项目架构或脚手架可参考：
-
-## （2）中型或大型的移动应用
-
-weex
-
-react native更成熟稳定一些
-
-rax （有的react方法事件不支持，不够成熟，有坑）
-
-## （3）小型轻量的活动web页面
-
-jQuery
-
-## （4）小型轻量的移动端页面
-
-推荐**vue2**(轻量，vue-cli脚手架功能完善，易搭建，组件库资源也比较丰富，无论是pc端还是移动端)，和开发单页应用一样，也是在工程环境下构建出一个页面，只不过UI和组件上是移动端的。
-
-react也可以，生态很完整，也可以用**preact**,更轻量的react,移动端上性能会更好一些。
-
-weex
-
-也可以选择zepto，scroll等库
-
-不依赖库，直接纯h5开发也可以，但开发成本会大一些
-## （5）服务端应用
-
-nodejs\(koa2\)
-
-## \(6\)跨平台桌面客户端
-
-electron
-
-## 
-
-
-
+## 三 [如何处理好技术升级？](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-sheng-ji.md)
