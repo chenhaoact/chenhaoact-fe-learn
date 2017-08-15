@@ -15,6 +15,11 @@ topic:javascript
 ### 通过History查看某个文件所有的修改记录
 github打开每个文件的详情页，在**右上角有该文件的History，点击可以看到这个文件所有的修改记录**，通过此功能可以追踪到某个文件的历史，方便定位该文件提交中的作用以及定位bug。
 
+## 发现github热门项目
+点击头像下拉菜单里的explore或进入下列链接
+https://github.com/explore
+
+可以看到本周或本月github热门项目（某时间段star最多）
 
 ## GitHub 上参与开源项目贡献
 
