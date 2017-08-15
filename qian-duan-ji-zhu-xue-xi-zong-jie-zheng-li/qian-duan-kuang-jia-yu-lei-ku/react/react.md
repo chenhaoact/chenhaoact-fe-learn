@@ -26,15 +26,7 @@
 
 [关于jsx](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/guan-yu-jsx.md)
 
-### 3 组件的props
-
-[组件的props](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-de-props.md)
-
-### 4 组件的state
-
-[组件的state](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-de-state.md)
-
-### 5 关于组件
+### 3 关于组件
 
 [关于组件](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/guan-yu-zu-jian.md)
 
