@@ -217,10 +217,10 @@
           * [loadsh常用方法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)
       * [同步异步处理类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/tong-bu-yi-bu-chu-li-lei-ku.md)
         * [q.js-A promise library for JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qjs.md)
-      * 数据图表与可视化
-        * [antv\(蚂蚁金服可视化解决方案\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/antvma-yi-jin-fu-ke-shi-hua-jie-jue-fang-684829.md)
+      * [数据图表与可视化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-tu-biao-yu-ke-shi-hua.md)
         * [highcharts](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/highcharts.md)
         * [echarts](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/echarts.md)
+        * [antv\(蚂蚁金服可视化解决方案\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/antvma-yi-jin-fu-ke-shi-hua-jie-jue-fang-684829.md)
         * [DataV数据可视化-阿里云](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/datava-li-yun.md)
     * 页面自动化搭建技术
       * [Ant Motion-快速在 React 框架中搭建和使用动画](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ant-motionkuai-su-zai-react-kuang-jia-zhong-da-jian-he-shi-yong-dong-hua.md)
@@ -271,7 +271,7 @@
     * 云计算
       * [openstack-开源云计算平台](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/openstack.md)
       * [hadoop-分布式系统基础架构](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/hadoopfen-bu-shi-xi-tong-ji-chu-jia-gou.md)
-    * [物联网lot](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang.md)
+    * [物联网\(loT\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang.md)
       * [树莓派](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang/shu-mei-pai.md)
   * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
@@ -295,6 +295,9 @@
     * [数据接口模拟与管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li.md)
       * [RAP-Web接口管理工具，开源免费，接口自动化，MOCK数据自动生成，自动化测试，企业级管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li/rap-webjie-kou-guan-li-gong-ju-ff0c-kai-yuan-mian-fei-ff0c-jie-kou-zi-dong-hua-ff0c-mock-shu-ju-zi-dong-sheng-cheng-ff0c-zi-dong-hua-ce-shi-ff0c-qi-ye-ji-guan-li.md)
       * [Mock.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li/mockjs.md)
+    * 兼容性测试（浏览器，移动端）
+      * [浏览器兼容性测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/liu-lan-qi-jian-rong-xing-ce-shi.md)
+        * [f2etest-阿里巴巴浏览器测试云平台](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/liu-lan-qi-jian-rong-xing-ce-shi/f2etest.md)
   * [前端技术方案与技术栈](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan.md)
     * [技术栈选择](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-zhan-xuan-ze.md)
     * [如何更好的技术选型？](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ru-he-geng-hao-de-ji-zhu-xuan-xing-ff1f.md)
