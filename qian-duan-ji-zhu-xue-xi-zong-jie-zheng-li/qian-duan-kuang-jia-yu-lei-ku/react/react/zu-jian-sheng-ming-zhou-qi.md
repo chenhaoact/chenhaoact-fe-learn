@@ -30,3 +30,7 @@ componentDidUpdate\(object prevProps, object prevState\) 在**更新发生后被
 
 componentWillUnmount\(\) 在组件**被卸载和摧毁前被立即调用。清理应该放在这里。**
 
+### 常用实例
+
+#### 1）tab切换 - （子组件各自的componentDidMount()里）
+一个页面中tab切换 tab1,tab2组件，每次切换到某tab时，tab1或tab2的 render() 每次都会执行，而componentDidMount() 只会在 该tab 第一次被切换到 加载时执行，以后再切换不会重复去执行，所以 发请求获取默认数据的操作可以放在 子组件各自的componentDidMount()里
