@@ -30,28 +30,28 @@
 
 [关于组件](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/guan-yu-zu-jian.md)
 
-### 6 事件
+### 4 事件
 
 [事件](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/shi-jian.md)
 
-### 7 虚拟dom与访问dom
+### 5 虚拟dom与访问dom
 
 [虚拟dom与访问dom](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/xu-ni-dom.md)
 
-### 8 数据流
+### 6 数据流
 
 [数据流](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/shu-ju-liu.md)
 
-### 9 react性能优化
+### 7 react性能优化
 
 [react性能优化](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactxing-neng-you-hua.md)
 
-### 10 Context
+### 8 Context
 
 [Context](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/context.md)
 
 
-### 11 react插件
+### 9 react插件
 
 [react插件](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactcha-jian.md)
 
