@@ -6,12 +6,22 @@
 
 #### （1）[组件生命周期](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-sheng-ming-zhou-qi.md)
 
+#### （2）[组件的props](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-de-props.md)
+
+#### （3）[组件的state](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-de-state.md)
+
+#### （4）[组件间的通信](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-jian-de-tong-xin.md)
+
+#### （5）[组件的继承扩展与多态](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/zu-jian-de-ji-cheng-kuo-zhan-yu-duo-tai.md)
+
+#### （6）[Mixins （混合）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/mixinshunhehunhe.md)
+
+
+补充：
 
 #### （2）把UI拆分为一个组件（或几个组件组合）的层级，要遵循组件功能单一原则
 
 如何知道什么东西应该是独立的组件？一种这样的技术是[单一功能原则（single responsibility principle）](https://en.wikipedia.org/wiki/Single_responsibility_principle)，也就是一个组件在理想情况下只做一件事情。如果它最终增长了，它就应该被分解为更小的组件。
-
-#### （3）[Mixins （混合）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/mixinshunhehunhe.md)
 
 #### （4）用ES6 Classes生成react组件
 
