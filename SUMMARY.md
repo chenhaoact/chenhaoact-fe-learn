@@ -68,7 +68,7 @@
         * [ES6 对象新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-dui-xiang-xin-te-xing.md)
         * [ES6 Array 新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-array-xin-te-xing.md)
         * [ES6 函数新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-han-shu-xin-te-xing.md)
-        * [ES6 RegExp（正则表达式）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
+        * [ES6 RegExp（正则表达式）包括ES5部分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
       * [ES6深入](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6shen-ru.md)
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
