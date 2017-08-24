@@ -1,0 +1,3 @@
+#阿里面试官：什么样的人能在阿里晋升？
+
+[阿里面试官：什么样的人能在阿里晋升？](https://mp.weixin.qq.com/s?__biz=MzA3OTE2OTg2NQ==&mid=2650568321&idx=1&sn=dba0f7ed4b86431b374b407a5dfec467&chksm=87bf46a7b0c8cfb1cfe4a973370d407dc7ecd3357c2fab993859ea88d885173ecffaa56ed2b0&mpshare=1&scene=1&srcid=0822iMpFV4oiyOPwc5KUdlQA&key=17be3897f3d91f5125161cf2b2f01fa2ead2cc9bc54eb729114a93338185d2a320c98b51869ee92f3e92a99fe14a691baa6f69171c29bb73911a0cf8ea6e4d98f8fea90a7f108d98d842368470bf77f0&ascene=0&uin=MTI2NzA2NzUxMA%3D%3D&devicetype=iMac+MacBookPro12%2C1+OSX+OSX+10.12.3+build(16D32)&version=12020610&nettype=WIFI&fontScale=100&pass_ticket=1Kua0zI7B9%2FvN8C4u1d83dKttEvHupAYDAmPajoZEBGkTkXuAi9glanNuySsUQHr)

@@ -315,8 +315,9 @@
   * [技术学习与能力提升](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ji-zhu-xue-xi-yu-neng-li-ti-sheng.md)
     * [为什么你的前端工作经验为什么不值钱-（学东西一定要扎实深入和不断优化）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-de-qian-duan-gong-zuo-jing-yan-wei-shi-yao-bu-zhi-94b1-ff08-xue-dong-xi-yi-ding-yao-zha-shi-shen-ru-ff09.md)
     * [你和年薪百万的距离，仅仅是这6点](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-he-nian-xin-bai-wan-de-ju-li-ff0c-jin-jin-shi-zhe-6-dian.md)
-  * 晋升
+  * [晋升](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng.md)
     * [晋升评审的套路（转自bang的博文）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng-pingshen-de-tao-lu-ff08-zhuan-zi-bang-da-shen-de-bo-wen-ff09.md)
+    * [阿里面试官：什么样的人能在阿里晋升？](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/a-li-mian-shi-guan-ff1a-shi-yao-yang-de-ren-neng-zai-a-li-jin-sheng-ff1f.md)
 * [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 
