@@ -15,6 +15,12 @@ https://github.com/helloqingfeng/Awsome-Front-End-learning-resource
 
 http://www.ctolib.com/
 
+**点js开发，再点热门，能看到热门的js开源项目；
+点活跃，能看到最近比较活跃的js开源项目。**还可以按分类查询等。
+
+
+
+
 javascripting(分类整理了不少js库，可以浏览发掘下)
 https://www.javascripting.com/
 
