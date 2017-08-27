@@ -1,4 +1,11 @@
-# js bom概述
+# window对象
 
-bom 操作浏览器暴露的api，window对象是顶层对象。
+## TODO???
 
+## 参考
+
+###已学习 
+
+###未学习
+window对象（javascript标准参考教程，阮一峰）
+http://javascript.ruanyifeng.com/bom/window.html
