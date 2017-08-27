@@ -56,6 +56,7 @@
           * [dom变动的监听](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/dombian-dong-de-jian-ting.md)
           * [js dom 常用方法与属性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/js-dom-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
         * [js bom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom.md)
+          * [js bom概述](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/js-bomgai-shu.md)
         * [js 事件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
           * [js事件机制与事件模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/jsshi-jian-ji-zhi.md)
           * [重点！js事件类型整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/shi-jian-lei-xing.md)
@@ -103,6 +104,8 @@
         * [AMD规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan.md)
           * [require.js的用法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan/requirejs.md)
         * [CMD](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/cmd.md)
+      * 浏览器
+        * [浏览器环境及浏览器引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/liu-lan-qi-huan-jing.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
