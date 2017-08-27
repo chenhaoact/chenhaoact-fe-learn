@@ -10,6 +10,10 @@
 w3c官网
 https://www.w3.org/
 
+**w3c组织的github(很多规范已同步到这里)
+**
+https://github.com/w3c/
+
 w3c中国
 http://www.chinaw3c.org/
 
