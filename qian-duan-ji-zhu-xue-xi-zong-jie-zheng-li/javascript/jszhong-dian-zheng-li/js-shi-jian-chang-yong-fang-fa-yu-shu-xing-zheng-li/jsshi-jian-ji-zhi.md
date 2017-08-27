@@ -151,8 +151,11 @@ JavaScript 详说事件机制之冒泡、捕获、传播、委托
 http://www.cnblogs.com/bfgis/p/5460191.html
 
 ### 待学习
-
+事件模型（javascript标准参考教程，阮一峰）
 http://javascript.ruanyifeng.com/dom/event.html
+
+w3c dom事件规范  
+[https://www.w3.org/TR/DOM-Level-3-Events/](https://www.w3.org/TR/DOM-Level-3-Events/)
 
 
 

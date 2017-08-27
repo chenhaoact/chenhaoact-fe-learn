@@ -55,6 +55,7 @@
         * [js bom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom.md)
         * [js 事件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
           * [js事件机制与事件模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/jsshi-jian-ji-zhi.md)
+          * [js事件类型整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/shi-jian-lei-xing.md)
         * [js Array](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-array-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
         * [js 对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
         * [js原型、原型继承与非ES6的面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyuan-xing-3001-yuan-xing-lian.md)
