@@ -130,9 +130,29 @@ parent.onclick = function(e){
 
 虽然没有直接只child元素注册click事件，可是点击child元素时却弹出了提示信息。
 
+## removeEventListener()
+removeEventListener方法用来移除addEventListener方法添加的事件监听函数。
+
+```
+div.addEventListener('click', listener, false);
+div.removeEventListener('click', listener, false);
+
+```
+
+removeEventListener方法的参数，与addEventListener方法完全一致。它的第一个参数“事件类型”，大小写敏感。
+
+注意，removeEventListener方法移除的监听函数，必须与对应的addEventListener方法的参数完全一致，而且必须在同一个元素节点，否则无效。
+
+
+
 ##参考
+### 已学习
 JavaScript 详说事件机制之冒泡、捕获、传播、委托
 http://www.cnblogs.com/bfgis/p/5460191.html
+
+### 待学习
+
+http://javascript.ruanyifeng.com/dom/event.html
 
 
 
