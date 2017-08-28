@@ -22,20 +22,31 @@ encodeURIComponent只转除了语义字符之外的字符，元字符也会被�
 ## 二 URL参数查询 URLSearchParams API
 **URLSearchParams API用于处理URL之中的查询字符串，即问号之后的部分**。没有部署这个API的浏览器，可以用[url-search-params](https://github.com/WebReflection/url-search-params)这个垫片库。
 
+
+
+```
 var paramsString = 'q=URLUtils.searchParams&topic=api';
 var searchParams = new URLSearchParams(paramsString);
-URLSearchParams有以下方法，用来操作某个参数。
+```
 
+URLSearchParams有以下方法，用来操作某个参数：
 
-
-
-
-一个布尔值，表示是否具有某个参数
+has()：返回一个布尔值，表示是否具有某个参数
 get()：返回指定参数的第一个值
 getAll()：返回一个数组，成员是指定参数的所有值
 set()：设置指定参数
 delete()：删除指定参数
 append()：在查询字符串之中，追加一个键值对
 toString()：返回整个查询字符串
+
+## 参考
+## 已学习
+URL的编码/解码方法（javascript标准参考教程，阮一峰）
+http://javascript.ruanyifeng.com/bom/window.html#toc34
+
+URLSearchParams API（javascript标准参考教程，阮一峰）
+http://javascript.ruanyifeng.com/bom/history.html#toc5
+
+## 待学习
 
 
