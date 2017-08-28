@@ -22,6 +22,8 @@
 
 ### （4）[js 对象](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
 
+### js闭包与作用域
+
 ### [js原型、原型继承与非ES6的面向对象编程](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyuan-xing-3001-yuan-xing-lian.md)
 
 ### [js JSON对象](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-jsondui-xiang.md)

@@ -26,7 +26,7 @@ HTML5为history对象添加了两个新方法，history.pushState()和history.re
 ## 参考
 
 ###已学习 
-
-###未学习
 History对象（javascript标准参考教程，阮一峰）
 http://javascript.ruanyifeng.com/bom/history.html
+
+###未学习
