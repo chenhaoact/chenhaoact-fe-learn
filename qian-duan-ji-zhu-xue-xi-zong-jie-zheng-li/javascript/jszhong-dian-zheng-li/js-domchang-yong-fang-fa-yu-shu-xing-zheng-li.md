@@ -3,7 +3,7 @@
 ## [dom概述](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/domgai-shu.md)
 
 
-## [js dom 常用方法与属性整理](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/js-dom-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
+## [document属性与方法](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/documentjie-dian-shu-xing-yu-fang-fa.md)
 
 ## [重点！dom元素（Element）对象属性与方法整理](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/domyuan-su-ff08-element-ff09-dui-xiang-shu-xing-yu-fang-fa-zheng-li.md)
 
