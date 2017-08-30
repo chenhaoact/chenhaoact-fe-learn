@@ -81,12 +81,10 @@ document.getElementsByClassName() 返回一个类数组的对象（HTMLCollectio
 
 ##参考
 ### 已学习
-
-
-### 待学习
 document节点（javascript标准参考教程，阮一峰）
 http://javascript.ruanyifeng.com/dom/document.html
 
+### 待学习
 
 
 

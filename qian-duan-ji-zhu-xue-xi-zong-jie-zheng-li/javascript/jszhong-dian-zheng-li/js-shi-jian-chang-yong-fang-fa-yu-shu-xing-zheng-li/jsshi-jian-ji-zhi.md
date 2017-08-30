@@ -14,7 +14,6 @@
 
 ## 二 addEventListener
 
-
 ```
 addEventListener
 (event, listener, useCapture)　　
@@ -23,6 +22,17 @@ addEventListener
 参数定义：
 event---（事件名称，如click，不带on），listener---事件监听函数，
 useCapture---是否采用事件捕获进行事件捕捉，默认为false，即采用事件冒泡方式
+
+
+### 事件触发器 dispatchEvent
+
+```
+// 触发事件
+var event = new Event('click');
+document.dispatchEvent(event);
+```
+
+
 
 ## 三 例子
 ###默认的事件冒泡例子：
