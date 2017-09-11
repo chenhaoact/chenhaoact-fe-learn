@@ -41,6 +41,17 @@ if(res.data.data){
 
 ```
 
+## 相等的判断
+
+
+
+```
+undefined == null //true
+'' == null //false
+```
+
+
+
 ## 数据类型转化
 
 
