@@ -13,3 +13,15 @@ p{
 
 
 这里的em是相对大小，只此处设置的字体的大小，text-indent:2em; 为首行缩进两个字
+
+## font-weight 文字设置粗细
+
+
+
+```
+font-weight: bold; //文字加粗
+```
+
+
+
+
