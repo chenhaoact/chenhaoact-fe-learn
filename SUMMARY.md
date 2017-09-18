@@ -34,6 +34,7 @@
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
         * [文本，字体](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3/wen-ben-ff0c-zi-ti.md)
         * [按钮](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3/an-niu.md)
+        * [过渡与动画](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3/guo-du-yu-dong-hua.md)
       * [css常用布局写法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju.md)
         * [flex 布局](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/flex-bu-ju.md)
       * [css常用技巧写法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-ji-qiao-xie-fa-zheng-li.md)
