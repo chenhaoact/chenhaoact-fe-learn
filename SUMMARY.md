@@ -346,6 +346,8 @@
   * [晋升](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng.md)
     * [晋升评审的套路（转自bang的博文）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng-pingshen-de-tao-lu-ff08-zhuan-zi-bang-da-shen-de-bo-wen-ff09.md)
     * [阿里面试官：什么样的人能在阿里晋升？](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/a-li-mian-shi-guan-ff1a-shi-yao-yang-de-ren-neng-zai-a-li-jin-sheng-ff1f.md)
+  * [职业规划/定位/转型](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/zhi-ye-gui-5212-ding-4f4d-zhuan-xing.md)
+    * [工作三年后，我选择离开腾讯](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/zhi-ye-gui-5212-ding-4f4d-zhuan-xing/gong-zuo-san-nian-hou-ff0c-wo-xuan-ze-li-kai-teng-xun.md)
 * [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 
