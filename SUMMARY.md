@@ -343,6 +343,7 @@
     * [你和年薪百万的距离，仅仅是这6点](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ni-he-nian-xin-bai-wan-de-ju-li-ff0c-jin-jin-shi-zhe-6-dian.md)
     * [为什么你输掉了人生长跑？一场毕业20年的同学聚会，一目了然](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/wei-shi-yao-ni-shu-diao-le-ren-sheng-chang-pao-ff1f-yi-chang-bi-ye-20-nian-de-tong-xue-ju-hui-ff0c-yi-mu-le-ran.md)
     * [傅盛最新干货：年轻人必须知道的4个关键词](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/fu-sheng-zui-xin-gan-huo-ff1a-nian-qing-ren-bi-xu-zhi-dao-de-4-ge-guan-jian-ci.md)
+    * [帮助应届生、年轻程序员快速成长的12个锦囊](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/bang-zhu-ying-jie-sheng-3001-nian-qing-cheng-xu-yuan-kuai-su-cheng-chang-de-12-ge-jin-nang.md)
   * [晋升](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng.md)
     * [晋升评审的套路（转自bang的博文）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/jin-sheng-pingshen-de-tao-lu-ff08-zhuan-zi-bang-da-shen-de-bo-wen-ff09.md)
     * [阿里面试官：什么样的人能在阿里晋升？](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/a-li-mian-shi-guan-ff1a-shi-yao-yang-de-ren-neng-zai-a-li-jin-sheng-ff1f.md)
