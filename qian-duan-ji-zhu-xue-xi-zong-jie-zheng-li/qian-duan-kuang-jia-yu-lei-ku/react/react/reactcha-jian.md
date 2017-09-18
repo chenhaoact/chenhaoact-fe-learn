@@ -24,3 +24,11 @@
 
 要获取插件，需单独从npm安装。
 
+
+### react开发常用工具类库
+
+classnames(控制classnames，方便对样式类写成变量，数组等进行样式控制)
+https://github.com/JedWatson/classnames
+
+
+
