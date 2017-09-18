@@ -64,7 +64,7 @@
           * [history对象（也属于window下的）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/historydui-xiang.md)
           * [location对象（url信息及路径控制（跳转，重载等））](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/location-dang-qian-wen-dang-de-url-xin-xi-ji-lu-jing-kong-zhi-ff08-tiao-zhuan-ff0c-zhong-zai-deng-ff09.md)
           * [URL的编码/解码及参数查询](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/urlde-bian-7801-jie-ma-fang-fa.md)
-          * [js 计时器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/ji-shi-qi.md)
+          * [js 计时器 setTimeout和setInterval](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/ji-shi-qi.md)
         * [js 事件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
           * [js事件机制与事件模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/jsshi-jian-ji-zhi.md)
           * [重点！js事件类型整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/shi-jian-lei-xing.md)
