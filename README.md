@@ -25,53 +25,13 @@ github:
 
 [https://github.com/chenhaoact](https://github.com/chenhaoact)
 
-github上的技术博客
-
-[https://github.com/chenhaoact/blog/issues](https://github.com/chenhaoact/blog/issues)
-
-简书文章主页：
-
-[http://www.jianshu.com/u/baaf11ec7039](http://www.jianshu.com/u/baaf11ec7039)
-
 csdn博客：
 
 [http://blog.csdn.net/haoshidai](http://blog.csdn.net/haoshidai)
 
-掘金主页：
+github上的技术博客
 
-[https://juejin.im/user/58c268291b69e6006bcc1de6](https://juejin.im/user/58c268291b69e6006bcc1de6)
-
-segmentfault主页：
-
-[https://segmentfault.com/u/chenhaoact](https://segmentfault.com/u/chenhaoact)
-
-开源中国博客主页：
-
-[https://my.oschina.net/u/2369937/blog](https://my.oschina.net/u/2369937/blog)
-
-博客园主页：
-
-[http://www.cnblogs.com/cht-inu/](http://www.cnblogs.com/cht-inu/)
-
-知乎：
-
-[https://www.zhihu.com/people/chen-hao-27-46/activities](https://www.zhihu.com/people/chen-hao-27-46/activities)
-
-慕课网主页：
-
-[http://www.imooc.com/u/3136427/courses](http://www.imooc.com/u/3136427/courses)
-
-极客学院主页：
-
-[http://my.jikexueyuan.com/0zjqVkXak](http://my.jikexueyuan.com/0zjqVkXak)
-
-51cto学院主页：
-
-[http://edu.51cto.com/user/user\_id-11812666.html](http://edu.51cto.com/user/user_id-11812666.html)
-
-众成翻译主页：
-
-[http://www.zcfy.cc/@chenhaoact](http://www.zcfy.cc/@chenhaoact)
+[https://github.com/chenhaoact/blog/issues](https://github.com/chenhaoact/blog/issues)
 
 微博：  
 [http://weibo.com/u/5232669014](http://weibo.com/u/5232669014)  
@@ -88,36 +48,3 @@ facebook主页:
 twitter主页:
 
 [https://twitter.com/chenhaoact](https://twitter.com/chenhaoact)
-
-linkedin（领英）主页：
-
-http://www.linkedin.com/in/%E6%B5%A9-%E9%99%88-19294a13a/
-
-stack overflow主页：
-
-[http://stackoverflow.com/users/5562104/hao-chen](http://stackoverflow.com/users/5562104/hao-chen)
-
-quora主页：
-
-[https://www.quora.com/profile/Hao-Chen-236](https://www.quora.com/profile/Hao-Chen-236)
-
-codeproject主页：
-
-[https://www.codeproject.com/script/Membership/View.aspx?mid=13181457](https://www.codeproject.com/script/Membership/View.aspx?mid=13181457)
-
-codeproject博客
-
-[https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457](https://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=13181457)
-
-npmjs主页：
-
-[https://www.npmjs.com/~chenhaoact](https://www.npmjs.com/~chenhaoact)
-
-Livecoding.tv 主页 \(程序员直播写代码网站\)
-
-[https://www.liveedu.tv/](https://www.liveedu.tv/)
-
-freecodecamp主页
-
-[https://www.freecodecamp.com/chenhaoact](https://www.freecodecamp.com/chenhaoact)
-
