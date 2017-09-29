@@ -27,7 +27,7 @@ isomorphic 是一个十分重要的目录，里边基本上放置了你**在Reac
 
 先从src/isomorphic/目录最外层的ReactEntry.js开始看：
 
-#### ReactEntry.js （定义全局React模块的地方）
+#### ReactEntry.js （顾名思义，这是React的入口，定义React模块的地方）
 
 ![](/assets/WX20170929-194323@2x.png)
 
