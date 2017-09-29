@@ -23,6 +23,13 @@ https://github.com/explore
 
 ## GitHub 上参与开源项目贡献
 
+### 找到可以贡献代码的技巧
+1. 在源代码中搜索 TODO:
+经常会有一些TODO:的任务可以去完成，自己实现测试没问题就可以提交上去
+
+2. 在项目的issue中找使用者提出的一些问题，自己去解决然后提交，修复
+
+
 ### 1. Fork
 项目右上角点击Fork。
 
@@ -89,6 +96,7 @@ git branch --set-upstream-to=upstream/master master
 
 
 ### 5. pull request
+
 
 参考：
 
