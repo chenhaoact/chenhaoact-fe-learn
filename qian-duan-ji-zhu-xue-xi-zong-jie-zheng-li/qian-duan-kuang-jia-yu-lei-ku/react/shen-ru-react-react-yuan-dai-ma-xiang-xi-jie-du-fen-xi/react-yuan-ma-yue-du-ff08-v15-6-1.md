@@ -4,9 +4,11 @@
 
 ## 一 [React整体目录分析](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/yi-xiang-mu-mu-lu.md)
 
-## 二 [src目录代码分析（读源码重点！）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/er-src-mu-lu-dai-ma-fen-xi-ff08-du-yuan-ma-zhong-dian-ff01-ff09.md)
+## 二 [二 src目录代码分析（读源码主要读这里）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/er-src-mu-lu-dai-ma-fen-xi-ff08-du-yuan-ma-zhong-dian-ff01-ff09.md)
 
-## 三 [react构建过程分析](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-react-gou-jian-guo-cheng-fen-xi.md)
+## 三 [几个React重点的具体实现原理（重点！）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-ji-ge-react-zhong-dian-de-shi-xian-yuan-li.md)
+
+## 四 [react构建过程分析](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-react-gou-jian-guo-cheng-fen-xi.md)
 
 
 
