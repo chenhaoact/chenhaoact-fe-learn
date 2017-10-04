@@ -53,6 +53,10 @@ isomorphic 是一个十分重要的目录，里边基本上放置了你**在Reac
 
 ![](/assets/WX20170929-193020@2x.png)
 
+#### ReactElement.js
+
+这里定义了ReactElement，
+![](/assets/WX20171004-185552@2x.png)
 
 
 
