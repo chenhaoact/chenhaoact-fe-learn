@@ -227,10 +227,9 @@ search("Hello World").then(console.log, console.error);
 ### 已学习
 [Javascript异步编程的4种方法（阮一峰）](http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html)
 
+[《Javascript标准参考教程》-Promise对象](http://javascript.ruanyifeng.com/advanced/promise.html#toc6)
 
 ### 待学习
 [Node.js回调黑洞全解：Async、Promise 和 Generator](https://zhuanlan.zhihu.com/p/19750470)
-
-[《Javascript标准参考教程》-Promise对象](http://javascript.ruanyifeng.com/advanced/promise.html#toc6)
 
 [《ECMAScript 6 入门》-Promise对象](http://es6.ruanyifeng.com/#docs/promise)
