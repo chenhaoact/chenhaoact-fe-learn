@@ -112,7 +112,15 @@
       * [移动端手势控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-shou-shi-kong-zhi.md)
     * [其他基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu.md)
       * [W3C标准 ](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/w3c.md)
-      * [json和jsonp](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/jsonhe-jsonp.md)
+      * 计算机网络相关
+        * [HTTP](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/http.md)
+          * [HTTP1和HTTP2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/http.md)
+          * [HTTPS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/https.md)
+          * [WebSocket](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/websocket.md)
+        * [Ajax与Fetch](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/ajax.md)
+          * [Ajax](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/ajax/ajax.md)
+          * [Fetch API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/ajax/fetch-api.md)
+        * [json和jsonp](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/jsonhe-jsonp.md)
       * js模块化规范
         * [CommonJS规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)
           * [CommonJS module对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan/moduledui-xiang.md)
@@ -275,11 +283,6 @@
     * 数据库
       * [mongoDB](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/mongodb.md)
     * 服务器
-    * 计算机网络
-      * HTTP
-        * [HTTP1和HTTP2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/http.md)
-        * [HTTPS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/https.md)
-        * [WebSocket](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/websocket.md)
   * [前沿技术探索研究与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo.md)
     * [AR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar.md)
       * [EasyAR引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ar/easyaryin-qing.md)
