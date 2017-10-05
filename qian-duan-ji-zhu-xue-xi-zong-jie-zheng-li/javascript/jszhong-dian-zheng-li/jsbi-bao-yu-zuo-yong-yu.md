@@ -71,10 +71,11 @@ function f1(){
 
 ## 参考
 
-### 待学习
+### 已学习
 学习Javascript闭包（Closure）（阮一峰）
 http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
 
+###待学习
 闭包（MDN js 文档）
 https://developer.mozilla.org/cn/docs/Web/JavaScript/Closures
 
