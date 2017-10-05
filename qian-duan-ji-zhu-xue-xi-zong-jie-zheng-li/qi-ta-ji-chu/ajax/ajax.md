@@ -92,6 +92,9 @@ XMLHttpRequest请求当前所处的状态
 
 Access-Control-Allow-Credentials: true
 
+## 四 XMLHttpRequest实例的方法与事件
+TODO:
+
 ## 参考
 ### 已学习
 [《JavaScript 标准参考教程（alpha）》，by 阮一峰](http://javascript.ruanyifeng.com/bom/ajax.html)
