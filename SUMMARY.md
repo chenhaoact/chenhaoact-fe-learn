@@ -83,8 +83,6 @@
           * [装饰者（Decorator）模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/zhuang-shi-zhe-ff08-decorator-ff09-mo-shi.md)
           * [组合（Composite）模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/zu-he-ff08-composite-ff09-mo-shi.md)
           * [门面（facade）模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/men-mian-ff08-facade-ff09-mo-shi.md)
-      * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
-        * prepack——优化js源代码的工具提高js代码的效率
       * [ES6重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian.md)
         * [模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
         * [ES6面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
@@ -95,7 +93,6 @@
         * [ES6 Array 新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-array-xin-te-xing.md)
         * [ES6 函数新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-han-shu-xin-te-xing.md)
         * [ES6 RegExp（正则表达式）包括ES5部分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
-      * [ES6深入](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6shen-ru.md)
       * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * [js开发中遇到问题及bug的解决整理与技巧方法总结（包含es6）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6.md)
@@ -230,6 +227,8 @@
         * [eslint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint.md)
         * [JsLint和JsHint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jslinthe-jshint.md)
         * [stylelint-css样式代码校验](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/stylelint-cssyang-shi-dai-ma-xiao-yan.md)
+      * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
+        * [prepack——优化js源代码的工具提高js代码的效率](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua/prepack2014-2014-you-hua-js-yuan-dai-ma-de-gong-ju-ti-gao-js-dai-ma-de-xiao-lv.md)
     * 前端组件化
       * [web组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/webzu-jian.md)
     * [前端性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua.md)
