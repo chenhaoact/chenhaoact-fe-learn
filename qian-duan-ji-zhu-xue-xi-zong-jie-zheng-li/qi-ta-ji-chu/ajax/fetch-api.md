@@ -21,8 +21,7 @@ if ("fetch" in window){
 }
 ```
 
-**一个Fetch API的简单例子：**
-
+**一个Fetch API进行请求的简单例子：**
 
 
 ```
