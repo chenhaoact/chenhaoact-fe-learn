@@ -12,7 +12,7 @@
 
 ### （2）[面向对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
 
-### （3）[异步编程](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/yi-bu-bian-cheng.md)
+### （3）[js异步编程(包括promise)](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/yi-bu-bian-cheng.md)
 
 ### （4）[ES6 对象新特性](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-dui-xiang-xin-te-xing.md)
 
