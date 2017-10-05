@@ -212,6 +212,17 @@ search("Hello World").then(console.log, console.error);
 
 **这里最后一行调用时，search返回一个promise对象，对他执行then方法，指定了成功的resolve方法（为console.log），失败的reject（console.error），这两个具体的方法会替换掉new Promise(）定义中的resolve和reject在Promise(）里面的异步逻辑中具体执行。**
 
+### 4. Promise的优缺点
+
+#### 优点：
+**让回调函数变成了规范的链式写法，程序流程可以看得很清楚。**它的一整套接口，可以实现许多强大的功能，比如为多个异步操作部署一个回调函数、为多个回调函数中抛出的错误统一指定处理方法等。
+
+而且，**它还有一个前面三种方法都没有的好处：如果一个任务已经完成，再添加回调函数，该回调函数会立即执行。不用担心是否错过了某个事件或信号**。
+
+#### 缺点：
+**编写和理解都相对比较难。**
+
+
 ## 参考：
 ### 已学习
 [Javascript异步编程的4种方法（阮一峰）](http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html)
