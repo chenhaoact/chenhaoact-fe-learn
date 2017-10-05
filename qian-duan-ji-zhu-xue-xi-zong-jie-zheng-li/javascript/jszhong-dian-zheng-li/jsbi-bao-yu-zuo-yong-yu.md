@@ -1,5 +1,82 @@
 # js闭包与作用域
 
-## [闭包](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsbi-bao-yu-zuo-yong-yu/bi-bao.md)
+## 一 变量的作用域
 
-## [作用域](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsbi-bao-yu-zuo-yong-yu/zuo-yong-yu.md)
+变量有两种：全局变量和局部变量。
+
+Js语言的特殊之处：函数内可直接读取全局变量。（函数外自然无法读取函数内的局部变量）
+
+函数内部声明局部变量要使用var等命令。如果不用实际上声明了一个全局变量。
+
+## 二 闭包
+
+**闭包：能读取其他函数内局部变量的函数。**
+
+JS中，只有函数内部的子函数才能读取局部变量，故**可把闭包简单理解成"定义在一个函数内部的函数"**。
+**本质上，闭包是将函数内部和外部连接起来的一座桥梁。**
+
+例子：
+
+```
+function f1(){
+　　　　var n=999;
+　　　　function f2(){
+　　　　　　alert(n); 
+　　　　}
+　　　　return f2;
+　　}
+　　var result=f1();
+　　result(); // 999
+
+```
+**这里的f2就是闭包**
+
+
+### 闭包的用途
+
+1. 读取函数内部的变量，
+
+2. 能让这些函数内部的变量的值始终保持在内存中。
+
+让局部变量保存在内存中的例子：
+
+```
+function f1(){
+　　　　var n=999;
+　　　　nAdd=function(){n+=1}
+　　　　function f2(){
+　　　　　　alert(n);
+　　　　}
+　　　　return f2;
+　　}
+　　var result=f1();
+　　result(); // 999
+　　nAdd();
+　　result(); // 1000
+
+```
+在这段代码中，result实际上是闭包f2函数。它运行两次，第一次的值是999，第二次的值是1000。证明函数f1中的局部变量n一直保存在内存中，并没有在f1调用后被自动清除。
+
+原因在于f1是f2的父函数，而**f2被赋给了一个全局变量（相对于它自己，改变量在函数外），导致f2始终在内存中，而f2的存在依赖于f1，因此f1也始终在内存中，不会在调用结束后，被垃圾回收机制回收。**
+
+另一点值得注意的是"nAdd=function(){n+=1}"这一行，首先在**nAdd前面没有使用var关键字，因此nAdd是一个全局变量**，而不是局部变量。其次，**nAdd的值是一个匿名函数，它本身也是一个闭包，所以nAdd相当于是一个setter，可以在函数外部对函数内部的局部变量进行操作**。
+
+### 使用闭包的注意点
+
+1. 由于闭包会使得函数中的变量都被保存在内存中，内存消耗很大，故不能滥用闭包，否则会造成网页性能问题。**解决方法：在退出函数前，将不使用的局部变量全部删除。**
+
+2. 闭包会在父函数外部，改变父函数内部变量的值。如果把父函数当作对象使用，把闭包当作它的公用方法，把内部变量当作它的私有属性，要小心，不要随便改变父函数内部变量的值。
+
+
+
+## 参考
+
+### 待学习
+学习Javascript闭包（Closure）（阮一峰）
+http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
+
+闭包（MDN js 文档）
+https://developer.mozilla.org/cn/docs/Web/JavaScript/Closures
+
+javascript 函数和作用域（闭包、作用域）（七）
+http://www.cnblogs.com/starof/p/6400261.html
