@@ -65,7 +65,7 @@
           * [重点！dom元素（Element）对象属性与方法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/domyuan-su-ff08-element-ff09-dui-xiang-shu-xing-yu-fang-fa-zheng-li.md)
           * [dom变动的监听](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/dombian-dong-de-jian-ting.md)
           * [js dom 常用方法与属性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/js-dom-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
-        * [js bom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom.md)
+        * [js bom（包括Web API）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom.md)
           * [window对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/js-bomgai-shu.md)
           * [history对象（也属于window下的）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/historydui-xiang.md)
           * [location对象（url信息及路径控制（跳转，重载等））](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/location-dang-qian-wen-dang-de-url-xin-xi-ji-lu-jing-kong-zhi-ff08-tiao-zhuan-ff0c-zhong-zai-deng-ff09.md)
@@ -84,6 +84,9 @@
         * [js闭包与作用域](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsbi-bao-yu-zuo-yong-yu.md)
         * [js异常捕获与处理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyi-chang-bu-huo-yu-chu-li.md)
         * [js内存管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsnei-cun-guan-li.md)
+        * [js文件与二进制数据处理API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jswen-jian-chu-li-api.md)
+          * [Blob](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/blob.md)
+          * [File](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/file.md)
         * 其他
           * [js加密解密](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsjia-mi-jie-mi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
