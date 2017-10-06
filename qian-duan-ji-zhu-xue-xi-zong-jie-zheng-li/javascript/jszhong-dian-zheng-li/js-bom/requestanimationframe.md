@@ -13,7 +13,7 @@ TODO
 ### 已学习
 
 ### 待学习
-[《JavaScript 标准参考教程（alpha）》，阮一峰 Web API（requestAnimationFrame）](http://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html)
+[《JavaScript 标准参考教程（alpha）》，阮一峰 Web API - requestAnimationFrame](http://javascript.ruanyifeng.com/htmlapi/requestanimationframe.html)
 
 [HTML5探秘：用requestAnimationFrame优化Web动画](http://www.webhek.com/post/requestanimationframe.html)
 
