@@ -13,6 +13,7 @@
           * [Web Worker](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/web-worker/web-worker.md)
           * [Service Worker](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/web-worker/service-worker.md)
         * [HTML5自定义标签](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/html5zi-ding-yi-biao-qian.md)
+        * [Page Visibility](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/page-visibility.md)
       * [canvas（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas.md)
         * [canvas相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku.md)
           * [pixi.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/canvas/canvasxiang-guan-lei-ku/pixijs.md)
