@@ -76,6 +76,8 @@
         * [js闭包与作用域](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsbi-bao-yu-zuo-yong-yu.md)
         * [js异常捕获与处理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyi-chang-bu-huo-yu-chu-li.md)
         * [js内存管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsnei-cun-guan-li.md)
+        * 其他
+          * [js加密解密](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsjia-mi-jie-mi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
         * [什么是设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/shi-yao-shi-she-ji-mo-shi.md)
         * [设计原则](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/she-ji-yuan-ze.md)
