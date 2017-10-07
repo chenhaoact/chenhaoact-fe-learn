@@ -186,7 +186,7 @@ function batchedMountComponentIntoNode(
 
 ```
 
-batchedMountComponentIntoNode中调用了transaction.perform()，里面传的第一个参数mountComponentIntoNode仍然是一个ReactMount.js里定义的函数：
+batchedMountComponentIntoNode中调用了transaction.perform()，里面传的第一个参数mountComponentIntoNode，它也是一个ReactMount.js里定义的函数，源码：
 
 ```javascript
 /**
@@ -199,6 +199,14 @@ function mountComponentIntoNode(
   shouldReuseMarkup,
   context,
 ) {
+
+  /* *
+   * 调用ReactReconciler.mountComponent方法来渲染组件，这个是React生命周期的重要方法。
+   * mountComponent返回React组件解析的HTML。不同的ReactComponent的mountComponent策略不同
+   * 比如 `<p>Hi</p>`, 对应的是文本组件ReactDOMTextComponent，最终解析成的HTML为
+   * `<p data-reactroot="">Hi</p>`
+   * /
+
   var markup = ReactReconciler.mountComponent(
     wrapperInstance,
     transaction,
@@ -220,46 +228,80 @@ function mountComponentIntoNode(
 
 ```
 
-
-
-
-
-处理batchedMountComponentIntoNode方法调用，将ReactComponent插入DOM中
+然后对解析出来的HTML调用ReactMount._mountImageIntoNode() 方法，这个方法很重要，源码如下：
 
 ```
-function batchedMountComponentIntoNode(
-  componentInstance,
-  container,
-  shouldReuseMarkup,
-  context,
-) {
-  var transaction = ReactUpdates.ReactReconcileTransaction.getPooled(
-    /* useCreateElement */
-    !shouldReuseMarkup,
-  );
-  transaction.perform(
-    mountComponentIntoNode,
-    null,
-    componentInstance,
+_mountImageIntoNode: function(
+    markup,
     container,
-    transaction,
+    instance,
     shouldReuseMarkup,
-    context,
-  );
-  ReactUpdates.ReactReconcileTransaction.release(transaction);
-}
+    transaction,
+  ) {
+    invariant( ...);
+
+    if (shouldReuseMarkup) {
+      var rootElement = getReactRootElementInContainer(container);
+      if (ReactMarkupChecksum.canReuseMarkup(markup, rootElement)) {
+        ReactDOMComponentTree.precacheNode(instance, rootElement);
+        return;
+      } else {
+        var checksum = rootElement.getAttribute(
+          ReactMarkupChecksum.CHECKSUM_ATTR_NAME,
+        );
+        rootElement.removeAttribute(ReactMarkupChecksum.CHECKSUM_ATTR_NAME);
+
+        var rootMarkup = rootElement.outerHTML;
+        
+        // 设置dom元素属性
+        rootElement.setAttribute(
+          ReactMarkupChecksum.CHECKSUM_ATTR_NAME,
+          checksum,
+        );
+
+        var normalizedMarkup = markup;
+        if (__DEV__) {
+          ...
+        }
+
+        var diffIndex = firstDifferenceIndex(normalizedMarkup, rootMarkup);
+        var difference =
+          ' (client) ' +
+          normalizedMarkup.substring(diffIndex - 20, diffIndex + 20) +
+          '\n (server) ' +
+          rootMarkup.substring(diffIndex - 20, diffIndex + 20);
+
+        invariant( ... //省略部分代码 );
+
+        if (__DEV__) {
+          warning( ... //省略部分代码 );
+        }
+      }
+    }
+
+    invariant( ... );
+
+    if (transaction.useCreateElement) {
+      // 清空container的子节点
+      while (container.lastChild) {
+        container.removeChild(container.lastChild);
+      }
+      DOMLazyTree.insertTreeBefore(container, markup, null);
+    } else {
+      // 将markup这个HTML设置为DOM元素container的innerHTML，这样就插入了DOM
+      setInnerHTML(container, markup);
+      
+      // 将instance（ReactComponent渲染后的对象，即Virtual DOM），保存到container元素firstChild原生节点上。简单理解就是将Virtual DOM保存到内存中，这样可以很好的提升页面性能
+
+      ReactDOMComponentTree.precacheNode(instance, container.firstChild);
+    }
+
+    if (__DEV__) {...}
+  },
 
 ```
 
-
-在经过一系列的处理，包括 container 对象，最后调用 _renderNewRootComponent 来生存一个 component 并返回。当然这其中还经历一些比如 DOMComponent 的创建，batchedUpdates 批量更新等。
-
-
-
-
-
-
-
+可以看到这里有不少js dom操作的代码，如getAttribute,setAttribute,removeChild,setInnerHTML等，最终通过这些操作之前解析出来的React组件对应的html渲染和插入到页面中。
 
 
 
