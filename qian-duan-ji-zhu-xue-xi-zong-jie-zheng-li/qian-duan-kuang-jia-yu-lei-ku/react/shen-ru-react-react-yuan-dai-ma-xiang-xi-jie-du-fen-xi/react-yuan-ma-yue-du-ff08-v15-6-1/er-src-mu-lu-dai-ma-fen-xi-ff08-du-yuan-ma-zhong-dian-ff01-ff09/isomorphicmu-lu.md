@@ -32,7 +32,7 @@ isomorphic 是一个十分重要的目录，里边基本上放置了你**在Reac
 
 #### ReactElement.js
 
-这里定义了ReactElement，用到了工程模式，传入的参数中有我们非常熟悉的一些React元素的属性，如：key, ref，props等，下面还在ReactElement上挂载了一些方法，如：createElement，cloneElementd等：
+这里定义了ReactElement，用到了工厂模式，传入的参数中有我们非常熟悉的一些React元素的属性，如：key, ref，props等，下面还在ReactElement上挂载了一些方法，如：createElement，cloneElementd等：
 
 ![](/assets/WX20171004-185552@2x.png)
 
