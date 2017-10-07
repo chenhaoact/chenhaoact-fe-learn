@@ -58,6 +58,16 @@ npm run build
 **注意！这里构建生产的文件（build/packages下的文件）就是我们在开发react项目中通过npm install react npm install react-dom 等命令安装在node_modules 下的源文件。**
 
 
+### CHANGELOG.md 更新日志
+
+从这里可以了解到React各个历史版本的重要更新点，是了解React版本迭代与技术演进的一个途径。
+
+比如：
+
+**在 2017年9月28号的15.6.2版本，协议由BSD更改为MIT**：
+
+![](/assets/WX20171007-143810@2x.png)
+
 ### docs目录
 
 各种项目文档。
