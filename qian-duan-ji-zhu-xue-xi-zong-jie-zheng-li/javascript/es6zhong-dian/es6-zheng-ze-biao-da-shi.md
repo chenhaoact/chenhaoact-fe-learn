@@ -84,7 +84,12 @@ const regex = /^[a-zA-Z]+[0-9]*\W?_$/gi;
 | [`replace`](https://developer.mozilla.org/zh-CN/docs/JavaScript/Reference/Global_Objects/String/replace) | 在字符串中执行查找匹配（String的方法），并使用替换字符串**替换**掉匹配到的子字符串 |
 | [`split`](https://developer.mozilla.org/zh-CN/docs/JavaScript/Reference/Global_Objects/String/split) | 用正则表达式或一个固定字符串**分隔**一个字符串，并将分隔后子字符串存储到数组中（String的方法） |
 
-### 
+####附：平时开发中用过的正则表达式收集
+
+1. input或textarea中的输入字符串.replace(/\n/g, '\\n').replace(/\t/g, '\\t')   
+用正则表达式将文本中的空格和换行替换成 \t和\n  ，方便后端识别和解析 
+
+2. 
 
 ### 6. ES6正则的扩展   TODO???
 
