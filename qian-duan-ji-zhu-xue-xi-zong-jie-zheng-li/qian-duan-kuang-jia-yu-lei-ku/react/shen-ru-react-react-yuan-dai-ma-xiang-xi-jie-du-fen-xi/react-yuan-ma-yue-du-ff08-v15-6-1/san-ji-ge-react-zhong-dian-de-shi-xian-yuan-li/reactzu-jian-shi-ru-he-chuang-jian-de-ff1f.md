@@ -154,9 +154,35 @@ ReactElement.createElement = function(type, config, children) {
 
 ```
 
+在mountComponent()挂载组件中，会进行组件渲染，调用到instantiateReactComponent()方法(位置：src/renderers/shared/reconciler/instantiateReactComponent.js)
+instantiateReactComponent()根据ReactElement中不同的type字段，创建不同类型的组件对象。
+
+在instantiateReactComponent()方法的代码定义中，有四种创建组件元素的方式，同时对应四种ReactElement
+
+（1）ReactEmptyComponent.create(), 创建**空对象ReactDOMEmptyComponent**
+
+（2）ReactNativeComponent.createInternalComponent(), 创建**DOM原生对象 ReactDOMComponent**
+
+（3）new ReactCompositeComponentWrapper(), 创建**React自定义对象ReactCompositeComponent**
+
+（4）ReactNativeComponent.createInstanceForText(), 创建**文本对象 ReactDOMTextComponent**
+
+上述四种ReactElement分别定义在：
+
+src/renderers/dom/stack/client/ReactDOMEmptyComponent.js
+
+src/renderers/dom/stack/client/ReactDomComponent.js
+
+src/renderers/shared/stack/reconciler/ReactCompositeComponent.js
+
+src/renderers/dom/stack/client/ReactDOMTextComponent.js
+
+这四个文件中，代码量较大，有兴趣可以读下，这里不再赘述。
+
+
+#### jsx语法中React组件的转化过程
+
 我们用JSX语法写的代码，比如：
-
-
 
 ```
 <div className="cls" ref="div1">
@@ -192,7 +218,7 @@ React.createElement(
 )
 ```
 
-最后通过上面的createElement方法的处理，变为这样的一个对象：
+最后通过上面的createElement等方法的处理，变为这样的一个对象：
 
 ```
 {
