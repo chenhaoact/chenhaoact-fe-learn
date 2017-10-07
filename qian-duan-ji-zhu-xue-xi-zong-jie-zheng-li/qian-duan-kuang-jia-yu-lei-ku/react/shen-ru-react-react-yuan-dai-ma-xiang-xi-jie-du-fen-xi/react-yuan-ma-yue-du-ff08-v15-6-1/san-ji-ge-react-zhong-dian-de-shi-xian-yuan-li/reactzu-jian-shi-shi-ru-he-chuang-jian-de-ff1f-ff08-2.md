@@ -98,10 +98,11 @@ _renderSubtreeIntoContainer: function(
 ```
 
 
-上面提到的两个关键方法：shouldUpdateReactComponent()源码（定义在src/renderers/shared/shared/shouldUpdateReactComponent.js中）：
+上面提到的两个关键方法：
+shouldUpdateReactComponent()（源码定义在src/renderers/shared/shared/shouldUpdateReactComponent.js中）：
 
 
-```
+```javascript
 function shouldUpdateReactComponent(prevElement, nextElement) {
   var prevEmpty = prevElement === null || prevElement === false;
   var nextEmpty = nextElement === null || nextElement === false;
@@ -111,15 +112,141 @@ function shouldUpdateReactComponent(prevElement, nextElement) {
 
   var prevType = typeof prevElement;
   var nextType = typeof nextElement;
+  
+  // React DOM diff
   if (prevType === 'string' || prevType === 'number') {
+     // 如果前后两次为数字或者字符,则认为只需要update(处理文本元素)，返回true
     return nextType === 'string' || nextType === 'number';
   } else {
+     // 如果前后两次为DOM元素或React元素,则必须type和key不变(key用于listView等组件,很多时候我们没有设置key，故只需type相同)才update,否则先unmount再重新mount。返回false
     return (
       nextType === 'object' &&
       prevElement.type === nextElement.type &&
       prevElement.key === nextElement.key
     );
   }
+}
+
+```
+
+另一个关键方法_renderNewRootComponent()（位置：src/renderers/shared/shared/ReactMount.js）：
+
+```javascript
+_renderNewRootComponent: function(
+    nextElement,
+    container,
+    shouldReuseMarkup,
+    context,
+    callback,
+  ) {
+    warning(...);
+    // 省略部分代码
+    
+    //注意这里
+    ReactUpdates.batchedUpdates(
+      batchedMountComponentIntoNode,
+      componentInstance,
+      container,
+      shouldReuseMarkup,
+      context,
+    );
+
+    var wrapperID = componentInstance._instance.rootID;
+    instancesByReactRootID[wrapperID] = componentInstance;
+
+    return componentInstance;
+  }
+```
+
+上面代码中需要注意的是这里调用了ReactUpdates.batchedUpdates(），第一个参数传入的是batchedMountComponentIntoNode，这其实是ReactMount.js文件中定义的一个函数：
+
+```
+function batchedMountComponentIntoNode(
+  componentInstance,
+  container,
+  shouldReuseMarkup,
+  context,
+) {
+  var transaction = ReactUpdates.ReactReconcileTransaction.getPooled(
+    !shouldReuseMarkup,
+  );
+  
+  //注意这里
+  transaction.perform(
+    mountComponentIntoNode,
+    null,
+    componentInstance,
+    container,
+    transaction,
+    shouldReuseMarkup,
+    context,
+  );
+  ReactUpdates.ReactReconcileTransaction.release(transaction);
+}
+
+```
+
+batchedMountComponentIntoNode中调用了transaction.perform()，里面传的第一个参数mountComponentIntoNode仍然是一个ReactMount.js里定义的函数：
+
+```javascript
+/**
+ * 此方法作用是加载此组件并将其插入到dom中
+ */
+function mountComponentIntoNode(
+  wrapperInstance,
+  container,
+  transaction,
+  shouldReuseMarkup,
+  context,
+) {
+  var markup = ReactReconciler.mountComponent(
+    wrapperInstance,
+    transaction,
+    null,
+    ReactDOMContainerInfo(wrapperInstance, container),
+    context,
+    0 /* parentDebugID */,
+  );
+
+  wrapperInstance._renderedComponent._topLevelWrapper = wrapperInstance;
+  ReactMount._mountImageIntoNode(
+    markup,
+    container,
+    wrapperInstance,
+    shouldReuseMarkup,
+    transaction,
+  );
+}
+
+```
+
+
+
+
+
+处理batchedMountComponentIntoNode方法调用，将ReactComponent插入DOM中
+
+```
+function batchedMountComponentIntoNode(
+  componentInstance,
+  container,
+  shouldReuseMarkup,
+  context,
+) {
+  var transaction = ReactUpdates.ReactReconcileTransaction.getPooled(
+    /* useCreateElement */
+    !shouldReuseMarkup,
+  );
+  transaction.perform(
+    mountComponentIntoNode,
+    null,
+    componentInstance,
+    container,
+    transaction,
+    shouldReuseMarkup,
+    context,
+  );
+  ReactUpdates.ReactReconcileTransaction.release(transaction);
 }
 
 ```
