@@ -149,8 +149,41 @@ arr[2] = "Thomas"
 document.write(arr.toString()) //输出：George,John,Thomas
 ```
 
+### filter() 筛选，搜索
+
+filter() 方法创建一个新的数组，新数组中的元素是通过检查指定数组中符合条件的所有元素。
+
+注意：
+filter() 不会对空数组进行检测。
+filter() 不会改变原始数组。
+
+语法：
 
 
+```
+array.filter(function(currentValue,index,arr), thisValue)
+```
+
+参数：
+1. function(currentValue, index,arr)	必须。函数，数组中的每个元素都会执行这个函数
+函数参数:
+（currentValue	必须。当前元素的值
+index	可选。当期元素的索引值
+arr	可选。当期元素属于的数组对象）
+
+2. thisValue	可选。对象作为该执行回调时使用，传递给函数，用作 "this" 的值。
+
+实例：
+
+```
+var ages = [32, 33, 16, 40];
+
+function checkAdult(age) {
+    return age >= 18;
+}
+
+ages.filter(checkAdult); //32,33,40
+```
 
 
 

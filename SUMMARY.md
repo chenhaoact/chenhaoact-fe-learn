@@ -188,7 +188,7 @@
           * [如何扩展或改写ant-d组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian/ant-design/ru-he-kuo-zhan-huo-gai-xie-ant-d-zu-jian.md)
           * [参与组件代码贡献](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-zu-jian-ku-shi-yong-3001-yan-jiu-yu-can-yu-dai-ma-gong-xian/ant-design/can-yu-zu-jian-dai-ma-gong-xian.md)
       * [在React中使用jQuery及其他类似的类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/zai-react-zhong-shi-yong-jquery-ji-qi-ta-lei-si-de-lei-ku.md)
-      * [React开发中遇到问题的解决整理与技巧方法总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reactkai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie.md)
+      * [React开发中问题的解法与技巧总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reactkai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie.md)
       * [Redux-状态管理方案](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reduxzhuang-tai-guan-li-fang-an.md)
         * [适用场景-什么时候选用Redux，什么时候不需要用（用了反而增加复杂度）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reduxzhuang-tai-guan-li-fang-an/shi-yao-shi-hou-xuan-yong-redux-ff0c-shi-yao-shi-hou-bu-xu-yao-yong-ff08-yong-le-zeng-jia-fu-za-du-ff09.md)
       * [mobx-更简单，可扩展的状态管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/mobxgeng-jian-dan-ff0c-ke-kuo-zhan-de-zhuang-tai-guan-li.md)
