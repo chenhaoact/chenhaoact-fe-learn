@@ -225,8 +225,8 @@ React.createElement(
 }
 ```
 
-内容较长，分成几节，接到：
-[React组件是如何创建的？（2）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-ji-ge-react-zhong-dian-de-shi-xian-yuan-li/reactzu-jian-shi-shi-ru-he-chuang-jian-de-ff1f-ff08-2.md)
+有了它还并不能直接在浏览器中渲染，因为还需要一个 render 过程，具体见下一节：
+[React组件是如何在dom中渲染的？](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-ji-ge-react-zhong-dian-de-shi-xian-yuan-li/reactzu-jian-shi-shi-ru-he-chuang-jian-de-ff1f-ff08-2.md)
 
 
 
