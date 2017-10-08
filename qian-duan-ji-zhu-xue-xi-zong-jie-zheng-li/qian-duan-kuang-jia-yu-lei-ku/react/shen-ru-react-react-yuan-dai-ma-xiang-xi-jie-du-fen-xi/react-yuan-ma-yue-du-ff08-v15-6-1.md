@@ -13,7 +13,6 @@
 
 
 ## 参考
-[React 16 beta (facebook github)](https://github.com/facebook/react/issues/10294)
 
 [React官网文档-如何参与React源代码贡献](https://facebook.github.io/react/contributing/how-to-contribute.html)
 
@@ -23,13 +22,17 @@
 
 [Reacr官网文档-React设计原则](https://facebook.github.io/react/contributing/design-principles.html)
 
+[React 16 alpha 源码分析系列](http://blog.csdn.net/u013510838/article/details/55669742)
+
+[React源码分析7 — React合成事件系统](http://blog.csdn.net/u013510838/article/details/61224760)
+
 [React Fiber 架构](https://github.com/acdlite/react-fiber-architecture)
 
 [深入了解React新引擎：React Fiber](http://www.infoq.com/cn/news/2017/05/react-fiber-closer-look)
 
-[React 16 alpha 源码分析系列](http://blog.csdn.net/u013510838/article/details/55669742)
-
 [React 15 源码分析 gitbook](https://icepy.gitbooks.io/react/content/)
+
+[React 16 beta (facebook github)](https://github.com/facebook/react/issues/10294)
 
 [深入理解react（源码分析）](https://github.com/lanjingling0510/blog/issues/1)
 
