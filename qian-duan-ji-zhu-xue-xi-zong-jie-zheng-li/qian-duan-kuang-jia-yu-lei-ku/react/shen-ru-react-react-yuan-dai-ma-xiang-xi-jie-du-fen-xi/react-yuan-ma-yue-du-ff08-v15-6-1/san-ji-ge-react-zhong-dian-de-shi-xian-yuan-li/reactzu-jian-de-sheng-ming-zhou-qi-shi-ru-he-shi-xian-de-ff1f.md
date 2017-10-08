@@ -204,12 +204,9 @@ updateComponent: function(
       shouldUpdate = willReceive || nextState !== prevState;
       if (inst.shouldComponentUpdate) {
         if (__DEV__) {
-          shouldUpdate = measureLifeCyclePerf(
-            () => inst.shouldComponentUpdate(nextProps, nextState, nextContext),
-            this._debugID,
-            'shouldComponentUpdate',
-          );
+          ...
         } else {
+        //这里用到了shouldComponentUpdate
           shouldUpdate = inst.shouldComponentUpdate(
             nextProps,
             nextState,
@@ -226,18 +223,15 @@ updateComponent: function(
     }
 
     if (__DEV__) {
-      warning(
-        shouldUpdate !== undefined,
-        '%s.shouldComponentUpdate(): Returned undefined instead of a ' +
-          'boolean value. Make sure to return true or false.',
-        this.getName() || 'ReactCompositeComponent',
-      );
+      ...
     }
 
     this._updateBatchNumber = null;
+    
+    //如果shouldUpdate为true,则执行渲染
     if (shouldUpdate) {
       this._pendingForceUpdate = false;
-      // Will set `this.props`, `this.state` and `this.context`.
+      // 执行更新渲染的逻辑
       this._performComponentUpdate(
         nextParentElement,
         nextProps,
@@ -247,8 +241,6 @@ updateComponent: function(
         nextUnmaskedContext,
       );
     } else {
-      // If it's determined that a component should not update, we still want
-      // to set props and state but we shortcut the rest of the update.
       this._currentElement = nextParentElement;
       this._context = nextUnmaskedContext;
       inst.props = nextProps;
