@@ -142,9 +142,9 @@ mountComponent: function(
 ```
 
 ### 更新组件触发（componentWillReceiveProps，shouldComponentUpdate，componentWillUpdate，componentDidUpdate）
-这些方法不会在首次 render 组件的周期调用，当组件的状态发生变化时（比如通过setState修改了组件的state）会触发组件的更新，这些逻辑会在updateComponent中调用。
+这些方法不会在首次 render 组件的周期调用，当组件的状态发生变化时（比如通过setState修改了组件的state）会触发组件的更新，这些逻辑会在updateComponent中调用，也就是说组件更新的逻辑主要是在updateComponent方法中。
 
-仍然来看ReactCompositeComponent的updateComponent方法（代码位置：src/renderers/shared/stack/reconciler/ReactCompositeComponent.js）：
+仍然以ReactCompositeComponent的updateComponent方法为例（代码位置：src/renderers/shared/stack/reconciler/ReactCompositeComponent.js）：
 
 
 
@@ -228,7 +228,7 @@ updateComponent: function(
 
     this._updateBatchNumber = null;
     
-    //如果shouldUpdate为true,则执行渲染
+    //如果shouldUpdate为true,则执行更新渲染
     if (shouldUpdate) {
       this._pendingForceUpdate = false;
       // 执行更新渲染的逻辑
@@ -258,6 +258,141 @@ updateComponent: function(
   }
 
 ```
+
+通过上面代码可以看出，updateComponent中执行了componentWillReceiveProps和shouldComponentUpdate逻辑，最后shouldUpdate为true进行更新渲染时调用的是   _performComponentUpdate，来看
+_performComponentUpdate的源码(位置同上)：
+
+
+
+```javascript
+_performComponentUpdate: function(
+    nextElement,
+    nextProps,
+    nextState,
+    nextContext,
+    transaction,
+    unmaskedContext,
+  ) {
+    var inst = this._instance;
+
+    var hasComponentDidUpdate = !!inst.componentDidUpdate;
+    var prevProps;
+    var prevState;
+    if (hasComponentDidUpdate) {
+      prevProps = inst.props;
+      prevState = inst.state;
+    }
+
+    if (inst.componentWillUpdate) {
+      if (__DEV__) {
+        ...
+      } else {
+      // 这里执行了componentWillUpdate
+        inst.componentWillUpdate(nextProps, nextState, nextContext);
+      }
+    }
+
+    // 重新设置state props等属性
+    this._currentElement = nextElement;
+    this._context = unmaskedContext;
+    inst.props = nextProps;
+    inst.state = nextState;
+    inst.context = nextContext;
+
+    if (inst.componentDidCatch) {
+      this._updateRenderedComponentWithErrorHandling(
+        transaction,
+        unmaskedContext,
+      );
+    } else {
+      // 调用render方法，重新解析ReactElement并得到HTML
+      this._updateRenderedComponent(transaction, unmaskedContext);
+    }
+
+    if (hasComponentDidUpdate) {
+      if (__DEV__) {
+        ...
+      } else {
+        // 这里执行了componentDidUpdate
+        transaction
+          .getReactMountReady()
+          .enqueue(
+            inst.componentDidUpdate.bind(inst, prevProps, prevState),
+            inst,
+          );
+      }
+    }
+  }
+```
+
+可以看到_performComponentUpdate中执行了componentWillUpdate（更新render前），componentDidUpdate（更新render后），至此，更新组件触发的生命周期函数就齐了。
+
+
+### 卸载组件触发（componentWillUnmount）
+卸载组件时，主要的逻辑是在unmountComponent方法（更新组件时如果不满足DOM diff条件，也会先unmountComponent, 然后再mountComponent。），来看下unmountComponent源码（以ReactCompositeComponent为例，位置同上）：
+
+
+```
+unmountComponent: function(safely, skipLifecycle) {
+    if (!this._renderedComponent) {
+      return;
+    }
+
+    var inst = this._instance;
+
+    if (inst.componentWillUnmount && !inst._calledComponentWillUnmount) {
+      inst._calledComponentWillUnmount = true;
+
+      if (safely) {
+        if (!skipLifecycle) {
+          var name = this.getName() + '.componentWillUnmount()';
+          ReactErrorUtils.invokeGuardedCallbackAndCatchFirstError(
+            name,
+            inst.componentWillUnmount,
+            inst,
+          );
+        }
+      } else {
+        if (__DEV__) {
+          measureLifeCyclePerf(
+            () => inst.componentWillUnmount(),
+            this._debugID,
+            'componentWillUnmount',
+          );
+        } else {
+          inst.componentWillUnmount();
+        }
+      }
+    }
+
+    if (this._renderedComponent) {
+      ReactReconciler.unmountComponent(
+        this._renderedComponent,
+        safely,
+        skipLifecycle,
+      );
+      this._renderedNodeType = null;
+      this._renderedComponent = null;
+      this._instance = null;
+    }
+
+    this._pendingStateQueue = null;
+    this._pendingReplaceState = false;
+    this._pendingForceUpdate = false;
+    this._pendingCallbacks = null;
+    this._pendingElement = null;
+
+    this._context = null;
+    this._rootNodeID = 0;
+    this._topLevelWrapper = null;
+
+    ReactInstanceMap.remove(inst);
+  }
+
+```
+
+
+
 
 
 
