@@ -332,7 +332,7 @@ _performComponentUpdate: function(
 卸载组件时，主要的逻辑是在unmountComponent方法（更新组件时如果不满足DOM diff条件，也会先unmountComponent, 然后再mountComponent。），来看下unmountComponent源码（以ReactCompositeComponent为例，位置同上）：
 
 
-```
+```javascript
 unmountComponent: function(safely, skipLifecycle) {
     if (!this._renderedComponent) {
       return;
@@ -354,17 +354,15 @@ unmountComponent: function(safely, skipLifecycle) {
         }
       } else {
         if (__DEV__) {
-          measureLifeCyclePerf(
-            () => inst.componentWillUnmount(),
-            this._debugID,
-            'componentWillUnmount',
-          );
+          ...
         } else {
+          // 这里执行了componentWillUnmount
           inst.componentWillUnmount();
         }
       }
     }
 
+    // 递归调用unMountComponent来销毁子组件
     if (this._renderedComponent) {
       ReactReconciler.unmountComponent(
         this._renderedComponent,
@@ -376,6 +374,7 @@ unmountComponent: function(safely, skipLifecycle) {
       this._instance = null;
     }
 
+    //将一些内部变量置空，防止内存泄漏
     this._pendingStateQueue = null;
     this._pendingReplaceState = false;
     this._pendingForceUpdate = false;
@@ -391,7 +390,9 @@ unmountComponent: function(safely, skipLifecycle) {
 
 ```
 
-
+可以看到在unmountComponent里调用componentWillUnmount()，然后
+递归调用unmountComponent(),最后销毁子组件
+将内部变量置空，防止内存泄漏
 
 
 
