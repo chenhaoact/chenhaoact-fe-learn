@@ -390,9 +390,9 @@ unmountComponent: function(safely, skipLifecycle) {
 
 ```
 
-可以看到在unmountComponent里调用componentWillUnmount()，然后
-递归调用unmountComponent(),最后销毁子组件
-将内部变量置空，防止内存泄漏
+可以看到在unmountComponent里调用componentWillUnmount()，然后递归调用unmountComponent(),最后销毁子组件将内部变量置空，防止内存泄漏。
+
+至此，React的生命周期就基本能理清了，其他几种类型的React Component也类似，这里不在赘述，有兴趣可以看下源码。
 
 
 
