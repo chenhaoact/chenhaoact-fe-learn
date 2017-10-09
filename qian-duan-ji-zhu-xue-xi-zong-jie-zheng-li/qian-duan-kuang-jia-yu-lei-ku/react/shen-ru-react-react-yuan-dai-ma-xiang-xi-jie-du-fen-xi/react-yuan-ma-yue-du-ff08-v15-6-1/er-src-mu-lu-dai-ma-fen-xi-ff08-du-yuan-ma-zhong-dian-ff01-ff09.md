@@ -2,8 +2,6 @@
 
 **回到源码src目录:**
 
-renderers 顾名思义这是关于如何渲染的逻辑都放置在这里，有两个版本分别是浏览器和Native。shared 属于共享类，大家都能用到的一些工具函数都放置在此。那么 addons 呢？ 从源码中能看到比如做简单动画时用到的 ReactCSSTransitionGroup 都放置在此。
-
 ### 1. ReactVersion.js
 
 此文件定义React的版本，如：
