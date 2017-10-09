@@ -10,7 +10,7 @@
 
 从这里看项目的依赖以及脚本命令：
 
-![](/assets/WX20170809-163400@2x.png)
+![](/assets/WX20171009-185427@2x.png)
 
 运行
 
@@ -52,7 +52,7 @@ npm run build
 
 ![](/assets/WX20170810-110250@2x.png)
 
-![](/assets/WX20170810-110726@2x.png)
+![](/assets/WX20171009-190450@2x.png)
 
 
 **注意！这里构建生产的文件（build/packages下的文件）就是我们在开发react项目中通过npm install react npm install react-dom 等命令安装在node_modules 下的源文件。**
@@ -85,21 +85,20 @@ eslint的一些规则。
 
 React固有特性
 
-![](/assets/WX20170809-175123@2x.png)
+![](/assets/WX20171009-190033@2x.png)
 
 包括像dom以及React 16很重要的一个更新 **[React fiber](https://github.com/acdlite/react-fiber-architecture)**,这里的几个目录内都可以用 npm install 和 npm start跑起来看效果的。
 
 ### flow目录
 [flow](https://flow.org/) 类型检查的一些配置。
 
-![](/assets/WX20170810-110666@2x.png)
+![](/assets/WX20171009-190204@2x.png)
 
 ### mocks目录
 模拟了简单的用于测试的React组件和子组件。
-![](/assets/WX20170810-113032@2x.png)
 
 ### packages目录
-react构建时在此目录基础下进行生产，可以看到这里的目录结构和build目录下的packages（最终用于开发者开发时npm安装的文件）结构一样。
+**react构建时在此目录基础下进行生产，可以看到这里的目录结构和build目录下的packages（最终用于开发者开发时npm安装的文件）结构一样。**
 
 ![](/assets/WX20170810-113357@2x.png)
 
