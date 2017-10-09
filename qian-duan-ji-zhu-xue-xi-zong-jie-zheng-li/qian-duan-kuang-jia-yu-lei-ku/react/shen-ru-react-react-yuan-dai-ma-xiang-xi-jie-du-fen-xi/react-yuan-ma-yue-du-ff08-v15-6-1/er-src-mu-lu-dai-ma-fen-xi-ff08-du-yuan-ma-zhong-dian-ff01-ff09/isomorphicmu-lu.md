@@ -1,6 +1,6 @@
 isomorphic 是一个十分重要的目录，里边基本上放置了你**在React日常编程中常使用到的东西的定义,比如：React模块,React.Component等**：
 
-![](/assets/WX20170810-141121@2x.png)
+![](/assets/WX20171009-194209@2x.png)
 
 先从src/isomorphic/目录最外层的ReactEntry.js开始看：
 
