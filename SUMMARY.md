@@ -7,6 +7,7 @@
       * [html重点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian.md)
         * [&lt;table&gt;](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/table.md)
         * [html文档流](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/htmlwen-dang-liu.md)
+        * [行内元素/块级元素](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/xing-nei-yuan-7d20-kuai-ji-yuan-su.md)
       * [html5重点与新特性整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing.md)
         * [html5与html4的对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/html5yu-html4-de-qu-bie.md)
         * [Web Worker与Service Worker](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html5xin-te-xing/web-worker.md)
