@@ -57,7 +57,7 @@
       * [compass](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/compass.md)
       * [postcss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/postcss.md)
       * [css-module](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css-module.md)
-      * [移动端兼容](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-jian-rong.md)
+      * [移动端适配与兼容（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-jian-rong.md)
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
         * [js 基本数据类型及操作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-ji-ben-shu-ju-lei-xing.md)
