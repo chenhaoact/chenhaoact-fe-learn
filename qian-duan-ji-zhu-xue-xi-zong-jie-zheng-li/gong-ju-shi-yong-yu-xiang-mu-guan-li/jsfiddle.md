@@ -1,7 +1,7 @@
 #TODO
 https://jsfiddle.net/
 
-<script async src="//jsfiddle.net/chenhaoact/w49rp2n7/embed/js,html,css,result/dark/"></script>
+<iframe width="100%" height="300" src="//jsfiddle.net/chenhaoact/w49rp2n7/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
 ## 使用
 参考：
