@@ -40,6 +40,7 @@
     * [CSS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css.md)
       * [CSS基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csszheng-li.md)
         * [选择器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csszheng-li/xuan-ze-qi.md)
+        * [定位与浮动](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csszheng-li/ding-wei-yu-fu-dong.md)
       * [CSS3重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3.md)
         * [文本，字体](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3/wen-ben-ff0c-zi-ti.md)
         * [按钮](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/css3/an-niu.md)
