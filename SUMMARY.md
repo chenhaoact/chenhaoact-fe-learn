@@ -359,6 +359,7 @@
     * [代码编辑器使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao.md)
       * [webstorm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm.md)
       * [项目下.editorconfig文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/xiang-mu-4e0b-editorconfig-wen-jian-xie-fa-yu-zuo-yong.md)
+      * [VSCode](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode.md)
     * [iconfont-图标管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/iconfonttu-biao-guan-li.md)
     * [markdown](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/markdown.md)
     * [设计工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/she-ji-gong-ju.md)
