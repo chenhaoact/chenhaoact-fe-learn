@@ -120,7 +120,8 @@ Swap file ".git/.MERGE_MSG.swp" already exists![O]pen Read-Only, (E)dit anyway,
 找到".git/.MERGE_MSG.swp"，之后删除即可，然后重新git add .;
 git commit -m "";git push master 之后，再执行 git merge branchName 就好啦
 
-### Git pull强制覆盖掉本地文件：
+### Git pull强制覆盖掉本地文件（常用！）
+
 如强行本地master分支与远程master一致
 
 
