@@ -49,6 +49,7 @@
         * [flex 布局（弹性布局）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/flex-bu-ju.md)
         * [grid布局（网格布局）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/wang-ge-bu-ju-ff08-grid-bu-ju-ff09.md)
       * [css常用技巧写法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-ji-qiao-xie-fa-zheng-li.md)
+        * [定宽文字（超出通过css自动打省略号）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-ji-qiao-xie-fa-zheng-li/ding-kuan-wen-zi-ff08-chao-chu-tong-guo-css-zi-dong-da-sheng-lve-hao-ff09.md)
       * [css属性大全（包含css3）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/cssshu-xing-da-quan-ff08-bao-han-css3.md)
       * css开发中遇到问题的解决整理与技巧方法总结（包含css3）
       * [CSS预处理技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li.md)
