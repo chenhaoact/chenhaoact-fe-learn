@@ -112,4 +112,6 @@ BFC与IFC概念理解+布局规则+形成方法+用处
 https://segmentfault.com/a/1190000009545742
 
 ### 待学习
+CSS魔法堂：重新认识Box Model、IFC、BFC和Collapsing margins
+https://segmentfault.com/a/1190000004625635
 
