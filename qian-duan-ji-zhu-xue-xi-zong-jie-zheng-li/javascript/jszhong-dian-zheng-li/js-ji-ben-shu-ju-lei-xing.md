@@ -1,5 +1,50 @@
 #js 基本数据类型及操作
 
+## 数据类型判断
+### typeof （常用）
+typeof操作符返回一个字符串，指示未经计算的数据类型。
+
+
+
+```
+typeof operand
+
+```
+
+
+参数
+operand 是一个表达式，表示对象或原始值，其类型将被返回。
+
+可能的返回值：
+
+| 类型 | 结果 |
+| -- | -- |
+| Undefined |	"undefined" |
+| Null | "object" |
+| Boolean | "boolean" |
+| Number | "number" |
+| String | "string" |
+| Symbol (ECMAScript 6 新增) |	"symbol" |
+| 宿主对象(由JS环境提供) |	Implementation-dependent|
+| **函数对象 "function"** | 任何其他对象	"object"|
+
+使用：
+比如**在react中调用组件传过来的回调函数时需要先判断所传数据是否为函数类型**：
+
+
+
+```
+const callback = this.props;
+
+if(typeOf callback === 'function'){
+   callback && callback()
+}
+```
+
+**在进行特定的数据操作前，务必检查下数据的类型是否正确，避免因数据类型不正确二导致的js报错，异常甚至故障。**
+
+
+## 数据类型操作
 1. 对象读一个不存在的属性返回 undefined
 
 ```
