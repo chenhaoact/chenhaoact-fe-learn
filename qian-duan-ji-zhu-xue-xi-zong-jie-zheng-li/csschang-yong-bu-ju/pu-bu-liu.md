@@ -61,12 +61,15 @@ https://codepen.io/chenhaoact/pen/ZXVMbe
 
 **这里注意：**
 
-块级元素在代码中如果有换行会自动加上一点外边距(默认加了空格或换行符)，导致自适应被打乱，这里使用设置ul的font-size:0消除。
+（1）块级元素在代码中如果有换行会自动加上一点外边距(默认加了空格或换行符)，导致自适应被打乱，这里使用设置ul的font-size:0消除。
 
 具体参考：
 如何解决inline-block元素的空白间距
 https://www.w3cplus.com/css/fighting-the-space-between-inline-block-elements
 
+（2）这里用到了calc()动态计算卡片的宽度，具体看：
+
+[calc()](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/cssshu-xing-da-quan-ff08-bao-han-css3/clac.md)
 
 ## 二 瀑布流
 
