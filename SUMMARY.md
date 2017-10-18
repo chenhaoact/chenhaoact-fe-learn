@@ -49,7 +49,7 @@
         * [单列布局](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/dan-lie-bu-ju.md)
         * [两栏布局（左固定-右自适应）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/liang-lan-bu-ju-ff08-zuo-gu-5b9a-you-zi-shi-ying-ff09.md)
         * [三栏布局（左固定-中自适应-右固定）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/zuo-gu-5b9a-zhong-zi-shi-5e94-you-gu-ding.md)
-        * [瀑布流](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/pu-bu-liu.md)
+        * [卡片式布局与瀑布流](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/pu-bu-liu.md)
         * [flex 布局（弹性布局）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/flex-bu-ju.md)
         * [grid布局（网格布局）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/wang-ge-bu-ju-ff08-grid-bu-ju-ff09.md)
         * [垂直居中](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/chui-zhi-ju-zhong.md)
