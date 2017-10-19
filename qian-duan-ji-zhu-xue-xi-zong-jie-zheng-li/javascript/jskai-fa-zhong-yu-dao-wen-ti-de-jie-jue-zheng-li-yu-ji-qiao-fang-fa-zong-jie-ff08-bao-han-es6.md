@@ -1,4 +1,4 @@
-# js开发中遇到问题及bug的解决整理与技巧方法总结（包含es6）
+# js问题及故障的解决与技巧方法整理（包含es6）
 
 ## 数组类
 
@@ -19,6 +19,20 @@ const nextWeekActiveToChange = selectedToChange >= weekList.length - 1 ? false :
 weekList[nextWeekActiveToChange] ...
 
 ```
+
+### 2. 对从后端拿到的数组，对象等数据进行操作时首先要保证是有值且类型正确，否则有时候后端不给，前端就会因异常而出现故障
+
+最常见的方法时前端 || 一个默认值，如：
+
+
+
+```
+let array1 = json.data.list || []; //即使从后端拿不到数据，也能保证它是一个数组数据，从而让对数组的操作不保错
+
+```
+
+
+
 
 ## 对象类
 
