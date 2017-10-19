@@ -275,7 +275,8 @@
         * [Inquirer.js学习与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/inquirerjs.md)
         * [chalk](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/chalk.md)
         * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
-        * [相关资源整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/xiang-guan-zi-yuan-zheng-li.md)
+        * [相关资源参考与整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/xiang-guan-zi-yuan-zheng-li.md)
+        * [mac和unix系统自带命令](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/macxi-tong-zi-dai-ming-ling.md)
       * 代码校验
         * [eslint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint.md)
         * [JsLint和JsHint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jslinthe-jshint.md)
