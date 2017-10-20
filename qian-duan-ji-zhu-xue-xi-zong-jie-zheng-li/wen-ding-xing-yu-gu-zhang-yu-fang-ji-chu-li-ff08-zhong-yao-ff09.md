@@ -5,3 +5,9 @@
 
 ### 代码发布前的review
 另外代码上线发布前必须找人review, 用webstorm git对比或者gitlab/github的pull request对比功能重过修改过的每一行代码，避免因为不小心手误删改代码导致的故障，多一个人把关会更保险一些。
+
+## 常见的前端代码引发的故障及防范写法
+
+见：
+
+[重！js问题及故障的解决与技巧方法整理（包含es6）](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6.md)
