@@ -287,6 +287,7 @@
       * [web组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/webzu-jian.md)
     * [前端性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua.md)
       * [各个前端框架性能数据对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua/ge-ge-qian-duan-kuang-jia-xing-neng-shu-ju-dui-bi.md)
+      * [大流量/高并发下的优化与容灾方案](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua/da-liu-91cf-gao-bing-fa-xia-de-you-hua-yu-rong-zai-fang-an.md)
     * [前端调试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu.md)
       * [chrome浏览器调试技巧整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li.md)
       * [页面远程调试与演示](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/ye-mian-yuan-cheng-diao-shi-yu-yan-shi.md)
