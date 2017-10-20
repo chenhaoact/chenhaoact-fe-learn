@@ -305,6 +305,7 @@
       * [数据类型与算法类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku.md)
         * [lodash](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash.md)
           * [loadsh常用方法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)
+        * [ramda](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/ramda.md)
       * [同步异步处理类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/tong-bu-yi-bu-chu-li-lei-ku.md)
         * [q.js-A promise library for JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qjs.md)
       * [数据图表与可视化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-tu-biao-yu-ke-shi-hua.md)
