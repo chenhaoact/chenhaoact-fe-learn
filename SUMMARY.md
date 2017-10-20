@@ -272,9 +272,9 @@
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
+        * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
         * [Inquirer.js学习与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/inquirerjs.md)
         * [chalk](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/chalk.md)
-        * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
         * [相关资源参考与整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/xiang-guan-zi-yuan-zheng-li.md)
         * [mac和unix系统自带命令](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/macxi-tong-zi-dai-ming-ling.md)
       * 代码校验
@@ -364,7 +364,7 @@
       * [树莓派](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang/shu-mei-pai.md)
     * [图形学与图像识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie.md)
       * [人脸识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ren-lian-shi-bie.md)
-  * [工具使用与项目管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
+  * [工具使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
       * [sourcetree-git版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/sourcetree-gitban-ben-kong-zhi.md)
@@ -397,6 +397,8 @@
     * [技术栈选择](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-zhan-xuan-ze.md)
     * [如何更好的技术选型？](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ru-he-geng-hao-de-ji-zhu-xuan-xing-ff1f.md)
     * [如何处理好技术升级？](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-sheng-ji.md)
+  * 项目管理
+    * [稳定性与故障预防及处理（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wen-ding-xing-yu-gu-zhang-yu-fang-ji-chu-li-ff08-zhong-yao-ff09.md)
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)
   * [（每周必过一遍的）优质前端资源学习平台](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/ff08-mei-zhou-bi-xu-guo-yi-bian-de-ff09-you-zhi-qian-duan-zi-yuan-xue-xi-ping-tai.md)
