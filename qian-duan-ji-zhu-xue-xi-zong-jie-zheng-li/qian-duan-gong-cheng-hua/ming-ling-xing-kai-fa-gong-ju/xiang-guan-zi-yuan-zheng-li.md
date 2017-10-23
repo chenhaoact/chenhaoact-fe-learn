@@ -2,9 +2,11 @@
 谷歌直接搜索：前端命令行开发。
 
 ## 参考教程
+### 已学习
 跟着老司机玩转Node命令行
 https://aotu.io/notes/2016/08/09/command-line-development/index.html
 
+### 待学习
 Inquirer.js  —— A collection of common interactive command line user interfaces
 
 [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
