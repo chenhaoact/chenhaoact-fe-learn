@@ -150,6 +150,9 @@ inquirer.prompt(promps).then(function (answers) {
 官方教程：
 
 其他教程：
+跟着老司机玩转Node命令行
+https://aotu.io/notes/2016/08/09/command-line-development/index.html
+
 
 ### 5工具与资源
 
