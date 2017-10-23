@@ -38,5 +38,10 @@ yeoman脚手架yo
 
 [https://github.com/yeoman/yo](https://github.com/yeoman/yo)
 
+从vue-cli源码学习如何写模板
+https://github.com/dwqs/blog/issues/56
+
+vue-cli源码分析（试探篇）
+https://juejin.im/post/59965d4b6fb9a024903a8d97
 
 

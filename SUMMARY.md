@@ -248,9 +248,10 @@
       * [Koa](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa.md)
         * [Koa2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa/koa2.md)
       * [Nodejs-原生Nodejs](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs.md)
-      * [常用node插件与中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian.md)
+      * [常用node插件、类库与中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian.md)
         * [forever-让nodejs应用在后台永久执行](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/foreverrang-nodejs-ying-yong-zai-hou-tai-yong-jiu-zhi-xing.md)
         * [pm2-比forever更强大而且支持可视化界面监控管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/pm2bi-forever-geng-qiang-da-er-qie-zhi-chi-ke-shi-hua-jie-mian-jian-kong-guan-li.md)
+        * [async-强大的异步流程控制库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/asyncqiang-da-de-yi-bu-liu-cheng-kong-zhi-ku.md)
       * 其他nodejs框架
         * [egg](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/egg.md)
       * [Node同构与服务端渲染](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodetong-gou.md)
@@ -275,6 +276,8 @@
         * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
         * [Inquirer.js学习与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/inquirerjs.md)
         * [chalk](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/chalk.md)
+        * [download-git-repo](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/download-git-repo.md)
+        * [ora](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/ora.md)
         * [相关资源参考与整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/xiang-guan-zi-yuan-zheng-li.md)
         * [mac和unix系统自带命令](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/macxi-tong-zi-dai-ming-ling.md)
       * 代码校验
@@ -316,6 +319,8 @@
         * [DataV数据可视化-阿里云](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/datava-li-yun.md)
       * [dom控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/domkong-zhi.md)
         * [复制到粘贴板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/fu-zhi-dao-nian-tie-ban.md)
+      * 网络请求库
+        * [request](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/request.md)
     * 页面自动化搭建技术
       * [Ant Motion-快速在 React 框架中搭建和使用动画](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ant-motionkuai-su-zai-react-kuang-jia-zhong-da-jian-he-shi-yong-dong-hua.md)
     * 浏览器相关技术
