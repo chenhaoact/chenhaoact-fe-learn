@@ -75,3 +75,40 @@ https://www.w3cplus.com/css/fighting-the-space-between-inline-block-elements
 
 ## 1. 各块定宽不定高，自适应排布
 
+### 如果不在乎各块排列的顺序，及前面的块不用显示在最上面，可以参考多列排列（可以通过媒体查询做成列数响应式）
+
+具体参考本文的Multi-columns一节介绍的方法（另外此文的flex布局方法不适用于实战，因为分成了五列，实际开发中是循环去生成的，不太可能去再分列，所以不用看其后两种方法）：
+纯CSS实现瀑布流布局（大漠）
+
+https://www.w3cplus.com/css/pure-css-create-masonry-layout.html
+
+codepen效果展示：
+https://codepen.io/airen/pen/ybyvEM
+
+
+## 2.对各块的展示顺序有特殊要求，不能一列一列从上往下排，而要一行一行往下排，就需要用js去计算，可以使用一些成熟的js库：
+masonry
+https://github.com/desandro/masonry
+
+isotope
+https://github.com/metafizzy/isotope 
+
+vue-waterfall
+https://github.com/MopTym/vue-waterfall
+
+### 完美的瀑布流解决方案实践
+TODO...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
