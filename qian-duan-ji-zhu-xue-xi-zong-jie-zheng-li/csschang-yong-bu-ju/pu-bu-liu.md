@@ -77,7 +77,7 @@ https://www.w3cplus.com/css/fighting-the-space-between-inline-block-elements
 
 ### 如果不在乎各块排列的顺序，及前面的块不用显示在最上面，可以参考多列排列（可以通过媒体查询做成列数响应式）
 
-具体参考本文的Multi-columns一节介绍的方法（另外此文的flex布局方法不适用于实战，因为分成了五列，实际开发中是循环去生成的，不太可能去再分列，所以不用看其后两种方法）：
+具体参考本文的Multi-columns一节介绍的方法（**除了多列布局Multi-columns方法外，此文的后纯两种css方法是flex布局和grid布局实现瀑布流**，也对块的摆放顺序有一定的要求，使用时需要再用js去分组排列一下顺序）：
 纯CSS实现瀑布流布局（大漠）
 
 https://www.w3cplus.com/css/pure-css-create-masonry-layout.html
@@ -97,7 +97,7 @@ vue-waterfall
 https://github.com/MopTym/vue-waterfall
 
 ### 完美的瀑布流解决方案实践
-TODO...
+**TODO...**
 
 
 
