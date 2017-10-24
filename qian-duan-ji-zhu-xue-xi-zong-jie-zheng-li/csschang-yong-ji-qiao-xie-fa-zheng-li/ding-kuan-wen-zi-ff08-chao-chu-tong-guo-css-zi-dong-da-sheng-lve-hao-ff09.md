@@ -1,6 +1,6 @@
 ## 容器定宽(或者百分比自适应宽度)，右边是固定大小的元素，左边的文字自适应占满剩余空间，如果超长会自动打...
 
-重点在于 .block 样式类，尤其是：
+重点在于两个都设置了浮动，外边的容器中是overflow: hidden（这样浮动元素的宽高会参与计算）以及
 text-overflow: ellipsis; //文字超出打省略号
 
 
@@ -31,7 +31,7 @@ text-overflow: ellipsis; //文字超出打省略号
     width: calc(~"100% - @{minusNumber}");
     overflow:hidden;
     text-overflow:ellipsis;
-    white-space: nowrap;
+    white-space: nowrap; //不换行
     float: left;
   }
   
