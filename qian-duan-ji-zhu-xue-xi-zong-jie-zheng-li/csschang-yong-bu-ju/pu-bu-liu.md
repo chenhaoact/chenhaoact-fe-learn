@@ -86,7 +86,7 @@ codepen效果展示：
 https://codepen.io/airen/pen/ybyvEM
 
 
-## 2.对各块的展示顺序有特殊要求，不能一列一列从上往下排，而要一行一行往下排，就需要用js去计算，可以使用一些成熟的js库：
+## 2.对各块的展示顺序有特殊要求，不能一列一列从上往下排，而要一行一行往下排，CSS的方案就不是很完美和有力了，需要用js去计算，可以使用一些成熟的js库：
 masonry
 https://github.com/desandro/masonry
 
