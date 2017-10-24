@@ -12,6 +12,9 @@ fs模块几乎对所有操作提供异步和同步两种操作方式，供开发
 **建议用异步方法**，比起同步，异步方法**性能更高，速度更快，而且没有阻塞。**
 
 ## 二 使用
+
+**注：下列只列出推荐使用的异步方法，后面加Sync即是同步方法。**
+
 ### 1.打开文件
 
 异步模式下打开文件的语法：
@@ -21,7 +24,7 @@ fs.open(path, flags[, mode], callback)
 ```
 
 参数：
-path - 文件的路径。
+path - 文件的路径**（注意这里文件的文件名必须和文件里保持一致，比如名为act-init的文件虽然默认会当成txt文件处理，但是文件名是act-init没有.txt就不能去加.txt后缀），具体的文件路径时相对于当前的js而言的**。
 flags - 文件打开的行为。具体值详见下文。
 mode - 设置文件模式(权限)，文件创建默认权限为 0666(可读，可写)。
 callback - 回调函数，带有两个参数如：callback(err, fd)。
@@ -53,7 +56,8 @@ fs.open('a.txt', 'r+', function(err, fd) {
 
 
 ```
-$ node file.js 
+$ node file.js
+ 
 准备打开文件！
 文件打开成功！
 ```
@@ -98,6 +102,7 @@ fs.stat('a.txt', function (err, stats) {
 
 ```
 $ node file.js 
+
 准备打开文件！
 { dev: 16777220,
   mode: 33188,
@@ -116,6 +121,124 @@ $ node file.js
 是否为文件(isFile) ? true
 是否为目录(isDirectory) ? false
 ```
+
+### 3.读取文件
+异步模式下读取文件的语法：
+
+```
+fs.read(fd, buffer, offset, length, position, callback)
+```
+
+参数：
+fd - 通过 fs.open() 方法返回的文件描述变量。
+buffer - 数据写入的缓冲区。
+offset - 缓冲区写入的写入偏移量。
+length - 要从文件中读取的字节数。
+position - 文件读取的起始位置，如果 position 的值为 null，则会从当前文件指针的位置读取。
+callback - 回调函数，有三个参数err, bytesRead, buffer，err 为错误信息， bytesRead 表示读取的字节数，buffer 为缓冲区对象。
+
+例子：
+a.txt 文件内容为：
+hi
+
+创建 file.js 文件：
+
+
+```
+var fs = require("fs");
+var buf = new Buffer(1024);
+
+console.log("准备打开已存在的文件！");
+fs.open('input.txt', 'r+', function(err, fd) {
+   if (err) {
+       return console.error(err);
+   }
+   console.log("文件打开成功！");
+   console.log("准备读取文件：");
+   fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
+      if (err){
+         console.log(err);
+      }
+      console.log(bytes + "  字节被读取");
+      
+      // 仅输出读取的字节
+      if(bytes > 0){
+         console.log(buf.slice(0, bytes).toString());
+      }
+   });
+});
+```
+
+
+执行结果：
+
+
+```
+$ node file.js 
+
+准备打开已存在的文件！
+文件打开成功！
+准备读取文件：
+3  字节被读取
+hi
+```
+
+
+
+
+### 4.写入文件
+异步模式下写入文件的语法：
+
+
+```
+fs.writeFile(file, data[, options], callback)
+```
+
+如文件存在，该方法写入内容会覆盖原文件内容。
+
+参数：
+file - 文件名或文件描述符。
+data - 要**写入文件的数据，可以是 String(字符串) 或 Buffer(流) 对象**。
+options - 该参数是一个对象，包含 {encoding, mode, flag}。默认编码为 utf8, 模式为 0666 ， flag 为 'w'
+callback - 回调函数，回调函数只包含错误信息参数(err)，在写入失败时返回。
+
+例子：
+将字符串写入某文件，并读取其内容：
+
+
+```
+var fs = require("fs");
+
+console.log("准备写入文件");
+fs.writeFile('input.txt', '我是通过写入的文件内容！',  function(err) {
+   if (err) {
+       return console.error(err);
+   }
+   console.log("数据写入成功！");
+   console.log("--------我是分割线-------------")
+   console.log("读取写入的数据！");
+   fs.readFile('input.txt', function (err, data) {
+      if (err) {
+         return console.error(err);
+      }
+      console.log("异步读取文件数据: " + data.toString());
+   });
+});
+```
+
+执行结果：
+
+
+```
+$ node file.js 
+
+准备写入文件
+数据写入成功！
+--------我是分割线-------------
+读取写入的数据！
+异步读取文件数据: 我是通过写入的文件内容
+```
+
 
 
 
