@@ -294,7 +294,18 @@ render((
 ## 三 资源与参考
 
 ### 1官网
+英文官网
+https://reacttraining.com/react-router/
+
+github
+https://github.com/ReactTraining/react-router
+
+React Router中文官网
+http://reacttraining.cn/
 
 ### 2文档
+官方文档（web模块）：
+https://reacttraining.com/react-router/web/guides/philosophy
+
 React Router 中文文档
 https://react-guide.github.io/react-router-cn/
