@@ -15,7 +15,7 @@ fs模块几乎对所有操作提供异步和同步两种操作方式，供开发
 
 **注：下列只列出推荐使用的异步方法，后面加Sync即是同步方法。**
 
-### 1.打开文件
+### 1.打开文件（open）
 
 异步模式下打开文件的语法：
 ```
@@ -62,7 +62,7 @@ $ node file.js
 文件打开成功！
 ```
 
-### 2.获取文件信息 
+### 2.获取文件信息（stat）
 通过异步模式获取文件信息的语法：
 
 ```
@@ -122,7 +122,7 @@ $ node file.js
 是否为目录(isDirectory) ? false
 ```
 
-### 3.读取文件
+### 3.读取文件（read）
 异步模式下读取文件的语法：
 
 ```
@@ -186,7 +186,7 @@ hi
 
 
 
-### 4.写入文件
+### 4.写入文件（writeFile）
 异步模式下写入文件的语法：
 
 
@@ -239,8 +239,122 @@ $ node file.js
 异步读取文件数据: 我是通过写入的文件内容
 ```
 
+### 5.关闭文件 (close)
+异步模式下关闭文件的语法：
 
 
+```
+fs.close(fd, callback)
+```
+
+
+参数:
+fd - 通过 fs.open() 方法返回的文件描述符。
+callback - 回调函数，没有参数。
+
+例子：
+input.txt 文件内容为：hi
+创建 file.js 文件：
+
+
+```
+var fs = require("fs");
+var buf = new Buffer(1024);
+
+console.log("准备打开文件！");
+fs.open('input.txt', 'r+', function(err, fd) {
+   if (err) {
+       return console.error(err);
+   }
+   console.log("文件打开成功！");
+   console.log("准备读取文件！");
+   fs.read(fd, buf, 0, buf.length, 0, function(err, bytes){
+      if (err){
+         console.log(err);
+      }
+
+      // 仅输出读取的字节
+      if(bytes > 0){
+         console.log(buf.slice(0, bytes).toString());
+      }
+
+      // 关闭文件
+      fs.close(fd, function(err){
+         if (err){
+            console.log(err);
+         } 
+         console.log("文件关闭成功");
+      });
+   });
+});
+
+```
+
+执行结果：
+$ node file.js 
+准备打开文件！
+文件打开成功！
+准备读取文件！
+hi
+文件关闭成功
+
+### 6.删除文件(unlink)
+语法：
+
+
+```
+fs.unlink(path, callback)
+```
+
+参数：
+path - 文件路径。
+callback - 回调函数，没有参数。
+
+### 7.目录操作
+#### （1）创建目录（mkdir）
+语法：
+
+
+```
+fs.mkdir(path[, mode], callback)
+
+```
+
+
+参数：
+path - 文件路径。
+mode - 设置目录权限，默认为 0777。
+callback - 回调函数，没有参数。
+
+#### （2）读取目录（readdir）
+语法：
+
+
+```
+fs.readdir(path, callback)
+
+```
+
+参数：
+path - 文件路径。
+callback - 回调函数，回调函数带有两个参数err, files，err 为错误信息，files 为 目录下的文件数组列表。
+
+####（3）删除目录
+语法：
+
+
+```
+fs.rmdir(path, callback)
+```
+
+
+参数：
+path - 文件路径。
+callback - 回调函数，没有参数。
+
+
+### 8.其他方法
+参考下列教程和nodejs官方api。
 
 ## 参考
 官方api
