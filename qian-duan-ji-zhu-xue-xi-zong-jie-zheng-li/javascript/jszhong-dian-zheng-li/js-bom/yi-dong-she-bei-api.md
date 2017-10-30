@@ -23,6 +23,8 @@
 触摸事件-MDN
 https://developer.mozilla.org/zh-CN/docs/Web/API/Touch_events
 
+另外**可以使用一些触摸事件的js库提升开发效率**，如：[hammer.js](https://github.com/hammerjs/hammer.js)
+
 
 ## 2.Permission API（查询某接口的用户许可情况）
 很多操作需用户许可，如脚本想知道用户位置，或操作摄像头。
@@ -201,3 +203,6 @@ gramma：表示围绕y轴的选择，从-90到90度。当设备水平摆放时�
 ### 待学习
 触摸事件-MDN
 https://developer.mozilla.org/zh-CN/docs/Web/API/Touch_events
+
+hammerjs移动端的触摸手势js库
+http://www.jianshu.com/p/81a2da3fc06b
