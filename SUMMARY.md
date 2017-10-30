@@ -269,7 +269,7 @@
       * [包管理工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/bao-guan-li-gong-ju.md)
         * [npm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/npm.md)
         * [Yarn](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yarn.md)
-      * [打包构建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/da-bao-gou-jian-ji-zhu.md)
+      * [打包构建与编译技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/da-bao-gou-jian-ji-zhu.md)
         * [Webpack](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack.md)
           * [Webpack1](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack1.md)
           * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)
@@ -279,9 +279,10 @@
             * [代码拆分-按需加载](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/dai-ma-fen-5272-an-xu-jia-zai.md)
             * [构建性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/gou-jian-you-hua.md)
           * [happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
-        * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
-          * [常用的babel插件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie/chang-yong-de-babel-cha-jian.md)
         * [browserify](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/browserify.md)
+        * babel
+          * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
+          * [常用的babel插件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie/chang-yong-de-babel-cha-jian.md)
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
