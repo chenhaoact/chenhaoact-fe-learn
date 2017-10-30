@@ -1,3 +1,5 @@
+# postcss
+## 一 简介
 一种 用JavaScript 转化CSS的工具 
 
 css的后处理，有别于像less,sass这样的css预处理器
@@ -20,7 +22,17 @@ https://github.com/postcss/autoprefixer
 
 http://www.cnblogs.com/aNd1coder/p/autoprefixer.html
 
+## 二 使用
+webpack下使用postcss-loader
 
+cnpm install postcss-loader --save-dev
+
+参考：
+https://github.com/postcss/postcss-loader
+https://github.com/postcss/postcss#usage
+
+
+## 参考
 
 教程
 

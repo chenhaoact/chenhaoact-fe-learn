@@ -58,6 +58,8 @@
           * [viewport设置](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/viewportshe-zhi.md)
           * [rem](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/rem.md)
           * [媒体查询](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/mei-ti-cha-xun.md)
+          * 最好统一使用flex布局
+          * [可以使用的一些移动端适配类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/ke-yi-shi-yong-de-yi-xie-yi-dong-duan-shi-pei-lei-ku.md)
           * [开发中遇到的问题及解决方法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-bu-ju/kai-fa-zhong-yu-dao-de-wen-ti-ji-jie-jue-fang-fa.md)
       * [css常用技巧写法整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-ji-qiao-xie-fa-zheng-li.md)
         * [定宽文字（超出通过css自动打省略号）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/csschang-yong-ji-qiao-xie-fa-zheng-li/ding-kuan-wen-zi-ff08-chao-chu-tong-guo-css-zi-dong-da-sheng-lve-hao-ff09.md)
@@ -133,7 +135,6 @@
         * [ES6 函数新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-han-shu-xin-te-xing.md)
         * [ES6 RegExp（正则表达式）包括ES5部分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
         * [ES6 字符串新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zi-fu-chuan-xin-te-xing.md)
-      * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * [重！js问题及故障的解决与技巧方法整理（包含es6）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6.md)
     * [常用UI效果实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/chang-yong-ui-xiao-guo-shi-xian.md)
@@ -278,6 +279,8 @@
             * [代码拆分-按需加载](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/dai-ma-fen-5272-an-xu-jia-zai.md)
             * [构建性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/gou-jian-you-hua.md)
           * [happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
+        * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
+          * [常用的babel插件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie/chang-yong-de-babel-cha-jian.md)
         * [browserify](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/browserify.md)
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
