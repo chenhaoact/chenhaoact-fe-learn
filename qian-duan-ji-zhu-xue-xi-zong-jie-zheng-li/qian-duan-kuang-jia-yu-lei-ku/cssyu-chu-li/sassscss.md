@@ -49,7 +49,8 @@ http://sass-lang.com/documentation/file.SASS_REFERENCE.html
 [SASS用法指南(阮一峰)
 ](http://www.ruanyifeng.com/blog/2012/06/sass.html)
 sass中国(推荐)
-http://sass.bootcss.com/http://sass.bootcss.com/docs/sass-reference/
+http://sass.bootcss.com/
+http://sass.bootcss.com/docs/sass-reference/
 
 慕课网视频教程：Sass和Compass必备技能之Sass篇
 http://www.imooc.com/learn/364

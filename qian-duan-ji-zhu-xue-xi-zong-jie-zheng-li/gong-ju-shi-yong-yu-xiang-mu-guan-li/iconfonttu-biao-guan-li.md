@@ -1,3 +1,5 @@
+# iconfont-图标管理
+
 http://www.iconfont.cn/
 
 web上目前推荐**symbol引用**
@@ -34,7 +36,7 @@ web上目前推荐**symbol引用**
 </svg>
 
 
-如果是在**react项目中引入的话，这里的xlink:href需要改成xlinkHref,class要改成className才会起作用。aria-hidden则不需要改成驼峰法**
+如果是在**react项目中引入的话，这里的xlink:href需要改成xlinkHref（注意l是小写）,class要改成className才会起作用。aria-hidden则不需要改成驼峰法**
 
 **图标样式可以使用一般的css对字体的样式来控制**，比如**设置该svg父元素**（直接设置svg的字体样式有的不能起作用因为svg和字体的样式属性不同）**的font-size，color属性等控制字体**的大小，颜色等。
 
