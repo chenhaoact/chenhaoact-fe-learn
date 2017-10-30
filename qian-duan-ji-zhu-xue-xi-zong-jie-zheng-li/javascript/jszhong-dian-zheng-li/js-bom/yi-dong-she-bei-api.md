@@ -1,5 +1,30 @@
 #移动设备API
-## 1.Permission API（查询某接口的用户许可情况）
+## 1.移动设备交互事件（重要）
+###（1）touch事件（触摸交互控制）:
+  ev.touches中保存着触摸的手指个数
+  ev.touches.length为手指个数
+  每个touch都保存着
+  触摸事件类型:
+      1.touchstart
+      2.touchend：(对象只存在于changedTouches中)
+      3.touchmove
+      4.touchcancel
+  每个touch对象都有以下属性
+  clientX
+  clientY
+  identifier
+  pageX
+  pageY
+  screenX
+  screenY
+  target
+
+详见：
+触摸事件-MDN
+https://developer.mozilla.org/zh-CN/docs/Web/API/Touch_events
+
+
+## 2.Permission API（查询某接口的用户许可情况）
 很多操作需用户许可，如脚本想知道用户位置，或操作摄像头。
 
 **Permissions API用来查询某个接口的许可情况。
@@ -20,7 +45,7 @@ navigator.permissions.query({ name: 'geolocation' })
 
 通过此API，可查询用户态度。当用户已明确拒绝时，不必再询问用户许可。
 
-## 2.Viewport（设置视窗与缩放）
+## 3.Viewport（设置视窗与缩放）
 
 Viewport指的是网页的显示区域，也就是不借助滚动条的情况下，用户可以看到的部分网页大小（视窗）。PC上正常情况下，viewport和浏览器显示窗口是一样大小。但在移动设备上，两者可能不一样大小。
 
@@ -48,7 +73,7 @@ maximum-scale: 最大缩放比例
 minimum-scale: 最小缩放比例
 user-scalable: 是否允许用户缩放
 
-## 3.Geolocation API（获取用户的地理位置）
+## 4.Geolocation API（获取用户的地理位置）
 
 检查浏览器是否支持这个接口：
 
@@ -94,7 +119,7 @@ coords.speed：每秒的速度（单位：米）
 
 大多数桌面浏览器不提供上面列表的后四个值。
 
-## 4.Vibration API（使设备振动）
+## 5.Vibration API（使设备振动）
 适用场合是向用户发出提示或警告，游戏中尤其会大量使用。
 
 兼容性还不够好，故需要先使用下面的代码检查该接口是否可用：
@@ -123,10 +148,10 @@ navigator.vibrate(1000);
 
 上面代码使设备振动1秒钟。
 
-## 5.Luminosity API（屏幕亮度调节）
+## 6.Luminosity API（屏幕亮度调节）
 不常用，需要请查下面参考资料。
 
-## 6.Orientation API（检测手机的摆放方向，竖放或横放）
+## 7.Orientation API（检测手机的摆放方向，竖放或横放）
 先使用下面的代码检测浏览器是否支持该API。
 
 
@@ -174,3 +199,5 @@ gramma：表示围绕y轴的选择，从-90到90度。当设备水平摆放时�
 [《JavaScript 标准参考教程（alpha）》，by 阮一峰 浏览器环境-移动设备API](http://javascript.ruanyifeng.com/bom/mobile.html)
 
 ### 待学习
+触摸事件-MDN
+https://developer.mozilla.org/zh-CN/docs/Web/API/Touch_events
