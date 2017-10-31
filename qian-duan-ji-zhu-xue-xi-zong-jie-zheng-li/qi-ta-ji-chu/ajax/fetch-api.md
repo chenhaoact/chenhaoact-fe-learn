@@ -25,12 +25,10 @@ if ("fetch" in window){
 
 
 ```
-fetch(url).then(function (response) {
-  return response.json();
-}).then(function (jsonData) {
-  console.log(jsonData);
-}).catch(function () {
-  console.log('出错了');
+fetch(url).then((response) => {
+  console.log(response.json()); //通过response.json()可以获取到请求返回的json数据
+},(error)=>{
+  console.log(error);
 });
 ```
 
