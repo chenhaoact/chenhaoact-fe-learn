@@ -231,6 +231,7 @@
       * [React服务器端渲染](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/reactfu-wu-qi-duan-xuan-ran.md)
     * [Vue](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue.md)
       * [Vue2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue/vue2.md)
+    * [PWA](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa.md)
     * 跨平台移动端原生应用开发
       * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
         * React Native
@@ -316,6 +317,10 @@
       * [enzyme](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/enzyme.md)
       * [Travis CI-开源持续集成构建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/travis-cikai-yuan-chi-xu-ji-cheng-gou-jian.md)
       * [Codecov-开源的测试结果展示平台，将测试结果可视化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/codecovkai-yuan-de-ce-shi-jie-guo-zhan-shi-ping-tai-ff0c-jiang-ce-shi-jie-guo-ke-shi-hua.md)
+    * [页面自动化搭建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ye-mian-zi-dong-hua-da-jian-ji-zhu.md)
+      * [Ant Motion-快速在 React 框架中搭建和使用动画](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ant-motionkuai-su-zai-react-kuang-jia-zhong-da-jian-he-shi-yong-dong-hua.md)
+    * [浏览器相关技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/liu-lan-qi-xiang-guan-ji-zhu.md)
+      * [puppeteer](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/puppeteer.md)
     * [其他常用类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qi-ta-chang-yong-lei-ku.md)
       * [时间类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku.md)
         * [moment.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/momentjs.md)
@@ -334,10 +339,6 @@
         * [复制到粘贴板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/fu-zhi-dao-nian-tie-ban.md)
       * 网络请求库
         * [request](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/request.md)
-    * 页面自动化搭建技术
-      * [Ant Motion-快速在 React 框架中搭建和使用动画](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ant-motionkuai-su-zai-react-kuang-jia-zhong-da-jian-he-shi-yong-dong-hua.md)
-    * 浏览器相关技术
-      * [puppeteer](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/puppeteer.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
