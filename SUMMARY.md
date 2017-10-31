@@ -276,7 +276,7 @@
           * [Webpack1](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack1.md)
           * [Webpack2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack2.md)
           * [webpack3](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpack3.md)
-          * [webpack常用插件中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackchang-yong-cha-jian-zhong-jian-jian.md)
+          * [webpack常用插件中间件（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackchang-yong-cha-jian-zhong-jian-jian.md)
           * [webpack性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua.md)
             * [代码拆分-按需加载](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/dai-ma-fen-5272-an-xu-jia-zai.md)
             * [构建性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/gou-jian-you-hua.md)
@@ -285,6 +285,9 @@
         * babel
           * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
           * [常用的babel插件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie/chang-yong-de-babel-cha-jian.md)
+        * 云构建
+          * [Jenkins](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jenkins.md)
+          * [Travis CI](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/travis-ci.md)
       * 脚手架资源
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)

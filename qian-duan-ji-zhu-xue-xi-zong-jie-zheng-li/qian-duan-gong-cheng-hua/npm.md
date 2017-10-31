@@ -1,4 +1,4 @@
-# TODO
+# npm
 
 **PS:国内网络建议使用淘宝cnpm安装所有包（安装更快，不容易报错）    
 **[https://npm.taobao.org/](https://npm.taobao.org/)
@@ -23,7 +23,16 @@ npm i -D  包名
 
 npm install --save-dev  包名
 
-###3 package中各个字段的含义与作用
+### 更新本地安装包 npm update
+
+如果想更新已安装模块，就要用到npm update命令。
+
+$ npm update
+
+它会先到远程仓库查询最新版本，然后查询本地版本。如果本地版本不存在，或者远程版本较新，就会安装。
+
+
+###4 package中各个字段的含义与作用
 
 
 ####license 开源协议
@@ -33,8 +42,9 @@ npm install --save-dev  包名
 https://www.zhihu.com/question/19568896
 
 
-## 资源：
+## 参考：
 
+### 待学习
 npm 模块安装机制简介
 
 [http://www.ruanyifeng.com/blog/2016/01/npm-install.html](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
