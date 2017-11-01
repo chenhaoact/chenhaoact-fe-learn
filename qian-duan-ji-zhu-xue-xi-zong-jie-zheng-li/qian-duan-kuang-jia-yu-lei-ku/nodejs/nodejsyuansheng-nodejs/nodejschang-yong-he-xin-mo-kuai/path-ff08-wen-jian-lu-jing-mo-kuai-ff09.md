@@ -96,8 +96,11 @@ path.extname(p)
 
 
 ## 参考
+### 已学习
 《JavaScript 标准参考教程（alpha）Node.js Path模块》
 http://javascript.ruanyifeng.com/nodejs/path.html
 
 Node.js Path 模块-菜鸟教程
 http://www.runoob.com/nodejs/nodejs-path-module.html
+
+### 待学习
