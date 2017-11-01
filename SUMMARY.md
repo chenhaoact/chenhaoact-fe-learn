@@ -431,6 +431,7 @@
     * [如何处理好技术升级？](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-zhu-fang-an-yu-ji-zhu-zhan/ji-zhu-sheng-ji.md)
   * 项目管理
     * [稳定性与故障预防及处理（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wen-ding-xing-yu-gu-zhang-yu-fang-ji-chu-li-ff08-zhong-yao-ff09.md)
+    * [前端可用性保障](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ke-yong-xing-bao-zhang.md)
   * [技术学习总结模板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ji-zhu-xue-xi-zong-jie-mo-ban.md)
 * [前端学习资源整理（内附超多前端福利）](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09.md)
   * [（每周必过一遍的）优质前端资源学习平台](qian-duan-xue-xi-zi-yuan-zheng-li-ff08-nei-fu-chao-duo-qian-duan-fu-li-ff09/ff08-mei-zhou-bi-xu-guo-yi-bian-de-ff09-you-zhi-qian-duan-zi-yuan-xue-xi-ping-tai.md)
