@@ -51,6 +51,9 @@ _.difference([1, 2, 3], [4, 2]);
 // => [1, 3]
 ```
 
+同类方法还有
+_.differenceBy
+_.differenceWith
 
 ### 4._.drop() 将array前 n 个元素去除，返回剩余部分
 
@@ -143,11 +146,30 @@ _.flatten([1, [2, 3, [4]]], true);
 ```
 
 
-### 2.
+### 8. _.fromPairs() 键值对数组转对象
 
 
 ```
+_.fromPairs(pairs)
+```
 
+它是`_.toPairs`的反操作
+
+例子：
+
+```
+_.fromPairs([['a', 1], ['b', 2]]);
+// => { 'a': 1, 'b': 2 }
+```
+
+
+### 9. _.intersection() 取出各数组中全等的元素
+
+使用 SameValueZero方式平等比较
+
+
+```
+_.intersection([arrays])
 ```
 
 
@@ -157,34 +179,36 @@ _.flatten([1, [2, 3, [4]]], true);
 
 
 ```
+_.intersection([1, 2], [4, 2], [2, 1]);
 
+// => [2]
 ```
 
 
-### 2.
+同类方法还有
+_.intersectionBy
+_.intersectionWith
 
+
+### 10. _.pull() 移除数组array中所有和 values 相等的元素
+
+使用 SameValueZero 进行全等比较 
 
 ```
-
+_.pull(array, [values])
 ```
 
-
+Note: 不同于 _.without方法,此方法改变了数组 array（并不是原来的数组了）.
 
 例子：
 
-
-
 ```
+var array = [1, 2, 3, 1, 2, 3];
 
+_.pull(array, 2, 3);
+console.log(array);
+// => [1, 1]
 ```
-
-
-
-
-
-
-
-
 
 
 
