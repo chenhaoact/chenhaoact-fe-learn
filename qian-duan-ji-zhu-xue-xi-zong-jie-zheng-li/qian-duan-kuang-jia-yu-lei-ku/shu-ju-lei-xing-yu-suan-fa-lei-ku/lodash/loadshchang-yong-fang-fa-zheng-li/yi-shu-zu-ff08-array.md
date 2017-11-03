@@ -210,9 +210,65 @@ console.log(array);
 // => [1, 1]
 ```
 
+类似方法还有：
+_.pullAll
+_.pullAllBy
+_.pullAllWith
+_.pullAt
+
+
+### 11. _.remove() 移除数组 array 中满足 predicate 条件的所有元素 
+
+返回的是被移除元素数组. 
+
+语法
+
+```
+_.remove(array, [predicate=_.identity], [thisArg])
+```
+
+Note: 
+和方法 _.filter不一样, 此方法彻底改变数组array.
+
+
+例子：
 
 
 
+```
+var array = [1, 2, 3, 4];
+var evens = _.remove(array, function(n) {
+  return n % 2 == 0;
+});
+
+console.log(array);
+// => [1, 3]
+
+console.log(evens);
+// => [2, 4]
+```
+
+
+### 12. _.reverse()  逆序（第一个元素变最后一个，依次类推）
+
+语法
+
+
+```
+_.reverse(array)
+```
+
+
+
+例子
+
+
+```
+var array = [1, 2, 3];
+ 
+_.reverse(array);
+// => [3, 2, 1]
+```
 
 
 
