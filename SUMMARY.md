@@ -305,6 +305,7 @@
         * [mac和unix系统自带命令](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/macxi-tong-zi-dai-ming-ling.md)
       * 代码校验
         * [eslint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint.md)
+          * [eslint使用实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint/eslintshi-yong-shi-jian.md)
         * [JsLint和JsHint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jslinthe-jshint.md)
         * [stylelint-css样式代码校验](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/stylelint-cssyang-shi-dai-ma-xiao-yan.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)

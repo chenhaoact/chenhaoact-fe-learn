@@ -14,9 +14,9 @@
 
 ## 二 基本概念与技术重点整理
 
-## 三 使用实践及案例
+## 三 [使用实践](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint/eslintshi-yong-shi-jian.md)
 
-## 
+
 
 ## 四 资源与参考
 
@@ -43,7 +43,7 @@ webstorm nodejs ESLint 简单配置
 http://blog.csdn.net/whitehack/article/details/52422873
 
 在React+Babel+Webpack环境中使用ESLint
-http://www.cnblogs.com/le0zh/p/5619350.html
+http://www.cnblogs.com/le0zh/p/5619350.html
 
 ### 5工具与资源
 
