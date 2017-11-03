@@ -21,6 +21,12 @@ https://github.com/explore
 
 可以看到本周或本月github热门项目（某时间段star最多）
 
+**也可以通过以下平台寻找热门项目：**
+https://www.ctolib.com/
+https://libraries.io/
+https://juejin.im/repos
+
+
 ## GitHub 上参与开源项目贡献
 
 ### 重点！找到可以贡献代码点的技巧
