@@ -4,6 +4,10 @@
 
 安装并配置 [eslint-plugin-react](https://github.com/yannickcr/eslint-plugin-react)
 
+## 具体的规则含义都可以去ESlint中文网通过上方的搜索查询
+
+http://eslint.cn/docs/user-guide/configuring
+
 ## ESLint关闭规则
 有的文件不想因为一些eslint规则报错，可以通过注释来配置eslint规则是否开启：
 
