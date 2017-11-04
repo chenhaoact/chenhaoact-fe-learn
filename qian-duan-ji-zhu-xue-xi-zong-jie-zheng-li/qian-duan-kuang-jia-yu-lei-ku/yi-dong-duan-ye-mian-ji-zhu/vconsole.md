@@ -4,6 +4,10 @@ webpack的项目可以直接使用
 vconsole-webpack-plugin
 https://github.com/diamont1001/vconsole-webpack-plugin
 
+## 其他类似的工具
+### eruda（功能比vConsole还要多一些，可以尝试下）
+https://github.com/liriliri/eruda
+
 ## 参考
 https://github.com/Tencent/vConsole
 
