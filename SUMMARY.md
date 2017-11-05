@@ -425,6 +425,7 @@
     * [设计工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/she-ji-gong-ju.md)
       * [sketch](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/sketch.md)
     * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
+      * [Excel使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo/excelshi-yong-ji-qiao.md)
     * [多媒体制作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/duo-mei-ti-zhi-zuo.md)
     * [项目管理学习与能力培养](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/xiang-mu-guan-li-xue-xi-yu-neng-li-pei-yang.md)
     * [数据接口模拟与管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li.md)
