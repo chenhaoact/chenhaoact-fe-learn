@@ -288,7 +288,8 @@
           * [webpack性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua.md)
             * [代码拆分-按需加载](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/dai-ma-fen-5272-an-xu-jia-zai.md)
             * [构建性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/gou-jian-you-hua.md)
-          * [happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
+            * [用happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
+            * [利用 DllPlugin 和 DllReferencePlugin 预编译资源模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/li-yong-dllplugin-hedllreferenceplugin-yu-bian-yi-zi-yuan-mo-kuai.md)
         * [browserify](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/browserify.md)
         * babel
           * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)

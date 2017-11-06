@@ -17,6 +17,11 @@
 
 ## 三 使用实践及案例
 
+使用效果：
+引入happypack前：dev构建需4秒，生产build构建需6秒
+引入happypack后：dev构建需4秒，生产build构建需6秒
+
+
 安装：
 
 
@@ -115,6 +120,9 @@ http://blog.yunfei.me/blog/happypack_webpack_booster.html
 
 happypack 原理解析
 http://taobaofed.org/blog/2016/12/08/happypack-source-code-analysis/
+
+webpack 构建性能优化策略小结
+https://segmentfault.com/a/1190000007891318#articleHeader6
 
 
 ### 5工具与资源
