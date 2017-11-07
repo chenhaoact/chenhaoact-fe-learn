@@ -38,6 +38,12 @@ var at = require('lodash/at');
 var curryN = require('lodash/fp/curryN');
 ```
 
+**如果只用少量的部分方法，建议按需引入（就引入该方法定义的文件），性能更好（特别是对移动端页面），如：**
+
+```
+import clone from 'lodash/clone';
+```
+
 
 
 ## 资源与参考
