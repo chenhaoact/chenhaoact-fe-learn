@@ -190,7 +190,7 @@ _.intersectionBy
 _.intersectionWith
 
 
-### 10. _.pull() 移除数组array中所有和 values 相等的元素
+### 10. _.pull() 移除数组array中所有和 values 相等的元素 （常用！数组特定元素去除）
 
 使用 SameValueZero 进行全等比较 
 

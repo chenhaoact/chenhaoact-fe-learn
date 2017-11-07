@@ -56,6 +56,8 @@ let jsonc = JSON.parse(JSON.stringify(array1));
 首先，数组中的项如果是undefined，那么转换后将变为null
 如果数组的项为对象，那么对象之间不可相互引用。会造成循环引用，无法JSON序列化。
 
+在项目开发中建议使用[lodash](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)的 `_.clone` 和 **_.cloneDeep** 来实现浅拷贝与深拷贝。
+
 
 参考：
 
