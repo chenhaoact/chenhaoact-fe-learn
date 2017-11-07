@@ -76,8 +76,9 @@
       * css开发中遇到问题的解决整理与技巧方法总结（包含css3）
       * [CSS预处理及其他技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li.md)
         * [Sass/Scss](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss.md)
-          * [Sass函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/sasshan-shu.md)
           * [变量与模块引用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/bian-liang-yu-mo-kuai-yin-yong.md)
+          * [Sass函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/sasshan-shu.md)
+          * Mixin-可以重用的代码块
         * [less](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less.md)
           * [项目中常用less整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less/xiang-mu-zhong-chang-yong-less-xie-fa.md)
           * [less常用函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less/lesschang-yong-han-shu.md)
