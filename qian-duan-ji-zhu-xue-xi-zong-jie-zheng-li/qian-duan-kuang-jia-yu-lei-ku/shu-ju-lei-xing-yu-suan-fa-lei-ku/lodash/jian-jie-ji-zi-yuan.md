@@ -1,4 +1,4 @@
-# lodash 简介及资源
+# lodash 简介使用及资源
 
 ## 一 简介
 一个具有一致接口、模块化、高性能等特性的 JavaScript 工具库。
@@ -11,6 +11,32 @@
 ####（1）优点
 
 ####（2）缺点
+库略大，压缩前约526KB,压缩后大概占70KB，如果用的不多，或者对性能要求很高，需考虑是否要使用（以及以何种方式引入，比如可以按需引入减小文件提升性能）。
+
+## 二 使用
+
+
+```
+npm i --save lodash
+```
+
+引用：
+
+
+```
+// 完全引入
+var _ = require('lodash');
+// 引入核心
+var _ = require('lodash/core');
+
+// 按方法类型部分引入
+var array = require('lodash/array');
+var object = require('lodash/fp/object');
+
+// 按需引入，如果只有少量的部分方法，此方法在browserify/rollup/webpack构建打包后size最小
+var at = require('lodash/at');
+var curryN = require('lodash/fp/curryN');
+```
 
 
 

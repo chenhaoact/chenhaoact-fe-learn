@@ -38,7 +38,7 @@ http://lodashjs.com/docs/#_keysobject
 
 ## 四 函数（Function）
 
-## 五 语言类，各种数据类型的判断与转化（Lang）
+## 五 语言类，各种数据类型的判断与通用操作（Lang）
 
 ## 六 算数处理（Math）
 
