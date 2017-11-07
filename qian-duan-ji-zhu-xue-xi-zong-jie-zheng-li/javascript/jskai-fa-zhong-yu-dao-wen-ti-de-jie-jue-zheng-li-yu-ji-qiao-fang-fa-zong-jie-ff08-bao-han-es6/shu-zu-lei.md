@@ -29,6 +29,39 @@ let array1 = json.data.list || []; //即使从后端拿不到数据，也能保�
 
 ```
 
+### 3. 数组的浅拷贝与深拷贝
+数组实际上是对象，所以 用 = 赋值，实际上是给的引用（浅拷贝）
+
+如果确定数组的元素为原始类型数据（字符串，数组，布尔，null,undefined）,可以使用slice()或concat()方法实现近似的值copy效果：
+
+
+
+```
+let c1 = array1.slice(); //array1与c1值相同，但不存在引用关系，改变一个的值另一个不受影响
+```
+
+但实际上slice()，concat()等方法只能实现数组的**浅拷贝（即数组的每一项只能是原始类型的数据，如果数组的项包含引用类型，如数组（即js中的二维数组），对象等，以上方法复制的项只是引用）**
+
+实现深拷贝的一种简单方法是JSON转化：
+
+```
+let jsonc = JSON.parse(JSON.stringify(array1));
+```
+
+这种方法可以变相的实现深拷贝,但也有其限制：
+
+首先，数组中的项如果是undefined，那么转换后将变为null
+如果数组的项为对象，那么对象之间不可相互引用。会造成循环引用，无法JSON序列化。
+
+
+参考：
+
+js 数组拷贝
+https://juejin.im/entry/58217da92f301e005c2de257
+
+javaScript中浅拷贝和深拷贝的实现
+https://github.com/wengjq/Blog/issues/3
+
 
 
 
