@@ -34,9 +34,13 @@ https://github.com/postcss/postcss#usage
 
 ## 参考
 
-教程
+### 已学习
+#### 教程
+PostCSS深入学习：你需要知道什么
+https://www.w3cplus.com/PostCSS/postcss-deep-dive-what-you-need-to-know.html
 
-w3cplus postcss专题
 
+### 待学习
+更多w3cplus postcss专题文章
 https://www.w3cplus.com/blog/tags/516.html
 
