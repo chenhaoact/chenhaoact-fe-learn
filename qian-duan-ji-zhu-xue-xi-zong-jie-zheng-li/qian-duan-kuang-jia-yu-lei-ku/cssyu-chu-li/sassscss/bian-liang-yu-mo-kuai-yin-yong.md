@@ -23,7 +23,8 @@ body{
 
 ```
 
-
+具体参考：
+https://www.w3cplus.com/sassguide/syntax.html
 
 ## 模块引用  @import
 将一个Sass 模板被切割为多个文件并通过 @import 引入。
