@@ -8,7 +8,7 @@ Location 对象是 Window 对象的一个部分，可通过 window.location 属�
 document.location属性与window.location属性等价。IE曾不允许对document.location赋值，故**建议优先使用window.location**。
 
 ## window.location属性
-返回location对象，提供了当前文档的URL信息
+返回location对象，提供了当前文档的URL信息**（比如网址参数等）**
 
 ```
 // 当前网址为 http://user:passwd@www.example.com:4097/path/a.html?x=111#part1

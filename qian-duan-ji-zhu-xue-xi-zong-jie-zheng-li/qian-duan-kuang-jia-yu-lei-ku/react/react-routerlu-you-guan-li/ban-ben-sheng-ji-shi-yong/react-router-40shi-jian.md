@@ -21,6 +21,23 @@ npm install --save react-router-dom
 
 其他按照[React Router 4 简易入门](https://segmentfault.com/a/1190000010174260)中的介绍配置即可。
 
+### history对象
+history对象包括了location等数据，通过this.props.history可以拿到。
+
+#### 请求参数获取
+可以直接从网址里通过?x=1方式传参，通过this.props.history.location.search获取到路径中的请求参数：
+
+
+
+```
+//访问 localhost:9666/d?x=1
+console.log(this.props.history.location.search) //?x=1
+```
+
+**this.props.history.location的格式类似于window.location。**
+
+此时通过window.location.search是取不到?x=1参数的，因为window.location是取的浏览器hash后面的参数（#后面的参数，react-router通过欺骗浏览器的hash来实现了路由的控制与切换）。
+
 
 ## 参考
 [译] 关于 React Router 4 的一切
