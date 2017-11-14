@@ -48,10 +48,27 @@ nvm install 4.6.0
 nvm install stable 安装node速度很慢，可以通过配置淘宝npm镜像来加快nvm安装node的速度：
 建议把下列内容加入到 .bash_profile 文件中:
 
+
+
+```
 # nvm
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 
+```
+
+
 然后nvm按照node就会很快。
+
+### 切换成某个特定版本的nodejs
+
+```
+nvm use v4.6.0
+```
+
+node版本就切换到了4.6.0
+
+如果node -v没有变，需要新打开一个命令行窗口执行命令（因为命令行窗口的bash有缓存，bash改变后需要在新开的命令行窗口中才能生效）
+
 
 ## 参考
 nvm
