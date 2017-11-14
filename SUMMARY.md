@@ -81,6 +81,7 @@
           * Mixin-可以重用的代码块
           * [控制语句（if，循环等）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/xun-huan-deng-yu-ju.md)
           * [相关工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/xiang-guan-gong-ju.md)
+          * [Sass和Scss的异同](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/cssyu-chu-li/sassscss/sasshe-scss-de-yi-tong.md)
         * [less](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less.md)
           * [项目中常用less整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less/xiang-mu-zhong-chang-yong-less-xie-fa.md)
           * [less常用函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/less/lesschang-yong-han-shu.md)

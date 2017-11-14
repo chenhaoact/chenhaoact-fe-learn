@@ -52,6 +52,10 @@ CSS Modules 支持使用变量，不过需要安装 PostCSS 和 postcss-modules-
       }
 ```
 
+## 插件
+
+### react-css-modules（让react项目中接入css-module使用起来更方便）
+https://github.com/gajus/react-css-modules
 
 ## 参考
 ### 已学习
