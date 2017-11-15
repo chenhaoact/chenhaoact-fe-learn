@@ -1,12 +1,15 @@
 # postcss
 ## 一 简介
-一种 用JavaScript 转化CSS的工具 
 
-css的后处理，有别于像less,sass这样的css预处理器
+**一种 用JavaScript 转化CSS的工具** 
+
+一套利用JS插件实现的用来改变CSS的工具.这些插件能够支持变量和混合语法，转换未来CSS语法，内联图片，还有更多。
+
+PostCSS**拥有非常多的插件**，诸如自动为CSS添加浏览器前缀的插件**autoprefixer**、当前移动端最常用的px转rem插件**px2rem**，还有支持尚未成为CSS标准但特定可用的插件**cssnext**，还有很多很多。
+
+一句话来概括PostCSS：**CSS编译器能够做到的事情，它也可以做到，而且能够做得更好**
 
 用途：
-
-方便快捷的给所有css加各种浏览器的兼容前缀，
 
 [https://github.com/postcss/postcss](https://github.com/postcss/postcss)
 
@@ -17,6 +20,8 @@ css的后处理，有别于像less,sass这样的css预处理器
 autoprefixer
 
 https://github.com/postcss/autoprefixer
+方便快捷的给所有css加各种浏览器的兼容前缀，
+
 
 \[译\]Autoprefixer:一个以最好的方式处理浏览器前缀的后处理程序
 
