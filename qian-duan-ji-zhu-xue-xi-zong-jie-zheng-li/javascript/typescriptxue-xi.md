@@ -10,6 +10,8 @@ JavaScript的超集，可编译成纯JavaScript。
 
 可以编译出纯净、 简洁的JavaScript代码，并且可以运行在任何浏览器上、Node.js环境中和任何支持ECMAScript 3（或更高版本）的JavaScript引擎中。
 
+**通过类型注解提供编译时的静态类型检查。（在数据类型上相比js可以更严格一些）**
+
 类型允许JavaScript开发者在开发JavaScript应用程序时使用高效的开发工具和常用操作比如静态检查和代码重构。
 
 提供最新的和不断发展的JavaScript特性，包括那些来自ES6和未来的提案中的特性。这些特性为高可信应用程序开发时是可用的，但是会被编译成简洁的ECMAScript3（或更新版本）的JavaScript。
@@ -219,6 +221,8 @@ test("yyy")
 [https://www.typescriptlang.org/samples/index.html](https://www.typescriptlang.org/samples/index.html)
 
 其他教程：
+TypeScript 入门教程
+http://www.runoob.com/w3cnote/getting-started-with-typescript.html
 
 慕课网TypeScript入门视频教程
 
