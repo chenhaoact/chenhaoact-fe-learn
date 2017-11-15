@@ -9,13 +9,23 @@ PostCSS**拥有非常多的插件**，诸如自动为CSS添加浏览器前缀的
 
 一句话来概括PostCSS：**CSS编译器能够做到的事情，它也可以做到，而且能够做得更好**
 
-用途：
+### 特性
+多样化的功能插件，创建了一个生态的插件系统
+根据需要的特性进行模块化
+**快速编译（很快）**
+创建自己的插件，且具可访问性
+可以像普通的CSS一样使用它
+不依赖于任何预处理器就具备创建一个库的能力
+可以与许多流行工具构建无缝部署
+
+
+### 用途：
 
 [https://github.com/postcss/postcss](https://github.com/postcss/postcss)
 
 [http://postcss.org/](http://postcss.org/)
 
-好用的一些插件：
+### 好用的一些插件：
 
 autoprefixer
 
@@ -48,4 +58,7 @@ https://www.w3cplus.com/PostCSS/postcss-deep-dive-what-you-need-to-know.html
 ### 待学习
 更多w3cplus postcss专题文章
 https://www.w3cplus.com/blog/tags/516.html
+
+POSTCSS快速入门使用
+https://div.io/topic/1575
 
