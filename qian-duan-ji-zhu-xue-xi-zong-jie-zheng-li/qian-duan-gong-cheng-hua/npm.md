@@ -1,35 +1,69 @@
 # npm
 
+## 一 简介
+
 **PS:国内网络建议使用淘宝cnpm安装所有包（安装更快，不容易报错）    
 **[https://npm.taobao.org/](https://npm.taobao.org/)
 
-## 技术重点整理
+## 二 技术重点整理
 
 ###1 npm初始化一个项目，生成package.json文件
 
+
+
+```
 npm init
+```
+
+
 
 ###2 安装指定版本的包：
 
+
+
+```
 npm install 包名@版本号
+```
+
+
 
 
 
 省略写法：
 
-npm i -D  包名  
+`npm i -D  包名`  
 
 等效于
 
+
+
+```
 npm install --save-dev  包名
+
+```
+
 
 ### 更新本地安装包 npm update
 
 如果想更新已安装模块，就要用到npm update命令。
 
-$ npm update
+
+
+```
+npm update
+```
+
+
 
 它会先到远程仓库查询最新版本，然后查询本地版本。如果本地版本不存在，或者远程版本较新，就会安装。
+
+### 列出所有的包依赖
+
+
+```
+npm list
+```
+
 
 
 ###4 package中各个字段的含义与作用
@@ -41,6 +75,9 @@ $ npm update
 各协议之间的区别可参考：主流开源协议之间有何异同？
 https://www.zhihu.com/question/19568896
 
+## 三 相关工具
+### 1. npmtrends 比较各个包在过去几个月或几年的下载数量趋势图（有助于进行技术选型和技术热度调研）
+http://www.npmtrends.com/
 
 ## 参考：
 
