@@ -302,6 +302,7 @@
             * [用happypack-加快webpack的构建速度](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/happypackjia-kuai-webpack-de-gou-jian-su-du.md)
             * [利用 DllPlugin 和 DllReferencePlugin 预编译资源模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/li-yong-dllplugin-hedllreferenceplugin-yu-bian-yi-zi-yuan-mo-kuai.md)
             * [webpack-uglify-parallel（多线程压缩）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/webpack-uglify-parallelff08-duo-xian-cheng-ya-suo-ff09.md)
+            * [开发与生产环境构建配置区分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/webpack/webpackyou-hua/kai-fa-yu-sheng-chan-huan-jing-gou-jian-pei-zhi-qu-fen.md)
         * [browserify](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/browserify.md)
         * babel
           * [babel使用总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/babelshi-yong-zong-jie.md)
@@ -373,6 +374,7 @@
         * [复制到粘贴板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/fu-zhi-dao-nian-tie-ban.md)
       * 网络请求库
         * [request](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/request.md)
+        * [axios-一个基于Promise 用于浏览器和 nodejs 的 HTTP 客户端](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/axiosyi-ge-ji-yu-promise-yong-yu-liu-lan-qi-he-nodejs-de-http-ke-hu-duan.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
