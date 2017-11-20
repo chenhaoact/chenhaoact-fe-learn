@@ -196,6 +196,15 @@ function checkAdult(age) {
 ages.filter(checkAdult); //32,33,40
 ```
 
+## 重点整理！调用后原数组被改变的方法
+push
+
+## 重点整理！调用后（只是返回新的结果）原数组没有被改变的方法
+concat
+
+
+
+
 
 
 
