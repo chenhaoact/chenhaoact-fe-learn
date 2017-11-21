@@ -196,11 +196,46 @@ function checkAdult(age) {
 ages.filter(checkAdult); //32,33,40
 ```
 
-## 重点整理！调用后原数组被改变的方法
+## 二 js array重点归纳整理
+### 1. 重点整理！调用后原数组被改变的方法
 push
 
-## 重点整理！调用后（只是返回新的结果）原数组没有被改变的方法
+### 2. 重点整理！调用后（只是返回新的结果）原数组没有被改变的方法
 concat
+
+### 3. Js中 map、foreach、reduce的区别
+forEach()和map()遍历共同点：
+
+    1.都是循环遍历数组中的每一项。
+    2.里面每一次执行匿名函数都支持3个参数：数组中的当前项item,当前项的索引index,原始数组input。
+    3.只能遍历数组。
+
+不同点：
+**.forEach() 没有返回值。**
+
+
+```
+arr[].forEach(function(value,index,array){
+　　//do something
+}) 
+```
+
+.map() 有返回值，可以return 出来。
+
+
+
+```
+arr[].map(function(value,index,array){
+
+　　//do something
+
+　　return XXX
+
+})
+```
+
+**reduce()** 方法对累加器和数组中的**每个元素（从左到右）应用一个函数，将其减少为单个值。**
+
 
 
 
