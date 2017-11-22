@@ -36,9 +36,16 @@ fetch(url).then((response) => {
 
 上面代码向指定URL发请求，得到回应后将其转为JSON格式，输出到控制台。如出错，则输出一条提示信息。注意，**fetch方法返回的是一个Promise对象。**
 
-## 三 其他细节
+
+### 其他细节
 
 Fetch API引入三个新的对象（也是构造函数）：Headers, Request和Response。（Request对象和Response对象都有body属性，表示请求的内容。）
+
+比如**请求传参数，就把参数加到body**里,如：
+
+TODO
+
+
 
 
 ## 参考
