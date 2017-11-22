@@ -53,4 +53,5 @@ TODO
 [《JavaScript 标准参考教程（alpha）》，by 阮一峰](http://javascript.ruanyifeng.com/bom/ajax.html)
 
 ### 待学习
-
+MDN-Fetch API
+https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API
