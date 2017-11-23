@@ -43,7 +43,9 @@ Fetch API引入三个新的对象（也是构造函数）：Headers, Request和R
 
 比如**请求传参数，就把参数加到body**里,如：
 
-TODO
+### 浏览器不支持的解决方案
+移动端的浏览器可能不支持（window.fetch找不到），可以使用fetch库来支持：
+https://github.com/github/fetch
 
 
 
