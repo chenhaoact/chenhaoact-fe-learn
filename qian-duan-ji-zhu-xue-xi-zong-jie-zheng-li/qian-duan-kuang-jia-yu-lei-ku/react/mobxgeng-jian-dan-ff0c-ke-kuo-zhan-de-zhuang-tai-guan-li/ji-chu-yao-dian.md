@@ -16,17 +16,11 @@ React 和 MobX 和组合：React 通过提供机制把应用状态转换为可�
 
 
 ## 二 核心概念
-### 1. Observable state(可观察的状态)  @observable
+### 1. Observable state(可观察的状态)  @observable 
 
 MobX 为现有数据结构(如对象，数组和类实例)添加了可观察的功能。 通过使用 @observable 装饰器来给类属性添加注解就可完成。
 
-
-
-
-```
-
-```
-
+**注意：并不是所有数据都需要加它进行实时观察的（该数据一变组件立即重新渲染），需要这样功能的数据项再加。**
 
 ```
 class Todo {
