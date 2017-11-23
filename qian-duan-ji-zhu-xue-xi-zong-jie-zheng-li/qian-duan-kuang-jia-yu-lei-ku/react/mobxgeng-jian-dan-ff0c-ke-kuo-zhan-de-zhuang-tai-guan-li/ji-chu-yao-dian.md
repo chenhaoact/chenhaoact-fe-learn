@@ -12,6 +12,8 @@ React 和 MobX 和组合：React 通过提供机制把应用状态转换为可�
 ### 特点
 提供了**优化应用状态与 React 组件同步**的机制，这种机制使用**响应式虚拟依赖状态图表**，它**只有在真正需要的时候才更新状态并且永远保持是最新**的。
 
+MobX 会对在执行跟踪函数期间读取的任何现有的可观察属性做出反应。
+
 ### MobX和Redux的对比
 
 
@@ -38,8 +40,8 @@ class Todo {
 
 具体使用参见[装饰器文档](https://mobx.js.org/best/decorators.html)。 
 
-#### 使用observer把react组件编程响应式组件
-如果用 React 的话，可以把(无状态函数)组件变成响应式组件，方法是在组件上添加 observer 函数/ 装饰器. observer由 mobx-react 包提供的:
+#### 使用observer把react组件变响应式组件（数据变立即重新渲染对应部分）
+如果用 React，可**把(无状态函数)组件变成响应式组件，需在组件上添加 observer 函数/ 装饰器（然后就可以配合@observable的变量数据使用了）**. observer由 mobx-react 包提供的:
 
 ```
 import React, {Component} from 'react';
@@ -85,11 +87,12 @@ class TodoList {
 
 这样的计算可以很好地与电子表格程序中的公式(如MS Excel)进行比较。每当只有在需要它们的时候，它们才会自动更新。
 
-### 3.Reactions(反应)
+### 3. Reactions(反应)
 
 Reactions 和计算值很像，但它**不是产生一个新的值，而是会产生一些副作用**，如打印到控制台、网络请求、递增地更新 React 组件树以修补DOM等。 简而言之，**reactions 在 响应式编程和命令式编程之间建立沟通的桥梁。**
 
 
+### 4. Actions(动作)
 
 
 
