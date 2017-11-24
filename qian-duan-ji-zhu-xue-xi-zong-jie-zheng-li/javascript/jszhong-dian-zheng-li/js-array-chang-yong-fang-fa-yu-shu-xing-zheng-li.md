@@ -117,13 +117,29 @@ sortby	可选。规定排序顺序。**必须是函数**。
 
 http://www.w3school.com.cn/jsref/jsref_sort.asp
 
-### unshift() 向数组**开头添加一个或更多元素**，并返回新的长度。
+### unshift() 向原数组**开头添加一个或更多元素**
+
+并返回新的长度。
 
 ```
 arrayObject.unshift(newelement1,newelement2,....,newelementX)
 ```
 
+例子
+
+
+```
+var tmp = ['a','b'];
+var len = tmp.unshift('c');
+alert(tmp); // ['c','a','b']
+```
+
+
+
 http://www.w3school.com.cn/jsref/jsref_unshift.asp
+
+类比方法：
+shift: 把数组的第一个元素从其中删除，并返回第一个元素的值。
 
 ### join()
 
