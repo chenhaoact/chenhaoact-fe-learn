@@ -139,8 +139,8 @@ alert(tmp); // ['c','a','b']
 http://www.w3school.com.cn/jsref/jsref_unshift.asp
 
 类比方法：
-shift: 把数组的第一个元素从其中删除，并返回第一个元素的值。
-
+**shift: 把数组的第一个元素从其中删除，并返回第一个元素的值。
+**
 ### join()
 
 把数组中的所有元素放入一个字符串。
