@@ -59,7 +59,45 @@ _.isEmpty({ 'a': 1 });
 
 ### _.isEqual() 判断值是否相同
 
-TODO?
+比如可以判断对象的字面值是否相等：
+
+例子：
+
+```
+var object = { 'a': 1 };
+var other = { 'a': 1 };
+ 
+_.isEqual(object, other);
+// => true
+ 
+object === other;
+// => false
+```
+### _.isEqualWith(value, other, [customizer]) 可自定义判断相等的规则方法
+
+可以自定义判断相等的规则方法
+
+例子：
+
+
+```
+function isGreeting(value) {
+  return /^h(?:i|ello)$/.test(value);
+}
+ 
+function customizer(objValue, othValue) {
+  if (isGreeting(objValue) && isGreeting(othValue)) {
+    return true;
+  }
+}
+ 
+var array = ['hello', 'goodbye'];
+var other = ['hi', 'goodbye'];
+ 
+_.isEqualWith(array, other, customizer);
+// => true
+```
+
 
 
 
