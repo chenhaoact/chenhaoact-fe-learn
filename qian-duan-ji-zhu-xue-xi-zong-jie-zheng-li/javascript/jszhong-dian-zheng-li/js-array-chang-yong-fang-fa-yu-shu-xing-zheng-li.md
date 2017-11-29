@@ -69,6 +69,23 @@ tagToAdd.attr1 = true;
 addedTags.push(tagToAdd);
 ```
 
+### pop 删除并返回数组的最后一个元素
+语法
+
+
+```
+arrayObject.pop()
+
+```
+
+例子
+
+
+```
+let a = [George,John,Thomas]
+a.pop() //返回"Thomas",数组a变为[George,John]
+```
+
 
 
 ### splice() 向/从数组中添加/删除项目，然后返回被删除的项目。
