@@ -2,22 +2,33 @@
 
 ## 一 常用方法
 
-### 1. Object.assign\(\) 将所有可枚举的属性的值从一个或多个源对象复制到目标对象。返回目标对象。
+### 1. Object.assign() 将所有可枚举属性的值从一或多个源对象 复制 到目标对象。返回目标对象。
+
+**常用于拷贝对象的值生成新对象。**
 
 ```
 Object.assign(target, ...sources)
 ```
 
 参数：  
-target
+target 目标对象  
+sources   (多个)源对象。
 
-目标对象：  
-sources  
-\(多个\)源对象。
-
-返回值：  
+返回值：   
 目标对象。
 
+例子
+
+
+```
+var obj = { a: 1 };
+var copy = Object.assign({}, obj);
+console.log(copy); // { a: 1 }
+copy === obj   // false
+```
+
+具体参考：
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
 ### 2. Object.freeze(obj)
 冻结一个对象。
