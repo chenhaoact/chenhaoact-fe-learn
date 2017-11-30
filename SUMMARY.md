@@ -345,6 +345,7 @@
         * [断点调试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li/duan-dian-diao-shi.md)
         * [页面dom调试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li/ye-mian-dom-diao-shi.md)
         * [性能测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li/xing-neng-ce-shi.md)
+        * [浏览器快捷键整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li/liu-lan-qi-kuai-jie-jian-zheng-li.md)
       * [页面远程调试与演示](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/ye-mian-yuan-cheng-diao-shi-yu-yan-shi.md)
     * [前端测试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu.md)
       * [jest-令人愉快的 JavaScript 测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/jest.md)
