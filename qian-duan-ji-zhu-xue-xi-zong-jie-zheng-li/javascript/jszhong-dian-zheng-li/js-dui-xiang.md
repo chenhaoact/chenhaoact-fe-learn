@@ -1,6 +1,6 @@
 # js 对象
 
-## js 对象 基础
+## 一 对象基础
 
 ### （1）获取属性值的两种方式：对象.属性名 和 对象[属性名]
 
@@ -56,6 +56,25 @@ let tagToAdd = Object.assign({},originTags[idx])
 tagToAdd.attr1 = true;
 addedTags.push(tagToAdd);
 ```
+
+## 二 常用方法
+
+### 1. 对象属性的遍历 for in 循环
+
+
+例子
+
+```
+var person={fname:"Bill",lname:"Gates",age:56};
+
+for (x in person)
+  {
+  txt=txt + person[x];  // 参数x代表属性名
+  }
+```
+
+
+
 
 
 
