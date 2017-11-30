@@ -67,13 +67,14 @@ addedTags.push(tagToAdd);
 ```
 var person={fname:"Bill",lname:"Gates",age:56};
 
-for (x in person)
+for (let x in person)
   {
   txt=txt + person[x];  // 参数x代表属性名
   }
 ```
 
-
+详细参考
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in
 
 
 
