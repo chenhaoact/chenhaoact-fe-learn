@@ -114,6 +114,7 @@
           * [重点！js事件类型整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-shi-jian-chang-yong-fang-fa-yu-shu-xing-zheng-li/shi-jian-lei-xing.md)
         * [js字符串](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jszi-fu-chuan.md)
         * [js Number](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-number.md)
+        * [布尔型与表达式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-ji-ben-shu-ju-lei-xing/bu-er-xing-yu-biao-da-shi.md)
         * [js Array](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-array-chang-yong-fang-fa-yu-shu-xing-zheng-li.md)
         * [js 对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-dui-xiang.md)
         * [js原型、原型继承与非ES6的面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jsyuan-xing-3001-yuan-xing-lian.md)
