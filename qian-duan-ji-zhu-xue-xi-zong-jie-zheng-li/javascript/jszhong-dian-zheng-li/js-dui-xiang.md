@@ -79,7 +79,38 @@ https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for
 ### Object.keys() 返回对象的自身可枚举属性组成的数组
 
 
+###  delete 操作符  用于删除对象的某个属性。
 
+语法
+delete expression
+ expression 的计算机结果应该是某个属性的引用，例如：
+
+delete object.property 
+delete object['property']
+
+
+
+例子
+
+
+```
+var Employee = {
+  age: 28,
+  name: 'abc',
+  designation: 'developer'
+}
+
+console.log(delete Employee.name);   // returns true
+console.log(delete Employee.age);    // returns true
+
+// 当试着删除一个不存在的属性时
+// 同样会返回true
+console.log(delete Employee.salary); // returns true
+```
+
+
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/delete
 
 
 
