@@ -69,6 +69,25 @@ join
 ### 4. 不会改变原字符串的方法
 replace
 
+### 5. 不要使用的方法
+
+注意
+**尽量不要用eval() 函数**
+
+**eval() 函数可计算某个字符串，并执行其中的的 JavaScript 代码，非常危险！！！。虽然 eval() 功能非常强大，但实际使用中必须要用到它的情况并不多。**
+
+比如：
+
+
+```
+eval('alert(\'hi\')')  //就能直接在浏览器中弹框提示hi
+```
+
+**eval()非常危险（特别是其参数会经过后端或用户返回时），项目中不要用。
+**
+
+
+
 ## 参考
 String常用方法（w3school）
 http://www.w3school.com.cn/jsref/jsref_obj_string.asp
