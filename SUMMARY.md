@@ -335,6 +335,9 @@
         * [stylelint-css样式代码校验](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/stylelint-cssyang-shi-dai-ma-xiao-yan.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
         * [prepack——优化js源代码的工具提高js代码的效率](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua/prepack2014-2014-you-hua-js-yuan-dai-ma-de-gong-ju-ti-gao-js-dai-ma-de-xiao-lv.md)
+      * [配置文件语言](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/pei-zhi-wen-jian-yu-yan.md)
+        * [json](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/pei-zhi-wen-jian-yu-yan/json.md)
+        * [YAML](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/pei-zhi-wen-jian-yu-yan/yaml.md)
     * 前端组件化
       * [web组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/webzu-jian.md)
     * [前端性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-xing-neng-you-hua.md)
@@ -383,8 +386,9 @@
         * [ramda](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/ramda.md)
         * [undersercore](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/undersercore.md)
         * [You-Dont-Need-Lodash-Underscore（用原生js的方法解决很多问题）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/you-dont-need-lodash-underscoreff08-yong-yuan-sheng-js-de-fang-fa-jie-jue-hen-duo-wen-ti-ff09.md)
-      * [同步异步处理类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/tong-bu-yi-bu-chu-li-lei-ku.md)
+      * [同步异步编程处理类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/tong-bu-yi-bu-chu-li-lei-ku.md)
         * [q.js-A promise library for JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qjs.md)
+        * [RxJS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/rxjs.md)
       * [dom控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/domkong-zhi.md)
         * [复制到粘贴板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/fu-zhi-dao-nian-tie-ban.md)
       * 网络请求库
