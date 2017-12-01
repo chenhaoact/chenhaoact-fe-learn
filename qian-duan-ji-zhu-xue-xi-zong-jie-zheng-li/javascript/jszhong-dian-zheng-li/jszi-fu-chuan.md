@@ -55,6 +55,26 @@ console.log(newstr);  // Twas the night before Christmas...
 
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/replace
 
+### 4. includes() 判断一个字符串是否包含在另一个字符串中
+
+语法
+
+
+```
+str.includes(searchString[, position])
+```
+
+例子
+
+
+```
+'Blue Whale'.includes('blue'); // returns false
+```
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/includes
+
+
+
 
 
 ## 二 归纳整理

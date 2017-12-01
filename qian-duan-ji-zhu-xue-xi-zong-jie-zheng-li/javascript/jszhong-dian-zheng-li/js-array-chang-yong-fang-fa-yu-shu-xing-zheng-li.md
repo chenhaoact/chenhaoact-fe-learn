@@ -239,6 +239,34 @@ function checkAdult(age) {
 ages.filter(checkAdult); //32,33,40
 ```
 
+### includes() 判断一个数组是否包含一个指定的值
+
+语法
+
+
+```
+arr.includes(searchElement)
+arr.includes(searchElement, fromIndex)
+```
+
+
+
+例子
+
+
+```
+let a = [1, 2, 3];
+
+a.includes(2); 
+// true 
+
+a.includes(4); 
+// false
+```
+
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/includes
+
+
 ## 二 js array重点归纳整理
 ### 1. 重点整理！调用后原数组被改变的方法
 push
