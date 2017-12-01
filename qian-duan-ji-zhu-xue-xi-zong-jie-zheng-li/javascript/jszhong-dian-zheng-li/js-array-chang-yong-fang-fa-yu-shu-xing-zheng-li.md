@@ -280,6 +280,20 @@ arr[].map(function(value,index,array){
 **reduce()** 方法对累加器和数组中的**每个元素（从左到右）应用一个函数，将其减少为单个值。**
 
 
+### 4. 注意：forEach和map循环都是会全部遍历一遍的，不能用break跳出循环，如果想在中途判断条件跳出循环，需要用 for循环
+
+```
+for (var i=0;i<cars.length;i++)
+{
+   if(i=3) {
+     
+     break; 
+   }
+}
+```
+
+
+
 
 
 
