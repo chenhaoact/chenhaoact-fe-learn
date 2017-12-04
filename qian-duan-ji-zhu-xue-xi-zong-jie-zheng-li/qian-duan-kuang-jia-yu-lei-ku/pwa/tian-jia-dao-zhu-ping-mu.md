@@ -38,6 +38,9 @@ minimal-ui - 此模式类似于 fullscreen，但为终端用户提供了可访�
 browser - 使用操作系统内置的标准浏览器来打开 Web 应用（相当于唤起浏览器打开页面，浏览器里可以切换不同的之前已打开的tab（即使与本页面无关））。display 属性是可选项，默认以 browser 模式来显示。
 
 
+所有具体的配置项参考：
+Web App Manifest - MDN
+https://developer.mozilla.org/en-US/docs/Web/Manifest
 
 
 ## 引用
@@ -58,5 +61,9 @@ browser - 使用操作系统内置的标准浏览器来打开 Web 应用（相�
 </html>
 ```
 
+## 参考
+
+Web App Manifest - MDN
+https://developer.mozilla.org/en-US/docs/Web/Manifest
 
 

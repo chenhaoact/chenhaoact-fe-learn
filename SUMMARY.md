@@ -256,7 +256,7 @@
       * [Vue2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/vue/vue2.md)
     * [PWA](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa.md)
       * [简介与使用场景](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/jian-jie-yu-shi-yong-chang-jing.md)
-      * [添加到主屏幕](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/tian-jia-dao-zhu-ping-mu.md)
+      * [添加到主屏幕与manifest.json](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/tian-jia-dao-zhu-ping-mu.md)
     * 跨平台移动端原生应用开发
       * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
         * React Native
