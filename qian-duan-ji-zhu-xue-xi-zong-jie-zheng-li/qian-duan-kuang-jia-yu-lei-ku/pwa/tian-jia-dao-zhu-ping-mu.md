@@ -61,9 +61,15 @@ https://developer.mozilla.org/en-US/docs/Web/Manifest
 </html>
 ```
 
+webpack的项目推荐使用webpack-pwa-manifest插件来用配置自动生成manifest。json及图标等文件
+https://github.com/arthurbergmz/webpack-pwa-manifest
+
 ## 参考
 
 Web App Manifest - MDN
 https://developer.mozilla.org/en-US/docs/Web/Manifest
+
+web-app-manifest 谷歌开发者文档
+https://developers.google.com/web/fundamentals/web-app-manifest/
 
 

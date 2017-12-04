@@ -257,6 +257,8 @@
     * [PWA](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa.md)
       * [简介与使用场景](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/jian-jie-yu-shi-yong-chang-jing.md)
       * [添加到主屏幕与manifest.json](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/tian-jia-dao-zhu-ping-mu.md)
+      * [浏览器支持情况](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/liu-lan-qi-zhi-chi-qing-kuang.md)
+      * [一些支持了PWA的大型应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/pwa/yi-xie-zhi-chi-le-pwa-de-da-xing-ying-yong.md)
     * 跨平台移动端原生应用开发
       * [React Native](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react-native.md)
         * React Native

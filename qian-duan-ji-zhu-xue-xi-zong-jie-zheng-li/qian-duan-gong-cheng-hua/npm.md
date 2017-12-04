@@ -43,7 +43,7 @@ npm install --save-dev  包名
 ```
 
 
-### 更新本地安装包 npm update
+### 3 更新本地安装包 npm update
 
 如果想更新已安装模块，就要用到npm update命令。
 
@@ -57,16 +57,50 @@ npm update
 
 它会先到远程仓库查询最新版本，然后查询本地版本。如果本地版本不存在，或者远程版本较新，就会安装。
 
-### 列出所有的包依赖
+### 4 列出所有的包依赖
 
 
 ```
 npm list
 ```
 
+### 5 npm publish  将当前模块发布到npmjs.com
+执行之前，需要向npmjs.com申请用户名。
+
+$ npm adduser
+如果已经注册过，就使用下面的命令登录。
+
+$ npm login
+登录以后，就可以使用npm publish命令发布。
+
+$ npm publish
+如果当前模块是一个beta版，比如1.3.1-beta.3，那么发布的时候需要使用tag参数，将其发布到指定标签，默认的发布标签是latest。
+
+$ npm publish --tag beta
+如果发布私有模块，模块初始化的时候，需要加上scope参数。只有npm的付费用户才能发布私有模块。
+
+$ npm init --scope=<yourscope>
+如果你的模块是用ES6写的，那么发布的时候，最好转成ES5。首先，需要安装Babel。
+
+$ npm install --save-dev babel-cli@6 babel-preset-es2015@6
+然后，在package.json里面写入build脚本。
+
+"scripts": {
+  "build": "babel source --presets babel-preset-es2015 --out-dir distribution",
+  "prepublish": "npm run build"
+}
+运行上面的脚本，会将source目录里面的ES6源码文件，转为distribution目录里面的ES5源码文件。然后，在项目根目录下面创建两个文件.npmignore和.gitignore，分别写入以下内容。
+
+// .npmignore
+source
+
+// .gitignore
+node_modules
+distribution
 
 
-###4 package中各个字段的含义与作用
+
+## 三 package中各个字段的含义与作用
 
 
 ####license 开源协议
@@ -98,6 +132,9 @@ http://www.npmtrends.com/
 ## 参考：
 
 ### 待学习
+npm模块管理器-《JavaScript 标准参考教程（alpha）》，by 阮一峰
+http://javascript.ruanyifeng.com/nodejs/npm.html
+
 npm 模块安装机制简介
 
 [http://www.ruanyifeng.com/blog/2016/01/npm-install.html](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
