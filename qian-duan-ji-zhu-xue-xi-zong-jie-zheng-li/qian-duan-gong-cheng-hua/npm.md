@@ -1,4 +1,5 @@
 # npm
+**Node默认的模块管理器**，用来安装和管理Node模块。
 
 ## 一 简介
 
@@ -7,7 +8,7 @@
 
 ## 二 技术重点整理
 
-###1 npm初始化一个项目，生成package.json文件
+###1 npm init 初始化一个项目，生成package.json文件
 
 
 
@@ -17,52 +18,86 @@ npm init
 
 
 
-###2 安装指定版本的包：
+###2 npm install 安装npm模块
 
 
 
 ```
-npm install 包名@版本号
+npm install 模块名 参数
 ```
 
+（模块名后面@版本号则为安装特定版本的模块，否则安装最新）
 
+#### 参数：
+-g 全局安装
+–save 保存到package.json的dependencies，可简化为参数-S
+--save-dev 保存到package.json的devDependencies，可简化为参数-D
+--production 只安装dependencies字段的模块。（npm install默认会安装dependencies和devDependencies中的所有模块）
 
+#### 全局安装的目录
+默认情况下，Npm全局模块都安装在系统目录（比如/usr/local/lib/），普通用户没有写入权限，需要用到sudo命令。
 
+如果没有root权限，要安装全局模块请参考：
+http://javascript.ruanyifeng.com/nodejs/npm.html#toc10
 
-省略写法：
+### 3 npm uninstall 卸载已安装的模块
 
-`npm i -D  包名`  
+参数与npm install基本相同。
 
-等效于
-
-
-
-```
-npm install --save-dev  包名
-
-```
-
-
-### 3 更新本地安装包 npm update
+### 4 npm update 更新本地安装的模块
 
 如果想更新已安装模块，就要用到npm update命令。
-
-
 
 ```
 npm update
 ```
 
-
-
 它会先到远程仓库查询最新版本，然后查询本地版本。如果本地版本不存在，或者远程版本较新，就会安装。
 
-### 4 列出所有的包依赖
+使用-S或--save参数，可在安装时更新package.json里模块的版本号。
+
+### 5 npm run 执行脚本
+
+package.json文件有一个scripts字段，可以用于指定脚本命令，供npm直接调用。
+
+
+
+
+
+
+#### 递归更新
+从npm v2.6.1 开始，npm update只更新顶层模块，而不更新依赖的依赖，以前版本是递归更新的，要使用下面的命令：
+
+```
+$ npm --depth 9999 update
+```
+
+
+
+
+### 4 npm list 以树型结构列出当前项目安装的所有模块，以及它们依赖的模块
 
 
 ```
-npm list
+$ npm list
 ```
+
+加上global参数，会列出全局安装的模块：
+
+
+
+```
+$ npm list -global
+```
+
+npm list命令也可以列出单个模块：
+
+
+```
+$ npm list underscore
+```
+
+
 
 ### 5 npm publish  将当前模块发布到npmjs.com
 执行之前，需要向npmjs.com申请用户名。
@@ -98,6 +133,21 @@ source
 node_modules
 distribution
 
+### 其他npm命令与功能概述
+
+1. npm set 设置环境变量（默认初始化选中的name,email,协议等）。
+
+2. npm config ...  配置npm
+如：
+npm config list -l 查看 npm 的配置
+
+3. npm info 查看每个模块的具体信息
+
+4. npm search 搜索npm仓库，后面可跟字符串，也可跟正则表达式
+
+5. npm list 
+
+6. 
 
 
 ## 三 package中各个字段的含义与作用
@@ -130,11 +180,11 @@ https://www.zhihu.com/question/62331583
 http://www.npmtrends.com/
 
 ## 参考：
-
-### 待学习
+### 已学习
 npm模块管理器-《JavaScript 标准参考教程（alpha）》，by 阮一峰
 http://javascript.ruanyifeng.com/nodejs/npm.html
 
+### 待学习
 npm 模块安装机制简介
 
 [http://www.ruanyifeng.com/blog/2016/01/npm-install.html](http://www.ruanyifeng.com/blog/2016/01/npm-install.html)
