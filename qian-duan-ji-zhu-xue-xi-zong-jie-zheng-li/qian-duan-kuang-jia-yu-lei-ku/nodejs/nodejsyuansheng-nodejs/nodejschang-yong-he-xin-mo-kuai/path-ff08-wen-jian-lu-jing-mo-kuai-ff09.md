@@ -37,6 +37,13 @@ path.resolve('wwwroot', 'static_files/png/', '../gif/image.gif')
 
 例子：
 
+```
+path.resolve('src/index') // 返回的是当前项目根目录下src/index的系统绝对路径
+path.resolve() //返回的是当前node脚本/命令执行做在的文件夹绝对路径
+```
+
+
+
 ### 3. accessSync() 同步读取一个路径
 语法：
 

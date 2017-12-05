@@ -7,13 +7,13 @@
 https://aotu.io/notes/2016/08/09/command-line-development/index.html
 
 ### 待学习
-Inquirer.js  —— A collection of common interactive command line user interfaces
-
-[https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
-
 Node.js 命令行程序开发教程
 
 [http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html](http://www.ruanyifeng.com/blog/2015/05/command-line-with-node.html)
+
+Inquirer.js  —— A collection of common interactive command line user interfaces
+
+[https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
 
 教你从零开始搭建一款前端脚手架工具  
 [https://segmentfault.com/a/1190000006190814](https://segmentfault.com/a/1190000006190814)

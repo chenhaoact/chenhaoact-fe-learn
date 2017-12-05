@@ -24,7 +24,7 @@ program.parse(process.argv)
 
 ```
 
-2. 配置package.json的bin字段。它可以用来指定可执行（命令）的文件，如下配置所示
+2. 配置package.json的bin字段。它可以用来指定可执行（命令）的文件(如果命令文件是js文件要带.js后缀)，如下配置所示
    
 ```
 "bin": {
@@ -35,10 +35,10 @@ program.parse(process.argv)
 3. 执行npm link。
 它将会把act这个字段复制到npm的全局模块安装文件夹node_modules内，并创建符号链接（symbolic link，软链接），也就是将 act 的路径加入环境变量 PATH
 
-4. 在主入口文件的最上方添加代码 #! /usr/bin/env node, 表明这是一个可执行的应用
+4. 在主入口文件的最上方添加代码 #!/usr/bin/env node, 表明这是一个可执行的应用
 
 ```
-#! /usr/bin/env node 
+#!/usr/bin/env node 
 
 const program = require('commander')
 const inquirer = require('inquirer')

@@ -356,6 +356,20 @@ callback - 回调函数，没有参数。
 ### 8.其他方法
 参考下列教程和nodejs官方api。
 
+## 三 常用文件操作(原生nodejs没有实现的)
+
+### 1. 拷贝文件
+
+参考：
+Node.js本地文件操作之文件拷贝与目录遍历的方法  
+https://teakki.com/p/57dfa8153c20b02e90a0d0ce
+
+也可以选择fs-extra库实现。
+
+fs-extra模块是系统fs模块的扩展，提供了更多便利的 API，并继承了fs模块的 API。
+https://github.com/jprichardson/node-fs-extra
+
+
 ## 参考
 官方api
 https://nodejs.org/api/fs.html

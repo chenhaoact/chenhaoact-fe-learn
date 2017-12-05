@@ -462,6 +462,7 @@
       * [webstorm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm.md)
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/ti-sheng-kai-fa-xiao-lv-yu-gong-cheng-zhi-liang-de-ji-qiao.md)
         * 常用快捷键
+        * [常用设置](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/chang-yong-she-zhi.md)
       * [项目下.editorconfig文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/xiang-mu-4e0b-editorconfig-wen-jian-xie-fa-yu-zuo-yong.md)
       * [VSCode](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode.md)
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode/ti-sheng-gong-cheng-xiao-lv-yu-zhi-liang-de-ji-qiao.md)
