@@ -57,6 +57,11 @@ http://eslint.cn/docs/user-guide/configuring
 具体参考：
 http://eslint.cn/docs/user-guide/configuring#configuring-rules
 
+### webpack中接入eslint
+
+可以使用
+[eslint-loader](https://github.com/MoOx/eslint-loader)
+
 ## 其他
 可以安装和配置 [eslint-config-ali](https://www.npmjs.com/package/eslint-config-ali) 这是阿里巴巴的eslint配置规范，能让项目更系统和规范，里面也介绍了eslint提示在各个编辑器中的配置方法。
 
