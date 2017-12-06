@@ -60,6 +60,35 @@ npm update
 
 package.json文件有一个scripts字段，可以用于指定脚本命令，供npm直接调用。
 
+例子：
+
+```
+"scripts": {
+    "lint": "jshint **.js",
+  }
+```
+
+scripts字段指定了命令lint，npm run lint，就会执行jshint **.js。
+
+#### npm run不加任何参数运行
+会列出package.json里所有可以执行脚本命令。
+
+#### 关于npm run 命令的环境变量
+**npm run命令会自动在环境变量$PATH添加node_modules/.bin目录，所以scripts字段里调用命令时不用加路径，这就避免了全局安装NPM模块**。
+
+npm run会创建一个Shell，执行指定命令，**并临时将node_modules/.bin 加入PATH变量**，**这意味着本地模块可以直接运行**。
+
+例子：
+
+
+```
+$ npm i eslint --save-dev
+```
+
+运行上面的ESLint的安装命令以后，会产生两个结果。首先，ESLint被安装到当前目录的node_modules子目录；其次，node_modules/.bin目录会生成一个符号链接node_modules/.bin/eslint，指向ESLint模块的可执行脚本。
+
+然后，你就可以在package.json的script属性里面，不带路径的引用eslint这个脚本。
+
 
 
 
@@ -145,7 +174,7 @@ npm config list -l 查看 npm 的配置
 
 4. npm search 搜索npm仓库，后面可跟字符串，也可跟正则表达式
 
-5. npm list 
+5. 
 
 6. 
 
