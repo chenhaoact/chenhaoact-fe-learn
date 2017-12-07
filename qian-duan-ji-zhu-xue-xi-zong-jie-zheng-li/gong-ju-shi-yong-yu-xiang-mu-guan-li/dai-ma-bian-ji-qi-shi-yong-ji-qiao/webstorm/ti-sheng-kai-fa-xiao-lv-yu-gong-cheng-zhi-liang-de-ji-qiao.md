@@ -8,3 +8,6 @@ webstorm自带的类似功能叫live-templates
 
 参考
 https://www.jetbrains.com/help/webstorm/live-templates.html
+
+### Eslint一键修复
+配置了Eslint地址后，代码中如果出现Eslint错误会在代码下显示红色波浪线，光标点上去会出现红灯，点击选择Fix current file with ESLint，就会自动修复本文件里所有的ESLint错误。
