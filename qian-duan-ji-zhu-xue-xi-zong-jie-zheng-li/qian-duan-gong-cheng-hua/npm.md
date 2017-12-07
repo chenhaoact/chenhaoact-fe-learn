@@ -85,12 +85,60 @@ npm run会创建一个Shell，执行指定命令，**并临时将node_modules/.b
 $ npm i eslint --save-dev
 ```
 
-运行上面的ESLint的安装命令以后，会产生两个结果。首先，ESLint被安装到当前目录的node_modules子目录；其次，node_modules/.bin目录会生成一个符号链接node_modules/.bin/eslint，指向ESLint模块的可执行脚本。
+运行上面的ESLint的**npm安装命令，会做两件事**: 
+首先，ESLint被安装到当前目录的node_modules子目录；
 
-然后，你就可以在package.json的script属性里面，不带路径的引用eslint这个脚本。
+其次，**node_modules/.bin目录会生成一个符号链接node_modules/.bin/eslint，指向ESLint模块的可执行脚本。**
+
+然后，就可以在package.json的script属性里面，不带路径的引用eslint这个脚本。
+
+```
+{
+  "name": "Test Project",
+  "devDependencies": {
+    "eslint": "^1.10.3"
+  },
+  "scripts": {
+    "lint": "eslint ."  //注意这里
+  }
+}
+```
+
+**运行npm run lint的时候，它会自动执行./node_modules/.bin/eslint . 。**
+
+#### 一个命令的输出，是另一个命令的输入 或者 命令同时执行
+可以借用Linux系统的管道命令（|），将两个操作连在一起，但更方便的写法是引用其他npm run命令。
+
+例子：
 
 
 
+```
+"build": "npm run build-js && npm run build-css"
+```
+
+上面写法**先运行**npm run build-js，**再运行**npm run build-css，两个**命令中间用&&连**接。
+
+如果希望**两命令同时平行执行，中间用&连**接。
+
+#### npm run命令添加参数
+如果要通过npm run命令，将参数传到脚本，则参数之前要加上两个连词线 -- 。
+
+例子
+
+
+
+```
+"scripts": {
+  "test": "mocha test/"
+}
+```
+
+
+
+$ npm run test -- anothertest.js
+# 等同于
+$ mocha test/ anothertest.js
 
 
 

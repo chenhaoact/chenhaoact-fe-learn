@@ -149,6 +149,7 @@
         * [ES6 RegExp（正则表达式）包括ES5部分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
         * [ES6 字符串新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zi-fu-chuan-xin-te-xing.md)
         * [Set与Map](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/setyu-map.md)
+        * [Generator 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu.md)
       * [coffeescript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/coffeescript.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * [重！js问题及故障的解决与技巧方法整理（包含es6）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6.md)
@@ -170,6 +171,7 @@
       * [UI组件库参考（组件较全）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
       * [拖拽与吸附](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tuo-ye-yu-xi-fu.md)
       * [移动端手势控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-shou-shi-kong-zhi.md)
+      * [富文本编辑器实现（前端难点之一）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/fu-wen-ben-bian-ji-qi-ff08-nan-dian-zhi-yi-ff09.md)
     * [其他基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu.md)
       * [W3C标准 ](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/w3c.md)
       * 计算机网络相关
@@ -524,5 +526,12 @@
   * [职业规划/定位/转型](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/zhi-ye-gui-5212-ding-4f4d-zhuan-xing.md)
     * [工作三年后，我选择离开腾讯](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/zhi-ye-gui-5212-ding-4f4d-zhuan-xing/gong-zuo-san-nian-hou-ff0c-wo-xuan-ze-li-kai-teng-xun.md)
 * [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
+  * [js常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/jschang-kao-mian-shi-ti.md)
+  * css常考面试题
+  * html常考面试题
+  * React常考面试题
+  * Vue常考面试题
+  * Webpack常考面试题
+  * NodeJS常考面试题
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 
