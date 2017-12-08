@@ -57,7 +57,7 @@ React.render(
 ```
 
 
-**React的jsx默认会进行HTML的转义（将变量转为其值的字符串来展现），避免XSS攻击**，如果**要不转义，可以用dangerouslySetInnerHTML属性**这么写
+**React的jsx默认会进行HTML的转义（将变量转为其值的字符串来展现），避免XSS攻击**，如果**要不转义，可以用dangerouslySetInnerHTML属性(数据设置为到__html的值)**这么写：
 
 
 
@@ -65,7 +65,7 @@ React.render(
 var content='<strong>content</strong>';    
 
 React.render(
-    <div dangerouslySetInnerHTML={{__html: content}}></div>,
+    <div dangerouslySetInnerHTML={{ __html: content }}></div>,
     document.body
 );
 ```
