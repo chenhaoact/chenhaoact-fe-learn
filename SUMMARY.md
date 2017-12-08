@@ -213,6 +213,7 @@
         * [Context](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/context.md)
         * [react插件与开发常用工具类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactcha-jian.md)
         * [React Fiber](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/react-fiber.md)
+        * [React16的新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/react16de-xin-te-xing.md)
       * [react升级](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactsheng-ji.md)
         * [React 16](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/react/reactsheng-ji/react-16.md)
       * [深入React-React源代码详细解读分析](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi.md)
