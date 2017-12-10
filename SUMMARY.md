@@ -327,7 +327,8 @@
         * 云构建
           * [Jenkins](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jenkins.md)
           * [Travis CI](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/travis-ci.md)
-      * 脚手架资源
+        * [Parcel](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/parcelbuildadfas.md)
+      * [脚手架资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jiao-shou-jia-zi-yuan.md)
         * [yeoman](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/yeoman.md)
       * [命令行脚手架开发](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju.md)
         * [commander](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/commander.md)
@@ -342,6 +343,8 @@
           * [eslint使用实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint/eslintshi-yong-shi-jian.md)
         * [JsLint和JsHint](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/jslinthe-jshint.md)
         * [stylelint-css样式代码校验](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/stylelint-cssyang-shi-dai-ma-xiao-yan.md)
+      * 代码格式化
+        * [Prettier](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/prettier.md)
       * [js优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua.md)
         * [prepack——优化js源代码的工具提高js代码的效率](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsyou-hua/prepack2014-2014-you-hua-js-yuan-dai-ma-de-gong-ju-ti-gao-js-dai-ma-de-xiao-lv.md)
       * [配置文件语言](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/pei-zhi-wen-jian-yu-yan.md)
@@ -406,6 +409,10 @@
       * 网络请求库
         * [request](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/request.md)
         * [axios-一个基于Promise 用于浏览器和 nodejs 的 HTTP 客户端](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/axiosyi-ge-ji-yu-promise-yong-yu-liu-lan-qi-he-nodejs-de-http-ke-hu-duan.md)
+      * 接口模拟
+        * RAP
+        * Mock.js
+        * [json-server](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/json-server.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
