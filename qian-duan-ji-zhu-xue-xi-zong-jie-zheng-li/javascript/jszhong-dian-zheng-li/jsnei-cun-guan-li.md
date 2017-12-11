@@ -40,3 +40,8 @@
 
 ### 待学习
 [MDN js 内存管理](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Memory_Management)
+
+[常见的JavaScript内存泄露](https://github.com/zhansingsong/js-leakage-patterns)
+
+
+
