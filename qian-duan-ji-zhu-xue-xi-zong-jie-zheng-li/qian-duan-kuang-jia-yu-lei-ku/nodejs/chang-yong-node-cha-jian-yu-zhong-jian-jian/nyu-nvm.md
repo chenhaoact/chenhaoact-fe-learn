@@ -36,9 +36,9 @@ command -v nvm
 返回nvm，则说明安装成功。
 
 
-## 使用nvm
+## 三 使用nvm
 
-### 安装某个特定版本的nodejs
+### 1. 安装某个特定版本的nodejs
 
 
 ```
@@ -56,10 +56,9 @@ export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
 
 ```
 
-
 然后nvm按照node就会很快。
 
-### 切换成某个特定版本的nodejs
+### 2. 切换成某个特定版本的nodejs
 
 ```
 nvm use v4.6.0
@@ -69,12 +68,20 @@ node版本就切换到了4.6.0
 
 如果node -v没有变，需要新打开一个命令行窗口执行命令（因为命令行窗口的bash有缓存，bash改变后需要在新开的命令行窗口中才能生效）
 
-### 列出当前所有的node版本
+### 3. 列出当前所有的node版本
 
 ```
 nvm ls
 ```
 
+### 4. 设置默认 node 版本
+
+每次打开终端后，都自动设置成指定版本
+
+```
+nvm alias default 0.12.7 #设置默认 node 版本为 0.12.7
+
+```
 
 
 ## 参考
