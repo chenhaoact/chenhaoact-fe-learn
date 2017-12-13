@@ -463,6 +463,7 @@
       * [物联网相关技术资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang/wu-lian-wang-xiang-guan-ji-zhu-zi-yuan.md)
     * [图形学与图像识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie.md)
       * [人脸识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ren-lian-shi-bie.md)
+      * [OCR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ocr.md)
   * [工具使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
