@@ -157,6 +157,7 @@
         * [对象类](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6/dui-xiang-lei.md)
         * [函数类](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6/han-shu-lei.md)
         * [其他数据类型类](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6/qi-ta-shu-ju-lei-xing-lei.md)
+      * [js经典权威教程（重要，全部过完一遍）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsjing-dian-quan-wei-jiao-cheng-ff08-zhong-yao-ff0c-quan-bu-guo-wan-yi-bian-ff09.md)
     * [常用UI效果实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/chang-yong-ui-xiao-guo-shi-xian.md)
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
@@ -279,6 +280,8 @@
       * [zepto-移动端的jquery](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/zeptoyi-dong-duan-de-jquery.md)
       * [vConsole-针对移动端网页的前端console调试面板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/vconsole.md)
       * [移动端页面性能优化（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/yi-dong-duan-ye-mian-xing-neng-you-hua-ff08-zhong-yao-ff09.md)
+    * Hybrid
+      * [参考资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/can-kao-zi-yuan.md)
     * [小程序](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/xiao-cheng-xu.md)
       * [支付宝小程序](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zhi-fu-bao-xiao-cheng-xu.md)
       * [微信小程序](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/wei-xin-xiao-cheng-xu.md)
@@ -387,33 +390,7 @@
       * [antv\(蚂蚁金服可视化解决方案\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/antvma-yi-jin-fu-ke-shi-hua-jie-jue-fang-684829.md)
       * [DataV数据可视化-阿里云](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/datava-li-yun.md)
       * [BizCharts-AntV G2的React封装](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/bizcharts-antv-g2de-react-feng-zhuang.md)
-    * [其他常用类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qi-ta-chang-yong-lei-ku.md)
-      * [时间类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku.md)
-        * [moment.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/momentjs.md)
-        * [其他时间类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/qi-ta-shi-jian-lei-ku.md)
-      * [数据类型与算法类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku.md)
-        * [lodash](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash.md)
-          * [简介使用及资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/jian-jie-ji-zi-yuan.md)
-          * [loadsh常用方法整理（版本4.17.4）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li.md)
-            * [一 数组（Array）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li/yi-shu-zu-ff08-array.md)
-            * [对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li/dui-xiang.md)
-            * [语言类（Lang），各种数据类型的判断与通用操作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/loadshchang-yong-fang-fa-zheng-li/yu-yan-lei-ff0c-ge-zhong-shu-ju-lei-xing-de-pan-duan-yu-tong-yong-cao-zuo-ff08-lang.md)
-          * [lodash源码阅读](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/lodash/lodashyuan-ma-yue-du.md)
-        * [ramda](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/ramda.md)
-        * [undersercore](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/undersercore.md)
-        * [You-Dont-Need-Lodash-Underscore（用原生js的方法解决很多问题）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shu-ju-lei-xing-yu-suan-fa-lei-ku/you-dont-need-lodash-underscoreff08-yong-yuan-sheng-js-de-fang-fa-jie-jue-hen-duo-wen-ti-ff09.md)
-      * [同步异步编程处理类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/tong-bu-yi-bu-chu-li-lei-ku.md)
-        * [q.js-A promise library for JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qjs.md)
-        * [RxJS](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/rxjs.md)
-      * [dom控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/domkong-zhi.md)
-        * [复制到粘贴板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/fu-zhi-dao-nian-tie-ban.md)
-      * 网络请求库
-        * [request](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/request.md)
-        * [axios-一个基于Promise 用于浏览器和 nodejs 的 HTTP 客户端](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/axiosyi-ge-ji-yu-promise-yong-yu-liu-lan-qi-he-nodejs-de-http-ke-hu-duan.md)
-      * 接口模拟
-        * RAP
-        * Mock.js
-        * [json-server](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/json-server.md)
+    * Hybrid
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
       * [java语言基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java/javayu-yan-ji-chu.md)
@@ -449,7 +426,9 @@
     * 人工智能
       * [TensorFlow](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorflow.md)
       * [机器学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi.md)
+        * [机器学习的前端技术应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi/ji-qi-xue-xi-de-qian-duan-ji-zhu-ying-yong.md)
       * [深度学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi.md)
+        * [深度学习的前端技术应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi/shen-du-xue-xi-de-qian-duan-ji-zhu-ying-yong.md)
       * 浏览器端人工智能技术
         * [deeplearn.js-浏览器端机器智能框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/deeplearnjs.md)
         * [tensorfire-利用 GPU 加速的浏览器端深度学习框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorfire.md)
