@@ -31,8 +31,14 @@ function* helloWorldGenerator() {
 
 var hw = helloWorldGenerator();
 ```
+该函数有三状态：hello，world 和 return 语句（结束执行）。
 
-### 2. 
+### 2. Generator 函数的调用
+
+调用方法也是在函数名后加圆括号。
+不同的是，**调用 Generator 函数后，该函数并不执行，返回的也不是函数运行结果，而是一个指向内部状态的指针对象（即遍历器对象）**。
+
+
 
 ## 三 Generator 函数的异步应用
 
