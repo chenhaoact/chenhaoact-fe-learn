@@ -2,3 +2,6 @@
 
 png或jpg压缩
 https://tinypng.com/
+
+gif压缩
+https://www.iloveimg.com/zh_cn/compress-image/compress-gif
