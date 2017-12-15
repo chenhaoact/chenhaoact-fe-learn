@@ -26,7 +26,8 @@ operand 是一个表达式，表示对象或原始值，其类型将被返回。
 | String | "string" |
 | Symbol (ECMAScript 6 新增) |	"symbol" |
 | 宿主对象(由JS环境提供) |	Implementation-dependent|
-| **函数对象 "function"** | 任何其他对象	"object"|
+| **函数对象** | **"function"** | 
+| **任何其他对象**   | **"object"** |
 
 使用：
 比如**在react中调用组件传过来的回调函数时需要先判断所传数据是否为函数类型**：
