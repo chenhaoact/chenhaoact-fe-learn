@@ -42,6 +42,9 @@ python进阶-慕课网视频教程（廖雪峰）
 
 [http://www.imooc.com/learn/317](http://www.imooc.com/learn/317)
 
+Python 3 教程 - 菜鸟教程
+http://www.runoob.com/python3/python3-tutorial.html
+
 ### 5工具与资源
 
 

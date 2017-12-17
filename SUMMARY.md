@@ -400,13 +400,17 @@
     * [python](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi.md)
       * [python语言学习整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu.md)
         * [简介与用途](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu/jian-jie-yu-yong-tu.md)
+        * [python优点详细分析-为什么它能成为AI的第一编程语言](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu/pythonyou-dian-xiang-xi-fen-6790-wei-shi-yao-ta-neng-cheng-wei-ai-de-di-yi-bian-cheng-yu-yan.md)
         * [基础语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu/ji-chu-yu-fa.md)
+          * [输入与输出](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu/ji-chu-yu-fa/da-yin.md)
         * [资源与参考](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonyu-yan-ji-chu/xue-xi-zi-yuan.md)
       * [python相关类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonxiang-guan-lei-ku.md)
+        * [pytorch](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/pythonxue-xi/pythonxiang-guan-lei-ku/pytorch.md)
     * [C](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/c.md)
       * [C语言学习重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/c/cyu-yan-xue-xi-zhong-dian-zheng-li.md)
     * C++
     * [C\#](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/cxue-xi.md)
+    * [各种语言的对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/ge-zhong-yu-yan-de-dui-bi.md)
     * 数据库
       * [mongoDB](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/mongodb.md)
     * 服务器

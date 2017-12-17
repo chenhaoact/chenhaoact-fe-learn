@@ -56,14 +56,48 @@ python3
 查看。
 
 在输入python和python3之后，就会进入python交互环境，此时如果退出 该 交互环境，可使用：
-exit()，quit()和 ctl＋d 
-三种的任何一种，均可退出python交互环境。
+**输入 exit()，输入quit() 和 ctl＋d 
+三种的任何一种，均可退出python交互环境**。
 
-写python代码时，生成的文件为.py拓展名的文件，如果要运行该文件中的代码，就需要使用python的解释器进行解析编译运行。
+### 2 python解释器
+写python代码时，**生成的文件为.py拓展名的文件，如果要运行该文件中的代码，就需要使用python的解释器进行解析编译运行**。
 
 （python解释器是开源的，可以由自己自行设定，现在也有不少不错的python 解释器）
 
-最常用的的是Cpython，下载安装好python3.5后，会自动安装的，一个官方的 python 解释器，该解释器是由C语言开发的。
+**Python的解释器很多，最常用的的是Cpython，下载安装好python3.5后，会自动安装**的，一个**官方的 python 解释器**，该解释器是由C语言开发的。
 
-Python的解释器很多，使用最广泛的还是CPython。如果要和Java或.Net平台交互，最好的办法不是用Jython（运行在Java 平台的python编译器，可直接把python变异成java字节码执行）或IronPython（运行在微软.net 平台的 python 解释器，可以直接把python代码编译成.net 字节码），而是通过网络调用来交互，确保各程序之间的独立性。
+如果要和Java或.Net平台交互，最好的办法不是用Jython（运行在Java 平台的python编译器，可直接把python变异成java字节码执行）或IronPython（运行在微软.net 平台的 python 解释器，可以直接把python代码编译成.net 字节码），而是通过网络调用来交互，确保各程序之间的独立性。
 
+### 3 命令行模式和Python交互模式
+
+
+命令行下，可以执行python进入Python交互式环境，
+
+也可以**执行python someName.py 运行一个.py文件 (命令行模式)**
+
+#### 区别
+Python交互式环境会把每一行Python代码的结果自动打印出来，但是，直接运行Python代码却不会。
+
+### 4 直接运行py文件
+
+能不能像.exe文件那样直接运行.py文件呢？在Windows上不行，但**在Mac和Linux上可以**，方法是在.py文件的第一行加上一个特殊的注释：
+
+
+
+```
+#!/usr/bin/env python3
+
+print('hello, world')
+```
+
+然后，通过命令给hello.py以执行权限：
+
+
+
+```
+$ chmod a+x hello.py
+```
+
+
+
+就可以直接运行hello.py了。
