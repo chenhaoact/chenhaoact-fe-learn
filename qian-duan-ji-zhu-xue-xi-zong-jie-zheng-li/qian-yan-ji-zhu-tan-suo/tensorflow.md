@@ -29,4 +29,6 @@ http://wiki.jikexueyuan.com/project/tensorflow-zh/tutorials/overview.html
 莫烦Python上的其他机器学习等教程
 https://morvanzhou.github.io/
 
+如何高效的学习 TensorFlow 代码?
+https://www.zhihu.com/question/41667903
 
