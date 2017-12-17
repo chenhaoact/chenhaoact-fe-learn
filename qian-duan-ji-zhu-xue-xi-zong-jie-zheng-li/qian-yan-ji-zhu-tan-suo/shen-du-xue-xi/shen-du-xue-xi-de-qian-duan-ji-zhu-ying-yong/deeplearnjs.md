@@ -1,5 +1,4 @@
-# deeplearn.js：浏览器端机器智能框架
-
+# deeplearnjs
 ## 一 简介
 
 一款基于 WebGL 加速的开放源代码 JavaScript 机器学习库，该库可以直接在您的浏览器中运行。

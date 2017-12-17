@@ -426,13 +426,13 @@
         * [Agisoft PhotoScan-基于照片生成高精度三维模型](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/agisoft-photoscanji-yu-zhao-pian-sheng-cheng-gao-jing-du-san-wei-mo-xing.md)
         * [Autodesk Remake-支持云端解算的照片3D建模软件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/3djian-mo/autodesk-remakezhi-chi-yun-duan-jie-suan-de-zhao-pian-3d-jian-mo-ruan-jian.md)
     * 人工智能
-      * [TensorFlow](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorflow.md)
-      * [机器学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi.md)
-        * [机器学习的前端技术应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/ji-qi-xue-xi/ji-qi-xue-xi-de-qian-duan-ji-zhu-ying-yong.md)
-      * [深度学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi.md)
-        * [深度学习的前端技术应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi/shen-du-xue-xi-de-qian-duan-ji-zhu-ying-yong.md)
-      * 浏览器端人工智能技术
+      * [深度学习、机器学习](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi.md)
+        * [TensorFlow](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorflow.md)
+        * [keras](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi/keras.md)
+        * [简介及资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi/jian-jie.md)
+      * [前端、浏览器端人工智能技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/qian-duan-3001-liu-lan-qi-duan-ren-gong-zhi-neng-ji-zhu.md)
         * [deeplearn.js-浏览器端机器智能框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/deeplearnjs.md)
+        * [keras-js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/shen-du-xue-xi/shen-du-xue-xi-de-qian-duan-ji-zhu-ying-yong/keras-js.md)
         * [tensorfire-利用 GPU 加速的浏览器端深度学习框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tensorfire.md)
     * [大数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/da-shu-ju.md)
       * 大数据分析
