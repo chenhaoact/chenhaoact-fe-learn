@@ -193,6 +193,7 @@
         * [CMD](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/cmd.md)
       * 浏览器
         * [浏览器环境及浏览器引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/liu-lan-qi-huan-jing.md)
+      * [WebAssembly 字节码技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/webassembly-zi-jie-ma-ji-zhu.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * jQuery
     * [Angular](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/angular.md)
@@ -442,9 +443,10 @@
     * [物联网\(loT\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang.md)
       * [树莓派](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang/shu-mei-pai.md)
       * [物联网相关技术资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/wu-lian-wang/wu-lian-wang-xiang-guan-ji-zhu-zi-yuan.md)
-    * [图形学与图像识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie.md)
+    * [图形学、图像识别、计算机视觉相关](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie.md)
       * [人脸识别](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ren-lian-shi-bie.md)
       * [OCR](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ocr.md)
+      * [计算机视觉](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-yan-ji-zhu-tan-suo/tu-xing-xue-yu-tu-xiang-shi-bie/ji-suan-ji-shi-jue.md)
   * [工具使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
