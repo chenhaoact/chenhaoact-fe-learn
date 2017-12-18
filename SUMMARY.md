@@ -153,6 +153,7 @@
         * [Generator 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu.md)
         * [编程风格规范（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/bian-cheng-feng-ge-gui-fan.md)
         * [ArrayBuffer-以数组语法处理二进制数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/arraybufferyi-shu-zu-yu-fa-chu-li-er-jin-zhi-shu-ju.md)
+        * [浏览器兼容性查询](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/liu-lan-qi-jian-rong-xing-cha-xun.md)
       * [coffeescript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/coffeescript.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
       * [重！js问题及故障的解决与技巧方法整理（包含es6）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6.md)
