@@ -34,6 +34,12 @@ ecmascript标准委员会指定的ecmascript语言标准（js标准，实时更�
 https://github.com/tc39/ecma262
 https://tc39.github.io/ecma262/
 
+官方ES6规格-（深入学习es6的宝贵资料）
+特点就是规定得非常细致，**每一个语法行为、每一个函数的实现（算法）都做了详尽描述**，保证所有 ES6 实现都有一致的行为
+http://www.ecma-international.org/ecma-262/6.0/
+
+一些js方法的实现在MDN的最下方的polifill里也有实现的代码，可以看其中的逻辑
+
 ### 2文档
 
 因为es6每年都在更新，这里可以看到babel对es2015,es2016,es2017每一年的es6的而一些新特性的清单和支持：
