@@ -1,6 +1,5 @@
-## 一 基本的一些规范
 ### 1. 块级作用域与常量变量（const与let）
-####（1）**let 取代 var**
+（1）**let 取代 var**
 **var命令存在变量提升效用，let命令没有**这个问题。
 
 
@@ -15,7 +14,7 @@ if (true) {
 
 如使用**var**替代let，console.log那一行就不会报错，而会输出undefined，因为**变量声明提升到代码块的头部。违反了变量先声明后使用的原则**。
 
-#### （2）全局常量和线程安全
+### 2. 全局常量和线程安全（let和const的对比）
 **let和const，优先使用const，尤其是全局环境，不应设置变量，只应设置常量const**
 
 **const优于let有几个原因**：
@@ -42,46 +41,4 @@ const [a, b] = [1, 2];
 长远看，Js 可能会有多线程的实现，这时**let表示的变量，只应出现在单线程运行的代码中**，不能是多线程共享的，这样**有利于保证线程安全**。
 
 
-### 2. 解构赋值
 
-**使用数组成员对变量赋值，优先使用解构赋值**。
-
-```
-const arr = [1, 2, 3, 4];
-
-// bad
-const first = arr[0];
-const second = arr[1];
-
-// good
-const [first, second] = arr;
-```
-
-
-
-**函数的参数如果是对象的成员，优先使用解构赋值**。
-
-```
-// bad
-function getFullName(user) {
-  const firstName = user.firstName;
-  const lastName = user.lastName;
-}
-
-// best
-function getFullName({ firstName, lastName }) {
-  // 里边可以直接使用firstName, lastName
-}
-```
-
-
-如果函数返回多个值，优先使用对象的解构赋值，而不是数组的解构赋值。便于以后添加返回值，以及更改返回值顺序。
-
-
-
-## 具体参考
-Airbnb 公司的 JavaScript 风格规范
-https://github.com/airbnb/javascript
-
-es6入门-阮一峰
-http://es6.ruanyifeng.com/#docs/style
