@@ -302,6 +302,7 @@
           * [path （文件路径模块）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/path-ff08-wen-jian-lu-jing-mo-kuai-ff09.md)
           * [os-系统操作模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/osxi-tong-cao-zuo-mo-kuai.md)
         * [node重大版本迭代](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodezhong-da-ban-ben-die-dai.md)
+        * [资源与参考](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/can-kao-zi-yuan-yu-jiao-cheng.md)
       * [常用node插件、类库与中间件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian.md)
         * [forever-让nodejs应用在后台永久执行](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/foreverrang-nodejs-ying-yong-zai-hou-tai-yong-jiu-zhi-xing.md)
         * [pm2-比forever更强大而且支持可视化界面监控管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/pm2bi-forever-geng-qiang-da-er-qie-zhi-chi-ke-shi-hua-jie-mian-jian-kong-guan-li.md)
