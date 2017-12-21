@@ -1,3 +1,4 @@
+# ES6 编程风格规范（重要）
 ## 一 基本的一些规范
 ### 1. 块级作用域与常量变量（const与let）
 ####（1）**let 取代 var**
@@ -201,8 +202,13 @@ function divide(a, b, { option = false } = {}) {
 }
 
 
-不要在函数体内使用 arguments 变量，使用 rest 运算符（...）代替。因为 rest 运算符显式表明你想要获取参数，而且 arguments 是一个类似数组的对象，而 rest 运算符可以提供一个真正的数组。
+#### （6）不要在函数体内使用 arguments 变量，用 rest 运算符（...）代替。
 
+rest 运算符显式表明你想要获取参数，且 **arguments 是一个类似数组的对象，而 rest 运算符可提供一个真正的数组**。
+
+
+
+```
 // bad
 function concatenateAll() {
   const args = Array.prototype.slice.call(arguments);
@@ -213,8 +219,13 @@ function concatenateAll() {
 function concatenateAll(...args) {
   return args.join('');
 }
-使用默认值语法设置函数参数的默认值。
+```
 
+#### （7）使用默认值语法设置函数参数的默认值（在参数位置设置默认值而非在函数体内）
+
+
+
+```
 // bad
 function handleThings(opts) {
   opts = opts || {};
@@ -224,6 +235,139 @@ function handleThings(opts) {
 function handleThings(opts = {}) {
   // ...
 }
+
+```
+
+### 6 Map
+
+#### （1）区分 Object 和 Map
+
+**只有模拟现实世界的实体对象时，才用 Object。如只是需要key: value的数据结构，使用 Map 结构。因为 Map 有内建的遍历机制。**
+
+
+
+```
+let map = new Map(arr);
+
+for (let key of map.keys()) {
+  console.log(key);
+}
+
+for (let value of map.values()) {
+  console.log(value);
+}
+
+for (let item of map.entries()) {
+  console.log(item[0], item[1]);
+}
+```
+
+### 7 Class
+#### （1）用 Class，取代需要 prototype 的操作。因为 Class 写法更简洁，更易理解
+
+
+
+```
+// bad
+function Queue(contents = []) {
+  this._queue = [...contents];
+}
+Queue.prototype.pop = function() {
+  const value = this._queue[0];
+  this._queue.splice(0, 1);
+  return value;
+}
+
+// good
+class Queue {
+  constructor(contents = []) {
+    this._queue = [...contents];
+  }
+  pop() {
+    const value = this._queue[0];
+    this._queue.splice(0, 1);
+    return value;
+  }
+}
+```
+
+
+
+
+#### （2）使用extends实现继承，这样更简单，不会有破坏instanceof运算的危险
+
+
+
+```
+// bad
+const inherits = require('inherits');
+function PeekableQueue(contents) {
+  Queue.apply(this, contents);
+}
+
+inherits(PeekableQueue, Queue);
+PeekableQueue.prototype.peek = function() {
+  return this._queue[0];
+}
+
+// good
+class PeekableQueue extends Queue {
+  peek() {
+    return this._queue[0];
+  }
+}
+```
+
+### 8 模块
+Module 语法是 Js 模块的标准写法，坚持使用这种写法。
+
+#### （1）使用import取代commonjs的 require，使用export取代commonjs的module.exports。
+
+#### （2）模块只有一个输出值，就使用export default，如有多个输出值，不使用export default，export default与普通的export不要同时使用
+
+#### （3）不要在模块输入中使用通配符*。这样可确保模块中，有一个默认输出（export default）。
+
+
+
+```
+// bad
+import * as myObject from './importModule';
+
+// good
+import myObject from './importModule';
+```
+
+
+#### （4）如模块默认输出一个函数，函数名的首字母应该小写；如果模块默认输出一个对象，对象名的首字母应该大写
+
+
+```
+function makeStyleGuide() {
+}
+
+export default makeStyleGuide;
+```
+
+
+```
+const StyleGuide = {
+  es6: {
+  }
+};
+
+export default StyleGuide;
+```
+
+
+
+### 9 ESLint
+
+参考：
+
+本书笔记：[ESLint](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/eslint.md)
+
+
+另外 **ESLint的规则也可以详细阅读下，弄清楚为什么要这样写，对养成良好的js编程风格和加深js理解很有帮助**。
 
 
 
