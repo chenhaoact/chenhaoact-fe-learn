@@ -129,6 +129,7 @@
           * [Blob](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/blob.md)
           * [File](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/file.md)
         * [js Number](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-number.md)
+        * [严格模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/yan-ge-mo-shi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
         * [什么是设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/shi-yao-shi-she-ji-mo-shi.md)
         * [设计原则](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/she-ji-yuan-ze.md)
@@ -546,5 +547,6 @@
   * [Webpack常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/webpackchang-kao-mian-shi-ti.md)
   * [NodeJS常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/nodejschang-kao-mian-shi-ti.md)
   * [计算机网络常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/ji-suan-ji-wang-luo-chang-kao-mian-shi-ti.md)
+  * [面试题资源整理](qian-duan-bi-shi-mian-shi-yu-ying-pin/mian-shi-ti-zi-yuan-zheng-li.md)
 * [学习计划与待学习内容](xue-xi-ji-hua-yu-dai-xue-xi-nei-rong.md)
 
