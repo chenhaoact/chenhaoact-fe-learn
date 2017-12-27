@@ -20,6 +20,20 @@ Math.floor() === 向下取整
 
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
 
+### NaN
+使用Number()可以将数据转为数字类型，如果转不了，则会返回NaN。
+
+因为NaN 不等于 NaN，所以不要使用 == 判断是否为 NaN，要用isNaN判断。
+
+用以下写法判断能否转为数字类型：
+
+```
+let a = 'a';
+isNaN(Number(a))  // false
+```
+
+
+
 
 
 
