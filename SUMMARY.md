@@ -128,7 +128,6 @@
         * [js文件与二进制数据处理API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jswen-jian-chu-li-api.md)
           * [Blob](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/blob.md)
           * [File](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/file.md)
-        * [js Number](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-number.md)
         * [严格模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/yan-ge-mo-shi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
         * [什么是设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/shi-yao-shi-she-ji-mo-shi.md)
@@ -160,6 +159,7 @@
         * [编程风格规范（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/bian-cheng-feng-ge-gui-fan.md)
         * [ArrayBuffer-以数组语法处理二进制数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/arraybufferyi-shu-zu-yu-fa-chu-li-er-jin-zhi-shu-ju.md)
         * 变量的解构赋值
+        * [浏览器兼容性查询](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/liu-lan-qi-jian-rong-xing-cha-xun.md)
         * [如何用es5实现es6的常用方法？（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/ru-he-yong-es5-shi-xian-es6-de-chang-yong-fang-fa-ff1f-ff08-zhong-yao-ff09.md)
       * [coffeescript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/coffeescript.md)
       * [typescript总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/typescriptxue-xi.md)
