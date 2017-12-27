@@ -155,6 +155,8 @@
         * [Set与Map](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/setyu-map.md)
         * [Generator 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu.md)
         * [模块Module](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
+          * [Module 的语法及使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai/module-de-yu-fa-ji-shi-yong.md)
+          * [Module 的加载实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai/module-de-jia-zai-shi-xian.md)
         * [编程风格规范（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/bian-cheng-feng-ge-gui-fan.md)
         * [ArrayBuffer-以数组语法处理二进制数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/arraybufferyi-shu-zu-yu-fa-chu-li-er-jin-zhi-shu-ju.md)
         * 变量的解构赋值
