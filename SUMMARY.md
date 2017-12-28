@@ -128,6 +128,12 @@
         * [js文件与二进制数据处理API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jswen-jian-chu-li-api.md)
           * [Blob](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/blob.md)
           * [File](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/file.md)
+        * js模块化规范
+          * [CommonJS规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)
+            * [CommonJS module对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan/moduledui-xiang.md)
+          * [AMD规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan.md)
+            * [require.js的用法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan/requirejs.md)
+          * [CMD](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/cmd.md)
         * [严格模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/yan-ge-mo-shi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
         * [什么是设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/shi-yao-shi-she-ji-mo-shi.md)
@@ -196,12 +202,6 @@
           * [Ajax](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/ajax/ajax.md)
           * [Fetch API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/ajax/fetch-api.md)
         * [json和jsonp](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/jsonhe-jsonp.md)
-      * js模块化规范
-        * [CommonJS规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)
-          * [CommonJS module对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan/moduledui-xiang.md)
-        * [AMD规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan.md)
-          * [require.js的用法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan/requirejs.md)
-        * [CMD](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/cmd.md)
       * 浏览器
         * [浏览器环境及浏览器引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/liu-lan-qi-huan-jing.md)
       * [WebAssembly 字节码技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/webassembly-zi-jie-ma-ji-zhu.md)

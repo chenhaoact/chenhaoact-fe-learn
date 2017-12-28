@@ -86,10 +86,140 @@ JS 引擎对脚本静态分析时，遇到**ES6模块加载命令import，就会
 
 ## 三 Node 中加载 ES6 模块
 
+**Node 对 ES6 模块的处理**较麻烦，因为它有自己的 CommonJS 模块格式，与 ES6 模块格式不兼容。**目前的解决方案是，将两者分开，ES6 模块和 CommonJS 采用各自的加载方案**。
+
+**Node 要求 ES6 模块采用.mjs后缀文件名**。只要脚本文件里使用import或export，就必须用.mjs后缀。**require命令不能加载.mjs文件**，会报错，只有import命令才可以加载.mjs文件。
+
+这项功能还在试验阶段。安装 Node v8.5.0 或以上版本，可能要用--experimental-modules参数才能打开该功能。
 
 
-## 循环加载
-## ES6 模块的转码
+
+```
+$ node --experimental-modules my-app.mjs
+```
+
+
+
+为了与浏览器的import加载规则相同，Node 的.mjs文件支持 URL 路径。
+
+
+
+```
+import './foo?query=1'; // 加载 ./foo 传入参数 ?query=1
+```
+
+
+
+上面代码中，脚本路径带有参数?query=1，Node 会按 URL 规则解读。**同一个脚本只要参数不同，就会被加载多次，并且保存成不同的缓存**。由于这个原因，只要文件名中含有:、%、#、?等特殊字符，最好对这些字符进行转义。
+
+目前，Node 的import命令只支持加载本地模块（file:协议），不支持加载远程模块。
+
+如果模块名不含路径，那么import命令会去node_modules目录寻找这个模块。
+
+
+最后，**Node 的import命令是异步加载，这与浏览器的处理方法相同**。
+
+### 内部变量
+ES6 模块应该是通用的，同一个模块不用修改，就可以用在浏览器环境和服务器环境。为了达到这个目标，**Node 规定 ES6 模块之中不能使用 CommonJS 模块的特有的一些内部变量**。
+
+首先是this关键字。**ES6 模块之中，顶层的this指向undefined；CommonJS 模块的顶层this指向当前模块，这是两者的一个重大差异**。
+
+其次，以下这些顶层变量在 ES6 模块之中都是不存在的。
+
+arguments
+require
+module
+exports
+__filename
+__dirname
+
+
+### ES6 模块加载 CommonJS 模块
+CommonJS 模块的输出都定义在module.exports这个属性上面。**Node 的import命令加载 CommonJS 模块，Node 会自动将module.exports属性，当作模块的默认输出**，即等同于export default xxx。
+
+CommonJS 模块的输出缓存机制，在 ES6 加载方式下依然有效。
+
+
+## 四 循环加载
+### 1. 什么是循环加载？
+**“循环加载”指：a脚本的执行依赖b脚本，而b脚本的执行又依赖a脚本**。
+
+“循环加载”表示存在强耦合，如处理不好，可能导致递归加载，使程序无法执行，因此应避免出现。
+
+但实际上很难避免，尤其是**依赖关系复杂的大项目，很容易出现a依赖b，b依赖c，c又依赖a的情况。故模块加载机制必须考虑“循环加载”**的情况。
+
+CommonJS 和 ES6，处理“循环加载”的方法不同，返回结果也不同。
+
+CommonJS模块加载的原理参考[CommonJS规范](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)。
+
+### 2. CommonJS 模块的循环加载处理
+**CommonJS 模块是加载时执行，即脚本代码在require时，就全部执行。一旦出现某模块被"循环加载"，就只输出已经执行的部分，还未执行的部分不会输出**。
+
+CommonJS 输入的是被输出值的拷贝，不是引用。
+
+另外，由于 **CommonJS 模块遇到循环加载时，返回的是当前已经执行的部分的值，而不是代码全部执行后的值，两者可能会有差异**。所以，通过模块输入变量时，必须非常小心。
+
+### 3. ES6 模块的循环加载处理
+ES6 模块是**动态引用**，如果**用import从一模块加载变量，那些变量不会被缓存，而是成为指向被加载模块的引用，需开发者自己保证，真正取值时能取到值**。
+
+ES6 循环加载处理的例子：
+
+```
+// a.mjs
+import {bar} from './b';
+console.log('a.mjs');
+console.log(bar);
+export let foo = 'foo';
+
+// b.mjs
+import {foo} from './a';
+console.log('b.mjs');
+console.log(foo);
+export let bar = 'bar';
+```
+
+首先，执行a.mjs以后，引擎发现它加载了b.mjs，因此会优先执行b.mjs，然后再执行a.js。接着，执行b.mjs的时候，已知它从a.mjs输入了foo接口，这时不会去执行a.mjs，而是认为这个接口已经存在了，继续往下执行。执行到第三行console.log(foo)的时候，才发现这个接口根本没定义，因此报错。
+
+解决这个问题的方法，是让b.mjs运行时，foo已经有定义了。可通过将foo写成函数来解决。
+
+```
+// a.mjs
+import {bar} from './b';
+console.log('a.mjs');
+console.log(bar());
+function foo() { return 'foo' }
+export {foo};
+
+// b.mjs
+import {foo} from './a';
+console.log('b.mjs');
+console.log(foo());
+function bar() { return 'bar' }
+export {bar};
+```
+
+这时再执行a.mjs就可以得到预期结果。
+
+
+
+```
+$ node --experimental-modules a.mjs
+b.mjs
+foo
+a.mjs
+bar
+```
+
+
+这是因为函数具有提升作用，在执行`import {bar} from './b'`时，函数foo就已经有定义了，所以b.mjs加载时候不会报错。这也意味着，如把函数foo改成函数表达式，也会报错。
+
+
+## 五 ES6 模块的转码
+
+浏览器目前还不完全支持 ES6 模块（特别是低版本的浏览器），为了现在就能使用，可将ES6代码转为 ES5 的写法。除了 [Babel](https://babeljs.io/) 可用来转码外，还有[ES6 module transpiler](https://github.com/esnext/es6-module-transpiler)和 [SystemJS](https://github.com/systemjs/systemjs) 两个方法。
+
+SystemJS。是一个垫片库（polyfill），可在浏览器内加载 ES6 模块、AMD 模块和 CommonJS 模块，将其转为 ES5 格式。它在后台调用的是 Google 的 Traceur 转码器。
+
 
 ## 参考
 http://es6.ruanyifeng.com/#docs/module-loader
