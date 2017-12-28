@@ -160,6 +160,7 @@
         * [Set与Map](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/setyu-map.md)
         * [Generator 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu.md)
         * [async 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async.md)
+        * [Decorator（修饰器）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/decoratorff08-xiu-shi-qi-ff09.md)
         * [模块Module](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
           * [Module 的语法及使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai/module-de-yu-fa-ji-shi-yong.md)
           * [Module 的加载实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai/module-de-jia-zai-shi-xian.md)
