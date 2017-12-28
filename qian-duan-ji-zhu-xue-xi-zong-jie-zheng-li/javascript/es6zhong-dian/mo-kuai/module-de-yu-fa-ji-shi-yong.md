@@ -684,3 +684,5 @@ async function main() {
 main();
 ```
 
+## 参考
+http://es6.ruanyifeng.com/#docs/module
