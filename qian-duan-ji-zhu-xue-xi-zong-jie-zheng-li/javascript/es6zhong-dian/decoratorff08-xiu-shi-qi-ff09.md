@@ -39,3 +39,6 @@ function testable(target) {
 
 
 ## 三 方法的修饰
+
+## 参考
+http://es6.ruanyifeng.com/#docs/decorator
