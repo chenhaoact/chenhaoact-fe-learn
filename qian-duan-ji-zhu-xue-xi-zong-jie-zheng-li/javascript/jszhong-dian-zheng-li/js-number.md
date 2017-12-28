@@ -32,6 +32,15 @@ let a = 'a';
 isNaN(Number(a))  // false
 ```
 
+### 判断小数点后有几位
+
+
+```
+3.66.toString().split('.')[1].length  // 2
+```
+
+
+
 
 
 

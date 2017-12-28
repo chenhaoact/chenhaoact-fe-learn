@@ -5,7 +5,17 @@
 
 ### length
 
-**读length(包括使用slice等字符串或数组的方法)之前务必保证元素不为null或undefined,否则js会抛异常从而可能让整个页面都渲染不出来！！！**
+null或undefined也会计入length中：
+
+
+```
+[undefined, 1].length  // 2
+[null, 1].length  //2
+```
+
+
+
+**因此读length(包括使用slice等字符串或数组的方法)之前务必保证元素不为null或undefined,否则js会抛异常从而可能让整个页面都渲染不出来！！！**
 
 如超过长度截取前n个并显示...：
 
