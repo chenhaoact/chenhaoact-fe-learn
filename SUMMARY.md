@@ -468,12 +468,14 @@
   * [工具使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li.md)
     * [git-版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi.md)
       * [项目下.gitignore文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/xiangmu-4e0b-gitignore-wen-jian-xie-fa-yu-zuo-yong.md)
-      * [sourcetree-git版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/sourcetree-gitban-ben-kong-zhi.md)
+      * [sourcetree-git可视化工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/sourcetree-gitban-ben-kong-zhi.md)
+      * [gitbook——写自己的书](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitbook2014-2014-xie-zi-ji-de-shu.md)
+      * [github使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/githubshi-yong-ji-qiao.md)
+      * [gitlab-团队代码协同与版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitlabtuan-dui-dai-ma-xie-tong-yu-ban-ben-kong-zhi.md)
       * [git常用技能整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitban-ben-kong-zhi/gitchang-yong-ji-neng-zheng-li.md)
-    * [gitbook——写自己的书](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitbook2014-2014-xie-zi-ji-de-shu.md)
-    * [github使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/githubshi-yong-ji-qiao.md)
-    * [gitlab-团队代码协同与版本控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitlabtuan-dui-dai-ma-xie-tong-yu-ban-ben-kong-zhi.md)
-    * [Gitter-开发者及时通讯交流应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitterkai-fa-zhe-ji-shi-tong-xun-jiao-liu-ying-yong.md)
+    * 开发者协同与项目管理
+      * [Gitter-开发者及时通讯交流应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitterkai-fa-zhe-ji-shi-tong-xun-jiao-liu-ying-yong.md)
+      * [Slack-开发者团队协作通讯工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/kai-fa-zhe-xie-zuo-tong-xun-gong-5177-slack.md)
     * [代码编辑器使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao.md)
       * [webstorm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm.md)
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/ti-sheng-kai-fa-xiao-lv-yu-gong-cheng-zhi-liang-de-ji-qiao.md)
@@ -484,13 +486,12 @@
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode/ti-sheng-gong-cheng-xiao-lv-yu-zhi-liang-de-ji-qiao.md)
         * [好用的插件收集](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode/hao-yong-de-cha-jian-shou-ji.md)
         * [常用快捷键](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode/chang-yong-kuai-jie-jian.md)
+      * [markdown](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/markdown.md)
       * [xcode](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/xcode.md)
       * [Android studio](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/android-studio.md)
-    * [Slack-开发者团队协作通讯工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/kai-fa-zhe-xie-zuo-tong-xun-gong-5177-slack.md)
-    * [iconfont-图标管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/iconfonttu-biao-guan-li.md)
-    * [markdown](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/markdown.md)
     * [设计工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/she-ji-gong-ju.md)
       * [sketch](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/sketch.md)
+      * [iconfont-图标管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/iconfonttu-biao-guan-li.md)
     * [图表制作技巧大总结——用图表把自己的文章，ppt变得更专业](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo.md)
       * [Excel使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/tu-biao-zhi-zuo/excelshi-yong-ji-qiao.md)
     * [图像视频等多媒体处理与制作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/duo-mei-ti-zhi-zuo.md)
@@ -500,7 +501,6 @@
     * [数据接口模拟与管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li.md)
       * [RAP-Web接口管理工具，开源免费，接口自动化，MOCK数据自动生成，自动化测试，企业级管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li/rap-webjie-kou-guan-li-gong-ju-ff0c-kai-yuan-mian-fei-ff0c-jie-kou-zi-dong-hua-ff0c-mock-shu-ju-zi-dong-sheng-cheng-ff0c-zi-dong-hua-ce-shi-ff0c-qi-ye-ji-guan-li.md)
       * [Mock.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/shu-ju-jie-kou-mo-ni-yu-guan-li/mockjs.md)
-    * gitlab-团队代码协同与版本控制
     * 代码效果线上预览与调试
       * [codepen](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/codepen.md)
       * [jsfiddle](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/jsfiddle.md)
@@ -510,8 +510,6 @@
       * bash
     * 操作系统快捷键与快捷工具
       * [Mac](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/mac.md)
-    * 文档生成与管理
-      * [JSDoc](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/jsdoc.md)
   * [用户体验提升与优化（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yong-hu-ti-yan-ti-sheng.md)
     * [网络接口异常的处理与兼容及友好提示](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6/wang-luo-jie-kou-yi-chang-gu-zhang-de-chu-li.md)
     * [性能优化](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jskai-fa-zhong-yu-dao-wen-ti-de-jie-jue-zheng-li-yu-ji-qiao-fang-fa-zong-jie-ff08-bao-han-es6/xing-neng-you-hua.md)
