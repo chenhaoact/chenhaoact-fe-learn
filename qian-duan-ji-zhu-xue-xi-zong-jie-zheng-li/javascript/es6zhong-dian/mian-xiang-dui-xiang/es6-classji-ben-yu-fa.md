@@ -180,9 +180,7 @@ ES6类和模块内部，默认就是严格模式，所以不需使用use strict�
 
 
 ## 参考
-[Class 的基本语法(阮一峰《ES6标准入门》)](http://es6.ruanyifeng.com/#docs/class)
-
-目前只过了简介部分
+http://es6.ruanyifeng.com/#docs/class
 
 [深入浅出ES6（十三）：类 Class](http://www.infoq.com/cn/articles/es6-in-depth-classes)
 
