@@ -8,6 +8,7 @@
 * [ ] [chrome浏览器调试技巧](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li.md)学完
 * [ ] [《Python教程》](https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000)整本书学完
 * [ ] [《Node.js官方中文文档》](http://nodejs.cn/api)过完
+* [ ] [最新的lodash文档](https://lodash.com/docs)过完
 * [ ] 《图解CSS3：核心技术与案例实战》整本书学完
 * [ ] [《深入理解JavaScript系列》](http://www.cnblogs.com/TomXu/archive/2011/12/15/2288411.html)整本书学完
 * [ ] [《React英文官方文档》](https://reactjs.org/docs)细过一遍
@@ -22,8 +23,4 @@
 ## 待学习内容
 
 《数据结构与算法javascript描述》书再过一遍，再看下是否要看数据结构与算法 python或java或C的书；
-
-
-
-
 
