@@ -410,7 +410,7 @@
       * [UI组件库参考（组件较全）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
       * [拖拽与吸附](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tuo-ye-yu-xi-fu.md)
       * [移动端手势控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-shou-shi-kong-zhi.md)
-      * [视频播放器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/shi-pin-bo-fang-qi.md)
+      * [富文本编辑器实现（前端难点之一）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/fu-wen-ben-bian-ji-qi-ff08-nan-dian-zhi-yi-ff09.md)
       * [视频播放器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/shi-pin-bo-fang-qi.md)
   * [后端，服务端，数据端基础（需要掌握到一定程度，有助于前端开发与全栈）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hou-duan-ff0c-fu-wu-duan-ff0c-shu-ju-duan-ji-chu-ff08-xu-yao-zhang-wo-dao-yi-ding-cheng-du-ff0c-you-zhu-yu-qian-duan-kai-fa-yu-quan-zhan-ff09.md)
     * [java](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/java.md)
