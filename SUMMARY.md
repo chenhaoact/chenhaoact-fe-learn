@@ -398,6 +398,7 @@
       * [BizCharts-AntV G2的React封装](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/bizcharts-antv-g2de-react-feng-zhuang.md)
     * [通用组件与常见UI效果实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/chang-yong-ui-xiao-guo-shi-xian.md)
       * [UI组件库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
+      * [页面搭建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ye-mian-da-jian-ji-zhu.md)
       * 动画效果（重要）
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
@@ -408,13 +409,12 @@
       * [移动端-图片滑动切换组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-7aef-tu-pian-hua-dong-qie-huan.md)
       * [移动端-Dialog对话框组件](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-7aef-dialog-dui-hua-kuang-zu-jian.md)
       * [首页搭建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/shou-ye-da-jian.md)
-      * [UI组件库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
+      * [文章页搭建](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wen-zhang-ye-da-jian.md)
       * [拖拽与吸附](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tuo-ye-yu-xi-fu.md)
       * [移动端手势控制](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yi-dong-duan-shou-shi-kong-zhi.md)
       * [富文本编辑器实现（前端难点之一）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/fu-wen-ben-bian-ji-qi-ff08-nan-dian-zhi-yi-ff09.md)
       * [视频播放器](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/shi-pin-bo-fang-qi.md)
-      * [文件处理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wen-jian-chu-li.md)
-        * pdf处理
+      * [页面搭建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ye-mian-da-jian-ji-zhu.md)
     * [其他常用类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qi-ta-chang-yong-lei-ku.md)
       * [时间类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku.md)
         * [moment.js](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/shi-jian-lei-ku/momentjs.md)
