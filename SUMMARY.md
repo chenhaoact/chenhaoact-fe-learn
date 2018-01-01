@@ -5,7 +5,7 @@
   * [前端基础](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-ji-chu.md)
     * [Html](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/html.md)
       * [html重点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian.md)
-        * [&lt;table&gt;](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/table.md)
+        * [table](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/table.md)
         * [html文档流](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/htmlwen-dang-liu.md)
         * [行内元素/块级元素](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/xing-nei-yuan-7d20-kuai-ji-yuan-su.md)
         * [特殊字符](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/htmlzhong-dian/te-shu-zi-fu.md)
