@@ -31,7 +31,13 @@ git clone gitUrl
 相当于 git fetch + git merge
 
 ### 从指定分支拉取代码到本地指定分支（常用！）
+
+
+```
 git pull origin 远程分支:本地某分支
+```
+
+
 
 ### 指定本地分支提交和更新的远程代码分支：
 
@@ -156,6 +162,17 @@ git reset –hard  //回滚到 merge 前的版本，回滚一版
 http://www.cnblogs.com/qualitysong/archive/2012/11/27/2791486.html
 
 http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013744142037508cf42e51debf49668810645e02887691000
+
+## 删除
+
+### 删除分枝
+
+
+```
+git branch -D 分枝名
+```
+
+
 
 ### 打tag和删除tag
 
