@@ -544,6 +544,7 @@
     * 命令行工具与操作
       * [iTerm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/iterm.md)
       * bash
+      * [curl-通过命令发网络请求和提取数据](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/curl.md)
     * 操作系统快捷键与快捷工具
       * [Mac](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/mac.md)
   * [用户体验提升与优化（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/yong-hu-ti-yan-ti-sheng.md)
