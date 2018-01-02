@@ -172,7 +172,7 @@ http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b0
 git branch -D 分枝名
 ```
 
-
+(-d 只有在合并完成后才能删除， -D 则是强制删除)
 
 ### 打tag和删除tag
 
