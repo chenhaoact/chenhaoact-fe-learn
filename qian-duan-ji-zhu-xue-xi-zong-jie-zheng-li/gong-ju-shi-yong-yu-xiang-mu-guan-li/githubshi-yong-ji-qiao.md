@@ -39,6 +39,9 @@ https://github.com/blog/273-github-ribbons
 更多的api可以看 github 官方的api（点击Learn more about vN of the GitHub API）
 https://developer.github.com/
 
+GitHub 开发指南 - 极客学院
+http://wiki.jikexueyuan.com/project/github-developer-guides/
+
 **google或百度搜索github star api** 就可以找到上述需要的答案。
 
 
