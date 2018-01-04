@@ -177,24 +177,17 @@ ES6类和模块内部，默认就是严格模式，所以不需使用use strict�
 
 ### 10. 类（方法）必须使用new调用，否则会报错。这是它跟普通构造函数的一个主要区别，后者不用new也可以执行
 
-
-## 三 类的 constructor 方法
-
-类的默认方法，通**过new命令生成对象实例时，自动调用该方法**；
-如果没有显式定义，一个空的constructor方法会被默认添加；
-constructor方法默认返回实例对象（即this），可以指定返回另外一个对象，但会导致实例对象不是该类实例；
-
-
+### 11. 类不存在变量提升，必须先定义才能使用，这点与 ES5 不同
 
 ```
-class Point {
-  constructor() {}
-}
+new Foo(); // ReferenceError
+class Foo {}
 ```
 
+上面代码，Foo类使用在前，定义在后，这样会报错，因为 **ES6 不会把类的声明提升到代码头部**。这种**规定的原因与继承有关，必须保证子类在父类之后定义**。
 
 
-## 四 类的实例对象
+## 三 类的实例对象
 
 ### 1. 生成类的实例对象（与 ES5 一样，使用new命令）
 
@@ -281,43 +274,247 @@ p3.printName() // "Oops"
 
 上面代码在p1原型上添加了printName方法，由于**所有实例共享同一个原型**，因此p2也可以调用这个方法。此后新建的实例p3也可以调用这个方法。这意味着，**使用实例的__proto__属性改写原型，必须相当谨慎，不推荐使用，因为这会改变“类”的原始定义，影响到所有实例**。
 
-## 五 Class 表达式
-与函数一样，类也可以使用表达式的形式定义。
+## 四 类的属性
+### 1. 定义类的属性
+定义属性，一般是在constructor中通过this.属性名 = 传入参数值，指定初始值，后面各个函数里 可以this.属性名拿到属性并进行赋值。
+
+### 2. Class 的静态属性和实例属性
+**静态属性：指 Class 本身的属性，即Class.propName，而非定义在实例对象（this）上的属性**。
 
 
 
 ```
-const MyClass = class Me {
-  getClassName() {
-    return Me.name;
+class Foo {
+}
+
+Foo.prop = 1;
+Foo.prop // 1
+```
+
+
+
+**上面的写法（类外边用类.属性名 = 值）为类定义了一个静态属性**prop。
+
+**目前，只有这种写法可行，因为 ES6 明确规定，Class 内部只有静态方法，没有静态属性（属性前加static无效）**。
+
+
+
+```
+// 以下两种写法都无效
+class Foo {
+  // 写法一
+  prop: 2
+
+  // 写法二
+  static prop: 2
+}
+
+Foo.prop // undefined
+```
+
+
+
+目前**有一个[静态属性的提案](https://github.com/tc39/proposal-class-fields)，对实例属性和静态属性都规定了新的写法**。
+
+**该提案中，类的实例属性可以用等式，写入类的定义之中**。
+
+
+
+```
+class MyClass {
+  myProp = 42;
+而目前，定义实例属性，只能写在类的constructor方法里。
+
+class ReactCounter extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
   }
-};
+}
+上面代码中，构造方法constructor里面，定义了this.state属性。
+
+有了新的写法以后，可以不在constructor方法里面定义。
+
+class ReactCounter extends React.Component {
+  state = {
+    count: 0
+  };
+}
+这种写法比以前更清晰。
+
+为了可读性的目的，对于那些在constructor里面已经定义的实例属性，新写法允许直接列出。
+
+class ReactCounter extends React.Component {
+  state;
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+}
+（2）类的静态属性
+
+类的静态属性只要在上面的实例属性写法前面，加上static关键字就可以了。
+
+class MyClass {
+  static myStaticProp = 42;
+
+  constructor() {
+    console.log(MyClass.myStaticProp); // 42
+  }
+}
+同样的，这个新写法大大方便了静态属性的表达。
+
+// 老写法
+class Foo {
+  // ...
+}
+Foo.prop = 1;
+
+// 新写法
+class Foo {
+  static prop = 1;
+}
+上面代码中，老写法的静态属性定义在类的外部。整个类生成以后，再生成静态属性。这样让人很容易忽略这个静态属性，也不符合相关代码应该放在一起的代码组织原则。另外，新写法是显式声明（declarative），而不是赋值处理，语义更好。
+
+
+
+### 3. 私有属性
+与私有方法一样，ES6 **暂不支持**私有属性。目前，**有一个[提案](https://github.com/tc39/proposal-private-methods)**，为class加了私有属性。方法是**在属性名之前加#表示私有属性**。
+
+
+
+```
+class Point {
+  #x;
+
+  constructor(x = 0) {
+    #x = +x; // 写成 this.#x 亦可
+  }
+
+  get x() { return #x }
+  set x(value) { #x = +value }
+}
 ```
 
-上面代码用表达式定义类。注意，**这个类的名字是MyClass而不是Me**，**Me只在 Class 内部代码可用**，指代当前类。
+之所以**引入新的前缀#表示私有属性，而没采用private关键字，是因为 JS 是一门动态语言，使用独立的符号似乎是唯一的可靠方法，能够准确地区分**一种属性是否为私有属性。Ruby 用@表私有属性，ES6 使用了#，是因为@已被留给了Decorator。
 
-如果类的内部没用到的话，可以省略Me，写成下面的形式。
+**该提案只规定了私有属性的写法。但是它实际上也可用来写私有方法**。
 
-```
-const MyClass = class { /* ... */ };
-```
-
-采用 Class 表达式，可写出立即执行的 Class实例。 
-
-## 六 类不存在变量提升，必须先定义才能使用，这点与 ES5 不同
+### 4. name 属性
+**本质上，ES6 的类只是 ES5 的构造函数的一层包装，所以函数的许多特性都被Class继承，包括name属性**。
 
 
 
 ```
-new Foo(); // ReferenceError
-class Foo {}
+class Point {}
+Point.name // "Point"
 ```
 
-上面代码，Foo类使用在前，定义在后，这样会报错，因为 **ES6 不会把类的声明提升到代码头部**。这种**规定的原因与继承有关，必须保证子类在父类之后定义**。
+name属性：总返回紧跟在class关键字后面的类名。
 
 
-## 七 类的方法
-### 1. 私有方法
+
+## 五 类的方法
+### 1. 类的 constructor 方法
+
+类的默认方法，通**过new命令生成对象实例时，自动调用该方法**；
+如果没有显式定义，一个空的constructor方法会被默认添加；
+constructor方法默认返回实例对象（即this），可以指定返回另外一个对象，但会导致实例对象不是该类实例；
+
+
+
+```
+class Point {
+  constructor() {}
+}
+```
+### 2.Class 的静态方法 （static）
+**类相当于实例的原型，所有在类中定义的方法，都会被实例继承。在一方法前，加static关键字，就表示该方法不会被实例继承，而是直接通过类来调用，这称为“静态方法”。**
+
+
+
+```
+class Foo {
+  static classMethod() {
+    return 'hello';
+  }
+}
+
+Foo.classMethod() // 'hello'
+
+var foo = new Foo();
+foo.classMethod()
+// TypeError: foo.classMethod is not a function
+```
+
+
+上面代码，Foo类的classMethod方法前有static关键字，表明是静态方法，可直接在Foo类上调用，而不能在Foo类的实例上调用。
+
+注意，**如静态方法包含this关键字，这个this指类，而非实例对象**。
+
+
+
+```
+class Foo {
+  static bar () {
+    this.baz();
+  }
+  static baz () {
+    console.log('hello');
+  }
+  baz () {
+    console.log('world');
+  }
+}
+
+Foo.bar() // hello
+```
+
+
+上面代码，静态方法bar调用了this.baz，这里的this指的是Foo类，而不是Foo的实例，等同于调用Foo.baz。另外，从例子还可看出，**静态方法可以与非静态方法重名**。
+
+**父类的静态方法，可以被子类继承**：
+
+
+
+```
+class Foo {
+  static classMethod() {
+    return 'hello';
+  }
+}
+
+class Bar extends Foo {
+}
+
+Bar.classMethod() // 'hello'
+```
+
+上面代码，父类Foo有一个静态方法，子类Bar可调用这个方法。
+
+**静态方法也可从super对象上调用**：
+
+```
+class Foo {
+  static classMethod() {
+    return 'hello';
+  }
+}
+
+class Bar extends Foo {
+  static classMethod() {
+    return super.classMethod() + ', too';
+  }
+}
+
+Bar.classMethod() 
+```
+
+### 3. 私有方法
 **私有方法是常见需求，但 ES6 不提供，只能通过变通方法模拟实现**。
 
 方法一： 在命名上加以区别（不推荐）
@@ -370,7 +567,7 @@ export default class myClass{
 
 bar和snaf都是**Symbol值，导致第三方无法获取到它们，因此达到了私有方法和私有属性的效果**。
 
-### 2. 取值函数（getter）和存值函数（setter）
+### 4. 取值函数（getter）和存值函数（setter）
 与 ES5 一样，在**“类”的内部可使用get和set关键字，对某属性设置存值函数和取值函数，拦截该属性的存取行为（ 这时定义属性值就不是在constructor中通过this.属性名 = 传入参数值，而是通过 get 属性名() 和 set 属性名() 自定义设值和取值行为 ）**。
 
 
@@ -401,49 +598,58 @@ inst.prop
 
 **存值函数和取值函数设置在属性的 Descriptor 对象上**。可通过Object.getOwnPropertyDescriptor()方法拿到。
 
-
-
-## 八 类的属性
-### 1. 定义类的属性
-定义属性，一般是在constructor中通过this.属性名 = 传入参数值，指定初始值，后面各个函数里 可以this.属性名拿到属性并进行赋值。
-
-### 2. 私有属性
-与私有方法一样，ES6 **暂不支持**私有属性。目前，**有一个[提案](https://github.com/tc39/proposal-private-methods)**，为class加了私有属性。方法是**在属性名之前加#表示私有属性**。
+### 5. Class 的 Generator 方法 
+类的某个方法前加星号（*），就表示该方法是一个 Generator 函数。
 
 
 
 ```
-class Point {
-  #x;
-
-  constructor(x = 0) {
-    #x = +x; // 写成 this.#x 亦可
+class Foo {
+  constructor(...args) {
+    this.args = args;
   }
-
-  get x() { return #x }
-  set x(value) { #x = +value }
+  * [Symbol.iterator]() {
+    for (let arg of this.args) {
+      yield arg;
+    }
+  }
 }
-```
 
-之所以**引入新的前缀#表示私有属性，而没采用private关键字，是因为 JS 是一门动态语言，使用独立的符号似乎是唯一的可靠方法，能够准确地区分**一种属性是否为私有属性。Ruby 用@表私有属性，ES6 使用了#，是因为@已被留给了Decorator。
-
-**该提案只规定了私有属性的写法。但是它实际上也可用来写私有方法**。
-
-### 3. name 属性
-**本质上，ES6 的类只是 ES5 的构造函数的一层包装，所以函数的许多特性都被Class继承，包括name属性**。
-
-
+for (let x of new Foo('hello', 'world')) {
+  console.log(x);
+}
+// hello
+// world
 
 ```
-class Point {}
-Point.name // "Point"
+
+上面代码，Foo类的Symbol.iterator方法前有一个星号，表示该方法是一个 Generator 函数。Symbol.iterator方法返回一个Foo类的默认遍历器，for...of循环会自动调用这个遍历器。
+
+## 六 Class 表达式
+与函数一样，类也可以使用表达式的形式定义。
+
+
+
+```
+const MyClass = class Me {
+  getClassName() {
+    return Me.name;
+  }
+};
 ```
 
+上面代码用表达式定义类。注意，**这个类的名字是MyClass而不是Me**，**Me只在 Class 内部代码可用**，指代当前类。
+
+如果类的内部没用到的话，可以省略Me，写成下面的形式。
+
+```
+const MyClass = class { /* ... */ };
+```
+
+采用 Class 表达式，可写出立即执行的 Class实例。 
 
 
-name属性：总返回紧跟在class关键字后面的类名。
-
-## 九 this 的指向
+## 七 this 的指向
 **类的方法内部如果含有this，它默认指向类的实例**。但须非常小心，一旦单独使用该方法，很可能报错。
 
 
@@ -528,8 +734,7 @@ function selfish (target) {
 const logger = selfish(new Logger());
 ```
 
-### 十
-
+## 八 
 
 ## 参考
 http://es6.ruanyifeng.com/#docs/class
