@@ -2,9 +2,9 @@
 
 ## 一 简介
 
-JS中，**生成实例对象的传统方法是通过构造函数**。
+**JS在ES6之前，生成实例对象的传统方法是通过构造函数 （定义一个函数模拟构造函数，该函数首字母大写，通过此函数生成实例对象）**。
 
-如：
+**例子（重要）**：
 
 
 ```
@@ -281,7 +281,7 @@ p3.printName() // "Oops"
 
 上面代码在p1原型上添加了printName方法，由于**所有实例共享同一个原型**，因此p2也可以调用这个方法。此后新建的实例p3也可以调用这个方法。这意味着，**使用实例的__proto__属性改写原型，必须相当谨慎，不推荐使用，因为这会改变“类”的原始定义，影响到所有实例**。
 
-### 五 Class 表达式
+## 五 Class 表达式
 与函数一样，类也可以使用表达式的形式定义。
 
 
@@ -304,7 +304,7 @@ const MyClass = class { /* ... */ };
 
 采用 Class 表达式，可写出立即执行的 Class实例。 
 
-### 六 类不存在变量提升，必须先定义才能使用，这点与 ES5 不同
+## 六 类不存在变量提升，必须先定义才能使用，这点与 ES5 不同
 
 
 
@@ -316,7 +316,8 @@ class Foo {}
 上面代码，Foo类使用在前，定义在后，这样会报错，因为 **ES6 不会把类的声明提升到代码头部**。这种**规定的原因与继承有关，必须保证子类在父类之后定义**。
 
 
-### 七 私有方法
+## 七 类的方法
+### 1. 私有方法
 **私有方法是常见需求，但 ES6 不提供，只能通过变通方法模拟实现**。
 
 方法一： 在命名上加以区别（不推荐）
@@ -369,7 +370,44 @@ export default class myClass{
 
 bar和snaf都是**Symbol值，导致第三方无法获取到它们，因此达到了私有方法和私有属性的效果**。
 
-### 八 私有属性
+### 2. 取值函数（getter）和存值函数（setter）
+与 ES5 一样，在**“类”的内部可使用get和set关键字，对某属性设置存值函数和取值函数，拦截该属性的存取行为（ 这时定义属性值就不是在constructor中通过this.属性名 = 传入参数值，而是通过 get 属性名() 和 set 属性名() 自定义设值和取值行为 ）**。
+
+
+
+```
+class MyClass {
+  constructor() {
+    // ...
+  }
+  get prop() {
+    return 'getter';
+  }
+  set prop(value) {
+    console.log('setter: '+value);
+  }
+}
+
+let inst = new MyClass();
+
+inst.prop = 123;
+// setter: 123
+
+inst.prop
+// 'getter'
+```
+
+上面代码中，prop属性有对应的存值函数和取值函数，因此赋值和读取行为都被自定义了。
+
+**存值函数和取值函数设置在属性的 Descriptor 对象上**。可通过Object.getOwnPropertyDescriptor()方法拿到。
+
+
+
+## 八 类的属性
+### 1. 定义类的属性
+定义属性，一般是在constructor中通过this.属性名 = 传入参数值，指定初始值，后面各个函数里 可以this.属性名拿到属性并进行赋值。
+
+### 2. 私有属性
 与私有方法一样，ES6 **暂不支持**私有属性。目前，**有一个[提案](https://github.com/tc39/proposal-private-methods)**，为class加了私有属性。方法是**在属性名之前加#表示私有属性**。
 
 
@@ -391,9 +429,26 @@ class Point {
 
 **该提案只规定了私有属性的写法。但是它实际上也可用来写私有方法**。
 
-### 九 this 的指向
-类的方法内部如果含有this，它默认指向类的实例。但是，必须非常小心，一旦单独使用该方法，很可能报错。
+### 3. name 属性
+**本质上，ES6 的类只是 ES5 的构造函数的一层包装，所以函数的许多特性都被Class继承，包括name属性**。
 
+
+
+```
+class Point {}
+Point.name // "Point"
+```
+
+
+
+name属性：总返回紧跟在class关键字后面的类名。
+
+## 九 this 的指向
+**类的方法内部如果含有this，它默认指向类的实例**。但须非常小心，一旦单独使用该方法，很可能报错。
+
+
+
+```
 class Logger {
   printName(name = 'there') {
     this.print(`Hello ${name}`);
@@ -407,10 +462,17 @@ class Logger {
 const logger = new Logger();
 const { printName } = logger;
 printName(); // TypeError: Cannot read property 'print' of undefined
-上面代码中，printName方法中的this，默认指向Logger类的实例。但是，如果将这个方法提取出来单独使用，this会指向该方法运行时所在的环境，因为找不到print方法而导致报错。
+```
 
-一个比较简单的解决方法是，在构造方法中绑定this，这样就不会找不到print方法了。
 
+
+上面代码，printName方法中的this，默认指向Logger类的实例。但如果**将这个方法提取出来单独使用，this会指向该方法运行时所在的环境**，因找不到print方法而报错。
+
+解决方法一（最简单）：在类的构造方法中绑定this
+
+
+
+```
 class Logger {
   constructor() {
     this.printName = this.printName.bind(this);
@@ -418,8 +480,15 @@ class Logger {
 
   // ...
 }
-另一种解决方法是使用箭头函数。
+```
 
+
+
+方法二：使用箭头函数（自动绑定this）
+
+
+
+```
 class Logger {
   constructor() {
     this.printName = (name = 'there') => {
@@ -429,8 +498,15 @@ class Logger {
 
   // ...
 }
-还有一种解决方法是使用Proxy，获取方法的时候，自动绑定this。
+```
 
+
+
+方法三：使用Proxy，获取方法时，自动绑定this。
+
+
+
+```
 function selfish (target) {
   const cache = new WeakMap();
   const handler = {
@@ -450,6 +526,10 @@ function selfish (target) {
 }
 
 const logger = selfish(new Logger());
+```
+
+### 十
+
 
 ## 参考
 http://es6.ruanyifeng.com/#docs/class
