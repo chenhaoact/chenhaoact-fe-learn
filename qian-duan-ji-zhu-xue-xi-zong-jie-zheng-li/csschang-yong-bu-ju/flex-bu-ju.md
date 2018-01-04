@@ -40,6 +40,11 @@ flex-direction属性决定主轴的方向（即项目的排列方向）。
 }
 ```
 
+有4个值：
+row（默认值）：主轴为水平方向，起点在左端。
+row-reverse：主轴为水平方向，起点在右端。
+column：主轴为垂直方向，起点在上沿。
+column-reverse：主轴为垂直方向，起点在下沿。
 
 ### 2. flex-wrap 如何换行排布
 flex-wrap：nowrap | wrap | wrap-reverse
