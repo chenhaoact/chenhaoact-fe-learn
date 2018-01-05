@@ -174,6 +174,7 @@
             * [简介](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng/jian-jie.md)
             * [类的继承相关属性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng/lei-de-ji-cheng-xiang-guan-shu-xing.md)
             * [类的继承相关方法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng/lei-de-ji-cheng-xiang-guan-fang-fa.md)
+            * [原生构造函数的继承](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-cheng/yuan-sheng-gou-zao-han-shu-de-ji-cheng.md)
         * [Decorator（修饰器）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/decoratorff08-xiu-shi-qi-ff09.md)
         * [模块Module](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai.md)
           * [Module 的语法及使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mo-kuai/module-de-yu-fa-ji-shi-yong.md)
