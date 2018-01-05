@@ -37,6 +37,9 @@ class ColorPoint extends Point {
 **子类必须在constructor方法中调用super方法，否则新建实例时会报错**。**因为子类没有自己的this对象，而是继承父类的this对象，然后对其加工**。
 因为**子类实例的构建，是基于对父类实例加工，子类的构造函数中，只有调用super方法后才能返回父类实例，才可使用this关键字，否则报错**。
 
+#### 注意：super关键字，既可当作函数使用（代表父类的构造函数），也可当对象使用（在普通方法中，指向父类的原型对象；在静态方法中，指向父类）。两种情况下，用法完全不同，具体使用见 [super关键字](http://es6.ruanyifeng.com/#docs/class-extends#super-关键字)
+
+
 ### 2. ES6 继承的实质
 **ES5 的继承，实质是先创造子类的实例对象this，再将父类方法添加到this上**（Parent.apply(this)）。
 
