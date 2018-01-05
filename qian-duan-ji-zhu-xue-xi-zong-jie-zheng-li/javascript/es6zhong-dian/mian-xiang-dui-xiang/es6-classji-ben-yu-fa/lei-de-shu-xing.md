@@ -40,71 +40,7 @@ Foo.prop // undefined
 
 目前**有一个[静态属性的提案](https://github.com/tc39/proposal-class-fields)，对实例属性和静态属性都规定了新的写法**。
 
-**该提案中，类的实例属性可以用等式，写入类的定义之中**。
-
-
-
-```
-class MyClass {
-  myProp = 42;
-而目前，定义实例属性，只能写在类的constructor方法里。
-
-class ReactCounter extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 0
-    };
-  }
-}
-上面代码中，构造方法constructor里面，定义了this.state属性。
-
-有了新的写法以后，可以不在constructor方法里面定义。
-
-class ReactCounter extends React.Component {
-  state = {
-    count: 0
-  };
-}
-这种写法比以前更清晰。
-
-为了可读性的目的，对于那些在constructor里面已经定义的实例属性，新写法允许直接列出。
-
-class ReactCounter extends React.Component {
-  state;
-  constructor(props) {
-    super(props);
-    this.state = {
-      count: 0
-    };
-  }
-}
-（2）类的静态属性
-
-类的静态属性只要在上面的实例属性写法前面，加上static关键字就可以了。
-
-class MyClass {
-  static myStaticProp = 42;
-
-  constructor() {
-    console.log(MyClass.myStaticProp); // 42
-  }
-}
-同样的，这个新写法大大方便了静态属性的表达。
-
-// 老写法
-class Foo {
-  // ...
-}
-Foo.prop = 1;
-
-// 新写法
-class Foo {
-  static prop = 1;
-}
-上面代码中，老写法的静态属性定义在类的外部。整个类生成以后，再生成静态属性。这样让人很容易忽略这个静态属性，也不符合相关代码应该放在一起的代码组织原则。另外，新写法是显式声明（declarative），而不是赋值处理，语义更好。
-
-
+**该提案中，类的实例属性可以用等式，写入类的定义之中**。可以不在constructor方法里定义，更清晰。**而类的静态属性只要在上面的实例属性写法前面，加上static**关键字。
 
 ### 3. 私有属性
 与私有方法一样，ES6 **暂不支持**私有属性。目前，**有一个[提案](https://github.com/tc39/proposal-private-methods)**，为class加了私有属性。方法是**在属性名之前加#表示私有属性**。
@@ -139,6 +75,108 @@ Point.name // "Point"
 ```
 
 name属性：总返回紧跟在class关键字后面的类名。
+
+### 5. new.target 属性
+new是从构造函数生成实例对象的命令。
+**ES6** 为new命令**引入了new.target属性，用在构造函数中，返回new命令作用于的那个构造函数**。**如构造函数不是通过new命令调用，new.target返回undefined**，因此此属性**可用来确定构造函数是怎么调用的**。**Class 内调用new.target，返回当前 Class**。
+
+
+
+```
+function Person(name) {
+  if (new.target !== undefined) {
+    this.name = name;
+  } else {
+    throw new Error('必须使用 new 命令生成实例');
+  }
+}
+
+// 另一种写法
+function Person(name) {
+  if (new.target === Person) {
+    this.name = name;
+  } else {
+    throw new Error('必须使用 new 命令生成实例');
+  }
+}
+
+var person = new Person('张三'); // 正确
+var notAPerson = Person.call(person, '张三');  // 报错
+```
+
+
+
+上面代码确保构造函数只能通过new命令调用。
+
+**Class 内调用new.target，返回当前 Class：**
+
+
+
+```
+class Rectangle {
+  constructor(length, width) {
+    console.log(new.target === Rectangle);
+    this.length = length;
+    this.width = width;
+  }
+}
+
+var obj = new Rectangle(3, 4); // 输出 true
+```
+
+
+注意，**子类继承父类时，new.target会返回子类：**
+
+
+
+```
+class Rectangle {
+  constructor(length, width) {
+    console.log(new.target === Rectangle);
+    // ...
+  }
+}
+
+class Square extends Rectangle {
+  constructor(length) {
+    super(length, length);
+  }
+}
+
+var obj = new Square(3); // 输出 false
+```
+
+
+上面代码，new.target会返回子类。
+
+**利用这个特点，可写出不能独立使用（不能实例化）、必须继承后才能使用的类：**
+
+
+
+```
+class Shape {
+  constructor() {
+    if (new.target === Shape) {
+      throw new Error('本类不能实例化');
+    }
+  }
+}
+
+class Rectangle extends Shape {
+  constructor(length, width) {
+    super();
+    // ...
+  }
+}
+
+var x = new Shape();  // 报错
+var y = new Rectangle(3, 4);  // 正确
+```
+
+
+上面代码，Shape类不能被实例化，只能用于继承。
+
+注意，**在函数外使用new.target会报错**。
 
 
 
