@@ -527,6 +527,7 @@
     * 开发者协同与项目管理
       * [Gitter-开发者及时通讯交流应用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/gitterkai-fa-zhe-ji-shi-tong-xun-jiao-liu-ying-yong.md)
       * [Slack-开发者团队协作通讯工具](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/kai-fa-zhe-xie-zuo-tong-xun-gong-5177-slack.md)
+      * [文档管理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/wen-dang-guan-li.md)
     * [代码编辑器使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao.md)
       * [webstorm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm.md)
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/ti-sheng-kai-fa-xiao-lv-yu-gong-cheng-zhi-liang-de-ji-qiao.md)
