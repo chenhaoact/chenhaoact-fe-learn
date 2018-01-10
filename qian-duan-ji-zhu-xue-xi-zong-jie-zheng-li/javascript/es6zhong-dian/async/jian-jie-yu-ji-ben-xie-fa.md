@@ -90,19 +90,3 @@ co模块约定，yield命令后面只能是 Thunk 函数或 Promise 对象，**�
 
 进一步说，**async函数完全可看作多个异步操作，包装成的一个 Promise 对象，而await命令就是内部then命令的语法糖**。
 
-
-## 二 语法
-
-在 **async function 中**，可**通过 await 关键字来等待一个 Promise 被 resolve（或者 reject，此时会抛出异常）**， 
-
-```
-const fn = async function() {
-  const user = await getUser();
-  const posts = await fetchPosts(user.id);
-  return { user, posts };
-};
-fn().then(res => console.log(res)).catch(err => console.error(err.stack));
-```
-
-
-
