@@ -322,6 +322,8 @@
         * [async-强大的异步流程控制库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/asyncqiang-da-de-yi-bu-liu-cheng-kong-zhi-ku.md)
         * [cross-env（解决node在不同操作系统上的兼容问题）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/cross-env.md)
         * [n与nvm-node版本控制与切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/nyu-nvm.md)
+        * [node调试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/nodediao-shi.md)
+          * [node-inspector](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/chang-yong-node-cha-jian-yu-zhong-jian-jian/nodediao-shi/node-inspector.md)
       * [Koa](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa.md)
         * [Koa2](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa/koa2.md)
         * [Koa和其他框架的对比](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/koa/koahe-qi-ta-kuang-jia-de-dui-bi.md)

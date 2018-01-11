@@ -73,8 +73,35 @@ str.includes(searchString[, position])
 
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String/includes
 
+### 5. substr 获取子字符串
 
 
+
+```
+stringObject.substr(start,length)
+```
+
+抽取从 start 下标开始的指定数目length的子字符串
+
+参数：	
+start	必需。要抽取的子串的起始下标。必须是数值。如果是负数，那么该参数声明从字符串的尾部开始算起的位置。也就是说，-1 指字符串中最后一个字符，-2 指倒数第二个字符，以此类推。
+
+length	可选。子串中的字符数。必须是数值。如果省略了该参数，那么返回从 stringObject 的开始位置到结尾的字串。
+
+### 6. toUpperCase() toLowerCase() 转大写/小写
+
+语法：
+
+
+
+```
+stringObject.toLowerCase()
+```
+
+
+
+**和 toLocaleUpperCase()与toLocaleLowerCase() 的对比 **
+与 toLowerCase() 不同的是，toLocaleLowerCase() 方法按照本地方式把字符串转换为小写。只有几种语言（如土耳其语）具有地方特有的大小写映射，所有该方法的返回值通常与 toLowerCase() 一样。
 
 
 ## 二 归纳整理
@@ -83,6 +110,7 @@ concat
 
 ### 2. 字符串没有数组才有的方法整理（重点！不要乱用）
 join
+强大的splice() 删除元素，并向数组添加新元素，字符串没有
 
 ### 3. 会改变原字符串的方法
 

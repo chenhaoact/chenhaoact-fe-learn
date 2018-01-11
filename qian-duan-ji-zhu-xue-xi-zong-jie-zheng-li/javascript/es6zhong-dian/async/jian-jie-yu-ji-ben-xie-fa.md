@@ -13,7 +13,6 @@
 一个 Generator 函数，依次读取两个文件：
 
 
-
 ```
 const fs = require('fs');
 
