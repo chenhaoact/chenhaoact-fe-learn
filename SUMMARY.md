@@ -163,6 +163,7 @@
         * [async 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async.md)
           * [简介及基本写法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/jian-jie-yu-ji-ben-xie-fa.md)
           * [语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/yu-fa.md)
+          * [使用注意点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/shi-yong-zhu-yi-dian.md)
         * [Class与面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
           * [ES6 class基本语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa.md)
             * [简介](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa/yi-jian-jie.md)

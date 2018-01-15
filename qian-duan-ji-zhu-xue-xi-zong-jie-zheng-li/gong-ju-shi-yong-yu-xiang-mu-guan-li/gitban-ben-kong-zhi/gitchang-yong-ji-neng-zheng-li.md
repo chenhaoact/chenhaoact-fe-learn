@@ -49,12 +49,26 @@ git branch --set-upstream-to=origin/someBranch daily/0.0.30
 本地分支
 git branch -m oldname newname
 
-### 提交代码
+### 提交代码（需要先合并master）
 提交之前先要切回master分支  git pull一下 (必须切到master下pull然后切到自己的分支上merge master之后再build，再git status(build下不一样可以git add .) 再 push)
 
 要合并哪个分支的代码，必须切到该分支下 去 pull
 
 然后回到要发布的目录： git merge master   (把master目录合并到当前目录)
+
+
+**如果merge master时遇到**：
+
+fatal: refusing to merge unrelated histories
+
+是不同项目历史的原因，在当前分枝下执行：
+
+```
+git pull origin master --allow-unrelated-histories
+```
+
+具体原因参考：http://blog.csdn.net/lindexi_gd/article/details/52554159
+
 
 ## 日常发布
 功能在本地开发好之后，就可以通过如下命令进行编译，提交到日常了： 
