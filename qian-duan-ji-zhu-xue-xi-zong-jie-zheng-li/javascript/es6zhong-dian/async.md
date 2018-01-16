@@ -8,6 +8,8 @@
 
 ## 四 [async 函数的实现原理](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/async-han-shu-de-shi-xian-yuan-li.md)
 
+## 五 [与其他异步处理方法的比较](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/yu-qi-ta-yi-bu-chu-li-fang-fa-de-bi-jiao.md)
+
 ## 参考
 http://es6.ruanyifeng.com/#docs/async
 
