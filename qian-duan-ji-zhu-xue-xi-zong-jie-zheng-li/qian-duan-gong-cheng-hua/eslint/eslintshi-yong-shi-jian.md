@@ -72,6 +72,11 @@ http://eslint.cn/docs/user-guide/configuring#configuring-rules
 ## 其他
 可以安装和配置 [eslint-config-ali](https://www.npmjs.com/package/eslint-config-ali) 这是阿里巴巴的eslint配置规范，能让项目更系统和规范，里面也介绍了eslint提示在各个编辑器中的配置方法。
 
+## 参考
+在React+Babel+Webpack环境中使用ESLint
+http://www.cnblogs.com/le0zh/p/5619350.html
+
+
 
 
 
