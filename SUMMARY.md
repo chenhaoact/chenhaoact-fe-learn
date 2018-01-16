@@ -166,6 +166,7 @@
           * [使用注意点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/shi-yong-zhu-yi-dian.md)
           * [async 函数的实现原理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/async-han-shu-de-shi-xian-yuan-li.md)
           * [与其他异步处理方法的比较](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/yu-qi-ta-yi-bu-chu-li-fang-fa-de-bi-jiao.md)
+          * [常用实例：按顺序完成异步操作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/chang-yong-shi-li-ff1a-an-shun-xu-wan-cheng-yi-bu-cao-zuo.md)
         * [Class与面向对象编程](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang.md)
           * [ES6 class基本语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa.md)
             * [简介](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/mian-xiang-dui-xiang/es6-classji-ben-yu-fa/yi-jian-jie.md)
@@ -539,7 +540,7 @@
     * [代码编辑器使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao.md)
       * [webstorm](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm.md)
         * [提升开发效率与工程质量的技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/ti-sheng-kai-fa-xiao-lv-yu-gong-cheng-zhi-liang-de-ji-qiao.md)
-        * 常用快捷键
+        * [常用快捷键](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/chang-yong-kuai-jie-jian.md)
         * [常用设置](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/webstorm/chang-yong-she-zhi.md)
       * [项目下.editorconfig文件写法与作用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/xiang-mu-4e0b-editorconfig-wen-jian-xie-fa-yu-zuo-yong.md)
       * [VSCode](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/gong-ju-shi-yong-yu-xiang-mu-guan-li/dai-ma-bian-ji-qi-shi-yong-ji-qiao/vscode.md)

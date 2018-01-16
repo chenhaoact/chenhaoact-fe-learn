@@ -1,4 +1,4 @@
-# TODO
+# eslint
 
 ## 一 简介
 
@@ -37,10 +37,6 @@
 
 #### （3）待学习：
 官方教程：
-
-其他教程：
-webstorm nodejs ESLint 简单配置
-http://blog.csdn.net/whitehack/article/details/52422873
 
 在React+Babel+Webpack环境中使用ESLint
 http://www.cnblogs.com/le0zh/p/5619350.html

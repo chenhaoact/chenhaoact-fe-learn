@@ -62,8 +62,17 @@ http://eslint.cn/docs/user-guide/configuring#configuring-rules
 可以使用
 [eslint-loader](https://github.com/MoOx/eslint-loader)
 
+
+## 编辑器ESLint插件配置
+
+### 1. webstorm  ESLint 简单配置
+点webstorm，Perferences 里搜索 eslint，配置ESLint package为项目本地node_modules下安装的eslint (不要去指定全局的，各个项目不一样的)
+
+
 ## 其他
 可以安装和配置 [eslint-config-ali](https://www.npmjs.com/package/eslint-config-ali) 这是阿里巴巴的eslint配置规范，能让项目更系统和规范，里面也介绍了eslint提示在各个编辑器中的配置方法。
+
+
 
 
 
