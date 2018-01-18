@@ -43,9 +43,19 @@ function* foo(x, y) { ··· }
 **不同的是，调用 Generator 函数后，该函数并不执行，返回的也不是函数运行结果，而是一个指向内部状态的指针对象（即遍历器对象）**。
 
 
-### 4. 遍历器对象的next方法
 
-使指针移向下一个状态。每次调用next方法，内部指针从函数头部或上一次停下来的地方开始执行，直到遇到下一个yield表达式（或return语句）为止。
+```
+function* helloWorldGenerator() {
+  yield 'hello';
+  yield 'world';
+  return 'ending';
+}
+
+var hw = helloWorldGenerator();
+```
+
+
+**加圆括号调用获取到遍历器对象后，下一步，必须调用遍历器对象的next方法，使得指针移向下一个状态**。也就是说，每次调用next方法，内部指针就从函数头部或上一次停下来的地方开始执行，**直到遇到下一个yield表达式（或return语句）为止**。换言之，Generator 函数是分段执行的，yield表达式是暂停执行的标记，而next方法可恢复执行。
 
 
 
@@ -63,7 +73,7 @@ hw.next()
 // { value: undefined, done: true }
 ```
 
-调用 Generator 函数，返回一个遍历器对象，代表 Generator 函数的内部指针。以后，**每次调用遍历器对象的next方法，就会返回一个有着value和done两个属性的对象**。
+总结下，调用 Generator 函数，返回一个遍历器对象，代表 Generator 函数的内部指针。以后，**每次调用遍历器对象的next方法，就会返回一个有着value和done两个属性的对象**。
 **value属性表示当前的内部状态的值，是yield表达式后面那个表达式的值；done属性是一个布尔值，表示是否遍历结束**。
 
 
