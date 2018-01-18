@@ -12,6 +12,8 @@
 
 ## 六 [常用实例：按顺序完成异步操作](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/chang-yong-shi-li-ff1a-an-shun-xu-wan-cheng-yi-bu-cao-zuo.md)
 
+## 七 [异步遍历器](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/yi-bu-bian-li-qi.md)
+
 
 ## 参考
 http://es6.ruanyifeng.com/#docs/async
