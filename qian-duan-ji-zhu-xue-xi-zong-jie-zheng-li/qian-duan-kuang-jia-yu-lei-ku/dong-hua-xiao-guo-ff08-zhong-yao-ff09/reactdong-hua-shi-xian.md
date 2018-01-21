@@ -14,3 +14,6 @@ https://www.zhihu.com/question/40746239
 https://www.jianshu.com/p/310dd7c3f38b
 
 React动画的几种实现方式https://segmentfault.com/a/1190000007388260
+
+React动画的基础知识
+https://www.w3cplus.com/animation/react-animation-basic-knowledge.html
