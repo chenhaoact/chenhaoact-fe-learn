@@ -425,10 +425,11 @@
       * [antv\(蚂蚁金服可视化解决方案\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/antvma-yi-jin-fu-ke-shi-hua-jie-jue-fang-684829.md)
       * [DataV数据可视化-阿里云](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/datava-li-yun.md)
       * [BizCharts-AntV G2的React封装](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/bizcharts-antv-g2de-react-feng-zhuang.md)
+    * [动画特效](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/dong-hua-xiao-guo-ff08-zhong-yao-ff09.md)
+      * [React动画实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/dong-hua-xiao-guo-ff08-zhong-yao-ff09/reactdong-hua-shi-xian.md)
     * [通用组件与常见UI效果实现](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/chang-yong-ui-xiao-guo-shi-xian.md)
       * [UI组件库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/zu-jian-ku-can-kao.md)
       * [页面应用搭建技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/ye-mian-da-jian-ji-zhu.md)
-      * 动画效果（重要）
       * [整屏滚动切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zheng-ping-gun-dong-qie-huan.md)
       * [Tab切换](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/tabqie-huan.md)
       * [滑动切换与轮播](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/hua-dong-qie-huan-yu-lun-bo.md)
