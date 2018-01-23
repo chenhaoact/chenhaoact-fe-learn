@@ -81,28 +81,29 @@ hw.next()
 
 yield表达式是暂停标志。
 
-遍历器对象的next方法的运行逻辑如下。
+#### 遍历器对象的next方法的运行逻辑：
 
-（1）遇到yield表达式，就暂停执行后面的操作，**并将紧跟在yield后面的那个表达式进行求值，作为返回的对象的value**属性值。
+（1）遇yield表达式，就暂停执行后面的操作，**并将紧跟在yield后面的表达式求值，作为返回对象的value**值。
 
-（2）下一次调用next方法时，再继续往下执行，直到遇到下一个yield表达式。
+（2）下次调用next方法时，再继续往下执行，直到遇下一个yield表达式。
 
-（3）如果没再遇到新yield表达式，就一直运行到函数结束，直到return语句为止，并将return语句后面的表达式的值，作为返回的对象的value属性值。
+（3）如果没再遇到新yield表达式，就一直运行到函数结束，直到return语句，将return后的表达式的值，作为返回对象的value属性值。
 
 （4）如果**该函数没有return语句，则返回的对象的value属性值为undefined**。
 
-**yield表达式后面的表达式**，只有当调用next方法、**内部指针指向该语句时才会执行求值**。
+**yield表达式后面的表达式**，只有当调用next方法、**内部指针指向该语句时才会执行求值**。等于为 JS 提供了手动的“惰性求值”的语法功能。
 
 #### yield和return的区别
 return语句不具备位置记忆的功能。一个函数里面，只能执行一次return语句，但可以执行多个yield表达式
 
-#### 普通函数中使用yield表达式会报错，故循环不能用forEach可以用for循环
+#### yield表达式只能用在 Generator 函数里，普通函数中使用yield表达式会报错，故循环不能用forEach可以用for循环
 
 ```
 
 var arr = [1, [[2, 3], 4], [5, 6]];
 
 var flat = function* (a) {
+  // 错误的写法
   a.forEach(function (item) {
     if (typeof item !== 'number') {
       yield* flat(item);
@@ -117,9 +118,60 @@ for (var f of flat(arr)){
 }
 ```
 
-上面代码会产生句法错误，因为forEach方法的参数是一个普通函数，但里面使用了yield表达式。一种**修改方法是改用for循环**。
+上面代码会产生句法错误，因为forEach方法的参数是一个普通函数，但里面使用了yield表达式。一种**修改方法是改用for循环：**。
+
+
+
+```
+var arr = [1, [[2, 3], 4], [5, 6]];
+
+var flat = function* (a) {
+  var length = a.length;
+  // 正确的写法
+  for (var i = 0; i < length; i++) {
+    var item = a[i];
+    if (typeof item !== 'number') {
+      yield* flat(item);
+    } else {
+      yield item;
+    }
+  }
+};
+
+for (var f of flat(arr)) {
+  console.log(f);
+}
+// 1, 2, 3, 4, 5, 6
+```
+
+
 
 #### yield表达式如果用在另一个表达式之中，必须放在圆括号里面。
+
+
+
+```
+function* demo() {
+  console.log('Hello' + yield); // SyntaxError
+  console.log('Hello' + yield 123); // SyntaxError
+
+  console.log('Hello' + (yield)); // OK
+  console.log('Hello' + (yield 123)); // OK
+}
+```
+
+yield表达式用作函数参数或放在赋值表达式的右边，可不加括号。
+
+
+
+```
+function* demo() {
+  foo(yield 'a', yield 'b'); // OK
+  let input = yield; // OK
+}
+```
+
+
 
 
 ### Generator 函数可以不用yield表达式，变成一个暂缓执行函数
@@ -144,7 +196,9 @@ setTimeout(function () {
 
 ### 6. 与 Iterator 接口的关系
 
+**任意对象的Symbol.iterator方法，等于该对象的遍历器生成函数，调用该函数会返回该对象的一个遍历器对象**。
 
+由于 **Generator 函数就是遍历器生成函数，因此可把 Generator 赋值给对象的Symbol.iterator属性，从而使该对象具有 Iterator 接口**。
 
 
 
