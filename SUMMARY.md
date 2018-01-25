@@ -164,6 +164,7 @@
           * [语法与基本使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong.md)
             * [简介与基本语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/jian-jie.md)
             * [next 方法的参数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yield-biao-da-shi.md)
+            * [for of 循环](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/for-of-xun-huan.md)
           * [Generator函数的异步调用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/generatorhan-shu-de-yi-bu-diao-yong.md)
         * [async 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async.md)
           * [简介及基本写法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/jian-jie-yu-ji-ben-xie-fa.md)
@@ -611,6 +612,8 @@
     * [工作三年后，我选择离开腾讯](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/zhi-ye-gui-5212-ding-4f4d-zhuan-xing/gong-zuo-san-nian-hou-ff0c-wo-xuan-ze-li-kai-teng-xun.md)
   * 技术学习与提升方法
     * [读源码](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/du-yuan-ma.md)
+  * [提升前端工程师的核心竞争力（重要）](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ti-sheng-qian-duan-gong-cheng-shi-de-he-xin-jing-zheng-li-ff08-zhong-yao-ff09.md)
+    * [前端工程师的深度或者核心竞争力体现在哪里？](gong-cheng-shi-de-zhi-ye-gui-hua-he-zi-wo-xiu-yang/ti-sheng-qian-duan-gong-cheng-shi-de-he-xin-jing-zheng-li-ff08-zhong-yao-ff09/qian-duan-gong-cheng-shi-de-shen-du-huo-zhe-he-xin-jing-zheng-li-ti-xian-zai-na-li-ff1f.md)
 * [前端笔试面试与应聘](qian-duan-bi-shi-mian-shi-yu-ying-pin.md)
   * [js常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/jschang-kao-mian-shi-ti.md)
   * [css常考面试题](qian-duan-bi-shi-mian-shi-yu-ying-pin/csschang-kao-mian-shi-ti.md)

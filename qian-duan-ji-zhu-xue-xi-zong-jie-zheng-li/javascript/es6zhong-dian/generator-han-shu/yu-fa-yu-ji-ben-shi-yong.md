@@ -5,6 +5,8 @@
 
 ## 二 [next 方法的参数](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yield-biao-da-shi.md)
 
+## 三 [for...of 循环](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/for-of-xun-huan.md)
+
 
 
 ## 参考
