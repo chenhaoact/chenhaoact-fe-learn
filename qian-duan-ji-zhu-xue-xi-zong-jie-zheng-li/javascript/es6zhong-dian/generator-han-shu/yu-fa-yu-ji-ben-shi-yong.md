@@ -7,7 +7,7 @@
 
 ## 三 [for...of 循环](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/for-of-xun-huan.md)
 
-
+## 四 [异常捕获](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yi-chang-bu-huo.md)
 
 ## 参考
 ECMAScript 6 入门 - Generator 函数的语法
