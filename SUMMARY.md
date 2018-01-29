@@ -305,6 +305,7 @@
       * [zepto-移动端的jquery](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/zeptoyi-dong-duan-de-jquery.md)
       * [vConsole-针对移动端网页的前端console调试面板](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/vconsole.md)
       * [移动端页面性能优化（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/yi-dong-duan-ye-mian-xing-neng-you-hua-ff08-zhong-yao-ff09.md)
+      * [移动端适配技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/yi-dong-duan-ye-mian-ji-zhu/yi-dong-duan-shi-pei-ji-zhu.md)
     * [Hybrid](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/hybrid.md)
       * [参考资源](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/can-kao-zi-yuan.md)
       * [相关框架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/xiang-guan-kuang-jia.md)
