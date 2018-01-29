@@ -405,6 +405,7 @@
         * [浏览器快捷键整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/chromeliu-lan-qi-diao-shi-ji-qiao-zheng-li/liu-lan-qi-kuai-jie-jian-zheng-li.md)
       * [页面远程调试与演示](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/ye-mian-yuan-cheng-diao-shi-yu-yan-shi.md)
       * [各种Console打印的使用技巧](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/ge-zhong-console-da-yin-de-shi-yong-ji-qiao.md)
+      * [移动端调试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/qian-duan-diao-shi-yu-debug-ji-zhu/yi-dong-duan-diao-shi.md)
     * [前端测试技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu.md)
       * [jest-令人愉快的 JavaScript 测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/qian-duan-ce-shi-ji-zhu/jest.md)
       * [phantomjs-页面自动化测试](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/phantomjs.md)
