@@ -1,3 +1,6 @@
+## rem 与 flex
+lib-flexible 可伸缩布局方案
+https://github.com/amfe/lib-flexible
 
 ## vw实现移动端适配
 利用视口单位实现适配布局
