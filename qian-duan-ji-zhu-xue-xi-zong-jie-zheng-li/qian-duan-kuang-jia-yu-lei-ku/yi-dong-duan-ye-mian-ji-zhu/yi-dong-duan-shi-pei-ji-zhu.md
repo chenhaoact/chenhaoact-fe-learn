@@ -1,6 +1,9 @@
 ## rem 与 flex
-lib-flexible 可伸缩布局方案
+### lib-flexible 可伸缩布局方案
 https://github.com/amfe/lib-flexible
+
+使用Flexible实现手淘H5页面的终端适配
+https://www.w3cplus.com/mobile/lib-flexible-for-html5-layout.html
 
 ## vw实现移动端适配
 利用视口单位实现适配布局
