@@ -18,7 +18,7 @@ a.bbb  // undefined
 
 
 ```
-let a = {}, b = {}, c = [];  // 不要写let a,b,c;  很容易因为初始值为undefined而出问题！   
+let a = {}, b = '', c = [];  // 不要写let a,b,c;  很容易因为初始值为undefined而出问题！   
 
 ```
 
