@@ -7,7 +7,6 @@
 {属性名:属性值} 以及 对象.属性名中，属性名不能是变量，而**对象[属性名] 中属性名可以是变量，该方式有时候会更灵活和强大。
 **
 
-## js Array 常用方法与属性整理
 
 ### （2）对象之间的比较
 
@@ -56,6 +55,19 @@ let tagToAdd = Object.assign({},originTags[idx])
 tagToAdd.attr1 = true;
 addedTags.push(tagToAdd);
 ```
+
+### （4）判断对象是否为空对象（用JSON.stringfy() 判断是否 等于 '{}'）
+
+
+
+```
+const a = {};
+JSON.stringify(a) == '{}' //true
+```
+
+
+
+
 
 ## 二 常用方法
 
