@@ -221,6 +221,10 @@
       * 浏览器
         * [浏览器环境及浏览器引擎](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-bom/liu-lan-qi-huan-jing.md)
       * [WebAssembly 字节码技术](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/webassembly-zi-jie-ma-ji-zhu.md)
+    * 如何自己设计一个js类库/工具/框架
+      * [自定义js类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/zi-ding-yi-js-lei-ku.md)
+      * 发布到npm
+      * [维护和推广自己项目的主站](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/wei-hu-he-tui-guang-zi-ji-xiang-mu-de-zhu-zhan.md)
   * [前端技术，框架与类库](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku.md)
     * 前端框架
       * [jQuery](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/jquery.md)
