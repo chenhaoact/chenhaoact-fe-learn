@@ -13,11 +13,19 @@ npm install --save react-router-dom
 ```
 
 ## 二 基本配置
-对于网页项目，存在`<BrowserRouter>`与`<HashRouter>`两种组件。当存在服务区来管理动态请求时，需要使用`<BrowserRouter>`组件，而`<HashRouter>`适用于静态网站。
+
+### BrowserRouter和HashRouter的区别
 
 `<BrowserRouter>`通过浏览器输入路由直接去访问不行（可以在应用内通过link等跳转访问），而`<HashRouter>`通过浏览器输入路由就能直接去访问。
 
-这里选择`<HashRouter>`。
+**HashRouter会在访问的时候加 /#/，BrowserRouter不会。**
+
+对于在浏览器中运行的项目，我们可以选择 `<BrowserRouter>` 和 `<HashRouter>` 组件，`<BrowserRouter>` 应该用在服务器处理动态请求的项目中（知道如何处理任意的URI），`<HashRouter>` 用来处理静态页面（只能响应请求已知文件的请求）。
+
+**通常来说更推荐使用 `<BrowserRouter>`，可是如果服务器只处理静态页面的请求，那么使用 `<HashRouter>` 也是一个足够的解决方案。**
+
+
+
 
 其他按照[React Router 4 简易入门](https://segmentfault.com/a/1190000010174260)中的介绍配置即可。
 

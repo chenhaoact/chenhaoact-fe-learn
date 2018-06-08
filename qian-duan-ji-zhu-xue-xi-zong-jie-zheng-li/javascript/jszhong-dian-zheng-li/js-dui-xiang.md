@@ -88,7 +88,21 @@ for (let x in person)
 详细参考
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/for...in
 
-### Object.keys() 返回对象的自身可枚举属性组成的数组
+### Object.keys() 返回对象的自身可枚举属性（不含Symbol属性）组成的数组 (也可以用来进行对象的遍历)
+
+
+
+```
+let obj = {'0':'a','1':'b','2':'c'};
+
+Object.keys(obj).forEach(function(key){
+
+     console.log(key,obj[key]);
+
+});
+```
+
+
 
 
 ###  delete 操作符  用于删除对象的某个属性。
