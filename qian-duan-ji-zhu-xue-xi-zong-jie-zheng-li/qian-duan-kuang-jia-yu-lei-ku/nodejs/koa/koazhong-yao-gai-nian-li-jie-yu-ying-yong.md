@@ -36,6 +36,8 @@ app.use(logger);
 ####洋葱圈模型具体参考：
 https://eggjs.org/zh-cn/intro/egg-and-koa.html#middleware
 
+所有的请求经过一个中间件的时候都会执行两次，对比 Express 形式的中间件，Koa 的模型可以非常方便的实现后置处理逻辑。
+
 
 ## 参考
 [Koa框架教程(阮一峰)](http://www.ruanyifeng.com/blog/2017/08/koa.html)
