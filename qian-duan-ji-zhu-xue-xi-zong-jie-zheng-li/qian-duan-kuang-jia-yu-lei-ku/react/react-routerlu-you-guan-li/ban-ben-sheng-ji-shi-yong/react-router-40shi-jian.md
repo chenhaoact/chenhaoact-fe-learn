@@ -47,9 +47,21 @@ console.log(this.props.history.location.search) //?x=1
 此时通过window.location.search是取不到?x=1参数的，因为window.location是取的浏览器hash后面的参数（#后面的参数，react-router通过欺骗浏览器的hash来实现了路由的控制与切换）。
 
 
+## 三 react-router 4 和 之前版本的不同
+
+在 v3 的例子中有而在 v4 中没有的是，使用 {props.children} 来嵌套组件。这是因为在 v4 中，`<Route>` 组件在何处编写，如果路由匹配，子组件将在那里渲染。
+
+具体参考：
+[[译] 关于 React Router 4 的一切
+](https://juejin.im/post/5995a2506fb9a0249975a1a4)
+
+
+
+
+
 ## 参考
-[译] 关于 React Router 4 的一切
-https://juejin.im/post/5995a2506fb9a0249975a1a4
+[[译] 关于 React Router 4 的一切
+](https://juejin.im/post/5995a2506fb9a0249975a1a4)
 
 React Router 4 简易入门
 https://segmentfault.com/a/1190000010174260
