@@ -29,11 +29,29 @@ npm install --save react-router-dom
 
 其他按照[React Router 4 简易入门](https://segmentfault.com/a/1190000010174260)中的介绍配置即可。
 
+
+### 注意 HashRouter 的url参数需要加在 `#/`之前
+
+
+
+```
+localhost:9666/d?x=1  浏览器中访问后会变成 localhost:9666/d?x=1#/
+
+// 通过window.location.search可以拿到url参数
+?x=1
+
+// 但是访问localhost:9666/d#/?x=1 就拿不到url参数
+
+```
+
+所以一般发给后端需要加参数的链接不要带hash `#/` 。
+
+
 ### history对象
 history对象包括了location等数据，通过this.props.history可以拿到。
 
 #### 请求参数获取
-可以直接从网址里通过?x=1方式传参，通过this.props.history.location.search获取到路径中的请求参数：
+可以直接从网址里通过?x=1方式传参，通过this.props.history.location.search或window.location.search获取到路径中的请求参数：
 
 
 
@@ -41,10 +59,6 @@ history对象包括了location等数据，通过this.props.history可以拿到�
 //访问 localhost:9666/d?x=1
 console.log(this.props.history.location.search) //?x=1
 ```
-
-**this.props.history.location的格式类似于window.location。**
-
-此时通过window.location.search是取不到?x=1参数的，因为window.location是取的浏览器hash后面的参数（#后面的参数，react-router通过欺骗浏览器的hash来实现了路由的控制与切换）。
 
 
 ## 三 react-router 4 和 之前版本的不同
