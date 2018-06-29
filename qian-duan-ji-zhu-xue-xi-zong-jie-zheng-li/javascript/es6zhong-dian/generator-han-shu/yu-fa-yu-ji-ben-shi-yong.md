@@ -9,6 +9,10 @@
 
 ## 四 [异常捕获](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yi-chang-bu-huo.md)
 
+## 五 
+
+## 六 [yield* 表达式](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yield-xing-biao-da-shi.md)
+
 ## 参考
 ECMAScript 6 入门 - Generator 函数的语法
 http://es6.ruanyifeng.com/#docs/generator
