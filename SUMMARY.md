@@ -170,7 +170,7 @@
             * [next\(\)、throw\(\)、return\(\) 的共同点](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/nextthrowreturn-de-gong-tong-dian.md)
             * [yield\* 表达式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/yield-xing-biao-da-shi.md)
             * [Generator函数的应用（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/yu-fa-yu-ji-ben-shi-yong/generatorhan-shu-de-ying-yong-ff08-zhong-dian-ff09.md)
-          * [Generator函数的异步调用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/generatorhan-shu-de-yi-bu-diao-yong.md)
+          * [Generator函数的异步应用（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu/generatorhan-shu-de-yi-bu-diao-yong.md)
         * [async 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async.md)
           * [简介及基本写法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/jian-jie-yu-ji-ben-xie-fa.md)
           * [语法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async/yu-fa.md)
