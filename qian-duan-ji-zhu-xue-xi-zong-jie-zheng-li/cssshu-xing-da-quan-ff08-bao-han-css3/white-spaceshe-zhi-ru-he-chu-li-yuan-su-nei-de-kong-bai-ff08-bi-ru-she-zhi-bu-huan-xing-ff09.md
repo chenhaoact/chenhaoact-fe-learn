@@ -16,11 +16,27 @@ inherit	规定应该从父元素继承 white-space 属性的值。
 
 ## 使用
 
-设置段落中的文本不进行换行：
+强制设置段落中的文本不进行换行：
 
 ```
 p{
-   white-space: nowrap
+   white-space: nowrap;
 }
 ```
+
+取消不换行设置则需要通过覆盖：
+
+
+
+```
+```
+p{
+   white-space: initial;
+}
+```
+
+
+```
+
+
 
