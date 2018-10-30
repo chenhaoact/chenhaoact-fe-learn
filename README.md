@@ -164,6 +164,7 @@
         * [ES6 RegExp（正则表达式）包括ES5部分](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zheng-ze-biao-da-shi.md)
         * [ES6 字符串新特性](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-zi-fu-chuan-xin-te-xing.md)
         * [Set与Map](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/setyu-map.md)
+        * [Proxy对象和Reflect对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/Proxy-and-Reflect.md)
         * [Iterator 和 for...of 循环及js各种遍历的比较](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/iterator-he-for-of-xun-huan.md)
         * [Generator 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/generator-han-shu.md)
         * [async 函数](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/async.md)
