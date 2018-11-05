@@ -137,12 +137,13 @@
         * [js文件与二进制数据处理API](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/jswen-jian-chu-li-api.md)
           * [Blob](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/blob.md)
           * [File](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/file.md)
-        * js模块化规范
+        * js模块化规范（重点！）
           * [CommonJS规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan.md)
             * [CommonJS module对象](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/commonjsgui-fan/moduledui-xiang.md)
           * [AMD规范](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan.md)
             * [require.js的用法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/amdgui-fan/requirejs.md)
           * [CMD](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/cmd.md)
+          * [各个模块化方案的对比（模块化的要点看这里就够了）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qi-ta-ji-chu/summary.md)
         * [严格模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/yan-ge-mo-shi.md)
       * [js设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi.md)
         * [什么是设计模式](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jsshe-ji-mo-shi/shi-yao-shi-she-ji-mo-shi.md)
