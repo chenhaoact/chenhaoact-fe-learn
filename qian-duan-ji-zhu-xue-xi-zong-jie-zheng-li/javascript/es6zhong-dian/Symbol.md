@@ -6,3 +6,21 @@ ES5 的对象属性名都是字符串，这容易造成属性名的冲突。比�
 
 **ES6 引入了一种新的原始数据类型Symbol，表示独一无二的值。它是 JavaScript 语言的第七种数据类型**，前六种是：
 undefined、null、布尔值（Boolean）、字符串（String）、数值（Number）、对象（Object）。
+
+## 一 Symbol值通过Symbol函数生成
+```
+let s = Symbol();
+
+typeof s  // "symbol"
+```
+
+Symbol函数前不能使用new命令，否则会报错。这是因为生成的 Symbol 是一个原始类型的值，不是对象（类似于Number()生成数字也不能用new一样）。
+
+## 二 Symbol值的特性
+* Symbol 值不能与其他类型的值进行运算，会报错
+
+
+## 三 用途
+### 1. Symbol值作为对象的属性名
+对象的属性名现在可以有两种类型，一种是原来就有的字符串，另一种就是新增的 Symbol 类型。凡是属性名属于 Symbol 类型，就都是独一无二的，可以保证不会与其他属性名产生冲突。
+
