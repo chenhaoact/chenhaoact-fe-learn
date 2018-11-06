@@ -1,4 +1,34 @@
-## 简介及新增的基本新特性
+## 新增的基本新特性
+
+### 1 属性的简洁表示法
+直接写入变量和函数，作为对象的属性和方法（变量或函数名会作为属性名，其值是对应属性的值）：
+
+变量：
+```
+const foo = 'bar';
+const baz = {foo};
+baz // {foo: "bar"}
+
+// 等同于
+const baz = {foo: foo};
+```
+
+函数：
+```
+const o = {
+  method() {
+    return "Hello!";
+  }
+};
+
+// 等同于
+
+const o = {
+  method: function() {
+    return "Hello!";
+  }
+};
+```
 
 ### 2 属性名表达式 
 ES5 定义对象的属性，有两种方法。
