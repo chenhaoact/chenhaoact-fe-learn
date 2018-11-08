@@ -17,14 +17,26 @@ sources   (多个)源对象。
 目标对象。
 
 例子
-
-
 ```
-var obj = { a: 1 };
-var copy = Object.assign({}, obj);
-console.log(copy); // { a: 1 }
-copy === obj   // false
+const target = { a: 1 };
+
+const source1 = { b: 2 };
+const source2 = { c: 3 };
+
+Object.assign(target, source1, source2);
+target // {a:1, b:2, c:3}
 ```
+
+如果目标对象与源对象有同名属性，或多个源对象有同名属性，则后面的属性会覆盖前面的属性。
+
+#### 注意点：
+* Object.assign方法实行的是浅拷贝，而不是深拷贝。也就是说，如果源对象某个属性的值是对象，那么目标对象拷贝得到的是这个对象的引用。
+
+#### Object.assign方法的常见用途
+* 为对象添加属性、方法
+* 克隆对象
+* 合并多个对象
+* 为属性指定默认值
 
 具体参考：
 https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
