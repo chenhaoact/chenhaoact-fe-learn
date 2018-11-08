@@ -8,4 +8,4 @@
 
 ## 三 [新增的常用方法](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/es6-dui-xiang-xin-te-xing/dui-xiang-xin-zeng-de-chang-yong-fang-fa.md)
 
-## 四 [对象属性的可枚举性与遍历](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/object-enumerable-and-interator.md)
+## 四 [对象属性的可枚举性与遍历](/qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/es6zhong-dian/object-enumerable-and-interator.md)
