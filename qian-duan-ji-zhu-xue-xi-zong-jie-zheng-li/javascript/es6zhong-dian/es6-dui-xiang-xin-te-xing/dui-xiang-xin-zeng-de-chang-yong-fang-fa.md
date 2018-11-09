@@ -54,7 +54,7 @@ export const objA = {
 Object.freeze(objA); 
 ```
 
-### Object.getPrototypeOf() 从子类上获取父类
+### 3. Object.getPrototypeOf() 从子类上获取父类
 
 
 
@@ -66,5 +66,31 @@ Object.getPrototypeOf(ColorPoint) === Point
 
 **可用这个方法判断，一个类是否继承了另一个类**。
 
+### 4. Object.keys()
 
+返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键名。
+
+```
+var obj = { foo: 'bar', baz: 42 };
+Object.keys(obj)
+// ["foo", "baz"]
+```
+
+### 5. Object.values()
+Object.values方法返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键值。
+
+```
+const obj = { foo: 'bar', baz: 42 };
+Object.values(obj)
+// ["bar", 42]
+```
+
+### 6. Object.entries
+Object.entries方法返回一个数组，成员是参数对象自身的（不含继承的）所有可遍历（enumerable）属性的键值对数组。
+
+```
+const obj = { foo: 'bar', baz: 42 };
+Object.entries(obj)
+// [ ["foo", "bar"], ["baz", 42] ]
+```
 
