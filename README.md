@@ -307,6 +307,7 @@
       * [原生Nodejs](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs.md)
         * [nodejs常用核心模块（重要）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai.md)
           * [fs \(File System 文件系统模块\)](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/fs-file-system-wen-jian-xi-tong-mo-575729.md)
+          * [用"fs-extra"模块代替fs使用](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/fs-extra.md)
           * [path （文件路径模块）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/path-ff08-wen-jian-lu-jing-mo-kuai-ff09.md)
           * [os-系统操作模块](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodejschang-yong-he-xin-mo-kuai/osxi-tong-cao-zuo-mo-kuai.md)
         * [node重大版本迭代](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/nodejs/nodejsyuansheng-nodejs/nodezhong-da-ban-ben-die-dai.md)
