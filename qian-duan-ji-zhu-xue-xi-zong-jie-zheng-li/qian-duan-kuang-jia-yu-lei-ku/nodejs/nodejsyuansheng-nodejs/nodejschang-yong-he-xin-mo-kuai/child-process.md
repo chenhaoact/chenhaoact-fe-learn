@@ -1,4 +1,4 @@
-# child_process
+# child_process（子进程，执行shell命令等）
 
 **执行系统命令（child_process.exec()），这个很常用，功能很强大。比如，用来执行curl命令。**
 
@@ -24,3 +24,6 @@ exec(cmdStr, function(err,stdout,stderr){
 ```
 
 来感受一下直接curl出来和通过运行脚本的出来的结果是一样的。
+
+## 具体使用参考
+[Nodejs进阶：如何玩转子进程（child_process）](https://www.cnblogs.com/chyingp/p/node-learning-guide-child_process.html)
