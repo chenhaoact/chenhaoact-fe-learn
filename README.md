@@ -246,7 +246,8 @@
               * [合成事件系统是如何实现的？](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-ji-ge-react-zhong-dian-de-shi-xian-yuan-li/he-cheng-shi-jian-xi-tong-shi-ru-he-shi-xian-de-ff1f.md)
             * [四 React构建过程分析](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/san-react-gou-jian-guo-cheng-fen-xi.md)
             * [五 读源码总结](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/shen-ru-react-react-yuan-dai-ma-xiang-xi-jie-du-fen-xi/react-yuan-ma-yue-du-ff08-v15-6-1/wu-du-yuan-ma-zong-jie.md)
-        * [好的React项目脚手架](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia.md)
+        * [好的React项目
+        ](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia.md)
           * [create-react-app](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/create-react-app.md)
           * [react-starter-kit](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-starter-kit.md)
           * [react-boilerplate](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-kuang-jia-yu-lei-ku/react/hao-de-react-xiang-mu-jiao-shou-jia/react-boilerplate.md)
@@ -360,6 +361,7 @@
         * [Inquirer.js学习与实践](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/inquirerjs.md)
         * [chalk](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/chalk.md)
         * [download-git-repo](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/download-git-repo.md)
+        * [git hook](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/githook.md)
         * [ora](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/ora.md)
         * [相关资源参考与整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/xiang-guan-zi-yuan-zheng-li.md)
         * [mac和unix系统自带命令](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/qian-duan-gong-cheng-hua/ming-ling-xing-kai-fa-gong-ju/macxi-tong-zi-dai-ming-ling.md)
