@@ -106,6 +106,7 @@
     * [JavaScript](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript.md)
       * [js重点整理](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li.md)
         * [js 基本数据类型及操作](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-ji-ben-shu-ju-lei-xing.md)
+        * [js 函数（重点）](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-ji-hanshu.md)
         * [js dom](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li.md)
           * [dom概述](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/domgai-shu.md)
           * [document属性与方法](qian-duan-ji-zhu-xue-xi-zong-jie-zheng-li/javascript/jszhong-dian-zheng-li/js-domchang-yong-fang-fa-yu-shu-xing-zheng-li/documentjie-dian-shu-xing-yu-fang-fa.md)
